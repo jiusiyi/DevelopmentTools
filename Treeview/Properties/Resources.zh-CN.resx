@@ -1,0 +1,5599 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AcceptsReturn" xml:space="preserve">
+    <value>接受回车符</value>
+  </data>
+  <data name="AcceptsTab" xml:space="preserve">
+    <value>接受制表符</value>
+  </data>
+  <data name="Action" xml:space="preserve">
+    <value>动作</value>
+  </data>
+  <data name="AdjustImageLocation" xml:space="preserve">
+    <value>调整图片位置</value>
+  </data>
+  <data name="Aimate_Rotate" xml:space="preserve">
+    <value>旋转</value>
+  </data>
+  <data name="Alignment" xml:space="preserve">
+    <value>对齐</value>
+  </data>
+  <data name="Alignment_Description" xml:space="preserve">
+    <value>对齐</value>
+  </data>
+  <data name="Angle" xml:space="preserve">
+    <value>角度</value>
+  </data>
+  <data name="Angle_Description" xml:space="preserve">
+    <value>获取或设置对象的旋转角度，范围-360°～360°。</value>
+  </data>
+  <data name="Aniamte_Text" xml:space="preserve">
+    <value>文本</value>
+  </data>
+  <data name="AniButtonBackColor" xml:space="preserve">
+    <value>背景色 颜色</value>
+  </data>
+  <data name="AniButtonBackColorFlash" xml:space="preserve">
+    <value>背景色 颜色闪烁</value>
+  </data>
+  <data name="AniButtonTextColor" xml:space="preserve">
+    <value>文本 颜色</value>
+  </data>
+  <data name="AniButtonTextColorFlash" xml:space="preserve">
+    <value>文本 颜色闪烁</value>
+  </data>
+  <data name="AniDateTimeOutput" xml:space="preserve">
+    <value>数值显示</value>
+  </data>
+  <data name="AniDiscButtonText" xml:space="preserve">
+    <value>文本 内容</value>
+  </data>
+  <data name="AniDiscDisable" xml:space="preserve">
+    <value>操作 禁用</value>
+  </data>
+  <data name="AniDiscFill" xml:space="preserve">
+    <value>填充 模式</value>
+  </data>
+  <data name="AniDiscFlash" xml:space="preserve">
+    <value>可见性 闪烁</value>
+  </data>
+  <data name="AniDiscFlow" xml:space="preserve">
+    <value>流动 线条·启停</value>
+  </data>
+  <data name="AniDiscFlowFill" xml:space="preserve">
+    <value>流动 填充·启停</value>
+  </data>
+  <data name="AniDiscHide" xml:space="preserve">
+    <value>可见</value>
+  </data>
+  <data name="AniDiscRotate" xml:space="preserve">
+    <value>旋转 角度·离散</value>
+  </data>
+  <data name="AniDiscScaleHor" xml:space="preserve">
+    <value>缩放 水平·离散</value>
+  </data>
+  <data name="AniDiscScaleVer" xml:space="preserve">
+    <value>缩放 垂直·离散</value>
+  </data>
+  <data name="AniDiscShearHor" xml:space="preserve">
+    <value>倾斜 水平·离散</value>
+  </data>
+  <data name="AniDiscShearVer" xml:space="preserve">
+    <value>倾斜 垂直·离散</value>
+  </data>
+  <data name="AniDiscSwitchImage" xml:space="preserve">
+    <value>图片切换</value>
+  </data>
+  <data name="AniDiscTextColor" xml:space="preserve">
+    <value>文本 前景色</value>
+  </data>
+  <data name="AniEditorColorFlash_Speed" xml:space="preserve">
+    <value>闪烁速度(&amp;S):</value>
+  </data>
+  <data name="AniEditorColorFlash_Speed_Desc" xml:space="preserve">
+    <value>闪烁的时间间隔</value>
+  </data>
+  <data name="AniEditorColorFlash_Unit" xml:space="preserve">
+    <value>毫秒</value>
+  </data>
+  <data name="AniEditorDisable_False" xml:space="preserve">
+    <value>禁止(&amp;D)</value>
+  </data>
+  <data name="AniEditorDisable_False_Desc" xml:space="preserve">
+    <value>值为真时禁止</value>
+  </data>
+  <data name="AniEditorDisable_groupBox" xml:space="preserve">
+    <value>数值为真时</value>
+  </data>
+  <data name="AniEditorDisable_True" xml:space="preserve">
+    <value>允许(&amp;E)</value>
+  </data>
+  <data name="AniEditorDisable_True_Desc" xml:space="preserve">
+    <value>值为真时允许</value>
+  </data>
+  <data name="AniEditorFlash_Dw" xml:space="preserve">
+    <value>毫秒</value>
+  </data>
+  <data name="AniEditorFlash_False" xml:space="preserve">
+    <value>数值为假时(&amp;F)</value>
+  </data>
+  <data name="AniEditorFlash_False_Desc" xml:space="preserve">
+    <value>数值结果为假时闪烁</value>
+  </data>
+  <data name="AniEditorFlash_FlashSpeed" xml:space="preserve">
+    <value>闪烁速度(&amp;S):</value>
+  </data>
+  <data name="AniEditorFlash_FlashSpeed_Desc" xml:space="preserve">
+    <value>闪烁时间间隔</value>
+  </data>
+  <data name="AniEditorFlash_groupBox" xml:space="preserve">
+    <value>闪烁条件</value>
+  </data>
+  <data name="AniEditorFlash_True" xml:space="preserve">
+    <value>数值为真时(&amp;T)</value>
+  </data>
+  <data name="AniEditorFlash_True_Desc" xml:space="preserve">
+    <value>数值结果为真时闪烁</value>
+  </data>
+  <data name="AniEditorFlowSpeed_FillPercent_Max_Desc" xml:space="preserve">
+    <value>最大值时流速百分比</value>
+  </data>
+  <data name="AniEditorFlowSpeed_FillPercent_Min_Desc" xml:space="preserve">
+    <value>最小值时流速百分比</value>
+  </data>
+  <data name="AniEditorFlowSpeed_Max" xml:space="preserve">
+    <value>最大值</value>
+  </data>
+  <data name="AniEditorFlowSpeed_Max_Desc" xml:space="preserve">
+    <value>数值最大值</value>
+  </data>
+  <data name="AniEditorFlowSpeed_Min" xml:space="preserve">
+    <value>最小值</value>
+  </data>
+  <data name="AniEditorFlowSpeed_Min_Desc" xml:space="preserve">
+    <value>数值最小值</value>
+  </data>
+  <data name="AniEditorFlowSpeed_Percent" xml:space="preserve">
+    <value>流速百分比{0}:</value>
+  </data>
+  <data name="AniEditorFlowSpeed_Percent_Desc" xml:space="preserve">
+    <value>流速</value>
+  </data>
+  <data name="AniEditorFlowSpeed_Value" xml:space="preserve">
+    <value>值{0}:</value>
+  </data>
+  <data name="AniEditorFlow_Backward" xml:space="preserve">
+    <value>反方向</value>
+  </data>
+  <data name="AniEditorFlow_Down" xml:space="preserve">
+    <value>上到下</value>
+  </data>
+  <data name="AniEditorFlow_Forward" xml:space="preserve">
+    <value>正方向</value>
+  </data>
+  <data name="AniEditorFlow_groupBoxTrueValue" xml:space="preserve">
+    <value>数值为真时</value>
+  </data>
+  <data name="AniEditorFlow_Left" xml:space="preserve">
+    <value>右向左</value>
+  </data>
+  <data name="AniEditorFlow_Property" xml:space="preserve">
+    <value>属性</value>
+  </data>
+  <data name="AniEditorFlow_Right" xml:space="preserve">
+    <value>左向右</value>
+  </data>
+  <data name="AniEditorFlow_Speed" xml:space="preserve">
+    <value>流速(&amp;S)</value>
+  </data>
+  <data name="AniEditorFlow_Speed_Desc" xml:space="preserve">
+    <value>流动的时间间隔流速的范围:(100 - 10000000)</value>
+  </data>
+  <data name="AniEditorFlow_Start" xml:space="preserve">
+    <value>开始流动</value>
+  </data>
+  <data name="AniEditorFlow_Start_Desc" xml:space="preserve">
+    <value>数值结果为真时开始流动</value>
+  </data>
+  <data name="AniEditorFlow_Step" xml:space="preserve">
+    <value>步长(&amp;W):</value>
+  </data>
+  <data name="AniEditorFlow_Step_Desc" xml:space="preserve">
+    <value>流动时每步移动的百分比步长的范围( 1 - 99)</value>
+  </data>
+  <data name="AniEditorFlow_Stop" xml:space="preserve">
+    <value>停止流动</value>
+  </data>
+  <data name="AniEditorFlow_Stop_Desc" xml:space="preserve">
+    <value>数值结果为真时停止流动</value>
+  </data>
+  <data name="AniEditorFlow_Unit" xml:space="preserve">
+    <value>毫秒</value>
+  </data>
+  <data name="AniEditorFlow_Up" xml:space="preserve">
+    <value>下到上</value>
+  </data>
+  <data name="AniEditorGridScaleHor_Left" xml:space="preserve">
+    <value>向左</value>
+  </data>
+  <data name="AniEditorGridScaleHor_LeftRight" xml:space="preserve">
+    <value>左右</value>
+  </data>
+  <data name="AniEditorGridScaleHor_LeftRight_Desc" xml:space="preserve">
+    <value>由中心向两端缩放</value>
+  </data>
+  <data name="AniEditorGridScaleHor_Left_Desc" xml:space="preserve">
+    <value>右端不动向左缩放</value>
+  </data>
+  <data name="AniEditorGridScaleHor_Right" xml:space="preserve">
+    <value>向右</value>
+  </data>
+  <data name="AniEditorGridScaleHor_Right_Desc" xml:space="preserve">
+    <value>左端不动向右缩放</value>
+  </data>
+  <data name="AniEditorGridScaleHor_ScaleDirection" xml:space="preserve">
+    <value>缩放方向</value>
+  </data>
+  <data name="AniEditorGridScaleVer_Down" xml:space="preserve">
+    <value>向下</value>
+  </data>
+  <data name="AniEditorGridScaleVer_Down_Desc" xml:space="preserve">
+    <value>顶端不动向下缩放</value>
+  </data>
+  <data name="AniEditorGridScaleVer_ScaleDirection" xml:space="preserve">
+    <value>缩放方向</value>
+  </data>
+  <data name="AniEditorGridScaleVer_Up" xml:space="preserve">
+    <value>向上</value>
+  </data>
+  <data name="AniEditorGridScaleVer_UpDown" xml:space="preserve">
+    <value>上下</value>
+  </data>
+  <data name="AniEditorGridScaleVer_UpDown_Desc" xml:space="preserve">
+    <value>由中心向两端缩放</value>
+  </data>
+  <data name="AniEditorGridScaleVer_Up_Desc" xml:space="preserve">
+    <value>底端不动向上缩放</value>
+  </data>
+  <data name="AniEditorHide_groupBox" xml:space="preserve">
+    <value>数值为真时</value>
+  </data>
+  <data name="AniEditorHide_Hidden" xml:space="preserve">
+    <value>隐藏(&amp;H)</value>
+  </data>
+  <data name="AniEditorHide_Hidden_Desc" xml:space="preserve">
+    <value>隐藏对象</value>
+  </data>
+  <data name="AniEditorHide_Show" xml:space="preserve">
+    <value>显示(&amp;S)</value>
+  </data>
+  <data name="AniEditorHide_Show_Desc" xml:space="preserve">
+    <value>显示对象</value>
+  </data>
+  <data name="AniEditorLinearMotion_Absulote" xml:space="preserve">
+    <value>绝对坐标</value>
+  </data>
+  <data name="AniEditorLinearPercentFill_Custom" xml:space="preserve">
+    <value>自定义</value>
+  </data>
+  <data name="AniEditorLinearPercentFill_Custom_Desc" xml:space="preserve">
+    <value>顺时针方向0－360度，0度为由左到右。</value>
+  </data>
+  <data name="AniEditorLinearPercentFill_Down" xml:space="preserve">
+    <value>向下</value>
+  </data>
+  <data name="AniEditorLinearPercentFill_Fill" xml:space="preserve">
+    <value>填充属性</value>
+  </data>
+  <data name="AniEditorLinearPercentFill_FillColor_Desc" xml:space="preserve">
+    <value>选择填充区域的颜色等</value>
+  </data>
+  <data name="AniEditorLinearPercentFill_FillPercent" xml:space="preserve">
+    <value>填充百分比{0}:</value>
+  </data>
+  <data name="AniEditorLinearPercentFill_FillPercent_Max_Desc" xml:space="preserve">
+    <value>最大值时填充的百分比</value>
+  </data>
+  <data name="AniEditorLinearPercentFill_FillPercent_Min_Desc" xml:space="preserve">
+    <value>最小值时填充的百分比</value>
+  </data>
+  <data name="AniEditorLinearPercentFill_Left" xml:space="preserve">
+    <value>向左</value>
+  </data>
+  <data name="AniEditorLinearPercentFill_Max" xml:space="preserve">
+    <value>最大值</value>
+  </data>
+  <data name="AniEditorLinearPercentFill_Max_Desc" xml:space="preserve">
+    <value>表达式最大值</value>
+  </data>
+  <data name="AniEditorLinearPercentFill_Min" xml:space="preserve">
+    <value>最小值</value>
+  </data>
+  <data name="AniEditorLinearPercentFill_Min_Desc" xml:space="preserve">
+    <value>表达式最小值</value>
+  </data>
+  <data name="AniEditorLinearPercentFill_Model" xml:space="preserve">
+    <value>模式(&amp;M):</value>
+  </data>
+  <data name="AniEditorLinearPercentFill_Right" xml:space="preserve">
+    <value>向右</value>
+  </data>
+  <data name="AniEditorLinearPercentFill_unit" xml:space="preserve">
+    <value>度</value>
+  </data>
+  <data name="AniEditorLinearPercentFill_Up" xml:space="preserve">
+    <value>向上</value>
+  </data>
+  <data name="AniEditorLinearPercentFill_Value" xml:space="preserve">
+    <value>值{0}:</value>
+  </data>
+  <data name="AniEditorLinearScaleHor_Left" xml:space="preserve">
+    <value>向左</value>
+  </data>
+  <data name="AniEditorLinearScaleHor_LeftRight" xml:space="preserve">
+    <value>左右</value>
+  </data>
+  <data name="AniEditorLinearScaleHor_LeftRight_Desc" xml:space="preserve">
+    <value>由中心向两端缩放</value>
+  </data>
+  <data name="AniEditorLinearScaleHor_Left_Desc" xml:space="preserve">
+    <value>右端不动向左缩放</value>
+  </data>
+  <data name="AniEditorLinearScaleHor_Right" xml:space="preserve">
+    <value>向右</value>
+  </data>
+  <data name="AniEditorLinearScaleHor_Right_Desc" xml:space="preserve">
+    <value>左端不动向右缩放</value>
+  </data>
+  <data name="AniEditorLinearScaleVer_Down" xml:space="preserve">
+    <value>向下</value>
+  </data>
+  <data name="AniEditorLinearScaleVer_Down_Desc" xml:space="preserve">
+    <value>顶端不动向下缩放</value>
+  </data>
+  <data name="AniEditorLinearScaleVer_Up" xml:space="preserve">
+    <value>向上</value>
+  </data>
+  <data name="AniEditorLinearScaleVer_UpDown" xml:space="preserve">
+    <value>上下</value>
+  </data>
+  <data name="AniEditorLinearScaleVer_UpDown_Desc" xml:space="preserve">
+    <value>由中心向两端缩放</value>
+  </data>
+  <data name="AniEditorLinearScaleVer_Up_Desc" xml:space="preserve">
+    <value>底端不动向上缩放</value>
+  </data>
+  <data name="AniEditorLinear_Max" xml:space="preserve">
+    <value>最大值</value>
+  </data>
+  <data name="AniEditorLinear_Min" xml:space="preserve">
+    <value>最小值</value>
+  </data>
+  <data name="AniEditorLinear_Value" xml:space="preserve">
+    <value>值{0}:</value>
+  </data>
+  <data name="AniEditorRotateInput_Angle" xml:space="preserve">
+    <value>角度{0}:</value>
+  </data>
+  <data name="AniEditorRotateInput_Angle_Desc" xml:space="preserve">
+    <value>{0}旋转角度</value>
+  </data>
+  <data name="AniEditorRotateInput_Clockwise" xml:space="preserve">
+    <value>顺时针</value>
+  </data>
+  <data name="AniEditorRotateInput_seriseValue" xml:space="preserve">
+    <value>连续赋值</value>
+  </data>
+  <data name="AniEditorRotateInput_seriseValue_Desc" xml:space="preserve">
+    <value>旋转时是否连续赋值</value>
+  </data>
+  <data name="AniEditorRotateInput_Value" xml:space="preserve">
+    <value>数值(&amp;T):</value>
+  </data>
+  <data name="AniEditorRotateInput_varValue" xml:space="preserve">
+    <value>变量值{0}:</value>
+  </data>
+  <data name="AniEditorRotateInput_varValue_Desc" xml:space="preserve">
+    <value>旋转对应变量值</value>
+  </data>
+  <data name="AniEditorRotateInput_Wifeclockwist" xml:space="preserve">
+    <value>逆时针</value>
+  </data>
+  <data name="AniFlowFillSpeed" xml:space="preserve">
+    <value>流动 填充·速度</value>
+  </data>
+  <data name="AniInputAnalog" xml:space="preserve">
+    <value>数值输入</value>
+  </data>
+  <data name="AniInputDateTime" xml:space="preserve">
+    <value>数值输入</value>
+  </data>
+  <data name="AniInputDisc" xml:space="preserve">
+    <value>数值输入</value>
+  </data>
+  <data name="AniInputMenu" xml:space="preserve">
+    <value>鼠标左键 画面菜单</value>
+  </data>
+  <data name="AniInputRightMenu" xml:space="preserve">
+    <value>鼠标右键 画面菜单</value>
+  </data>
+  <data name="AniInputRightTouchDown" xml:space="preserve">
+    <value>鼠标右键  按下程序</value>
+  </data>
+  <data name="AniInputRightTouchOver" xml:space="preserve">
+    <value>鼠标右键  按住程序</value>
+  </data>
+  <data name="AniInputRightTouchUp" xml:space="preserve">
+    <value>鼠标右键  抬起程序</value>
+  </data>
+  <data name="AniInputString" xml:space="preserve">
+    <value>数值输入</value>
+  </data>
+  <data name="AniInputTouchDown" xml:space="preserve">
+    <value>鼠标左键  按下程序</value>
+  </data>
+  <data name="AniInputTouchOver" xml:space="preserve">
+    <value>鼠标左键  按住程序</value>
+  </data>
+  <data name="AniInputTouchUp" xml:space="preserve">
+    <value>鼠标左键  抬起程序</value>
+  </data>
+  <data name="AniLinearAlpha" xml:space="preserve">
+    <value>填充 透明度</value>
+  </data>
+  <data name="AniLinearFlow" xml:space="preserve">
+    <value>流动 线条·速度</value>
+  </data>
+  <data name="AniLinearFlowFill" xml:space="preserve">
+    <value>流动 填充·速度</value>
+  </data>
+  <data name="AniLinearMotionX" xml:space="preserve">
+    <value>移动 水平·连续</value>
+  </data>
+  <data name="AniLinearMotionY" xml:space="preserve">
+    <value>移动 垂直·连续</value>
+  </data>
+  <data name="AniLinearPercentFill" xml:space="preserve">
+    <value>填充 范围·百分比</value>
+  </data>
+  <data name="AniLinearPieStartAngle" xml:space="preserve">
+    <value>起始角度</value>
+  </data>
+  <data name="AniLinearPieSweepAngle" xml:space="preserve">
+    <value>扫描角度</value>
+  </data>
+  <data name="AniLinearRotate" xml:space="preserve">
+    <value>旋转 角度·连续</value>
+  </data>
+  <data name="AniLinearScaleHor" xml:space="preserve">
+    <value>缩放 水平·连续</value>
+  </data>
+  <data name="AniLinearScaleVer" xml:space="preserve">
+    <value>缩放 垂直·连续</value>
+  </data>
+  <data name="AniLinearShearX" xml:space="preserve">
+    <value>倾斜 水平·连续</value>
+  </data>
+  <data name="AniLinearShearX_ValueExpre" xml:space="preserve">
+    <value>水平倾斜</value>
+  </data>
+  <data name="AniLinearShearY" xml:space="preserve">
+    <value>倾斜 垂直·连续</value>
+  </data>
+  <data name="AniLinearShearY_ValueExpre" xml:space="preserve">
+    <value>垂直倾斜</value>
+  </data>
+  <data name="AniLinePosEndX" xml:space="preserve">
+    <value>直线端点移动 终点·水平</value>
+  </data>
+  <data name="AniLinePosEndY" xml:space="preserve">
+    <value>直线端点移动 终点·垂直</value>
+  </data>
+  <data name="AniLinePosStartX" xml:space="preserve">
+    <value>直线端点移动 起点·水平</value>
+  </data>
+  <data name="AniLinePosStartY" xml:space="preserve">
+    <value>直线端点移动 起点·垂直</value>
+  </data>
+  <data name="AniLineStretchEnd" xml:space="preserve">
+    <value>直线端点移动 终点·伸缩</value>
+  </data>
+  <data name="AniLineStretchStart" xml:space="preserve">
+    <value>直线端点移动 起点·伸缩</value>
+  </data>
+  <data name="AnimateConfigured" xml:space="preserve">
+    <value>已配置</value>
+  </data>
+  <data name="AnimateScale" xml:space="preserve">
+    <value>缩放</value>
+  </data>
+  <data name="Animate_MouseLeft" xml:space="preserve">
+    <value>鼠标左键</value>
+  </data>
+  <data name="Animate_MouseRight" xml:space="preserve">
+    <value>鼠标右键</value>
+  </data>
+  <data name="Animate_Stroke" xml:space="preserve">
+    <value>线条</value>
+  </data>
+  <data name="AniMotionJump" xml:space="preserve">
+    <value>移动 离散</value>
+  </data>
+  <data name="AniOutputAnalog" xml:space="preserve">
+    <value>数值显示</value>
+  </data>
+  <data name="AniOutputAnalogDisc" xml:space="preserve">
+    <value>数值显示</value>
+  </data>
+  <data name="AniOutputAnalogString" xml:space="preserve">
+    <value>数值显示</value>
+  </data>
+  <data name="AniOutputString" xml:space="preserve">
+    <value>数值显示</value>
+  </data>
+  <data name="AniPenColor" xml:space="preserve">
+    <value>线型</value>
+  </data>
+  <data name="AniPenDashStyle" xml:space="preserve">
+    <value>线型</value>
+  </data>
+  <data name="AniPenWidth" xml:space="preserve">
+    <value>线型线宽</value>
+  </data>
+  <data name="AniRotateEnable" xml:space="preserve">
+    <value>旋转 启停</value>
+  </data>
+  <data name="AniRotateEnableEditor_Clockwise" xml:space="preserve">
+    <value>顺时针(&amp;L)</value>
+  </data>
+  <data name="AniRotateEnableEditor_Clockwise_Desc" xml:space="preserve">
+    <value>顺时针旋转</value>
+  </data>
+  <data name="AniRotateEnableEditor_CounterClockwise" xml:space="preserve">
+    <value>逆时针(&amp;A)</value>
+  </data>
+  <data name="AniRotateEnableEditor_CounterClockwise_Desc" xml:space="preserve">
+    <value>逆时针旋转</value>
+  </data>
+  <data name="AniRotateEnableEditor_False" xml:space="preserve">
+    <value>停止旋转(&amp;S)</value>
+  </data>
+  <data name="AniRotateEnableEditor_FalseDesc" xml:space="preserve">
+    <value>数值结果为真时停止旋转</value>
+  </data>
+  <data name="AniRotateEnableEditor_GroupBox" xml:space="preserve">
+    <value>值为真时</value>
+  </data>
+  <data name="AniRotateEnableEditor_Property" xml:space="preserve">
+    <value>属性</value>
+  </data>
+  <data name="AniRotateEnableEditor_Speed" xml:space="preserve">
+    <value>转速(&amp;S):</value>
+  </data>
+  <data name="AniRotateEnableEditor_Speed_Desc" xml:space="preserve">
+    <value>转动的时间间隔流速的范围: 100 - 10000000</value>
+  </data>
+  <data name="AniRotateEnableEditor_Step" xml:space="preserve">
+    <value>步长(&amp;W):</value>
+  </data>
+  <data name="AniRotateEnableEditor_Step_Desc" xml:space="preserve">
+    <value>转动时每步旋转的角度的范围: 1 - 359</value>
+  </data>
+  <data name="AniRotateEnableEditor_True" xml:space="preserve">
+    <value>开始旋转(&amp;B)</value>
+  </data>
+  <data name="AniRotateEnableEditor_True_Desc" xml:space="preserve">
+    <value>数值结果为真时开始旋转</value>
+  </data>
+  <data name="AniRotateEnableEditor_Unit" xml:space="preserve">
+    <value>度</value>
+  </data>
+  <data name="AniRotateInput" xml:space="preserve">
+    <value>旋转 输入</value>
+  </data>
+  <data name="AniRotateSpeed" xml:space="preserve">
+    <value>旋转 速度</value>
+  </data>
+  <data name="AniSlideEditor_DownPoint" xml:space="preserve">
+    <value>底端</value>
+  </data>
+  <data name="AniSlideEditor_Info" xml:space="preserve">
+    <value>说明:</value>
+  </data>
+  <data name="AniSlideEditor_LeftPoint" xml:space="preserve">
+    <value>左端</value>
+  </data>
+  <data name="AniSlideEditor_Max" xml:space="preserve">
+    <value>最大值</value>
+  </data>
+  <data name="AniSlideEditor_Min" xml:space="preserve">
+    <value>最小值</value>
+  </data>
+  <data name="AniSlideEditor_Moveposition" xml:space="preserve">
+    <value>移动位置</value>
+  </data>
+  <data name="AniSlideEditor_Moveposition_Desc" xml:space="preserve">
+    <value>可移动距离</value>
+  </data>
+  <data name="AniSlideEditor_Position" xml:space="preserve">
+    <value>位置</value>
+  </data>
+  <data name="AniSlideEditor_RelateGraphice" xml:space="preserve">
+    <value>相对图形</value>
+  </data>
+  <data name="AniSlideEditor_RelateGraphice_Desc" xml:space="preserve">
+    <value>使用相对于图形的相对坐标</value>
+  </data>
+  <data name="AniSlideEditor_RelateImage" xml:space="preserve">
+    <value>相对画面</value>
+  </data>
+  <data name="AniSlideEditor_RelateImage_Desc" xml:space="preserve">
+    <value>使用相对于画面的绝对坐标</value>
+  </data>
+  <data name="AniSlideEditor_RightPoint" xml:space="preserve">
+    <value>右端</value>
+  </data>
+  <data name="AniSlideEditor_SetValue" xml:space="preserve">
+    <value>赋值</value>
+  </data>
+  <data name="AniSlideEditor_SetValueOnce" xml:space="preserve">
+    <value>一次赋值</value>
+  </data>
+  <data name="AniSlideEditor_SetValueOnce_Desc" xml:space="preserve">
+    <value>在鼠标抬起时才对变量进行赋值</value>
+  </data>
+  <data name="AniSlideEditor_SetValueSerise" xml:space="preserve">
+    <value>连续赋值</value>
+  </data>
+  <data name="AniSlideEditor_SetValueSerise_Desc" xml:space="preserve">
+    <value>对变量进行连续赋值</value>
+  </data>
+  <data name="AniSlideEditor_SlideX" xml:space="preserve">
+    <value>水平</value>
+  </data>
+  <data name="AniSlideEditor_SlideY" xml:space="preserve">
+    <value>垂直</value>
+  </data>
+  <data name="AniSlideEditor_Tag" xml:space="preserve">
+    <value>变量(&amp;T):</value>
+  </data>
+  <data name="AniSlideEditor_UpPoint" xml:space="preserve">
+    <value>顶端</value>
+  </data>
+  <data name="AniSlideEditor_Value" xml:space="preserve">
+    <value>数值(&amp;T):</value>
+  </data>
+  <data name="AniSlideEditor_VarValue" xml:space="preserve">
+    <value>变量值{0}:</value>
+  </data>
+  <data name="AniSlideEditor_VarValue_Desc" xml:space="preserve">
+    <value>移动对应变量值</value>
+  </data>
+  <data name="AniSlideInputX" xml:space="preserve">
+    <value>水平滑动输入</value>
+  </data>
+  <data name="AniSlideInputY" xml:space="preserve">
+    <value>垂直滑动输入</value>
+  </data>
+  <data name="AniSwitchImage" xml:space="preserve">
+    <value>图片切换</value>
+  </data>
+  <data name="AniTextBackColor" xml:space="preserve">
+    <value>文本 背景色</value>
+  </data>
+  <data name="AniTypeButtonBackColor" xml:space="preserve">
+    <value>颜色</value>
+  </data>
+  <data name="AniTypeButtonBackColorFlash" xml:space="preserve">
+    <value>闪烁</value>
+  </data>
+  <data name="AniTypeButtonBackColorFlash_Description" xml:space="preserve">
+    <value>背景颜色闪烁动画</value>
+  </data>
+  <data name="AniTypeButtonBackColor_Description" xml:space="preserve">
+    <value>背景颜色动画</value>
+  </data>
+  <data name="AniTypeButtonTextColor" xml:space="preserve">
+    <value>颜色</value>
+  </data>
+  <data name="AniTypeButtonTextColorFlash" xml:space="preserve">
+    <value>颜色闪烁</value>
+  </data>
+  <data name="AniTypeButtonTextColorFlash_Description" xml:space="preserve">
+    <value>文本颜色闪烁动画</value>
+  </data>
+  <data name="AniTypeButtonTextColor_Description" xml:space="preserve">
+    <value>文本颜色动画</value>
+  </data>
+  <data name="AniTypeDateTimeOutput" xml:space="preserve">
+    <value>时间值</value>
+  </data>
+  <data name="AniTypeDateTimeOutput_Description" xml:space="preserve">
+    <value>时间值</value>
+  </data>
+  <data name="AniTypeDisable" xml:space="preserve">
+    <value>禁用</value>
+  </data>
+  <data name="AniTypeDisable_Description" xml:space="preserve">
+    <value>允许/禁止动画</value>
+  </data>
+  <data name="AniTypeDiscButtonText" xml:space="preserve">
+    <value>内容</value>
+  </data>
+  <data name="AniTypeDiscButtonText_Description" xml:space="preserve">
+    <value>文本内容动画</value>
+  </data>
+  <data name="AniTypeFillAlhpa" xml:space="preserve">
+    <value>透明度</value>
+  </data>
+  <data name="AniTypeFillAlhpa_Description" xml:space="preserve">
+    <value>透明度动画</value>
+  </data>
+  <data name="AniTypeFillAlpha" xml:space="preserve">
+    <value>透明度</value>
+  </data>
+  <data name="AniTypeFillAlpha_Description" xml:space="preserve">
+    <value>透明度动画</value>
+  </data>
+  <data name="AniTypeFillAlpha_Prop" xml:space="preserve">
+    <value>透明度</value>
+  </data>
+  <data name="AniTypeFillColor" xml:space="preserve">
+    <value>模式</value>
+  </data>
+  <data name="AniTypeFillColor_Description" xml:space="preserve">
+    <value>填充模式</value>
+  </data>
+  <data name="AniTypeFlash" xml:space="preserve">
+    <value>闪烁</value>
+  </data>
+  <data name="AniTypeFlash_Description" xml:space="preserve">
+    <value>闪烁动画</value>
+  </data>
+  <data name="AniTypeFlow" xml:space="preserve">
+    <value>线条·启停</value>
+  </data>
+  <data name="AniTypeFlowFill" xml:space="preserve">
+    <value>填充·启停</value>
+  </data>
+  <data name="AniTypeFlowFillSpeed" xml:space="preserve">
+    <value>填充·速度</value>
+  </data>
+  <data name="AniTypeFlowFillSpeed_Description" xml:space="preserve">
+    <value>填充流动速度动画</value>
+  </data>
+  <data name="AniTypeFlowFill_Description" xml:space="preserve">
+    <value>填充流动启停动画</value>
+  </data>
+  <data name="AniTypeFlow_Description" xml:space="preserve">
+    <value>线条流动启停动画</value>
+  </data>
+  <data name="AniTypeHide" xml:space="preserve">
+    <value>可见</value>
+  </data>
+  <data name="AniTypeHide_Description" xml:space="preserve">
+    <value>显示/隐藏动画</value>
+  </data>
+  <data name="AniTypeInputAnalog" xml:space="preserve">
+    <value>模拟值输入</value>
+  </data>
+  <data name="AniTypeInputAnalog_Description" xml:space="preserve">
+    <value>模拟值输入</value>
+  </data>
+  <data name="AniTypeInputDateTime" xml:space="preserve">
+    <value>时间值输入</value>
+  </data>
+  <data name="AniTypeInputDateTime_Description" xml:space="preserve">
+    <value>时间值输入</value>
+  </data>
+  <data name="AniTypeInputDisc" xml:space="preserve">
+    <value>离散值输入</value>
+  </data>
+  <data name="AniTypeInputDisc_Description" xml:space="preserve">
+    <value>离散值输入</value>
+  </data>
+  <data name="AniTypeInputMenu" xml:space="preserve">
+    <value>画面菜单</value>
+  </data>
+  <data name="AniTypeInputMenu_Description" xml:space="preserve">
+    <value>左键弹出画面菜单</value>
+  </data>
+  <data name="AniTypeInputRightMenu" xml:space="preserve">
+    <value>画面菜单</value>
+  </data>
+  <data name="AniTypeInputRightMenu_Description" xml:space="preserve">
+    <value>右键弹出画面菜单</value>
+  </data>
+  <data name="AniTypeInputRightTouchDown" xml:space="preserve">
+    <value>按下程序</value>
+  </data>
+  <data name="AniTypeInputRightTouchDown_Description" xml:space="preserve">
+    <value>右键按下程序</value>
+  </data>
+  <data name="AniTypeInputRightTouchOver" xml:space="preserve">
+    <value>按住程序</value>
+  </data>
+  <data name="AniTypeInputRightTouchOver_Description" xml:space="preserve">
+    <value>右键按住时不断执行</value>
+  </data>
+  <data name="AniTypeInputRightTouchUp" xml:space="preserve">
+    <value>抬起程序</value>
+  </data>
+  <data name="AniTypeInputRightTouchUp_Description" xml:space="preserve">
+    <value>右键抬抬起程序</value>
+  </data>
+  <data name="AniTypeInputString" xml:space="preserve">
+    <value>字符串输入</value>
+  </data>
+  <data name="AniTypeInputString_Description" xml:space="preserve">
+    <value>字符串输入</value>
+  </data>
+  <data name="AniTypeInputTouchDown" xml:space="preserve">
+    <value>按下程序</value>
+  </data>
+  <data name="AniTypeInputTouchDown_Description" xml:space="preserve">
+    <value>左键按下程序</value>
+  </data>
+  <data name="AniTypeInputTouchOver" xml:space="preserve">
+    <value>按住程序</value>
+  </data>
+  <data name="AniTypeInputTouchOver_Description" xml:space="preserve">
+    <value>左键按住时不断执行</value>
+  </data>
+  <data name="AniTypeInputTouchUp" xml:space="preserve">
+    <value>抬起程序</value>
+  </data>
+  <data name="AniTypeInputTouchUp_Description" xml:space="preserve">
+    <value>左键抬起程序</value>
+  </data>
+  <data name="AniTypeLinearFlow" xml:space="preserve">
+    <value>线条·速度</value>
+  </data>
+  <data name="AniTypeLinearFlow_Description" xml:space="preserve">
+    <value>线条流动速度动画</value>
+  </data>
+  <data name="AniTypeLinearMotionX" xml:space="preserve">
+    <value>水平·连续</value>
+  </data>
+  <data name="AniTypeLinearMotionX_Description" xml:space="preserve">
+    <value>水平连续移动动画</value>
+  </data>
+  <data name="AniTypeLinearMotionX_Prop" xml:space="preserve">
+    <value>图形坐标X</value>
+  </data>
+  <data name="AniTypeLinearMotionY" xml:space="preserve">
+    <value>垂直·连续</value>
+  </data>
+  <data name="AniTypeLinearMotionY_Description" xml:space="preserve">
+    <value>垂直连续移动动画</value>
+  </data>
+  <data name="AniTypeLinearMotionY_Prop" xml:space="preserve">
+    <value>图形坐标Y</value>
+  </data>
+  <data name="AniTypeLinearPercentFill" xml:space="preserve">
+    <value>范围·百分比</value>
+  </data>
+  <data name="AniTypeLinearPercentFill_Description" xml:space="preserve">
+    <value>百分比填充动画</value>
+  </data>
+  <data name="AniTypeLinearPieStartAngle" xml:space="preserve">
+    <value>起始角度</value>
+  </data>
+  <data name="AniTypeLinearPieStartAngle_Description" xml:space="preserve">
+    <value>起始角度动画</value>
+  </data>
+  <data name="AniTypeLinearPieStartAngle_Prop" xml:space="preserve">
+    <value>起始角度</value>
+  </data>
+  <data name="AniTypeLinearPieSweepAngle" xml:space="preserve">
+    <value>扫描角度</value>
+  </data>
+  <data name="AniTypeLinearPieSweepAngle_Description" xml:space="preserve">
+    <value>扫描角度动画</value>
+  </data>
+  <data name="AniTypeLinearPieSweepAngle_Prop" xml:space="preserve">
+    <value>扫描角度</value>
+  </data>
+  <data name="AniTypeLinearRotate" xml:space="preserve">
+    <value>角度·连续</value>
+  </data>
+  <data name="AniTypeLinearRotate_Description" xml:space="preserve">
+    <value>连续旋转动画</value>
+  </data>
+  <data name="AniTypeLinearRotate_Prop" xml:space="preserve">
+    <value>旋转角度</value>
+  </data>
+  <data name="AniTypeLinearScaleHor" xml:space="preserve">
+    <value>水平·连续</value>
+  </data>
+  <data name="AniTypeLinearScaleHor_Description" xml:space="preserve">
+    <value>水平连续缩放动画</value>
+  </data>
+  <data name="AniTypeLinearScaleVer" xml:space="preserve">
+    <value>垂直·连续</value>
+  </data>
+  <data name="AniTypeLinearScaleVer_Description" xml:space="preserve">
+    <value>垂直连续缩放动画</value>
+  </data>
+  <data name="AniTypeLinearShearX" xml:space="preserve">
+    <value>水平·连续</value>
+  </data>
+  <data name="AniTypeLinearShearX_Description" xml:space="preserve">
+    <value>水平连续倾斜动画，图形不能设置垂直倾斜属性</value>
+  </data>
+  <data name="AniTypeLinearShearX_Prop" xml:space="preserve">
+    <value>水平倾斜</value>
+  </data>
+  <data name="AniTypeLinearShearY" xml:space="preserve">
+    <value>垂直·连续</value>
+  </data>
+  <data name="AniTypeLinearShearY_Description" xml:space="preserve">
+    <value>垂直连续倾斜动画，图形不能设置水平倾斜属性</value>
+  </data>
+  <data name="AniTypeLinearShearY_Prop" xml:space="preserve">
+    <value>垂直倾斜</value>
+  </data>
+  <data name="AniTypeLinePosEndX" xml:space="preserve">
+    <value>终点·水平</value>
+  </data>
+  <data name="AniTypeLinePosEndX_Description" xml:space="preserve">
+    <value>直线终止点水平移动动画</value>
+  </data>
+  <data name="AniTypeLinePosEndX_Prop" xml:space="preserve">
+    <value>直线终点X</value>
+  </data>
+  <data name="AniTypeLinePosEndY" xml:space="preserve">
+    <value>终点·垂直</value>
+  </data>
+  <data name="AniTypeLinePosEndY_Description" xml:space="preserve">
+    <value>直线终止点垂直移动动画</value>
+  </data>
+  <data name="AniTypeLinePosEndY_Prop" xml:space="preserve">
+    <value>直线终点Y</value>
+  </data>
+  <data name="AniTypeLinePosStartX" xml:space="preserve">
+    <value>起点·水平</value>
+  </data>
+  <data name="AniTypeLinePosStartX_Description" xml:space="preserve">
+    <value>直线起始点水平移动动画</value>
+  </data>
+  <data name="AniTypeLinePosStartX_Prop" xml:space="preserve">
+    <value>直线起点X</value>
+  </data>
+  <data name="AniTypeLinePosStartY" xml:space="preserve">
+    <value>起点.垂直</value>
+  </data>
+  <data name="AniTypeLinePosStartY_Description" xml:space="preserve">
+    <value>直线起始点垂直移动动画</value>
+  </data>
+  <data name="AniTypeLinePosStartY_Prop" xml:space="preserve">
+    <value>直线起点Y</value>
+  </data>
+  <data name="AniTypeLineStretchEnd" xml:space="preserve">
+    <value>终点·伸缩</value>
+  </data>
+  <data name="AniTypeLineStretchEnd_Description" xml:space="preserve">
+    <value>终止点伸缩动画</value>
+  </data>
+  <data name="AniTypeLineStretchEnd_Prop" xml:space="preserve">
+    <value>直线终点</value>
+  </data>
+  <data name="AniTypeLineStretchStart" xml:space="preserve">
+    <value>起点·伸缩</value>
+  </data>
+  <data name="AniTypeLineStretchStart_Description" xml:space="preserve">
+    <value>起始点伸缩动画</value>
+  </data>
+  <data name="AniTypeLineStretchStart_Prop" xml:space="preserve">
+    <value>直线起点</value>
+  </data>
+  <data name="AniTypeMotionJump" xml:space="preserve">
+    <value>离散</value>
+  </data>
+  <data name="AniTypeMotionJump_Description" xml:space="preserve">
+    <value>离散移动动画</value>
+  </data>
+  <data name="AniTypeOutputAnalog" xml:space="preserve">
+    <value>模拟值</value>
+  </data>
+  <data name="AniTypeOutputAnalogDisc" xml:space="preserve">
+    <value>模拟值离散显示</value>
+  </data>
+  <data name="AniTypeOutputAnalogDisc_Description" xml:space="preserve">
+    <value>模拟值离散显示</value>
+  </data>
+  <data name="AniTypeOutputAnalogString" xml:space="preserve">
+    <value>模拟值字符串显示</value>
+  </data>
+  <data name="AniTypeOutputAnalogString_Description" xml:space="preserve">
+    <value>模拟值字符串显示</value>
+  </data>
+  <data name="AniTypeOutputAnalog_Description" xml:space="preserve">
+    <value>模拟值</value>
+  </data>
+  <data name="AniTypeOutputDisc" xml:space="preserve">
+    <value>离散值</value>
+  </data>
+  <data name="AniTypeOutputDisc_Description" xml:space="preserve">
+    <value>离散值</value>
+  </data>
+  <data name="AniTypeOutputString" xml:space="preserve">
+    <value>字符串值</value>
+  </data>
+  <data name="AniTypeOutputString_Description" xml:space="preserve">
+    <value>字符串值</value>
+  </data>
+  <data name="AniTypePenColor" xml:space="preserve">
+    <value>线型</value>
+  </data>
+  <data name="AniTypePenColor_Description" xml:space="preserve">
+    <value>边线类型动画</value>
+  </data>
+  <data name="AniTypePenDashStyle" xml:space="preserve">
+    <value>线型</value>
+  </data>
+  <data name="AniTypePenDashStyle_Description" xml:space="preserve">
+    <value>线型</value>
+  </data>
+  <data name="AniTypePenWidth" xml:space="preserve">
+    <value>线型线宽</value>
+  </data>
+  <data name="AniTypePenWidth_Description" xml:space="preserve">
+    <value>线型线宽</value>
+  </data>
+  <data name="AniTypePosLinearX" xml:space="preserve">
+    <value>水平移动</value>
+  </data>
+  <data name="AniTypePosLinearX_Description" xml:space="preserve">
+    <value>水平移动动画</value>
+  </data>
+  <data name="AniTypePosLinearY" xml:space="preserve">
+    <value>垂直移动</value>
+  </data>
+  <data name="AniTypePosLinearY_Description" xml:space="preserve">
+    <value>垂直移动动画</value>
+  </data>
+  <data name="AniTypeRotateDisc" xml:space="preserve">
+    <value>角度·离散</value>
+  </data>
+  <data name="AniTypeRotateDisc_Description" xml:space="preserve">
+    <value>离散旋转动画</value>
+  </data>
+  <data name="AniTypeRotateDisc_Prop" xml:space="preserve">
+    <value>角度(°)</value>
+  </data>
+  <data name="AniTypeRotateEnable" xml:space="preserve">
+    <value>启停</value>
+  </data>
+  <data name="AniTypeRotateEnable_Description" xml:space="preserve">
+    <value>旋转启停动画</value>
+  </data>
+  <data name="AniTypeRotateInput" xml:space="preserve">
+    <value>旋转输入</value>
+  </data>
+  <data name="AniTypeRotateInput_Description" xml:space="preserve">
+    <value>旋转输入操作</value>
+  </data>
+  <data name="AniTypeRotateSpeed" xml:space="preserve">
+    <value>速度</value>
+  </data>
+  <data name="AniTypeRotateSpeed_Description" xml:space="preserve">
+    <value>旋转速度动画，正直表示顺时针旋转，负值表示逆时针旋转</value>
+  </data>
+  <data name="AniTypeRotateSpeed_Prop" xml:space="preserve">
+    <value>转速百分比</value>
+  </data>
+  <data name="AniTypeScaleHorDisc" xml:space="preserve">
+    <value>水平·离散</value>
+  </data>
+  <data name="AniTypeScaleHorDisc_Description" xml:space="preserve">
+    <value>水平离散缩放动画</value>
+  </data>
+  <data name="AniTypeScaleHorDisc_Prop" xml:space="preserve">
+    <value>缩放百分比(%)</value>
+  </data>
+  <data name="AniTypeScaleVerDisc" xml:space="preserve">
+    <value>垂直·离散</value>
+  </data>
+  <data name="AniTypeScaleVerDisc_Description" xml:space="preserve">
+    <value>垂直离散缩放动画</value>
+  </data>
+  <data name="AniTypeScaleVerDisc_Prop" xml:space="preserve">
+    <value>缩放百分比(%)</value>
+  </data>
+  <data name="AniTypeShearHorDisc" xml:space="preserve">
+    <value>水平·离散</value>
+  </data>
+  <data name="AniTypeShearHorDisc_Description" xml:space="preserve">
+    <value>水平离散倾斜动画，图形不能设置垂直倾斜属性</value>
+  </data>
+  <data name="AniTypeShearHorDisc_Prop" xml:space="preserve">
+    <value>倾斜(-5到+5)</value>
+  </data>
+  <data name="AniTypeShearVerDisc" xml:space="preserve">
+    <value>垂直·离散</value>
+  </data>
+  <data name="AniTypeShearVerDisc_Description" xml:space="preserve">
+    <value>垂直离散倾斜动画，图形不能设置水平倾斜属性</value>
+  </data>
+  <data name="AniTypeShearVerDisc_Prop" xml:space="preserve">
+    <value>倾斜(-5到+5)</value>
+  </data>
+  <data name="AniTypeSlideInputX" xml:space="preserve">
+    <value>水平滑动输入</value>
+  </data>
+  <data name="AniTypeSlideInputX_Description" xml:space="preserve">
+    <value>水平滑动对象引起值改变</value>
+  </data>
+  <data name="AniTypeSlideInputY" xml:space="preserve">
+    <value>垂直滑动输入</value>
+  </data>
+  <data name="AniTypeSlideInputY_Description" xml:space="preserve">
+    <value>垂直滑动对象引起值改变</value>
+  </data>
+  <data name="AniTypeSwitchImage" xml:space="preserve">
+    <value>图片切换</value>
+  </data>
+  <data name="AniTypeSwitchImage_Description" xml:space="preserve">
+    <value>图片切换动画</value>
+  </data>
+  <data name="AniTypeTextBackColor" xml:space="preserve">
+    <value>背景色</value>
+  </data>
+  <data name="AniTypeTextBackColor_Description" xml:space="preserve">
+    <value>文本背景色动画</value>
+  </data>
+  <data name="AniTypeTextColor" xml:space="preserve">
+    <value>模式</value>
+  </data>
+  <data name="AniTypeTextColor_Description" xml:space="preserve">
+    <value>填充模式动画</value>
+  </data>
+  <data name="AniTypeTouchDown" xml:space="preserve">
+    <value>鼠标按下时执行</value>
+  </data>
+  <data name="AniTypeTouchDown_Description" xml:space="preserve">
+    <value>鼠标按下时执行</value>
+  </data>
+  <data name="AniTypeTouchUp" xml:space="preserve">
+    <value>鼠标抬起时执行</value>
+  </data>
+  <data name="AniTypeTouchUp_Description" xml:space="preserve">
+    <value>鼠标抬起时执行</value>
+  </data>
+  <data name="AnnuallyBoldedDates" xml:space="preserve">
+    <value>粗体显示日期(每年)</value>
+  </data>
+  <data name="Appearance" xml:space="preserve">
+    <value>外观</value>
+  </data>
+  <data name="AutoCheck" xml:space="preserve">
+    <value>自动选中</value>
+  </data>
+  <data name="AutoEllipsis" xml:space="preserve">
+    <value>自动省略</value>
+  </data>
+  <data name="AutoScale" xml:space="preserve">
+    <value>自动缩放</value>
+  </data>
+  <data name="AutoScale_Description" xml:space="preserve">
+    <value>自动缩放</value>
+  </data>
+  <data name="AutoSizeToRegion" xml:space="preserve">
+    <value>大小自适应</value>
+  </data>
+  <data name="AutoSizeToRegion_Description" xml:space="preserve">
+    <value>运行时自动调整画面尺寸到区域的尺寸。</value>
+  </data>
+  <data name="AutoWordSelection" xml:space="preserve">
+    <value>自动选择单词</value>
+  </data>
+  <data name="Axis" xml:space="preserve">
+    <value>坐标</value>
+  </data>
+  <data name="AxisLine" xml:space="preserve">
+    <value>坐标线</value>
+  </data>
+  <data name="AxisNotExist" xml:space="preserve">
+    <value>值坐标轴不存在!</value>
+  </data>
+  <data name="BackColor" xml:space="preserve">
+    <value>背景色</value>
+  </data>
+  <data name="Background" xml:space="preserve">
+    <value>背景</value>
+  </data>
+  <data name="BackgroundImage" xml:space="preserve">
+    <value>背景图片</value>
+  </data>
+  <data name="BackgroundImageLayout" xml:space="preserve">
+    <value>背景图片布局</value>
+  </data>
+  <data name="Background_Color" xml:space="preserve">
+    <value>背景颜色</value>
+  </data>
+  <data name="Background_Description" xml:space="preserve">
+    <value>背景</value>
+  </data>
+  <data name="BarExample" xml:space="preserve">
+    <value>BarExample</value>
+  </data>
+  <data name="BarPannel" xml:space="preserve">
+    <value>BarPannel</value>
+  </data>
+  <data name="BarUnitCollection" xml:space="preserve">
+    <value>棒图单元集合</value>
+  </data>
+  <data name="BarUnitComponent" xml:space="preserve">
+    <value>单元</value>
+  </data>
+  <data name="BarUnitComponent1" xml:space="preserve">
+    <value>单元</value>
+  </data>
+  <data name="Base" xml:space="preserve">
+    <value>基础</value>
+  </data>
+  <data name="BaseDial" xml:space="preserve">
+    <value>表盘</value>
+  </data>
+  <data name="Basic" xml:space="preserve">
+    <value>基础</value>
+  </data>
+  <data name="Basic_Description" xml:space="preserve">
+    <value>基本信息</value>
+  </data>
+  <data name="Behavior" xml:space="preserve">
+    <value>行为</value>
+  </data>
+  <data name="BigIcon" xml:space="preserve">
+    <value>大图标</value>
+  </data>
+  <data name="BoldedDates" xml:space="preserve">
+    <value>粗体显示日期</value>
+  </data>
+  <data name="BorderStyle" xml:space="preserve">
+    <value>边框样式</value>
+  </data>
+  <data name="BorderStyle_Description" xml:space="preserve">
+    <value>边框样式</value>
+  </data>
+  <data name="BottomMiddle" xml:space="preserve">
+    <value>底边</value>
+  </data>
+  <data name="BottomRight" xml:space="preserve">
+    <value>右下角</value>
+  </data>
+  <data name="Bounds" xml:space="preserve">
+    <value>范围</value>
+  </data>
+  <data name="Bounds_Description" xml:space="preserve">
+    <value>范围</value>
+  </data>
+  <data name="BulletIndent" xml:space="preserve">
+    <value>符号缩进</value>
+  </data>
+  <data name="Button" xml:space="preserve">
+    <value>按钮</value>
+  </data>
+  <data name="CalculateError" xml:space="preserve">
+    <value>计算结果错误</value>
+  </data>
+  <data name="CalendarDimensions" xml:space="preserve">
+    <value>日历行列数</value>
+  </data>
+  <data name="CalendarFont" xml:space="preserve">
+    <value>日历字体</value>
+  </data>
+  <data name="CalendarForeColor" xml:space="preserve">
+    <value>日历前景色</value>
+  </data>
+  <data name="CalendarMonthBackground" xml:space="preserve">
+    <value>日历月份背景色</value>
+  </data>
+  <data name="CalendarTitleBackColor" xml:space="preserve">
+    <value>日历标题背景色</value>
+  </data>
+  <data name="CalendarTitleForeColor" xml:space="preserve">
+    <value>日历标题前景色</value>
+  </data>
+  <data name="CalendarTrailingForeColor" xml:space="preserve">
+    <value>日历非本月前景色</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="Cancle" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="Center" xml:space="preserve">
+    <value>中心</value>
+  </data>
+  <data name="Center_Description" xml:space="preserve">
+    <value>获取或设置对象的旋转中心点，如想自定义中心点，可以使用鼠标直接拖动中心点。</value>
+  </data>
+  <data name="CharacterCasing" xml:space="preserve">
+    <value>字符转换</value>
+  </data>
+  <data name="CheckAlign" xml:space="preserve">
+    <value>选中对齐</value>
+  </data>
+  <data name="Checked" xml:space="preserve">
+    <value>选中</value>
+  </data>
+  <data name="CheckedChanged" xml:space="preserve">
+    <value>选中改变</value>
+  </data>
+  <data name="CheckState" xml:space="preserve">
+    <value>选中状态</value>
+  </data>
+  <data name="CheckStateChanged" xml:space="preserve">
+    <value>选中状态改变</value>
+  </data>
+  <data name="Clear_Text" xml:space="preserve">
+    <value>清除(&amp;C)</value>
+  </data>
+  <data name="Click" xml:space="preserve">
+    <value>点击</value>
+  </data>
+  <data name="ClockWise" xml:space="preserve">
+    <value>顺时针</value>
+  </data>
+  <data name="Color" xml:space="preserve">
+    <value>颜色</value>
+  </data>
+  <data name="ColRowInfo" xml:space="preserve">
+    <value>ColRowInfo</value>
+  </data>
+  <data name="ColumnWidth" xml:space="preserve">
+    <value>列宽</value>
+  </data>
+  <data name="ConcentriceCircle" xml:space="preserve">
+    <value>同心圆</value>
+  </data>
+  <data name="Config" xml:space="preserve">
+    <value>配置</value>
+  </data>
+  <data name="Configure" xml:space="preserve">
+    <value>配置</value>
+  </data>
+  <data name="Content" xml:space="preserve">
+    <value>图片</value>
+  </data>
+  <data name="ControlEventPrototype" xml:space="preserve">
+    <value>// 事件原型:
+// {0}
+</value>
+  </data>
+  <data name="CountInfoToolTipText" xml:space="preserve">
+    <value>记录的行数</value>
+  </data>
+  <data name="Curve" xml:space="preserve">
+    <value>曲线</value>
+  </data>
+  <data name="CurveNotExist" xml:space="preserve">
+    <value>曲线不存在</value>
+  </data>
+  <data name="CurvePanel" xml:space="preserve">
+    <value>网格</value>
+  </data>
+  <data name="Custom" xml:space="preserve">
+    <value>自定义</value>
+  </data>
+  <data name="CustomFormat" xml:space="preserve">
+    <value>自定义格式</value>
+  </data>
+  <data name="Data" xml:space="preserve">
+    <value>数据</value>
+  </data>
+  <data name="Database" xml:space="preserve">
+    <value>数据库</value>
+  </data>
+  <data name="DataSourceChanged" xml:space="preserve">
+    <value>数据源改变</value>
+  </data>
+  <data name="DateChanged" xml:space="preserve">
+    <value>时间改变</value>
+  </data>
+  <data name="DateSelected" xml:space="preserve">
+    <value>时间选择</value>
+  </data>
+  <data name="DateTimeInputDate" xml:space="preserve">
+    <value>日期:</value>
+  </data>
+  <data name="DateTimeInputTime" xml:space="preserve">
+    <value>时间:</value>
+  </data>
+  <data name="DateTimeInputTitle" xml:space="preserve">
+    <value>时间输入</value>
+  </data>
+  <data name="DatetimeMinValueExpression" xml:space="preserve">
+    <value>您连接的时间变量没有设置初始值</value>
+  </data>
+  <data name="DecimalPlaces" xml:space="preserve">
+    <value>小数位数</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>描述</value>
+  </data>
+  <data name="Description_Description" xml:space="preserve">
+    <value>描述文本</value>
+  </data>
+  <data name="DetectUrls" xml:space="preserve">
+    <value>URL链接</value>
+  </data>
+  <data name="DialBorder" xml:space="preserve">
+    <value>DialBorder</value>
+  </data>
+  <data name="DialogResult" xml:space="preserve">
+    <value>对话框结果</value>
+  </data>
+  <data name="DialText" xml:space="preserve">
+    <value>文字</value>
+  </data>
+  <data name="DisabledImage" xml:space="preserve">
+    <value>禁止图片</value>
+  </data>
+  <data name="DisplayMember" xml:space="preserve">
+    <value>显示制表符</value>
+  </data>
+  <data name="Display_Value" xml:space="preserve">
+    <value>值显示</value>
+  </data>
+  <data name="DownImage" xml:space="preserve">
+    <value>按下图片</value>
+  </data>
+  <data name="DragDrop" xml:space="preserve">
+    <value>拖动释放</value>
+  </data>
+  <data name="DragEnter" xml:space="preserve">
+    <value>拖动进入</value>
+  </data>
+  <data name="DragLeave" xml:space="preserve">
+    <value>拖动离开</value>
+  </data>
+  <data name="DragOver" xml:space="preserve">
+    <value>拖动移动</value>
+  </data>
+  <data name="DrawAction" xml:space="preserve">
+    <value>绘制</value>
+  </data>
+  <data name="DrawMode" xml:space="preserve">
+    <value>显示模式</value>
+  </data>
+  <data name="DropDown" xml:space="preserve">
+    <value>下拉项</value>
+  </data>
+  <data name="DropDownAlign" xml:space="preserve">
+    <value>下拉框对齐</value>
+  </data>
+  <data name="DropDownClosed" xml:space="preserve">
+    <value>下拉项关闭</value>
+  </data>
+  <data name="DropDownHeight" xml:space="preserve">
+    <value>下拉高度</value>
+  </data>
+  <data name="DropDownStyle" xml:space="preserve">
+    <value>下拉样式</value>
+  </data>
+  <data name="DropDownWidth" xml:space="preserve">
+    <value>下拉宽度</value>
+  </data>
+  <data name="Editor_Add" xml:space="preserve">
+    <value>添加(&amp;A)</value>
+  </data>
+  <data name="Editor_Add_Desc" xml:space="preserve">
+    <value>添加对应关系</value>
+  </data>
+  <data name="Editor_ClearValue_Desc" xml:space="preserve">
+    <value>清除值</value>
+  </data>
+  <data name="Editor_CurrentValue" xml:space="preserve">
+    <value>当前值</value>
+  </data>
+  <data name="Editor_DownPoint" xml:space="preserve">
+    <value>下端</value>
+  </data>
+  <data name="Editor_Export" xml:space="preserve">
+    <value>导出(&amp;E)...</value>
+  </data>
+  <data name="Editor_Export_Desc" xml:space="preserve">
+    <value>导出对应关系</value>
+  </data>
+  <data name="Editor_Expression" xml:space="preserve">
+    <value>数值(&amp;T):</value>
+  </data>
+  <data name="Editor_Fill" xml:space="preserve">
+    <value>填充</value>
+  </data>
+  <data name="Editor_Import" xml:space="preserve">
+    <value>导入(&amp;I)...</value>
+  </data>
+  <data name="Editor_Import_Desc" xml:space="preserve">
+    <value>导入对应关系</value>
+  </data>
+  <data name="Editor_LeftPoint" xml:space="preserve">
+    <value>左端</value>
+  </data>
+  <data name="Editor_Max" xml:space="preserve">
+    <value>最大值</value>
+  </data>
+  <data name="Editor_MaxP" xml:space="preserve">
+    <value>最大位移</value>
+  </data>
+  <data name="Editor_Min" xml:space="preserve">
+    <value>最小值</value>
+  </data>
+  <data name="Editor_MinP" xml:space="preserve">
+    <value>最小位移</value>
+  </data>
+  <data name="Editor_Position" xml:space="preserve">
+    <value>位置</value>
+  </data>
+  <data name="Editor_Remove" xml:space="preserve">
+    <value>删除(&amp;D)</value>
+  </data>
+  <data name="Editor_Remove_Desc" xml:space="preserve">
+    <value>删除对应关系</value>
+  </data>
+  <data name="Editor_RightPoint" xml:space="preserve">
+    <value>右端</value>
+  </data>
+  <data name="Editor_ScaleDirection" xml:space="preserve">
+    <value>缩放方向</value>
+  </data>
+  <data name="Editor_ScalePercent" xml:space="preserve">
+    <value>缩放百分比{0}:</value>
+  </data>
+  <data name="Editor_ScalePercent_Max_Desc" xml:space="preserve">
+    <value>最大值时对象的缩放百分比</value>
+  </data>
+  <data name="Editor_ScalePercent_min_Desc" xml:space="preserve">
+    <value>最小值时对象的缩放百分比</value>
+  </data>
+  <data name="Editor_SelectTag_Desc" xml:space="preserve">
+    <value>选择变量</value>
+  </data>
+  <data name="Editor_UpPoint" xml:space="preserve">
+    <value>上端</value>
+  </data>
+  <data name="Editor_Value" xml:space="preserve">
+    <value>数值&gt;=</value>
+  </data>
+  <data name="Editor_VarValue" xml:space="preserve">
+    <value>值{0}:</value>
+  </data>
+  <data name="Editor_VarValue_Max_Desc" xml:space="preserve">
+    <value>表达式最大值</value>
+  </data>
+  <data name="Editor_VarValue_min_Desc" xml:space="preserve">
+    <value>表达式最小值</value>
+  </data>
+  <data name="Enable" xml:space="preserve">
+    <value>启用</value>
+  </data>
+  <data name="EnabledChanged" xml:space="preserve">
+    <value>使能改变</value>
+  </data>
+  <data name="Enable_Description" xml:space="preserve">
+    <value>获取或设置对象是否可用。</value>
+  </data>
+  <data name="EndPoint" xml:space="preserve">
+    <value>终点</value>
+  </data>
+  <data name="EndValue" xml:space="preserve">
+    <value>结束值</value>
+  </data>
+  <data name="Enter" xml:space="preserve">
+    <value>进入</value>
+  </data>
+  <data name="ErrOpenDataBase" xml:space="preserve">
+    <value>数据库异常，打开数据库连接失败！</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>错误</value>
+  </data>
+  <data name="Error1" xml:space="preserve">
+    <value>错误</value>
+  </data>
+  <data name="ExpressionErro" xml:space="preserve">
+    <value>{0}不存在.</value>
+  </data>
+  <data name="ExpressionIsNull" xml:space="preserve">
+    <value>数值不能为空.</value>
+  </data>
+  <data name="ExtNumericUpDown_Increment" xml:space="preserve">
+    <value>变化幅度</value>
+  </data>
+  <data name="ExtNumericUpDown_Value" xml:space="preserve">
+    <value>数值</value>
+  </data>
+  <data name="ExtRadioButton_Lines" xml:space="preserve">
+    <value>按钮数量</value>
+  </data>
+  <data name="FalseText" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="Fill" xml:space="preserve">
+    <value>填充</value>
+  </data>
+  <data name="FirstDayOfWeek" xml:space="preserve">
+    <value>一周第一天</value>
+  </data>
+  <data name="Flat" xml:space="preserve">
+    <value>平坦</value>
+  </data>
+  <data name="FlatAppearance" xml:space="preserve">
+    <value>平面外观</value>
+  </data>
+  <data name="FlatStyle" xml:space="preserve">
+    <value>显示样式</value>
+  </data>
+  <data name="Flow" xml:space="preserve">
+    <value>流动</value>
+  </data>
+  <data name="Font" xml:space="preserve">
+    <value>字体</value>
+  </data>
+  <data name="ForeColor" xml:space="preserve">
+    <value>前景色</value>
+  </data>
+  <data name="Format" xml:space="preserve">
+    <value>格式</value>
+  </data>
+  <data name="FormStyle" xml:space="preserve">
+    <value>画面样式</value>
+  </data>
+  <data name="FormStyle_Description" xml:space="preserve">
+    <value>画面的窗口样式</value>
+  </data>
+  <data name="G2DAxisFrequency" xml:space="preserve">
+    <value>坐标频率</value>
+  </data>
+  <data name="G2DAxisLabel" xml:space="preserve">
+    <value>坐标标签</value>
+  </data>
+  <data name="G2DTimeAxis" xml:space="preserve">
+    <value>时间轴</value>
+  </data>
+  <data name="G2DValueAxis" xml:space="preserve">
+    <value>数值轴</value>
+  </data>
+  <data name="GreaterthanMaxValue" xml:space="preserve">
+    <value>大于最大值.</value>
+  </data>
+  <data name="GridItemColorFlash_CurrentValue" xml:space="preserve">
+    <value>闪烁颜色</value>
+  </data>
+  <data name="GridStyle" xml:space="preserve">
+    <value>网格样式</value>
+  </data>
+  <data name="Grp" xml:space="preserve">
+    <value>画面</value>
+  </data>
+  <data name="GrpFrmStyle" xml:space="preserve">
+    <value>画面样式</value>
+  </data>
+  <data name="GrpFrmStyleConfig" xml:space="preserve">
+    <value>画面样式</value>
+  </data>
+  <data name="GrpFrmStyle_Description" xml:space="preserve">
+    <value>画面的窗口样式</value>
+  </data>
+  <data name="GrpGroup" xml:space="preserve">
+    <value>画面组</value>
+  </data>
+  <data name="gxdoc" xml:space="preserve">
+    <value>gxdoc</value>
+  </data>
+  <data name="Hexadecimal" xml:space="preserve">
+    <value>十六进制显示</value>
+  </data>
+  <data name="HideSelection" xml:space="preserve">
+    <value>隐藏选定</value>
+  </data>
+  <data name="HisBarUnitCollection" xml:space="preserve">
+    <value>历史棒图单元集合</value>
+  </data>
+  <data name="HistoryTrendCurveList" xml:space="preserve">
+    <value>历史曲线集合</value>
+  </data>
+  <data name="HorizontalExtent" xml:space="preserve">
+    <value>水平滚动条宽度</value>
+  </data>
+  <data name="HorizontalScrollbar" xml:space="preserve">
+    <value>水平滚动条</value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>图片</value>
+  </data>
+  <data name="ImageAlign" xml:space="preserve">
+    <value>图片对齐</value>
+  </data>
+  <data name="ImageAndText" xml:space="preserve">
+    <value>图片和文字</value>
+  </data>
+  <data name="ImageButton" xml:space="preserve">
+    <value>图片按钮</value>
+  </data>
+  <data name="ImageContent" xml:space="preserve">
+    <value>图片</value>
+  </data>
+  <data name="ImageContent_Description" xml:space="preserve">
+    <value>图片</value>
+  </data>
+  <data name="ImageSize" xml:space="preserve">
+    <value>图片大小</value>
+  </data>
+  <data name="Increment" xml:space="preserve">
+    <value>增量</value>
+  </data>
+  <data name="InputAnalog_max" xml:space="preserve">
+    <value>最大值:</value>
+  </data>
+  <data name="InputAnalog_min" xml:space="preserve">
+    <value>最小值:</value>
+  </data>
+  <data name="InputAnalog_pleasesInput" xml:space="preserve">
+    <value>请输入</value>
+  </data>
+  <data name="InputAnalog_Title" xml:space="preserve">
+    <value>模拟值输入</value>
+  </data>
+  <data name="InputDisc_Title" xml:space="preserve">
+    <value>离散值输入</value>
+  </data>
+  <data name="InputPrompt" xml:space="preserve">
+    <value>请输入</value>
+  </data>
+  <data name="InputString_Title" xml:space="preserve">
+    <value>字符串值输入</value>
+  </data>
+  <data name="Input_Value" xml:space="preserve">
+    <value>值输入</value>
+  </data>
+  <data name="IntegralHeight" xml:space="preserve">
+    <value>自动调整高度</value>
+  </data>
+  <data name="InterceptArrowKeys" xml:space="preserve">
+    <value>启用上下键</value>
+  </data>
+  <data name="InvalidInput" xml:space="preserve">
+    <value>输入无效.</value>
+  </data>
+  <data name="InvalidOperation" xml:space="preserve">
+    <value>操作无效.</value>
+  </data>
+  <data name="InvalidScriptContent" xml:space="preserve">
+    <value>表达式无效或者表达式类型错误，请填写正确的表达式。
+错误原因：{0}</value>
+  </data>
+  <data name="IsDialogModel" xml:space="preserve">
+    <value>窗口样式</value>
+  </data>
+  <data name="IsDialogModel_Description" xml:space="preserve">
+    <value>使用默认关联的布局打开画面时，是否为弹出式窗口</value>
+  </data>
+  <data name="IsShowNavigate" xml:space="preserve">
+    <value>导航窗口</value>
+  </data>
+  <data name="IsShowNavigate_Description" xml:space="preserve">
+    <value>是否显示导航窗口</value>
+  </data>
+  <data name="ItemHeight" xml:space="preserve">
+    <value>项目高度</value>
+  </data>
+  <data name="Items" xml:space="preserve">
+    <value>集合</value>
+  </data>
+  <data name="KeyDown" xml:space="preserve">
+    <value>键按下</value>
+  </data>
+  <data name="KeyExisted" xml:space="preserve">
+    <value>Key existed.</value>
+  </data>
+  <data name="KeyPress" xml:space="preserve">
+    <value>键输入</value>
+  </data>
+  <data name="KeyUp" xml:space="preserve">
+    <value>键抬起</value>
+  </data>
+  <data name="Label" xml:space="preserve">
+    <value>标签</value>
+  </data>
+  <data name="LargeChange" xml:space="preserve">
+    <value>大幅改变</value>
+  </data>
+  <data name="Layout" xml:space="preserve">
+    <value>布局</value>
+  </data>
+  <data name="Leave" xml:space="preserve">
+    <value>离开</value>
+  </data>
+  <data name="LeftBottom" xml:space="preserve">
+    <value>左下角</value>
+  </data>
+  <data name="LeftMiddle" xml:space="preserve">
+    <value>左边</value>
+  </data>
+  <data name="LeftTop" xml:space="preserve">
+    <value>左上角</value>
+  </data>
+  <data name="Line" xml:space="preserve">
+    <value>线条</value>
+  </data>
+  <data name="Lines" xml:space="preserve">
+    <value>行数</value>
+  </data>
+  <data name="Line_Point" xml:space="preserve">
+    <value>直线端点移动</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>位置</value>
+  </data>
+  <data name="Location_Description" xml:space="preserve">
+    <value>获取或设置画面的位置</value>
+  </data>
+  <data name="Location_Shape_Description" xml:space="preserve">
+    <value>获取或设置控件左上角的坐标</value>
+  </data>
+  <data name="Lock" xml:space="preserve">
+    <value>锁定</value>
+  </data>
+  <data name="Lock_Description" xml:space="preserve">
+    <value>获取或设置是否锁定对象，只在设计时有效。</value>
+  </data>
+  <data name="MarqueeAnimationSpeed" xml:space="preserve">
+    <value>速度</value>
+  </data>
+  <data name="MaxDate" xml:space="preserve">
+    <value>最大日期</value>
+  </data>
+  <data name="MaxDropDownItems" xml:space="preserve">
+    <value>下拉显示个数</value>
+  </data>
+  <data name="Maximum" xml:space="preserve">
+    <value>最大值</value>
+  </data>
+  <data name="MaxLength" xml:space="preserve">
+    <value>最大长度</value>
+  </data>
+  <data name="MaxSelectionCount" xml:space="preserve">
+    <value>最大选择数</value>
+  </data>
+  <data name="Menu" xml:space="preserve">
+    <value>菜单</value>
+  </data>
+  <data name="MenuSelectEditor_Graphicbottomleft" xml:space="preserve">
+    <value>图形左下角(&amp;T)</value>
+  </data>
+  <data name="MenuSelectEditor_Graphicbottomleft_Desc" xml:space="preserve">
+    <value>图形左下角弹出</value>
+  </data>
+  <data name="MenuSelectEditor_Graphicbottomright" xml:space="preserve">
+    <value>图形右下角(&amp;P)</value>
+  </data>
+  <data name="MenuSelectEditor_Graphicbottomright_Desc" xml:space="preserve">
+    <value>图形右下角弹出</value>
+  </data>
+  <data name="MenuSelectEditor_GraphicCenter" xml:space="preserve">
+    <value>图形中心点(&amp;C)</value>
+  </data>
+  <data name="MenuSelectEditor_GraphicCenter_Desc" xml:space="preserve">
+    <value>图形中心点弹出</value>
+  </data>
+  <data name="MenuSelectEditor_Graphictopleft" xml:space="preserve">
+    <value>图形左上角(&amp;B)</value>
+  </data>
+  <data name="MenuSelectEditor_Graphictopleft_Desc" xml:space="preserve">
+    <value>图形左上角弹出</value>
+  </data>
+  <data name="MenuSelectEditor_Graphictopright" xml:space="preserve">
+    <value>图形右上角(&amp;O)</value>
+  </data>
+  <data name="MenuSelectEditor_Graphictopright_Desc" xml:space="preserve">
+    <value>图形右上角弹出</value>
+  </data>
+  <data name="MenuSelectEditor_Header" xml:space="preserve">
+    <value>当前画面中的菜单(&amp;M):</value>
+  </data>
+  <data name="MenuSelectEditor_MousePoint" xml:space="preserve">
+    <value>鼠标指针(&amp;M)</value>
+  </data>
+  <data name="MenuSelectEditor_MousePoint_Desc" xml:space="preserve">
+    <value>鼠标位置处弹出</value>
+  </data>
+  <data name="MenuSelectEditor_Position" xml:space="preserve">
+    <value>菜单显示的位置</value>
+  </data>
+  <data name="MenuSelectEditor_Position_Desc" xml:space="preserve">
+    <value>菜单弹出位置</value>
+  </data>
+  <data name="MinDate" xml:space="preserve">
+    <value>最小日期</value>
+  </data>
+  <data name="Minimum" xml:space="preserve">
+    <value>最小值</value>
+  </data>
+  <data name="Misc" xml:space="preserve">
+    <value>其他</value>
+  </data>
+  <data name="Miscellaneous" xml:space="preserve">
+    <value>其他</value>
+  </data>
+  <data name="Mode" xml:space="preserve">
+    <value>模式</value>
+  </data>
+  <data name="MonthlyBoldedDates" xml:space="preserve">
+    <value>粗体显示日期(每月)</value>
+  </data>
+  <data name="Motion" xml:space="preserve">
+    <value>移动</value>
+  </data>
+  <data name="Mouse" xml:space="preserve">
+    <value>鼠标</value>
+  </data>
+  <data name="MouseClick" xml:space="preserve">
+    <value>鼠标点击</value>
+  </data>
+  <data name="MouseDown" xml:space="preserve">
+    <value>鼠标按下</value>
+  </data>
+  <data name="MouseEnter" xml:space="preserve">
+    <value>鼠标进入</value>
+  </data>
+  <data name="MouseHover" xml:space="preserve">
+    <value>鼠标按住</value>
+  </data>
+  <data name="MouseLeave" xml:space="preserve">
+    <value>鼠标离开</value>
+  </data>
+  <data name="MouseMove" xml:space="preserve">
+    <value>鼠标移动</value>
+  </data>
+  <data name="MouseUp" xml:space="preserve">
+    <value>鼠标抬起</value>
+  </data>
+  <data name="Move" xml:space="preserve">
+    <value>移动</value>
+  </data>
+  <data name="MultiColumn" xml:space="preserve">
+    <value>多列</value>
+  </data>
+  <data name="Multiline" xml:space="preserve">
+    <value>多行显示</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="Name_Description" xml:space="preserve">
+    <value>首字符必须是字母、下划线(“_”)。其后的字符可以是字母、下划线或数字，区分大小写。</value>
+  </data>
+  <data name="Needle" xml:space="preserve">
+    <value>指针</value>
+  </data>
+  <data name="Node" xml:space="preserve">
+    <value>节点</value>
+  </data>
+  <data name="Nodes" xml:space="preserve">
+    <value>节点集合</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>(无)</value>
+  </data>
+  <data name="NormalImage" xml:space="preserve">
+    <value>正常图片</value>
+  </data>
+  <data name="Note_Text" xml:space="preserve">
+    <value>说明:{0}</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>确认</value>
+  </data>
+  <data name="OK1" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="Opacity" xml:space="preserve">
+    <value>透明度</value>
+  </data>
+  <data name="OperateToolTipText" xml:space="preserve">
+    <value>数据库操作信息</value>
+  </data>
+  <data name="Operation" xml:space="preserve">
+    <value>操作</value>
+  </data>
+  <data name="Orientation" xml:space="preserve">
+    <value>方向</value>
+  </data>
+  <data name="OverImage" xml:space="preserve">
+    <value>滑过图片</value>
+  </data>
+  <data name="PageHasError" xml:space="preserve">
+    <value>网页中存在校本错误，无法访问！</value>
+  </data>
+  <data name="ParaError" xml:space="preserve">
+    <value>参数不正确</value>
+  </data>
+  <data name="PasswordChar" xml:space="preserve">
+    <value>密码字符</value>
+  </data>
+  <data name="Permissions" xml:space="preserve">
+    <value>权限</value>
+  </data>
+  <data name="Permissions_Description" xml:space="preserve">
+    <value>权限</value>
+  </data>
+  <data name="PieSliceComponent" xml:space="preserve">
+    <value>成分</value>
+  </data>
+  <data name="PieSliceList" xml:space="preserve">
+    <value>饼图成分集合</value>
+  </data>
+  <data name="Player" xml:space="preserve">
+    <value>播放器</value>
+  </data>
+  <data name="Popup" xml:space="preserve">
+    <value>上提</value>
+  </data>
+  <data name="Position" xml:space="preserve">
+    <value>位置{0}:</value>
+  </data>
+  <data name="PreviewKeyDown" xml:space="preserve">
+    <value>预先键按下</value>
+  </data>
+  <data name="Priority" xml:space="preserve">
+    <value>安全区</value>
+  </data>
+  <data name="Priority_Description" xml:space="preserve">
+    <value>获取或设置安全区，用来管理对象操作的权限。</value>
+  </data>
+  <data name="QueryTime" xml:space="preserve">
+    <value>查询时间</value>
+  </data>
+  <data name="QueryUnitCollection" xml:space="preserve">
+    <value>查询时间集合</value>
+  </data>
+  <data name="RadioButton" xml:space="preserve">
+    <value>单选按钮</value>
+  </data>
+  <data name="RadioButtonIndex" xml:space="preserve">
+    <value>选中索引</value>
+  </data>
+  <data name="Radius" xml:space="preserve">
+    <value>半径</value>
+  </data>
+  <data name="ReadOnly" xml:space="preserve">
+    <value>只读</value>
+  </data>
+  <data name="Ready" xml:space="preserve">
+    <value>就绪</value>
+  </data>
+  <data name="Records" xml:space="preserve">
+    <value>条记录</value>
+  </data>
+  <data name="RectRadius_Description" xml:space="preserve">
+    <value>圆角矩形圆角半径的大小，范围大于等于0。</value>
+  </data>
+  <data name="RightMargin" xml:space="preserve">
+    <value>右边距</value>
+  </data>
+  <data name="RightMiddle" xml:space="preserve">
+    <value>右边</value>
+  </data>
+  <data name="Rotate" xml:space="preserve">
+    <value>旋转</value>
+  </data>
+  <data name="RoundBorder" xml:space="preserve">
+    <value>边框</value>
+  </data>
+  <data name="RoundMeter" xml:space="preserve">
+    <value>RoundMeter</value>
+  </data>
+  <data name="RoundRuler" xml:space="preserve">
+    <value>RoundRuler</value>
+  </data>
+  <data name="RoundScale" xml:space="preserve">
+    <value>RoundScale</value>
+  </data>
+  <data name="Ruler" xml:space="preserve">
+    <value>刻度尺</value>
+  </data>
+  <data name="RulerColor" xml:space="preserve">
+    <value>刻度颜色</value>
+  </data>
+  <data name="RulerScale" xml:space="preserve">
+    <value>刻度缩放</value>
+  </data>
+  <data name="Runtime" xml:space="preserve">
+    <value>运行</value>
+  </data>
+  <data name="Scale" xml:space="preserve">
+    <value>缩放</value>
+  </data>
+  <data name="ScalePoint" xml:space="preserve">
+    <value>缩放点</value>
+  </data>
+  <data name="ScrollAlwaysVisible" xml:space="preserve">
+    <value>显示滚动条</value>
+  </data>
+  <data name="ScrollBars" xml:space="preserve">
+    <value>滚动条</value>
+  </data>
+  <data name="ScrollChange" xml:space="preserve">
+    <value>移动月数</value>
+  </data>
+  <data name="SectionColor_Des" xml:space="preserve">
+    <value>记录该段的颜色</value>
+  </data>
+  <data name="SectionEndValue_Des" xml:space="preserve">
+    <value>记录该段的结束值</value>
+  </data>
+  <data name="SectionName_Des" xml:space="preserve">
+    <value>分段的名称</value>
+  </data>
+  <data name="SectionStartValue_Des" xml:space="preserve">
+    <value>记录该段的开始值</value>
+  </data>
+  <data name="Security" xml:space="preserve">
+    <value>安全</value>
+  </data>
+  <data name="SelectedIndexChanged" xml:space="preserve">
+    <value>选中项改变</value>
+  </data>
+  <data name="SelectedValueChanged" xml:space="preserve">
+    <value>选中值改变</value>
+  </data>
+  <data name="SelectionMode" xml:space="preserve">
+    <value>选择模式</value>
+  </data>
+  <data name="SelectionRange" xml:space="preserve">
+    <value>选定范围</value>
+  </data>
+  <data name="Shape" xml:space="preserve">
+    <value>形状</value>
+  </data>
+  <data name="Shape_Size_Description" xml:space="preserve">
+    <value>获取或设置对象的大小。</value>
+  </data>
+  <data name="Shear" xml:space="preserve">
+    <value>倾斜</value>
+  </data>
+  <data name="ShearX" xml:space="preserve">
+    <value>水平倾斜</value>
+  </data>
+  <data name="ShearX_Description" xml:space="preserve">
+    <value>获取或设置对象水平倾斜的大小，范围-5～5。</value>
+  </data>
+  <data name="ShearY" xml:space="preserve">
+    <value>垂直倾斜</value>
+  </data>
+  <data name="ShearY_Description" xml:space="preserve">
+    <value>获取或设置对象在垂直方向的倾斜，范围-5～5。</value>
+  </data>
+  <data name="ShortcutsEnabled" xml:space="preserve">
+    <value>启用快捷键</value>
+  </data>
+  <data name="ShortcutValue" xml:space="preserve">
+    <value>快捷键</value>
+  </data>
+  <data name="ShowCheckBox" xml:space="preserve">
+    <value>显示复选框</value>
+  </data>
+  <data name="ShowSelectionMargin" xml:space="preserve">
+    <value>选定内容边距</value>
+  </data>
+  <data name="ShowToday" xml:space="preserve">
+    <value>显示今天</value>
+  </data>
+  <data name="ShowTodayCircle" xml:space="preserve">
+    <value>循环显示今天</value>
+  </data>
+  <data name="ShowUpDown" xml:space="preserve">
+    <value>显示数字框</value>
+  </data>
+  <data name="ShowWeekNumbers" xml:space="preserve">
+    <value>显示周编号</value>
+  </data>
+  <data name="Signature" xml:space="preserve">
+    <value>签名</value>
+  </data>
+  <data name="Signature_Description" xml:space="preserve">
+    <value>签名</value>
+  </data>
+  <data name="Size" xml:space="preserve">
+    <value>大小</value>
+  </data>
+  <data name="SizeChanged" xml:space="preserve">
+    <value>尺寸改变</value>
+  </data>
+  <data name="Size_Description" xml:space="preserve">
+    <value>大小</value>
+  </data>
+  <data name="Slide" xml:space="preserve">
+    <value>滑动</value>
+  </data>
+  <data name="SlideX" xml:space="preserve">
+    <value>水平</value>
+  </data>
+  <data name="SlideY" xml:space="preserve">
+    <value>垂直</value>
+  </data>
+  <data name="Slide_Description" xml:space="preserve">
+    <value>说明：通过{0}拖动给变量赋值</value>
+  </data>
+  <data name="SmallChange" xml:space="preserve">
+    <value>小幅改变</value>
+  </data>
+  <data name="SmallIcon" xml:space="preserve">
+    <value>小图标</value>
+  </data>
+  <data name="SmoothingMode" xml:space="preserve">
+    <value>绘制质量</value>
+  </data>
+  <data name="Sorted" xml:space="preserve">
+    <value>项目排序</value>
+  </data>
+  <data name="Standard" xml:space="preserve">
+    <value>标准</value>
+  </data>
+  <data name="StartAngle" xml:space="preserve">
+    <value>起始角度</value>
+  </data>
+  <data name="StartPoint" xml:space="preserve">
+    <value>起点</value>
+  </data>
+  <data name="StartValue" xml:space="preserve">
+    <value>开始值</value>
+  </data>
+  <data name="Step" xml:space="preserve">
+    <value>步长</value>
+  </data>
+  <data name="Stroke" xml:space="preserve">
+    <value>线条</value>
+  </data>
+  <data name="Style" xml:space="preserve">
+    <value>样式</value>
+  </data>
+  <data name="SubSection" xml:space="preserve">
+    <value>分段设定</value>
+  </data>
+  <data name="SubSectionCollection" xml:space="preserve">
+    <value>分段设定集合</value>
+  </data>
+  <data name="SweepAngle" xml:space="preserve">
+    <value>扫描角度</value>
+  </data>
+  <data name="TabIndex" xml:space="preserve">
+    <value>Tab顺序</value>
+  </data>
+  <data name="TabStop" xml:space="preserve">
+    <value>Tab可用</value>
+  </data>
+  <data name="TagGetTextValue" xml:space="preserve">
+    <value>显示文本</value>
+  </data>
+  <data name="TagGetTextValue_Description" xml:space="preserve">
+    <value>显示文本</value>
+  </data>
+  <data name="TagGetValue" xml:space="preserve">
+    <value>显示值</value>
+  </data>
+  <data name="TagGetValue_Description" xml:space="preserve">
+    <value>显示值</value>
+  </data>
+  <data name="TagLinkCategory" xml:space="preserve">
+    <value>变量关联</value>
+  </data>
+  <data name="TagReplace" xml:space="preserve">
+    <value>变量替换</value>
+  </data>
+  <data name="TagReplace_Description" xml:space="preserve">
+    <value>变量替换</value>
+  </data>
+  <data name="TagSetTextValue" xml:space="preserve">
+    <value>操控文本</value>
+  </data>
+  <data name="TagSetTextValue_Description" xml:space="preserve">
+    <value>操控文本</value>
+  </data>
+  <data name="TagSetValue" xml:space="preserve">
+    <value>操控值</value>
+  </data>
+  <data name="TagSetValue_Description" xml:space="preserve">
+    <value>操控值</value>
+  </data>
+  <data name="Text" xml:space="preserve">
+    <value>文本</value>
+  </data>
+  <data name="TextAlign" xml:space="preserve">
+    <value>文本对齐</value>
+  </data>
+  <data name="TextContent" xml:space="preserve">
+    <value>文本</value>
+  </data>
+  <data name="TextContent_Description" xml:space="preserve">
+    <value>文本内容</value>
+  </data>
+  <data name="TextImageRelation" xml:space="preserve">
+    <value>图文位置</value>
+  </data>
+  <data name="Text_Color" xml:space="preserve">
+    <value>文本颜色</value>
+  </data>
+  <data name="ThousandsSeparator" xml:space="preserve">
+    <value>千分位分隔符</value>
+  </data>
+  <data name="ThreeState" xml:space="preserve">
+    <value>三态</value>
+  </data>
+  <data name="Threshold" xml:space="preserve">
+    <value>分段</value>
+  </data>
+  <data name="ThresholdCollection" xml:space="preserve">
+    <value>分段集合</value>
+  </data>
+  <data name="TickFrequency" xml:space="preserve">
+    <value>刻度频率</value>
+  </data>
+  <data name="TickStyle" xml:space="preserve">
+    <value>刻度样式</value>
+  </data>
+  <data name="TimeFormatError" xml:space="preserve">
+    <value>结束时间不能早于开始时间！</value>
+  </data>
+  <data name="TimeInterval" xml:space="preserve">
+    <value>时间间隔</value>
+  </data>
+  <data name="TitleBackColor" xml:space="preserve">
+    <value>标题背景色</value>
+  </data>
+  <data name="TitleForeColor" xml:space="preserve">
+    <value>标题前景色</value>
+  </data>
+  <data name="TodayDate" xml:space="preserve">
+    <value>当前日期</value>
+  </data>
+  <data name="ToolBar" xml:space="preserve">
+    <value>工具栏</value>
+  </data>
+  <data name="ToolBarConfig" xml:space="preserve">
+    <value>工具箱配置</value>
+  </data>
+  <data name="Tooltip" xml:space="preserve">
+    <value>提示信息</value>
+  </data>
+  <data name="Tooltip_Description" xml:space="preserve">
+    <value>获取或设置提示文本的内容。</value>
+  </data>
+  <data name="TopMiddle" xml:space="preserve">
+    <value>上边</value>
+  </data>
+  <data name="TopRight" xml:space="preserve">
+    <value>右上角</value>
+  </data>
+  <data name="TrailingForeColor" xml:space="preserve">
+    <value>后继日期前景色</value>
+  </data>
+  <data name="TransparentColor" xml:space="preserve">
+    <value>透明色</value>
+  </data>
+  <data name="Trend" xml:space="preserve">
+    <value>趋势</value>
+  </data>
+  <data name="TrendCurve" xml:space="preserve">
+    <value>趋势曲线</value>
+  </data>
+  <data name="TrueText" xml:space="preserve">
+    <value>打开</value>
+  </data>
+  <data name="UnClockWise" xml:space="preserve">
+    <value>逆时针</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>更新了{0}行！</value>
+  </data>
+  <data name="UpDownAlign" xml:space="preserve">
+    <value>按钮位置</value>
+  </data>
+  <data name="UseCompatibleTextRendering" xml:space="preserve">
+    <value>文本呈现</value>
+  </data>
+  <data name="UseMnemonic" xml:space="preserve">
+    <value>使用 助记符</value>
+  </data>
+  <data name="UseSystemPasswordChar" xml:space="preserve">
+    <value>启用系统密码</value>
+  </data>
+  <data name="UseTabStops" xml:space="preserve">
+    <value>显示制表符</value>
+  </data>
+  <data name="UseVisualStyleBackColor" xml:space="preserve">
+    <value>视觉样式</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="ValueAxis" xml:space="preserve">
+    <value>值坐标</value>
+  </data>
+  <data name="ValueAxisList" xml:space="preserve">
+    <value>数值轴集合</value>
+  </data>
+  <data name="ValueChanged" xml:space="preserve">
+    <value>值改变</value>
+  </data>
+  <data name="ValueMark" xml:space="preserve">
+    <value>值配置</value>
+  </data>
+  <data name="Visibility" xml:space="preserve">
+    <value>可见性</value>
+  </data>
+  <data name="Visible" xml:space="preserve">
+    <value>可见</value>
+  </data>
+  <data name="VisibleChanged" xml:space="preserve">
+    <value>可见性改变</value>
+  </data>
+  <data name="Visible_Description" xml:space="preserve">
+    <value>获取或设置对象是否可见。</value>
+  </data>
+  <data name="VSB_Change" xml:space="preserve">
+    <value>变化范围</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>警告</value>
+  </data>
+  <data name="WebBrowserConfig" xml:space="preserve">
+    <value>网页配置</value>
+  </data>
+  <data name="WordWrap" xml:space="preserve">
+    <value>自动换行</value>
+  </data>
+  <data name="Wrap" xml:space="preserve">
+    <value>回绕</value>
+  </data>
+  <data name="XAxis" xml:space="preserve">
+    <value>X轴</value>
+  </data>
+  <data name="XP" xml:space="preserve">
+    <value>XP</value>
+  </data>
+  <data name="XPStyle" xml:space="preserve">
+    <value>XP风格</value>
+  </data>
+  <data name="YAxis" xml:space="preserve">
+    <value>数值轴</value>
+  </data>
+  <data name="ZoomFactor" xml:space="preserve">
+    <value>缩放因子</value>
+  </data>
+  <data name="Tag" xml:space="preserve">
+    <value>变量：</value>
+  </data>
+  <data name="ActiveXAbout" xml:space="preserve">
+    <value>控件 - 关于...</value>
+  </data>
+  <data name="ActiveXProperty" xml:space="preserve">
+    <value>控件 - 属性</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>添加</value>
+  </data>
+  <data name="AddButtonGroupPrompt" xml:space="preserve">
+    <value>添加一个图形组.</value>
+  </data>
+  <data name="AddButtonPrompt" xml:space="preserve">
+    <value>添加一个新画面.</value>
+  </data>
+  <data name="AddCategory" xml:space="preserve">
+    <value>添加分类</value>
+  </data>
+  <data name="AddCombo" xml:space="preserve">
+    <value>工具栏中添加了图形{0}</value>
+  </data>
+  <data name="AddDocument" xml:space="preserve">
+    <value>添加</value>
+  </data>
+  <data name="Addgraphics" xml:space="preserve">
+    <value>添加画面</value>
+  </data>
+  <data name="Addgroup" xml:space="preserve">
+    <value>添加组</value>
+  </data>
+  <data name="AddNode" xml:space="preserve">
+    <value>添加节点(&amp;A)</value>
+  </data>
+  <data name="AddViewCommand" xml:space="preserve">
+    <value>添加画面</value>
+  </data>
+  <data name="Advance" xml:space="preserve">
+    <value>高级</value>
+  </data>
+  <data name="Alarm" xml:space="preserve">
+    <value>报警</value>
+  </data>
+  <data name="Align" xml:space="preserve">
+    <value>对齐</value>
+  </data>
+  <data name="AlignBottom" xml:space="preserve">
+    <value>底对齐</value>
+  </data>
+  <data name="AlignBottomKey" xml:space="preserve">
+    <value>底对齐.</value>
+  </data>
+  <data name="AlignCenterHorizon" xml:space="preserve">
+    <value>水平居中</value>
+  </data>
+  <data name="AlignCenterKey" xml:space="preserve">
+    <value>水平居中</value>
+  </data>
+  <data name="AlignLeft" xml:space="preserve">
+    <value>左对齐</value>
+  </data>
+  <data name="AlignLeftKey" xml:space="preserve">
+    <value>左对齐</value>
+  </data>
+  <data name="AlignMiddleKey" xml:space="preserve">
+    <value>垂直居中</value>
+  </data>
+  <data name="AlignMiddleVerticle" xml:space="preserve">
+    <value>垂直居中</value>
+  </data>
+  <data name="AlignRight" xml:space="preserve">
+    <value>右对齐</value>
+  </data>
+  <data name="AlignRightKey" xml:space="preserve">
+    <value>右对齐.</value>
+  </data>
+  <data name="AlignRotateCenter" xml:space="preserve">
+    <value>选择中心对齐</value>
+  </data>
+  <data name="AlignRotateCenterKey" xml:space="preserve">
+    <value>中间对齐.</value>
+  </data>
+  <data name="AlignTop" xml:space="preserve">
+    <value>顶对齐</value>
+  </data>
+  <data name="AlignTopKey" xml:space="preserve">
+    <value>顶对齐.</value>
+  </data>
+  <data name="AllStretch" xml:space="preserve">
+    <value>区域</value>
+  </data>
+  <data name="AlwaysOnTop" xml:space="preserve">
+    <value>位于最前面</value>
+  </data>
+  <data name="Animate" xml:space="preserve">
+    <value>动画</value>
+  </data>
+  <data name="AnimateConfigured1" xml:space="preserve">
+    <value>选中的图形中已经配置了你要粘贴的动画或操作，你是否确定要进行替换?</value>
+  </data>
+  <data name="AnimateItem" xml:space="preserve">
+    <value>动画</value>
+  </data>
+  <data name="AnimatePadContentText" xml:space="preserve">
+    <value>动画</value>
+  </data>
+  <data name="AnimatePadKey" xml:space="preserve">
+    <value>配置图形对象动画</value>
+  </data>
+  <data name="Animate_Head" xml:space="preserve">
+    <value>动画和操作</value>
+  </data>
+  <data name="AniTypeDisplayProxyEditorViewModel_Title" xml:space="preserve">
+    <value>数值显示</value>
+  </data>
+  <data name="AniTypeInputProxyEditorViewModel_Title" xml:space="preserve">
+    <value>数值输入</value>
+  </data>
+  <data name="AniTypeSwitchImage1" xml:space="preserve">
+    <value>图片切换</value>
+  </data>
+  <data name="AroundColor" xml:space="preserve">
+    <value>周围色</value>
+  </data>
+  <data name="BackColor1" xml:space="preserve">
+    <value>背景</value>
+  </data>
+  <data name="Base1" xml:space="preserve">
+    <value>基础</value>
+  </data>
+  <data name="BasicColor" xml:space="preserve">
+    <value>基本色</value>
+  </data>
+  <data name="BooleanAni_In_False" xml:space="preserve">
+    <value>按钮文本置成False:</value>
+  </data>
+  <data name="BooleanAni_In_Text" xml:space="preserve">
+    <value>按钮文本:</value>
+  </data>
+  <data name="BooleanAni_In_True" xml:space="preserve">
+    <value>按钮文本置成True:</value>
+  </data>
+  <data name="BooleanAni_Out_False" xml:space="preserve">
+    <value>数值为假时，显示为字符串:</value>
+  </data>
+  <data name="BooleanAni_Out_True" xml:space="preserve">
+    <value>数值为真时，显示为字符串:</value>
+  </data>
+  <data name="BooleanCtrl_GroupText" xml:space="preserve">
+    <value>开关显示格式</value>
+  </data>
+  <data name="Brush" xml:space="preserve">
+    <value>画刷</value>
+  </data>
+  <data name="Cancel1" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="CanvasObjectSelKey" xml:space="preserve">
+    <value>图形{0}被选中.</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>分类</value>
+  </data>
+  <data name="CellExpFormat" xml:space="preserve">
+    <value>单元格格式</value>
+  </data>
+  <data name="Center1" xml:space="preserve">
+    <value>中心</value>
+  </data>
+  <data name="CenterColor" xml:space="preserve">
+    <value>中心色</value>
+  </data>
+  <data name="CenterHorizontal" xml:space="preserve">
+    <value>将选中的对象水平居中</value>
+  </data>
+  <data name="CenterHorKey" xml:space="preserve">
+    <value>将选中的图形在水平方向放置到画面的中间.</value>
+  </data>
+  <data name="CenterTip" xml:space="preserve">
+    <value>中心点可以通过拖动鼠标改变.</value>
+  </data>
+  <data name="CenterVerKey" xml:space="preserve">
+    <value>将选中的图形在垂直方向放置到画面的中间.</value>
+  </data>
+  <data name="CenterVertical" xml:space="preserve">
+    <value>将选中的对象垂直居中</value>
+  </data>
+  <data name="ChangeTagExportTitle" xml:space="preserve">
+    <value>变量参数化</value>
+  </data>
+  <data name="ChangeTagInTemplate" xml:space="preserve">
+    <value>在模板中更改变量名称</value>
+  </data>
+  <data name="ChangeToFixed" xml:space="preserve">
+    <value>转换成绝对像素</value>
+  </data>
+  <data name="ChangeToPercent" xml:space="preserve">
+    <value>转换成百分比</value>
+  </data>
+  <data name="Charts" xml:space="preserve">
+    <value>图表曲线</value>
+  </data>
+  <data name="ChartsTipText" xml:space="preserve">
+    <value>图表曲线.</value>
+  </data>
+  <data name="Circle" xml:space="preserve">
+    <value>圆</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="Clocks" xml:space="preserve">
+    <value>时钟</value>
+  </data>
+  <data name="ClocksTipText" xml:space="preserve">
+    <value>时钟.</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="CloseActive" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="CloseAll" xml:space="preserve">
+    <value>关闭全部</value>
+  </data>
+  <data name="CloseCanvasPrompt" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="CloseCanvasWarningMessage" xml:space="preserve">
+    <value>画面被修改且未保存，是否需要保存?</value>
+  </data>
+  <data name="CloseCanvasWarningTitle" xml:space="preserve">
+    <value>画面保存</value>
+  </data>
+  <data name="CloseCategory" xml:space="preserve">
+    <value>关闭分类</value>
+  </data>
+  <data name="CloseCategoryKey" xml:space="preserve">
+    <value>关闭当前选中的分类项</value>
+  </data>
+  <data name="CloseOthers" xml:space="preserve">
+    <value>关闭其他项</value>
+  </data>
+  <data name="ClosePreview" xml:space="preserve">
+    <value>1、鼠标左键移动画面、修改大小；
+2、[H] 键或鼠标右键显示或隐藏提示；
+3、双击或按空格键接受修改并关闭预览；
+4、[ESC] 键取消修改并关闭；
+5、[D] 更多详细信息。</value>
+  </data>
+  <data name="ClosePreviewDetail" xml:space="preserve">
+    <value>1、鼠标左键移动画面、修改大小；
+2、[H]键或鼠标右键显示或隐藏提示；
+3、双击或按空格键接受修改并关闭预览；
+4、[ESC]键取消修改并关闭；
+5、↑向上移动1个像素，Shift+↑向上移动10个像素，
+   Ctrl+↑高度减小1个像素；
+6、↓向下移动1个像素，Shift+↓向下移动10个像素，
+   Ctrl+↓高度增加1个像素；
+7、←向左移动1个像素，Shift+←向左移动10个像素，
+   Ctrl+←宽度减小1个像素；
+8、→向右移动1个像素，Shift+→向右移动10个像素，
+   Ctrl+→宽度增加1个像素；
+9、[D] 显示基本信息。</value>
+  </data>
+  <data name="ClosePreviewReadOnly" xml:space="preserve">
+    <value>1、[H] 键或鼠标右键显示或隐藏提示；
+2、双击、按空格键、[ESC] 键关闭预览；</value>
+  </data>
+  <data name="CloseViewWaringTitle" xml:space="preserve">
+    <value>画面保存</value>
+  </data>
+  <data name="CloseViewWarningMessage" xml:space="preserve">
+    <value>画面被修改且未保存，是否需要保存?</value>
+  </data>
+  <data name="Collection" xml:space="preserve">
+    <value>集合</value>
+  </data>
+  <data name="Color1" xml:space="preserve">
+    <value>颜色</value>
+  </data>
+  <data name="ComboAnimate" xml:space="preserve">
+    <value>组合图形动画</value>
+  </data>
+  <data name="ComboCategory" xml:space="preserve">
+    <value>模板分类{0}已经存在,是否需要替换?</value>
+  </data>
+  <data name="ComboCommand" xml:space="preserve">
+    <value>组合框</value>
+  </data>
+  <data name="ComboDisplayCommand" xml:space="preserve">
+    <value>显示图库</value>
+  </data>
+  <data name="ComboExportProcess_Title" xml:space="preserve">
+    <value>导出处理中....</value>
+  </data>
+  <data name="ComboImportProcess_Title" xml:space="preserve">
+    <value>导入处理中....</value>
+  </data>
+  <data name="ComboInfo" xml:space="preserve">
+    <value>说明:</value>
+  </data>
+  <data name="ComboOperation" xml:space="preserve">
+    <value>组合图形操作</value>
+  </data>
+  <data name="ComboPad" xml:space="preserve">
+    <value>图形模板</value>
+  </data>
+  <data name="ComboProperty" xml:space="preserve">
+    <value>组合图形属性</value>
+  </data>
+  <data name="ComboShapeEditor_Title" xml:space="preserve">
+    <value>组合</value>
+  </data>
+  <data name="Common" xml:space="preserve">
+    <value>普通</value>
+  </data>
+  <data name="ComponentAddedUndoActionName" xml:space="preserve">
+    <value>添加组件 {0} </value>
+  </data>
+  <data name="ComponentChangedUndoActionName" xml:space="preserve">
+    <value>组件 {0}的{1}属性 改变, 旧的属性值： {2}, 新的属性值: {3}</value>
+  </data>
+  <data name="ComponentRemovedUndoActionName" xml:space="preserve">
+    <value>删除组件: {0} 序号: {1}</value>
+  </data>
+  <data name="ComponentRenamedUndoActionName" xml:space="preserve">
+    <value>修改组件 {0}名称 ,从:{1}到 {2}</value>
+  </data>
+  <data name="ComponentSelectedUndoActionName" xml:space="preserve">
+    <value>选择改变</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>确认</value>
+  </data>
+  <data name="Coordinate" xml:space="preserve">
+    <value>坐标</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>复制</value>
+  </data>
+  <data name="CopyAlarm" xml:space="preserve">
+    <value>您选择剪切或复制的图形过多，在粘贴操作时会占用较长的时间，您要继续吗？</value>
+  </data>
+  <data name="CopyAnimatePreviewTitle" xml:space="preserve">
+    <value>选择要复制的动画及操作</value>
+  </data>
+  <data name="CopyAnimates" xml:space="preserve">
+    <value>复制动画及操作</value>
+  </data>
+  <data name="CopyBrush" xml:space="preserve">
+    <value>复制填充</value>
+  </data>
+  <data name="CopyStroke" xml:space="preserve">
+    <value>复制线条</value>
+  </data>
+  <data name="Count" xml:space="preserve">
+    <value>数量</value>
+  </data>
+  <data name="CreateComboTemplateTitle" xml:space="preserve">
+    <value>另存为组合图形模板</value>
+  </data>
+  <data name="CreateDocument" xml:space="preserve">
+    <value>添加了画面 '{0}' .</value>
+  </data>
+  <data name="CreateDocumentGroup" xml:space="preserve">
+    <value>添加了画面组 '{0}' .</value>
+  </data>
+  <data name="CreateTemplateDocument" xml:space="preserve">
+    <value>添加了模板 '{0}' .</value>
+  </data>
+  <data name="CreateTemplateDocumentGroup" xml:space="preserve">
+    <value>添加了模板组 '{0}' .</value>
+  </data>
+  <data name="CreateTemplateDocumentItem" xml:space="preserve">
+    <value>添加了模板 '{0}' .</value>
+  </data>
+  <data name="CreateTemplateGraphics" xml:space="preserve">
+    <value>创建画面</value>
+  </data>
+  <data name="CreateTemplateGroup" xml:space="preserve">
+    <value>创建组</value>
+  </data>
+  <data name="CreateTemplateTitle" xml:space="preserve">
+    <value>另存为模板</value>
+  </data>
+  <data name="CurrentOperate" xml:space="preserve">
+    <value>当前操作</value>
+  </data>
+  <data name="CustomColorPanel_Blue" xml:space="preserve">
+    <value>蓝(&amp;B):</value>
+  </data>
+  <data name="CustomColorPanel_Green" xml:space="preserve">
+    <value>绿(&amp;G):</value>
+  </data>
+  <data name="CustomColorPanel_Red" xml:space="preserve">
+    <value>红(&amp;R):</value>
+  </data>
+  <data name="CustomColorPanel_Title" xml:space="preserve">
+    <value>自定义:</value>
+  </data>
+  <data name="Cut" xml:space="preserve">
+    <value>剪切</value>
+  </data>
+  <data name="CutOperationKey" xml:space="preserve">
+    <value>剪切选中的内容</value>
+  </data>
+  <data name="CutShapeKey" xml:space="preserve">
+    <value>剪切选中的图形</value>
+  </data>
+  <data name="DataFormat" xml:space="preserve">
+    <value>数据配置</value>
+  </data>
+  <data name="DataFormatEditorView_Title" xml:space="preserve">
+    <value>数据格式</value>
+  </data>
+  <data name="DataformatEditor_dataformat" xml:space="preserve">
+    <value>类型:</value>
+  </data>
+  <data name="DataformatEditor_datetime" xml:space="preserve">
+    <value>时间</value>
+  </data>
+  <data name="DataformatEditor_digital" xml:space="preserve">
+    <value>开关</value>
+  </data>
+  <data name="DataformatEditor_number" xml:space="preserve">
+    <value>模拟</value>
+  </data>
+  <data name="DataformatEditor_string" xml:space="preserve">
+    <value>字符串</value>
+  </data>
+  <data name="DataInput" xml:space="preserve">
+    <value>输入</value>
+  </data>
+  <data name="DateTimeFormat_date" xml:space="preserve">
+    <value>日期格式</value>
+  </data>
+  <data name="DateTimeFormat_date_long" xml:space="preserve">
+    <value>长日期({0})</value>
+  </data>
+  <data name="DateTimeFormat_date_noshow" xml:space="preserve">
+    <value>隐藏</value>
+  </data>
+  <data name="DateTimeFormat_date_short" xml:space="preserve">
+    <value>短日期({0})</value>
+  </data>
+  <data name="DateTimeFormat_date_specail" xml:space="preserve">
+    <value>月日({0})</value>
+  </data>
+  <data name="DateTimeFormat_time" xml:space="preserve">
+    <value>时间格式</value>
+  </data>
+  <data name="DateTimeFormat_time_long" xml:space="preserve">
+    <value>长时间({0})</value>
+  </data>
+  <data name="DateTimeFormat_time_noshow" xml:space="preserve">
+    <value>隐藏</value>
+  </data>
+  <data name="DateTimeFormat_time_short" xml:space="preserve">
+    <value>短时间({0})</value>
+  </data>
+  <data name="DateTimeFormat_time_specail" xml:space="preserve">
+    <value>显示毫秒({0})</value>
+  </data>
+  <data name="DBTagReplaceKey" xml:space="preserve">
+    <value>在替换画面组的所有画面中替换变量.</value>
+  </data>
+  <data name="DefaultRegionName" xml:space="preserve">
+    <value>区域</value>
+  </data>
+  <data name="DefaultTitle" xml:space="preserve">
+    <value>默认(&amp;D)</value>
+  </data>
+  <data name="Degree" xml:space="preserve">
+    <value>°</value>
+  </data>
+  <data name="DelCol" xml:space="preserve">
+    <value>删除列</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="DeleteButtonPrompt" xml:space="preserve">
+    <value>删除选中画面或画面组，组中画面也被删除</value>
+  </data>
+  <data name="DeleteGraphicsKey" xml:space="preserve">
+    <value>删除选中画面</value>
+  </data>
+  <data name="DeleteGroupKey" xml:space="preserve">
+    <value>删除选中画面或画面组，组中画面也被删除</value>
+  </data>
+  <data name="DeleteHead" xml:space="preserve">
+    <value>删除确认</value>
+  </data>
+  <data name="DeleteNode" xml:space="preserve">
+    <value>删除节点(&amp;D)</value>
+  </data>
+  <data name="DeleteShapeKey" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="Description1" xml:space="preserve">
+    <value>描述</value>
+  </data>
+  <data name="DialogLayoutSelectView_Head" xml:space="preserve">
+    <value>为了以窗口样式打开画面，选择一个拥有窗口样式的布局和区域 </value>
+  </data>
+  <data name="DialogLayoutSelectView_NoDialogLayout1" xml:space="preserve">
+    <value>目前还没有一个是窗口样式的布局,你可以点击</value>
+  </data>
+  <data name="DialogLayoutSelectView_NoDialogLayout2" xml:space="preserve">
+    <value>创建一个.</value>
+  </data>
+  <data name="DialogLayoutSelectView_NoDialogLayout_Create" xml:space="preserve">
+    <value>创建</value>
+  </data>
+  <data name="DialogLayoutSelectView_Title" xml:space="preserve">
+    <value>窗口样式</value>
+  </data>
+  <data name="Direction" xml:space="preserve">
+    <value>方向</value>
+  </data>
+  <data name="DisplayAll_Desc" xml:space="preserve">
+    <value>显示全部</value>
+  </data>
+  <data name="DisplayConfig_Desc" xml:space="preserve">
+    <value>只显示配置部分</value>
+  </data>
+  <data name="DoReplace" xml:space="preserve">
+    <value>替换</value>
+  </data>
+  <data name="DotGrid" xml:space="preserve">
+    <value>点状网格</value>
+  </data>
+  <data name="DottedLine" xml:space="preserve">
+    <value>虚线</value>
+  </data>
+  <data name="DragToMoveTreeItem" xml:space="preserve">
+    <value>单击选中，双击打开画面，拖动将画面移动到另外一个画面组</value>
+  </data>
+  <data name="Editor_BrowseResource_Desc" xml:space="preserve">
+    <value>从资源中浏览获取</value>
+  </data>
+  <data name="Editor_ClearKey_Desc" xml:space="preserve">
+    <value>清除快捷键</value>
+  </data>
+  <data name="Editor_ClearValue_Desc1" xml:space="preserve">
+    <value>清空</value>
+  </data>
+  <data name="Editor_SelectTag_Desc1" xml:space="preserve">
+    <value>选择变量</value>
+  </data>
+  <data name="Effect" xml:space="preserve">
+    <value>效果</value>
+  </data>
+  <data name="EnabledChanged1" xml:space="preserve">
+    <value>使能改变</value>
+  </data>
+  <data name="EnableMax" xml:space="preserve">
+    <value>最大化</value>
+  </data>
+  <data name="EnableMin" xml:space="preserve">
+    <value>最小化</value>
+  </data>
+  <data name="EnableNavigate" xml:space="preserve">
+    <value>缩略窗</value>
+  </data>
+  <data name="EnableTooltip" xml:space="preserve">
+    <value>操作提示</value>
+  </data>
+  <data name="EndColor" xml:space="preserve">
+    <value>结束色</value>
+  </data>
+  <data name="EndNode" xml:space="preserve">
+    <value>终止节点操作</value>
+  </data>
+  <data name="EndPoint1" xml:space="preserve">
+    <value>末点</value>
+  </data>
+  <data name="Error2" xml:space="preserve">
+    <value>错误</value>
+  </data>
+  <data name="EventItem" xml:space="preserve">
+    <value>操作</value>
+  </data>
+  <data name="EventPadContentText" xml:space="preserve">
+    <value>操作</value>
+  </data>
+  <data name="EventPadKey" xml:space="preserve">
+    <value>配置对象事件属性</value>
+  </data>
+  <data name="Exactmatch" xml:space="preserve">
+    <value>精确匹配</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>输出</value>
+  </data>
+  <data name="ExportedGraphics" xml:space="preserve">
+    <value>被导出的画面:</value>
+  </data>
+  <data name="ExportError" xml:space="preserve">
+    <value>导出画面失败，原因：{0}</value>
+  </data>
+  <data name="ExportGraphics" xml:space="preserve">
+    <value>导出画面</value>
+  </data>
+  <data name="ExportHint" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ExportLeft" xml:space="preserve">
+    <value>&lt;</value>
+  </data>
+  <data name="ExportLeftAll" xml:space="preserve">
+    <value>&lt;&lt;</value>
+  </data>
+  <data name="ExportPath" xml:space="preserve">
+    <value>路径:</value>
+  </data>
+  <data name="ExportPathError" xml:space="preserve">
+    <value>导出文件 '{0}' 错误.</value>
+  </data>
+  <data name="ExportPathNotFound" xml:space="preserve">
+    <value>没有发现导出文件: '{0}'.</value>
+  </data>
+  <data name="ExportPathNull" xml:space="preserve">
+    <value>导出文件名不可以为空.</value>
+  </data>
+  <data name="ExportPrompt" xml:space="preserve">
+    <value>导出画面列表:</value>
+  </data>
+  <data name="ExportTitle" xml:space="preserve">
+    <value>导出(&amp;X)</value>
+  </data>
+  <data name="ExportViewTitile" xml:space="preserve">
+    <value>导出画面</value>
+  </data>
+  <data name="Expression" xml:space="preserve">
+    <value>表达式:</value>
+  </data>
+  <data name="ExpressionErro1" xml:space="preserve">
+    <value>'{0}'不存在.</value>
+  </data>
+  <data name="ExpressionIsNull1" xml:space="preserve">
+    <value>数值不能为空.</value>
+  </data>
+  <data name="Expression_Head" xml:space="preserve">
+    <value>表达式</value>
+  </data>
+  <data name="FalseString" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="FalseText1" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="FileCountError" xml:space="preserve">
+    <value>导入文件数量不正确.</value>
+  </data>
+  <data name="Fill1" xml:space="preserve">
+    <value>填充</value>
+  </data>
+  <data name="FillFormatBrush" xml:space="preserve">
+    <value>填充格式</value>
+  </data>
+  <data name="FillFormatKey" xml:space="preserve">
+    <value>提取选中图形的填充样式</value>
+  </data>
+  <data name="Filter" xml:space="preserve">
+    <value>过滤</value>
+  </data>
+  <data name="Focus" xml:space="preserve">
+    <value>焦点</value>
+  </data>
+  <data name="ForeColor1" xml:space="preserve">
+    <value>前景</value>
+  </data>
+  <data name="FormModelViewModel_Title" xml:space="preserve">
+    <value>布局样式</value>
+  </data>
+  <data name="FormModelView_Appearance" xml:space="preserve">
+    <value>外观:</value>
+  </data>
+  <data name="FormModelView_Center" xml:space="preserve">
+    <value>居中</value>
+  </data>
+  <data name="FormModelView_FormModel" xml:space="preserve">
+    <value>模式:</value>
+  </data>
+  <data name="FormModelView_HasTitle" xml:space="preserve">
+    <value>标题栏</value>
+  </data>
+  <data name="FormModelView_IsFormStyle" xml:space="preserve">
+    <value>窗口风格</value>
+  </data>
+  <data name="FormModelView_Location" xml:space="preserve">
+    <value>位置:</value>
+  </data>
+  <data name="FormModelView_Manual" xml:space="preserve">
+    <value>指定位置</value>
+  </data>
+  <data name="FormModelView_Model" xml:space="preserve">
+    <value>模式窗口</value>
+  </data>
+  <data name="FormModelView_Normal" xml:space="preserve">
+    <value>正常窗口</value>
+  </data>
+  <data name="FormModelView_Resizeable" xml:space="preserve">
+    <value>可变大小</value>
+  </data>
+  <data name="FormModelView_Scroll" xml:space="preserve">
+    <value>滚动条</value>
+  </data>
+  <data name="FormModelView_TitleText" xml:space="preserve">
+    <value>标题栏文本</value>
+  </data>
+  <data name="FormModelView_Top" xml:space="preserve">
+    <value>顶层窗口</value>
+  </data>
+  <data name="FormModelView_ViewStyle" xml:space="preserve">
+    <value>画面风格</value>
+  </data>
+  <data name="FourthPanelText" xml:space="preserve">
+    <value>画面：“{0}” {1}个对象。</value>
+  </data>
+  <data name="Function" xml:space="preserve">
+    <value>功能</value>
+  </data>
+  <data name="Gradient" xml:space="preserve">
+    <value>渐变</value>
+  </data>
+  <data name="Graphics" xml:space="preserve">
+    <value>画面:</value>
+  </data>
+  <data name="GraphicsDocumentCount" xml:space="preserve">
+    <value>画面个数 </value>
+  </data>
+  <data name="GraphicsGroupCount" xml:space="preserve">
+    <value>分组个数 </value>
+  </data>
+  <data name="GraphicsListTitle" xml:space="preserve">
+    <value>未分组</value>
+  </data>
+  <data name="GraphicsListTitle1" xml:space="preserve">
+    <value>取消成组</value>
+  </data>
+  <data name="GraphicsManager" xml:space="preserve">
+    <value>画面管理</value>
+  </data>
+  <data name="GraphicsRename" xml:space="preserve">
+    <value>画面重命名</value>
+  </data>
+  <data name="GraphicsTemplateCount" xml:space="preserve">
+    <value>画面模板个数</value>
+  </data>
+  <data name="GridOperationKey" xml:space="preserve">
+    <value>切换图形编辑器背景网格至{0}。</value>
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>组</value>
+  </data>
+  <data name="GroupError" xml:space="preserve">
+    <value>组合出现错误，原因{0}</value>
+  </data>
+  <data name="GroupKey" xml:space="preserve">
+    <value>将选中的多个图形对象组合成一个图形对象</value>
+  </data>
+  <data name="GroupMake" xml:space="preserve">
+    <value>组合</value>
+  </data>
+  <data name="GroupUn" xml:space="preserve">
+    <value>解组</value>
+  </data>
+  <data name="GroupUnToEnd" xml:space="preserve">
+    <value>全部解组</value>
+  </data>
+  <data name="Grp1" xml:space="preserve">
+    <value>画面</value>
+  </data>
+  <data name="GrpFileExtension" xml:space="preserve">
+    <value>grp</value>
+  </data>
+  <data name="GrpGroup1" xml:space="preserve">
+    <value>画面组</value>
+  </data>
+  <data name="GrpModelMessage" xml:space="preserve">
+    <value>{0}, </value>
+  </data>
+  <data name="gxdoc1" xml:space="preserve">
+    <value>gxdoc</value>
+  </data>
+  <data name="Hatch" xml:space="preserve">
+    <value>图案</value>
+  </data>
+  <data name="HatchFill" xml:space="preserve">
+    <value>图案</value>
+  </data>
+  <data name="HatchStyleList_0" xml:space="preserve">
+    <value>大网格</value>
+  </data>
+  <data name="HatchStyleList_1" xml:space="preserve">
+    <value>5%</value>
+  </data>
+  <data name="HatchStyleList_10" xml:space="preserve">
+    <value>75%</value>
+  </data>
+  <data name="HatchStyleList_11" xml:space="preserve">
+    <value>80%</value>
+  </data>
+  <data name="HatchStyleList_12" xml:space="preserve">
+    <value>90%</value>
+  </data>
+  <data name="HatchStyleList_13" xml:space="preserve">
+    <value>浅下对角线</value>
+  </data>
+  <data name="HatchStyleList_14" xml:space="preserve">
+    <value>浅上对角线</value>
+  </data>
+  <data name="HatchStyleList_15" xml:space="preserve">
+    <value>深下对角线</value>
+  </data>
+  <data name="HatchStyleList_16" xml:space="preserve">
+    <value>深上对角线</value>
+  </data>
+  <data name="HatchStyleList_17" xml:space="preserve">
+    <value>宽下对角线</value>
+  </data>
+  <data name="HatchStyleList_18" xml:space="preserve">
+    <value>宽上对角线</value>
+  </data>
+  <data name="HatchStyleList_19" xml:space="preserve">
+    <value>浅竖线</value>
+  </data>
+  <data name="HatchStyleList_2" xml:space="preserve">
+    <value>10%</value>
+  </data>
+  <data name="HatchStyleList_20" xml:space="preserve">
+    <value>浅横线</value>
+  </data>
+  <data name="HatchStyleList_21" xml:space="preserve">
+    <value>窄竖线</value>
+  </data>
+  <data name="HatchStyleList_22" xml:space="preserve">
+    <value>窄横线</value>
+  </data>
+  <data name="HatchStyleList_23" xml:space="preserve">
+    <value>深竖线</value>
+  </data>
+  <data name="HatchStyleList_24" xml:space="preserve">
+    <value>深横线</value>
+  </data>
+  <data name="HatchStyleList_25" xml:space="preserve">
+    <value>下对角虚线</value>
+  </data>
+  <data name="HatchStyleList_26" xml:space="preserve">
+    <value>上对角虚线</value>
+  </data>
+  <data name="HatchStyleList_27" xml:space="preserve">
+    <value>横虚线</value>
+  </data>
+  <data name="HatchStyleList_28" xml:space="preserve">
+    <value>竖虚线</value>
+  </data>
+  <data name="HatchStyleList_29" xml:space="preserve">
+    <value>小纸屑</value>
+  </data>
+  <data name="HatchStyleList_3" xml:space="preserve">
+    <value>20%</value>
+  </data>
+  <data name="HatchStyleList_30" xml:space="preserve">
+    <value>大纸屑</value>
+  </data>
+  <data name="HatchStyleList_31" xml:space="preserve">
+    <value>之字形</value>
+  </data>
+  <data name="HatchStyleList_32" xml:space="preserve">
+    <value>波浪</value>
+  </data>
+  <data name="HatchStyleList_33" xml:space="preserve">
+    <value>对角砖形</value>
+  </data>
+  <data name="HatchStyleList_34" xml:space="preserve">
+    <value>横向砖形</value>
+  </data>
+  <data name="HatchStyleList_35" xml:space="preserve">
+    <value>纺织物</value>
+  </data>
+  <data name="HatchStyleList_36" xml:space="preserve">
+    <value>苏格兰方格呢</value>
+  </data>
+  <data name="HatchStyleList_37" xml:space="preserve">
+    <value>草皮</value>
+  </data>
+  <data name="HatchStyleList_38" xml:space="preserve">
+    <value>虚线网格</value>
+  </data>
+  <data name="HatchStyleList_39" xml:space="preserve">
+    <value>点式菱形</value>
+  </data>
+  <data name="HatchStyleList_4" xml:space="preserve">
+    <value>25%</value>
+  </data>
+  <data name="HatchStyleList_40" xml:space="preserve">
+    <value>瓦形</value>
+  </data>
+  <data name="HatchStyleList_41" xml:space="preserve">
+    <value>棚架</value>
+  </data>
+  <data name="HatchStyleList_42" xml:space="preserve">
+    <value>球体</value>
+  </data>
+  <data name="HatchStyleList_43" xml:space="preserve">
+    <value>小网格</value>
+  </data>
+  <data name="HatchStyleList_44" xml:space="preserve">
+    <value>小棋盘</value>
+  </data>
+  <data name="HatchStyleList_45" xml:space="preserve">
+    <value>大棋盘</value>
+  </data>
+  <data name="HatchStyleList_46" xml:space="preserve">
+    <value>轮廓式菱形</value>
+  </data>
+  <data name="HatchStyleList_47" xml:space="preserve">
+    <value>实心菱形</value>
+  </data>
+  <data name="HatchStyleList_5" xml:space="preserve">
+    <value>30%</value>
+  </data>
+  <data name="HatchStyleList_6" xml:space="preserve">
+    <value>40%</value>
+  </data>
+  <data name="HatchStyleList_7" xml:space="preserve">
+    <value>50%</value>
+  </data>
+  <data name="HatchStyleList_8" xml:space="preserve">
+    <value>60%</value>
+  </data>
+  <data name="HatchStyleList_9" xml:space="preserve">
+    <value>70%</value>
+  </data>
+  <data name="Height" xml:space="preserve">
+    <value>高度</value>
+  </data>
+  <data name="HorizontalKey" xml:space="preserve">
+    <value>将选中的多个对象在水平方向上等间隔的分布</value>
+  </data>
+  <data name="HorizontalStretch" xml:space="preserve">
+    <value>区域宽度</value>
+  </data>
+  <data name="HorMirrorKey" xml:space="preserve">
+    <value>水平翻转</value>
+  </data>
+  <data name="HSpaceSame" xml:space="preserve">
+    <value>使选中的对象有相同的水平间隔</value>
+  </data>
+  <data name="ICON" xml:space="preserve">
+    <value>图标</value>
+  </data>
+  <data name="Image1" xml:space="preserve">
+    <value>图片</value>
+  </data>
+  <data name="ImageFormTitle" xml:space="preserve">
+    <value>图片资源</value>
+  </data>
+  <data name="ImagePreview" xml:space="preserve">
+    <value>预览</value>
+  </data>
+  <data name="Import" xml:space="preserve">
+    <value>导入</value>
+  </data>
+  <data name="ImportNameRepetition" xml:space="preserve">
+    <value>导入节点 {0} 已经存在.</value>
+  </data>
+  <data name="ImportTitle" xml:space="preserve">
+    <value>导入(&amp;I)</value>
+  </data>
+  <data name="ImportViewTitle" xml:space="preserve">
+    <value>画面导入</value>
+  </data>
+  <data name="InputPrompt1" xml:space="preserve">
+    <value>请输入</value>
+  </data>
+  <data name="InsertCol" xml:space="preserve">
+    <value>插入列</value>
+  </data>
+  <data name="InsertRow" xml:space="preserve">
+    <value>插入行</value>
+  </data>
+  <data name="In_Info" xml:space="preserve">
+    <value>提示信息:</value>
+  </data>
+  <data name="In_shutkey" xml:space="preserve">
+    <value>快捷键:</value>
+  </data>
+  <data name="IsFrmModel" xml:space="preserve">
+    <value>窗口外观</value>
+  </data>
+  <data name="IsMainGrp" xml:space="preserve">
+    <value>开始画面</value>
+  </data>
+  <data name="IsScrollBar" xml:space="preserve">
+    <value>滚动条</value>
+  </data>
+  <data name="IsShowMessageArea" xml:space="preserve">
+    <value>显示消息区域</value>
+  </data>
+  <data name="IsShowToolBar" xml:space="preserve">
+    <value>显示工具栏</value>
+  </data>
+  <data name="IsVisiable" xml:space="preserve">
+    <value>可见</value>
+  </data>
+  <data name="LargeIconStyle" xml:space="preserve">
+    <value>大图标</value>
+  </data>
+  <data name="Layer" xml:space="preserve">
+    <value>层</value>
+  </data>
+  <data name="Layout1" xml:space="preserve">
+    <value>布局</value>
+  </data>
+  <data name="LayoutItem_IsFormStyle" xml:space="preserve">
+    <value>窗口样式</value>
+  </data>
+  <data name="LayoutItem_Location" xml:space="preserve">
+    <value>位置</value>
+  </data>
+  <data name="LayoutItem_Size" xml:space="preserve">
+    <value>大小</value>
+  </data>
+  <data name="LayoutManagerView_Autosize" xml:space="preserve">
+    <value>显示器自适应</value>
+  </data>
+  <data name="LayoutManagerView_DefaultView" xml:space="preserve">
+    <value>默认画面:</value>
+  </data>
+  <data name="LayoutManagerView_Fixedsize" xml:space="preserve">
+    <value>固定大小</value>
+  </data>
+  <data name="LayoutManagerView_Height" xml:space="preserve">
+    <value>高度:</value>
+  </data>
+  <data name="LayoutManagerView_Layout" xml:space="preserve">
+    <value>布局:</value>
+  </data>
+  <data name="LayoutManagerView_LayoutStart" xml:space="preserve">
+    <value>起始:</value>
+  </data>
+  <data name="LayoutManagerView_Model" xml:space="preserve">
+    <value>模式:</value>
+  </data>
+  <data name="LayoutManagerView_Name" xml:space="preserve">
+    <value>名称:</value>
+  </data>
+  <data name="LayoutManagerView_Percent" xml:space="preserve">
+    <value>百分比</value>
+  </data>
+  <data name="LayoutManagerView_Pixel" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="LayoutManagerView_Pixels" xml:space="preserve">
+    <value>像素</value>
+  </data>
+  <data name="LayoutManagerView_RemoveDefaultView" xml:space="preserve">
+    <value>删除默认画面</value>
+  </data>
+  <data name="LayoutManagerView_Screen" xml:space="preserve">
+    <value>显示</value>
+  </data>
+  <data name="LayoutManagerView_Size" xml:space="preserve">
+    <value>屏幕大小:</value>
+  </data>
+  <data name="LayoutManagerView_StartViews" xml:space="preserve">
+    <value>起始画面</value>
+  </data>
+  <data name="LayoutManagerView_Width" xml:space="preserve">
+    <value>宽度:</value>
+  </data>
+  <data name="LayoutPreview" xml:space="preserve">
+    <value>布局预览</value>
+  </data>
+  <data name="LayoutSelectView_layout" xml:space="preserve">
+    <value>选择布局</value>
+  </data>
+  <data name="LayoutSelectView_region" xml:space="preserve">
+    <value>选择区域</value>
+  </data>
+  <data name="LayoutSizeErrors" xml:space="preserve">
+    <value>布局 '{0}' 的尺寸大于屏幕尺寸。</value>
+  </data>
+  <data name="LeftFlipKey" xml:space="preserve">
+    <value>将选中的图形对象以中心点为圆心逆时针旋转90度</value>
+  </data>
+  <data name="LightColor" xml:space="preserve">
+    <value>高亮色</value>
+  </data>
+  <data name="LinearGradient" xml:space="preserve">
+    <value>渐变</value>
+  </data>
+  <data name="LinearGradientFill" xml:space="preserve">
+    <value>渐变</value>
+  </data>
+  <data name="LineGrid" xml:space="preserve">
+    <value>线网格</value>
+  </data>
+  <data name="LineJoinBevel" xml:space="preserve">
+    <value>平角</value>
+  </data>
+  <data name="LineJoinMiter" xml:space="preserve">
+    <value>锐角</value>
+  </data>
+  <data name="LineJoinRound" xml:space="preserve">
+    <value>圆角</value>
+  </data>
+  <data name="Linetype" xml:space="preserve">
+    <value>线形</value>
+  </data>
+  <data name="LinkedPoint" xml:space="preserve">
+    <value>连接</value>
+  </data>
+  <data name="ListOfViews" xml:space="preserve">
+    <value>画面列表:</value>
+  </data>
+  <data name="ListViewStyle" xml:space="preserve">
+    <value>列表</value>
+  </data>
+  <data name="Load" xml:space="preserve">
+    <value>加载</value>
+  </data>
+  <data name="LoadComplete" xml:space="preserve">
+    <value>加载完成...</value>
+  </data>
+  <data name="LoadingDocument" xml:space="preserve">
+    <value>加载 {0} ...</value>
+  </data>
+  <data name="Location1" xml:space="preserve">
+    <value>坐标</value>
+  </data>
+  <data name="MainGraphics" xml:space="preserve">
+    <value>开始画面:</value>
+  </data>
+  <data name="MainGraphicsList" xml:space="preserve">
+    <value>起始画面</value>
+  </data>
+  <data name="MainViews" xml:space="preserve">
+    <value>主画面</value>
+  </data>
+  <data name="MakeGroupHint" xml:space="preserve">
+    <value>图形'{0}'组合为'{1}'组合图形</value>
+  </data>
+  <data name="Manager_AddFromTemplateKey" xml:space="preserve">
+    <value>从模板新建</value>
+  </data>
+  <data name="Manager_AddGroupKey" xml:space="preserve">
+    <value>添加组</value>
+  </data>
+  <data name="Manager_AddKey" xml:space="preserve">
+    <value>添加</value>
+  </data>
+  <data name="Manager_BringShapeToBackground" xml:space="preserve">
+    <value>合并到背景</value>
+  </data>
+  <data name="Manager_BringShapeToReset" xml:space="preserve">
+    <value>删除合并的图形</value>
+  </data>
+  <data name="Manager_CopyKey" xml:space="preserve">
+    <value>复制</value>
+  </data>
+  <data name="Manager_DBReplaceKey" xml:space="preserve">
+    <value>变量替换</value>
+  </data>
+  <data name="Manager_ExportKey" xml:space="preserve">
+    <value>导出</value>
+  </data>
+  <data name="Manager_ImportKey" xml:space="preserve">
+    <value>导入</value>
+  </data>
+  <data name="Manager_OpenKey" xml:space="preserve">
+    <value>打开</value>
+  </data>
+  <data name="Manager_PasteKey" xml:space="preserve">
+    <value>粘贴</value>
+  </data>
+  <data name="Manager_RemoveKey" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="Manager_ReNameKey" xml:space="preserve">
+    <value>重命名</value>
+  </data>
+  <data name="Manager_SaveAllKey" xml:space="preserve">
+    <value>保存全部</value>
+  </data>
+  <data name="Manager_SaveAsTemplateKey" xml:space="preserve">
+    <value>另存为模板</value>
+  </data>
+  <data name="Manager_ShowPropertyKey" xml:space="preserve">
+    <value>显示属性</value>
+  </data>
+  <data name="Manager_TemplateReplaceKey" xml:space="preserve">
+    <value>实例化</value>
+  </data>
+  <data name="MaterializedHeaderTitle" xml:space="preserve">
+    <value>实例化变量</value>
+  </data>
+  <data name="MenuDescription" xml:space="preserve">
+    <value>说明(&amp;D)</value>
+  </data>
+  <data name="MenuItem" xml:space="preserve">
+    <value>菜单项</value>
+  </data>
+  <data name="MenuItemCollection" xml:space="preserve">
+    <value>菜单项集合</value>
+  </data>
+  <data name="MenuItemTitle" xml:space="preserve">
+    <value>菜单项(&amp;M):</value>
+  </data>
+  <data name="MenuNames" xml:space="preserve">
+    <value>菜单名称</value>
+  </data>
+  <data name="MenuNotExist" xml:space="preserve">
+    <value>菜单 '{0}' 不存在.</value>
+  </data>
+  <data name="MenuReset" xml:space="preserve">
+    <value>重置(&amp;R)</value>
+  </data>
+  <data name="MessageKey" xml:space="preserve">
+    <value>打开消息窗口</value>
+  </data>
+  <data name="MessageKey1" xml:space="preserve">
+    <value>关闭消息窗口</value>
+  </data>
+  <data name="Meters" xml:space="preserve">
+    <value>仪表</value>
+  </data>
+  <data name="MetersTipText" xml:space="preserve">
+    <value>仪表.</value>
+  </data>
+  <data name="mNewCategoryName" xml:space="preserve">
+    <value>新建分类</value>
+  </data>
+  <data name="mNewComboName" xml:space="preserve">
+    <value>新建图形</value>
+  </data>
+  <data name="Model" xml:space="preserve">
+    <value>模式窗口</value>
+  </data>
+  <data name="ModifyHeight" xml:space="preserve">
+    <value>修改高度</value>
+  </data>
+  <data name="ModifyWidht" xml:space="preserve">
+    <value>修改宽度</value>
+  </data>
+  <data name="MostRecentlyModified" xml:space="preserve">
+    <value>最近修改：</value>
+  </data>
+  <data name="MoveNode1" xml:space="preserve">
+    <value>移动节点(&amp;M)</value>
+  </data>
+  <data name="Name1" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="NativeEventCategory" xml:space="preserve">
+    <value>本地</value>
+  </data>
+  <data name="NewGraphicsKey" xml:space="preserve">
+    <value>添加画面</value>
+  </data>
+  <data name="NewPassword" xml:space="preserve">
+    <value>新密码:</value>
+  </data>
+  <data name="NewViewFromTemplate" xml:space="preserve">
+    <value>从模板新建画面</value>
+  </data>
+  <data name="NewViewFromTemplateView_Desc" xml:space="preserve">
+    <value>描述:</value>
+  </data>
+  <data name="NewViewFromTemplateView_Name" xml:space="preserve">
+    <value>画面名称:</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>否</value>
+  </data>
+  <data name="NoneGrid" xml:space="preserve">
+    <value>无网格</value>
+  </data>
+  <data name="NoPickColor" xml:space="preserve">
+    <value>该图片不支持透明色或已经是透明的。</value>
+  </data>
+  <data name="NoReplace" xml:space="preserve">
+    <value>不替换</value>
+  </data>
+  <data name="Normal" xml:space="preserve">
+    <value>常用</value>
+  </data>
+  <data name="Normal1" xml:space="preserve">
+    <value>正常窗口</value>
+  </data>
+  <data name="NormalTipText" xml:space="preserve">
+    <value>常用图形.</value>
+  </data>
+  <data name="NumberFormat_Add" xml:space="preserve">
+    <value>添加</value>
+  </data>
+  <data name="NumberFormat_Delete" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="NumberFormat_Export" xml:space="preserve">
+    <value>导出</value>
+  </data>
+  <data name="NumberFormat_Import" xml:space="preserve">
+    <value>导入</value>
+  </data>
+  <data name="NumberFormat_Max" xml:space="preserve">
+    <value>最大值:</value>
+  </data>
+  <data name="NumberFormat_Min" xml:space="preserve">
+    <value>最小值:</value>
+  </data>
+  <data name="NumberFormat_number" xml:space="preserve">
+    <value>显示数值</value>
+  </data>
+  <data name="NumberFormat_NumCount" xml:space="preserve">
+    <value>整数位数:</value>
+  </data>
+  <data name="NumberFormat_Percent" xml:space="preserve">
+    <value>千位分隔符</value>
+  </data>
+  <data name="NumberFormat_PointCount" xml:space="preserve">
+    <value>小数位数:</value>
+  </data>
+  <data name="NumberFormat_Secient" xml:space="preserve">
+    <value>科学计数法</value>
+  </data>
+  <data name="NumberFormat_String" xml:space="preserve">
+    <value>显示字符串</value>
+  </data>
+  <data name="NumberFormat_String_Header" xml:space="preserve">
+    <value>字符串</value>
+  </data>
+  <data name="NumberFormat_ValueRange" xml:space="preserve">
+    <value>值范围:</value>
+  </data>
+  <data name="NumberFormat_Value_Header" xml:space="preserve">
+    <value>数值&gt;=</value>
+  </data>
+  <data name="NumericalCtrl_GroupText" xml:space="preserve">
+    <value>数值显示格式</value>
+  </data>
+  <data name="NumericalStyleFormText" xml:space="preserve">
+    <value>数字样式</value>
+  </data>
+  <data name="OK2" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="Opacity1" xml:space="preserve">
+    <value>透明</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>打开</value>
+  </data>
+  <data name="OpenDocument" xml:space="preserve">
+    <value>打开</value>
+  </data>
+  <data name="OpenGraphicsKey" xml:space="preserve">
+    <value>打开画面</value>
+  </data>
+  <data name="OpenTemplateErro" xml:space="preserve">
+    <value>加载模板 '{0}' 失败.</value>
+  </data>
+  <data name="OpenTemplateView_FormTitle" xml:space="preserve">
+    <value>标题:</value>
+  </data>
+  <data name="OpenTemplateView_Location" xml:space="preserve">
+    <value>位置:</value>
+  </data>
+  <data name="OpenTemplateView_RelativeLocation" xml:space="preserve">
+    <value>打开模板使用的布局是窗口模式，请指定坐标参照方式:</value>
+  </data>
+  <data name="OpenTemplateView_Replace" xml:space="preserve">
+    <value>替换字符串:</value>
+  </data>
+  <data name="OpenTemplateView_Template" xml:space="preserve">
+    <value>模板:</value>
+  </data>
+  <data name="OpenTemplateView_Title" xml:space="preserve">
+    <value>选择要打开的模板</value>
+  </data>
+  <data name="OpenTemplateView_ViewName" xml:space="preserve">
+    <value>画面名称:</value>
+  </data>
+  <data name="OpenViewView_CurrentRegion" xml:space="preserve">
+    <value>当前区域</value>
+  </data>
+  <data name="OpenViewView_EnableLayout" xml:space="preserve">
+    <value>使用指定</value>
+  </data>
+  <data name="OpenViewView_layout" xml:space="preserve">
+    <value>布局:</value>
+  </data>
+  <data name="OpenViewView_Region" xml:space="preserve">
+    <value>区域:</value>
+  </data>
+  <data name="OpenViewView_RelativeLocation" xml:space="preserve">
+    <value>打开画面使用的布局是窗口模式，请指定坐标参照方式:</value>
+  </data>
+  <data name="OpenViewView_SpecialRegion" xml:space="preserve">
+    <value>指定区域</value>
+  </data>
+  <data name="OpenViewView_Title" xml:space="preserve">
+    <value>选择要打开的画面</value>
+  </data>
+  <data name="OpenViewView_View" xml:space="preserve">
+    <value>画面:</value>
+  </data>
+  <data name="OpenViewView_ViewName" xml:space="preserve">
+    <value>名称:</value>
+  </data>
+  <data name="OpenViewView_Window" xml:space="preserve">
+    <value>屏幕</value>
+  </data>
+  <data name="OperateTip" xml:space="preserve">
+    <value>操作提示</value>
+  </data>
+  <data name="OriginalSize" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="Orthogonality" xml:space="preserve">
+    <value>正交</value>
+  </data>
+  <data name="Others" xml:space="preserve">
+    <value>其他</value>
+  </data>
+  <data name="OthersTipText" xml:space="preserve">
+    <value>其他图形.</value>
+  </data>
+  <data name="Outline" xml:space="preserve">
+    <value>轮廓</value>
+  </data>
+  <data name="Output" xml:space="preserve">
+    <value>另存为图片</value>
+  </data>
+  <data name="OutputKey" xml:space="preserve">
+    <value>将画面内容导出为指定格式的图片文件</value>
+  </data>
+  <data name="Owner" xml:space="preserve">
+    <value>所有者:</value>
+  </data>
+  <data name="PageSetupCommand" xml:space="preserve">
+    <value>页面设置</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>密码:</value>
+  </data>
+  <data name="PasswordConfirmView_Title" xml:space="preserve">
+    <value>输入正确的密码，进行下一步操作</value>
+  </data>
+  <data name="PasswordErro" xml:space="preserve">
+    <value>密码输入错误!</value>
+  </data>
+  <data name="Paste" xml:space="preserve">
+    <value>粘贴</value>
+  </data>
+  <data name="PasteAnimates" xml:space="preserve">
+    <value>粘贴动画及操作</value>
+  </data>
+  <data name="PasteBrush" xml:space="preserve">
+    <value>粘贴填充</value>
+  </data>
+  <data name="PasteBrushKey" xml:space="preserve">
+    <value>将复制的填充样式粘贴到当前的图形对象</value>
+  </data>
+  <data name="PasteOperationKey" xml:space="preserve">
+    <value>粘贴剪贴板内容</value>
+  </data>
+  <data name="PasteShapeKey" xml:space="preserve">
+    <value>粘贴剪贴板内容</value>
+  </data>
+  <data name="PasteStroke" xml:space="preserve">
+    <value>粘贴线条</value>
+  </data>
+  <data name="PasteStrokeKey" xml:space="preserve">
+    <value>将复制的线条样式粘贴到当前的图形对象</value>
+  </data>
+  <data name="PathError" xml:space="preserve">
+    <value>请选择路径!</value>
+  </data>
+  <data name="PathGradient" xml:space="preserve">
+    <value>放射</value>
+  </data>
+  <data name="PathGradientFill" xml:space="preserve">
+    <value>放射</value>
+  </data>
+  <data name="PenWidthOutFlow" xml:space="preserve">
+    <value>线条的粗细应该在1－100之间。</value>
+  </data>
+  <data name="Permissions1" xml:space="preserve">
+    <value>权限</value>
+  </data>
+  <data name="PickColor" xml:space="preserve">
+    <value>单击选取透明色</value>
+  </data>
+  <data name="PieSliceComponent1" xml:space="preserve">
+    <value>成分</value>
+  </data>
+  <data name="PieSliceTitle" xml:space="preserve">
+    <value>成分(&amp;M):</value>
+  </data>
+  <data name="Pipe" xml:space="preserve">
+    <value>管道</value>
+  </data>
+  <data name="PipeStroke" xml:space="preserve">
+    <value>管道</value>
+  </data>
+  <data name="Pointer" xml:space="preserve">
+    <value>指针</value>
+  </data>
+  <data name="PointerTip" xml:space="preserve">
+    <value>重新选择.</value>
+  </data>
+  <data name="Preset" xml:space="preserve">
+    <value>预置</value>
+  </data>
+  <data name="Preview" xml:space="preserve">
+    <value>预览</value>
+  </data>
+  <data name="PreviewAll" xml:space="preserve">
+    <value>预览全部</value>
+  </data>
+  <data name="PreviewAllKey" xml:space="preserve">
+    <value>预览全部画面</value>
+  </data>
+  <data name="PreviewEditor_Preview" xml:space="preserve">
+    <value>效果预览(V):</value>
+  </data>
+  <data name="PreviewEditor_Property" xml:space="preserve">
+    <value>属性(P):</value>
+  </data>
+  <data name="PreviewKey" xml:space="preserve">
+    <value>预览画面</value>
+  </data>
+  <data name="PreviewTitle" xml:space="preserve">
+    <value>预览</value>
+  </data>
+  <data name="Preview_Note" xml:space="preserve">
+    <value>预览效果</value>
+  </data>
+  <data name="PrintCommand" xml:space="preserve">
+    <value>打印</value>
+  </data>
+  <data name="PrintPreviewCommand" xml:space="preserve">
+    <value>打印预览</value>
+  </data>
+  <data name="ProcessInfo" xml:space="preserve">
+    <value>处理中,请稍后...</value>
+  </data>
+  <data name="Processmessage" xml:space="preserve">
+    <value>{0} %</value>
+  </data>
+  <data name="Project_tooltip" xml:space="preserve">
+    <value>返回开始页</value>
+  </data>
+  <data name="PropertyHeader" xml:space="preserve">
+    <value>属性</value>
+  </data>
+  <data name="PropertyItem" xml:space="preserve">
+    <value>属性</value>
+  </data>
+  <data name="PropertyKey" xml:space="preserve">
+    <value>打开属性窗口</value>
+  </data>
+  <data name="PropertyKey1" xml:space="preserve">
+    <value>关闭属性窗口</value>
+  </data>
+  <data name="PropertyPadContentText" xml:space="preserve">
+    <value>属性</value>
+  </data>
+  <data name="PropertyPadKey" xml:space="preserve">
+    <value>配置对象基本属性</value>
+  </data>
+  <data name="Rectangle" xml:space="preserve">
+    <value>矩形</value>
+  </data>
+  <data name="Redo" xml:space="preserve">
+    <value>重做</value>
+  </data>
+  <data name="RedoOperationKey" xml:space="preserve">
+    <value>重复撤销</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="RemoveAllAnimates" xml:space="preserve">
+    <value>删除所有动画</value>
+  </data>
+  <data name="RemoveAllAnimatesMessage" xml:space="preserve">
+    <value>是否确认删除画面‘{0}’中的所有动画信息？</value>
+  </data>
+  <data name="RemoveAllAnimatesTitile" xml:space="preserve">
+    <value>删除所有动画</value>
+  </data>
+  <data name="RemoveAllEventMessage" xml:space="preserve">
+    <value>是否确认删除画面‘{0}’中的所有操作？</value>
+  </data>
+  <data name="RemoveAllEvents" xml:space="preserve">
+    <value>删除所有操作</value>
+  </data>
+  <data name="RemoveAllEventTitile" xml:space="preserve">
+    <value>删除所有操作</value>
+  </data>
+  <data name="RemoveCategoryMsg" xml:space="preserve">
+    <value>您确认要删除分类 '{0}' 吗？这将删除该分类下的所有图形模板!</value>
+  </data>
+  <data name="RemoveCombo" xml:space="preserve">
+    <value>删除图库模板 '{0}' 成功</value>
+  </data>
+  <data name="RemoveDocument" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="RemoveGraphics" xml:space="preserve">
+    <value>删除画面 '{0}' 成功</value>
+  </data>
+  <data name="RemoveGraphicsConfirmMessage" xml:space="preserve">
+    <value>是否确认删除画面‘{0}’？
+注意：执行删除操作后画面文件也同时被删除。</value>
+  </data>
+  <data name="RemoveGraphicsConfirmTitile" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="RemoveGraphicsGroup" xml:space="preserve">
+    <value>删除画面组 '{0}' 成功</value>
+  </data>
+  <data name="RemoveGraphicsGroupMessage" xml:space="preserve">
+    <value>是否确定要删除画面组 ‘{0}’ ？</value>
+  </data>
+  <data name="RemoveGraphicsTemplate" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="RemoveGraphicsTemplateMessage" xml:space="preserve">
+    <value>是否确定要删除模板 ‘{0}’ ？</value>
+  </data>
+  <data name="RemoveGraphicsTemplateTitle" xml:space="preserve">
+    <value>删除画面模板</value>
+  </data>
+  <data name="RemoveGroup" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="RemoveGroupConfirmMessage" xml:space="preserve">
+    <value>是否确认删除画面组‘{0}’以及组中的所有画面？</value>
+  </data>
+  <data name="RemoveGroupConfirmTitile" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="RemoveRegionItems" xml:space="preserve">
+    <value> '{0}' 尺寸过小，是否希望将其合并到相邻区域 ?</value>
+  </data>
+  <data name="RemoveRegionTitle" xml:space="preserve">
+    <value>提示</value>
+  </data>
+  <data name="RemoveSymbolKey" xml:space="preserve">
+    <value>删除选中图符</value>
+  </data>
+  <data name="RemoveTemplateGraphics" xml:space="preserve">
+    <value>删除模板 '{0}' 成功</value>
+  </data>
+  <data name="RemoveTemplateGroup" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="RemoveTemplateGroupGraphics" xml:space="preserve">
+    <value>删除模板组 '{0}' 成功</value>
+  </data>
+  <data name="RemoveTemplateGroupGuard" xml:space="preserve">
+    <value>删除组不可为空.</value>
+  </data>
+  <data name="RemoveTemplateGroupMessage" xml:space="preserve">
+    <value>是否确定要删除模板组‘{0}’ ？</value>
+  </data>
+  <data name="RemoveTemplateGroupTitle" xml:space="preserve">
+    <value>删除模板组</value>
+  </data>
+  <data name="Rename" xml:space="preserve">
+    <value>重命名</value>
+  </data>
+  <data name="RenameCategory" xml:space="preserve">
+    <value>分类重命名</value>
+  </data>
+  <data name="RenameCombo" xml:space="preserve">
+    <value>将 '{0}' 图符名称修改为 '{1}'</value>
+  </data>
+  <data name="RenamedGraphics" xml:space="preserve">
+    <value>将 '{0}' 画面名称修改为 '{1}'</value>
+  </data>
+  <data name="RenameGraphicsGroup" xml:space="preserve">
+    <value>将 '{0}' 画面组名称修改为 '{1}'</value>
+  </data>
+  <data name="RenameGraphicsKey" xml:space="preserve">
+    <value>重命名画面</value>
+  </data>
+  <data name="RenameGraphicsTemplate" xml:space="preserve">
+    <value>重命名</value>
+  </data>
+  <data name="RenameGroupKey" xml:space="preserve">
+    <value>重命名画面组</value>
+  </data>
+  <data name="RenameSymbolKey" xml:space="preserve">
+    <value>重命名图符</value>
+  </data>
+  <data name="RenameTemplateGroup" xml:space="preserve">
+    <value>重命名</value>
+  </data>
+  <data name="ReourceImportedCultrueErro" xml:space="preserve">
+    <value>导入资源使用的语言环境和当前的语言环境不一致.</value>
+  </data>
+  <data name="Repeat" xml:space="preserve">
+    <value>重复</value>
+  </data>
+  <data name="RepeatCount" xml:space="preserve">
+    <value>重复次数</value>
+  </data>
+  <data name="ReplaceStringEditView_Title" xml:space="preserve">
+    <value>替换字符串编辑</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>重置</value>
+  </data>
+  <data name="ResetColWidth" xml:space="preserve">
+    <value>平均列宽</value>
+  </data>
+  <data name="ResetPrest" xml:space="preserve">
+    <value>您确定将预置恢复到默认吗？这将丢失您自定义的预置！</value>
+  </data>
+  <data name="ResetPrestDelete" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="ResetPrestLoader" xml:space="preserve">
+    <value>载入</value>
+  </data>
+  <data name="ResetPrestQuestion" xml:space="preserve">
+    <value>确认</value>
+  </data>
+  <data name="ResetPrestSave" xml:space="preserve">
+    <value>存储</value>
+  </data>
+  <data name="ResetPrestSaveFilter" xml:space="preserve">
+    <value>渐变(*grd)|*.grd</value>
+  </data>
+  <data name="ResetRowHeight" xml:space="preserve">
+    <value>平均行高</value>
+  </data>
+  <data name="ResetSize" xml:space="preserve">
+    <value>恢复原始大小</value>
+  </data>
+  <data name="Reset_Desc" xml:space="preserve">
+    <value>重置值</value>
+  </data>
+  <data name="ResolutioinError" xml:space="preserve">
+    <value>分辨率转换失败，原因：{0}</value>
+  </data>
+  <data name="ResolutionCommand" xml:space="preserve">
+    <value>分辨率转换</value>
+  </data>
+  <data name="ResolutionHint" xml:space="preserve">
+    <value>分辨率从{0}转换为{1}</value>
+  </data>
+  <data name="ResourceAdd" xml:space="preserve">
+    <value>新建</value>
+  </data>
+  <data name="ResourceDatabaseEditorHead" xml:space="preserve">
+    <value>资源中数据库</value>
+  </data>
+  <data name="ResourceDatabaseEditorView_Title" xml:space="preserve">
+    <value>数据库</value>
+  </data>
+  <data name="ResourceFileEditorView_Title" xml:space="preserve">
+    <value>文件</value>
+  </data>
+  <data name="ResourceImageEditorAddImage" xml:space="preserve">
+    <value>添加图片</value>
+  </data>
+  <data name="ResourceImageEditorFile" xml:space="preserve">
+    <value>文件:</value>
+  </data>
+  <data name="ResourceImageEditorHead" xml:space="preserve">
+    <value>资源中图片</value>
+  </data>
+  <data name="ResourceImageEditorResourceName" xml:space="preserve">
+    <value>输入资源中的名称:</value>
+  </data>
+  <data name="ResourceImageEditorResourceOverwrite" xml:space="preserve">
+    <value>提示：资源项已经存在,重命名或继续?
+      继续将会覆盖当前存在的项。</value>
+  </data>
+  <data name="ResourceImageEditorView_Add" xml:space="preserve">
+    <value>添加</value>
+  </data>
+  <data name="ResourceImageEditorView_AddHeader" xml:space="preserve">
+    <value>添加图片资源</value>
+  </data>
+  <data name="ResourceImageEditorView_Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="ResourceImageEditorView_FileName" xml:space="preserve">
+    <value>文件名称:</value>
+  </data>
+  <data name="ResourceImageEditorView_OK" xml:space="preserve">
+    <value>确认</value>
+  </data>
+  <data name="ResourceImageEditorView_ResName" xml:space="preserve">
+    <value>资源名称:</value>
+  </data>
+  <data name="ResourceImageEditorView_ResourceHeader" xml:space="preserve">
+    <value>图片资源列表</value>
+  </data>
+  <data name="ResourceImageEditorView_Title" xml:space="preserve">
+    <value>图片</value>
+  </data>
+  <data name="ResourceMergeViewCreatNew" xml:space="preserve">
+    <value>新建</value>
+  </data>
+  <data name="ResourceMergeViewOverwrite" xml:space="preserve">
+    <value>覆盖</value>
+  </data>
+  <data name="ResourceMergeViewProjectName" xml:space="preserve">
+    <value>工程资源</value>
+  </data>
+  <data name="ResourceMergeViewSourceHead" xml:space="preserve">
+    <value>下列资源中使用的图片在工程中已经存在，选择怎么处理这些图片。</value>
+  </data>
+  <data name="ResourceMergeViewSourceHead2" xml:space="preserve">
+    <value>下列资源中使用的文件在工程中已经存在，选择怎么处理这些文件。</value>
+  </data>
+  <data name="ResourceMergeViewSourceHead3" xml:space="preserve">
+    <value>下列资源中使用的声音文件在工程中已经存在，选择怎么处理这些声音文件。</value>
+  </data>
+  <data name="ResourceMergeViewSourceHead4" xml:space="preserve">
+    <value>下列资源中使用的视频文件在工程中已经存在，选择怎么处理这些视频文件。</value>
+  </data>
+  <data name="ResourceMergeViewSourceName" xml:space="preserve">
+    <value>导入资源</value>
+  </data>
+  <data name="ResourceMergeViewTitle" xml:space="preserve">
+    <value>资源导入</value>
+  </data>
+  <data name="ResourceMergeViewUseExist" xml:space="preserve">
+    <value>使用现有资源</value>
+  </data>
+  <data name="ResourceTextEditorView_Lable" xml:space="preserve">
+    <value>关联到资源:</value>
+  </data>
+  <data name="ResourceTextEditorView_Text" xml:space="preserve">
+    <value>输入的文本:</value>
+  </data>
+  <data name="ResourceTextEditorView_Title" xml:space="preserve">
+    <value>文本</value>
+  </data>
+  <data name="ResourceUpdate" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="ReviewPlugin_CurrentTime" xml:space="preserve">
+    <value>回放时间:</value>
+  </data>
+  <data name="ReviewPlugin_End" xml:space="preserve">
+    <value>结束:</value>
+  </data>
+  <data name="ReviewPlugin_Start" xml:space="preserve">
+    <value>开始:</value>
+  </data>
+  <data name="RightFlipKey" xml:space="preserve">
+    <value>将选中的图形对象以中心点为圆心顺时针旋转90度</value>
+  </data>
+  <data name="RotateEnable" xml:space="preserve">
+    <value>旋转使能</value>
+  </data>
+  <data name="RotateKey" xml:space="preserve">
+    <value>对图形对象进行旋转操作</value>
+  </data>
+  <data name="RotateStr" xml:space="preserve">
+    <value>RotateStr</value>
+  </data>
+  <data name="RotateTip" xml:space="preserve">
+    <value>按Ctrl +数据进行以 15°为单位进行旋转.</value>
+  </data>
+  <data name="SameHeight" xml:space="preserve">
+    <value>相同高度</value>
+  </data>
+  <data name="SameHeightKey" xml:space="preserve">
+    <value>选中多个图形与参考图形高度相同</value>
+  </data>
+  <data name="SameSize" xml:space="preserve">
+    <value>相同尺寸</value>
+  </data>
+  <data name="SameSizeKey" xml:space="preserve">
+    <value>选中多个图形与参考图形大小相同</value>
+  </data>
+  <data name="SameWidth" xml:space="preserve">
+    <value>相同宽度</value>
+  </data>
+  <data name="SameWidthKey" xml:space="preserve">
+    <value>选中多个图形与参考图形宽度相同</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="SaveAll" xml:space="preserve">
+    <value>保持全部</value>
+  </data>
+  <data name="SaveDocumentKey" xml:space="preserve">
+    <value>保存子系统修改</value>
+  </data>
+  <data name="SaveFileDialogTitle" xml:space="preserve">
+    <value>选择文件</value>
+  </data>
+  <data name="SaveGraphicsHint" xml:space="preserve">
+    <value>'{0}'画面输出为'{1}'图片，位置：'{2}'</value>
+  </data>
+  <data name="SaveTitle" xml:space="preserve">
+    <value>保存(&amp;S)</value>
+  </data>
+  <data name="SaveToolTip" xml:space="preserve">
+    <value>保持</value>
+  </data>
+  <data name="ScaleTip" xml:space="preserve">
+    <value>按Shift + 缩放尺寸, 以中心进行缩放.</value>
+  </data>
+  <data name="ScreenMappedView_Advance" xml:space="preserve">
+    <value>多显示器</value>
+  </data>
+  <data name="ScreenMappedView_DragtoSelect" xml:space="preserve">
+    <value>单击选择一个显示器，或拖动选择选择多个显示器.</value>
+  </data>
+  <data name="ScreenMappedView_HorNumber" xml:space="preserve">
+    <value>水平:</value>
+  </data>
+  <data name="ScreenMappedView_mappedArea" xml:space="preserve">
+    <value>选择要使用的显示器:</value>
+  </data>
+  <data name="ScreenMappedView_PhysicsTitle" xml:space="preserve">
+    <value>显示器及排列:</value>
+  </data>
+  <data name="ScreenMappedView_VerNumber" xml:space="preserve">
+    <value>垂直:</value>
+  </data>
+  <data name="ScriptLayoutSelectView_RelativeLocation" xml:space="preserve">
+    <value>布局是窗口模式，请指定坐标参照方式:</value>
+  </data>
+  <data name="ScriptLayoutSelectView_Title" xml:space="preserve">
+    <value>布局选择</value>
+  </data>
+  <data name="SelectAll" xml:space="preserve">
+    <value>全选</value>
+  </data>
+  <data name="SelectAllKey" xml:space="preserve">
+    <value>选择当前画面的所有图形对象</value>
+  </data>
+  <data name="SelectGraphicsKey" xml:space="preserve">
+    <value>单击或使用↑↓键选择画面， Delete键删除选中画面</value>
+  </data>
+  <data name="SelectGraphicsPrompt" xml:space="preserve">
+    <value>单击或使用↑↓键选择画面， Delete键删除选中画面</value>
+  </data>
+  <data name="SelectGroupKey" xml:space="preserve">
+    <value>单击或使用↑↓键选择画面， Delete键删除选中画面</value>
+  </data>
+  <data name="SelectGroupPrompt" xml:space="preserve">
+    <value>右键可新建画面组或画面</value>
+  </data>
+  <data name="SelectObjectKey" xml:space="preserve">
+    <value>双击使用工具箱中图符</value>
+  </data>
+  <data name="SelectTip" xml:space="preserve">
+    <value>按Ctrl(Shift) ，点击对象进行多选, 按Alt ，点击对象追加选择.</value>
+  </data>
+  <data name="SendBackKey" xml:space="preserve">
+    <value>将选中的一个或多个图形对象移到最下层显示</value>
+  </data>
+  <data name="SendFrontKey" xml:space="preserve">
+    <value>将选中的一个或多个图形对象移到最上层显示</value>
+  </data>
+  <data name="SendNextKey" xml:space="preserve">
+    <value>将选中的一个或多个图形对象移到下一层显示</value>
+  </data>
+  <data name="SendPreviousKey" xml:space="preserve">
+    <value>将选中的一个或多个图形对象移到上一层显示</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>显示</value>
+  </data>
+  <data name="SettingsKey" xml:space="preserve">
+    <value>显示配置</value>
+  </data>
+  <data name="ShapeAddEvent" xml:space="preserve">
+    <value>'{1}' 图形对象添加了 '{0}' 事件</value>
+  </data>
+  <data name="ShapeAimate" xml:space="preserve">
+    <value>子图形动画</value>
+  </data>
+  <data name="ShapeCommand" xml:space="preserve">
+    <value>图形</value>
+  </data>
+  <data name="ShapeLib" xml:space="preserve">
+    <value>图像库</value>
+  </data>
+  <data name="ShapeOperation" xml:space="preserve">
+    <value>子图形操作</value>
+  </data>
+  <data name="ShapeOutput" xml:space="preserve">
+    <value>图形另存为图片</value>
+  </data>
+  <data name="ShapeOutputKey" xml:space="preserve">
+    <value>将选中的图形导出为指定格式的图片文件</value>
+  </data>
+  <data name="ShapePad" xml:space="preserve">
+    <value>图形</value>
+  </data>
+  <data name="ShapeProperty" xml:space="preserve">
+    <value>子图形属性</value>
+  </data>
+  <data name="ShapeSelectBrowserView_LeftTitle" xml:space="preserve">
+    <value>图形列表</value>
+  </data>
+  <data name="ShapeSelectBrowserView_RightTitle" xml:space="preserve">
+    <value>已选中图形列表</value>
+  </data>
+  <data name="ShapeSelectBrowserView_TargetName" xml:space="preserve">
+    <value>图形名称</value>
+  </data>
+  <data name="Shear1" xml:space="preserve">
+    <value>剪切</value>
+  </data>
+  <data name="ShearKey" xml:space="preserve">
+    <value>对图形对象进行倾斜操作</value>
+  </data>
+  <data name="ShearTip" xml:space="preserve">
+    <value>按Ctrl + 数字进行剪切.</value>
+  </data>
+  <data name="ShowAnimateKey" xml:space="preserve">
+    <value>动画属性</value>
+  </data>
+  <data name="ShowEventKey" xml:space="preserve">
+    <value>事件属性</value>
+  </data>
+  <data name="ShowFormate" xml:space="preserve">
+    <value>数据显示</value>
+  </data>
+  <data name="ShowPropertyKey" xml:space="preserve">
+    <value>基本属性</value>
+  </data>
+  <data name="ShowSelectRect" xml:space="preserve">
+    <value>显示操作框</value>
+  </data>
+  <data name="Size1" xml:space="preserve">
+    <value>大小</value>
+  </data>
+  <data name="Sizeable" xml:space="preserve">
+    <value>可变大小</value>
+  </data>
+  <data name="SizeOut" xml:space="preserve">
+    <value>外框大小.</value>
+  </data>
+  <data name="SlideInputX" xml:space="preserve">
+    <value>数据输入</value>
+  </data>
+  <data name="SmallIconStyle" xml:space="preserve">
+    <value>小图标</value>
+  </data>
+  <data name="Solid" xml:space="preserve">
+    <value>单色</value>
+  </data>
+  <data name="SolidFill" xml:space="preserve">
+    <value>单色</value>
+  </data>
+  <data name="SoundWhenOperation" xml:space="preserve">
+    <value>操作声音</value>
+  </data>
+  <data name="StartColor" xml:space="preserve">
+    <value>起始色</value>
+  </data>
+  <data name="StartPoint1" xml:space="preserve">
+    <value>起点</value>
+  </data>
+  <data name="StringFormat_IsPassword" xml:space="preserve">
+    <value>输入字符串显示为"*"</value>
+  </data>
+  <data name="StringFormat_Text" xml:space="preserve">
+    <value>默认以数值转换为字符串显示.</value>
+  </data>
+  <data name="Stroke1" xml:space="preserve">
+    <value>线条</value>
+  </data>
+  <data name="StrokeFormatBrush" xml:space="preserve">
+    <value>线条格式</value>
+  </data>
+  <data name="StrokeFormatKey" xml:space="preserve">
+    <value>提取选中图形的线条样式</value>
+  </data>
+  <data name="Stroke_Title" xml:space="preserve">
+    <value>线条</value>
+  </data>
+  <data name="subAnimates" xml:space="preserve">
+    <value>子图形-动画</value>
+  </data>
+  <data name="subEvents" xml:space="preserve">
+    <value>子图形-事件</value>
+  </data>
+  <data name="SwitchAndButtons" xml:space="preserve">
+    <value>开关、按钮</value>
+  </data>
+  <data name="SwitchAndButtonsTipText" xml:space="preserve">
+    <value>开关和按钮.</value>
+  </data>
+  <data name="SymbolCategory" xml:space="preserve">
+    <value>分类</value>
+  </data>
+  <data name="SymbolCategoryKey" xml:space="preserve">
+    <value>管理图库分类</value>
+  </data>
+  <data name="SymbolSelectKey" xml:space="preserve">
+    <value>双击使用此图符，右键可添加或删除图符</value>
+  </data>
+  <data name="TagExportReplaceView_No" xml:space="preserve">
+    <value>编号</value>
+  </data>
+  <data name="TagExportReplaceView_Source" xml:space="preserve">
+    <value>变量</value>
+  </data>
+  <data name="TagExportReplaceView_Target" xml:space="preserve">
+    <value>参数</value>
+  </data>
+  <data name="TagExportReplaceView_Type" xml:space="preserve">
+    <value>变量类型</value>
+  </data>
+  <data name="TagExpression" xml:space="preserve">
+    <value>变量:</value>
+  </data>
+  <data name="TagReferenceTitle" xml:space="preserve">
+    <value>变量引用信息</value>
+  </data>
+  <data name="TagReplaceView_New" xml:space="preserve">
+    <value>替换为:</value>
+  </data>
+  <data name="TagReplaceView_Old" xml:space="preserve">
+    <value>查找内容:</value>
+  </data>
+  <data name="TagReplaceView_Title" xml:space="preserve">
+    <value>变量名称替换</value>
+  </data>
+  <data name="TagsOfImportFile" xml:space="preserve">
+    <value>导入文件中的变量</value>
+  </data>
+  <data name="TagsOfTemplate" xml:space="preserve">
+    <value>参数</value>
+  </data>
+  <data name="TagsOfView" xml:space="preserve">
+    <value>画面变量集合</value>
+  </data>
+  <data name="TagTemplateExportReplaceView_Target" xml:space="preserve">
+    <value>参数</value>
+  </data>
+  <data name="TempateExportView_Description" xml:space="preserve">
+    <value>描述:</value>
+  </data>
+  <data name="TempateExportView_Group" xml:space="preserve">
+    <value>组:</value>
+  </data>
+  <data name="TempateExportView_Name" xml:space="preserve">
+    <value>名称:</value>
+  </data>
+  <data name="Template" xml:space="preserve">
+    <value>模板</value>
+  </data>
+  <data name="TemplateComboDelegateReplaceViewModel_Title" xml:space="preserve">
+    <value>组合图形模板变量替换</value>
+  </data>
+  <data name="TemplateComboDelegateReplaceView_AnimateAndOperation" xml:space="preserve">
+    <value>动画和操作</value>
+  </data>
+  <data name="TemplateComboDelegateReplaceView_Property" xml:space="preserve">
+    <value>属性</value>
+  </data>
+  <data name="TemplateComboDelegateReplaceView_TagRefrenceManager" xml:space="preserve">
+    <value>变量替换</value>
+  </data>
+  <data name="TemplateCombo_SourceTitle" xml:space="preserve">
+    <value>参数</value>
+  </data>
+  <data name="TemplateCombo_TargetTitle" xml:space="preserve">
+    <value>变量</value>
+  </data>
+  <data name="TemplateCombo_Title" xml:space="preserve">
+    <value>图库变量管理</value>
+  </data>
+  <data name="TemplateDragToMoveTreeItem" xml:space="preserve">
+    <value>单击选中，打开模板，拖动将画面移动到另外一个模板组</value>
+  </data>
+  <data name="TemplateExportSeccessfull" xml:space="preserve">
+    <value>模板导出完成.</value>
+  </data>
+  <data name="TemplateExportSelectView_FileName" xml:space="preserve">
+    <value>名称:</value>
+  </data>
+  <data name="TemplateExportSelectView_SourceName" xml:space="preserve">
+    <value>导出文件名称</value>
+  </data>
+  <data name="TemplateExportSelectView_TargetName" xml:space="preserve">
+    <value>模板名称</value>
+  </data>
+  <data name="TemplateExportSelectView_Title" xml:space="preserve">
+    <value>选择要导出的模板</value>
+  </data>
+  <data name="TemplateExport_Index_Filter" xml:space="preserve">
+    <value>模板导出文件|*.zetgrp</value>
+  </data>
+  <data name="TemplateExport_Process_Title" xml:space="preserve">
+    <value>模板导出处理中...</value>
+  </data>
+  <data name="TemplateGroup" xml:space="preserve">
+    <value>模板组</value>
+  </data>
+  <data name="TemplateImportSelectView_SourceName" xml:space="preserve">
+    <value>导出文件名称</value>
+  </data>
+  <data name="TemplateImportSelectView_TargetName" xml:space="preserve">
+    <value>模板名称</value>
+  </data>
+  <data name="TemplateImportSelectView_Title" xml:space="preserve">
+    <value>选择要导入的模板</value>
+  </data>
+  <data name="TemplateImport_Process_Title" xml:space="preserve">
+    <value>模板导入处理中...</value>
+  </data>
+  <data name="TemplateImport_SourceTitle" xml:space="preserve">
+    <value>参数</value>
+  </data>
+  <data name="TemplateImport_TargetTitle" xml:space="preserve">
+    <value>变量</value>
+  </data>
+  <data name="TemplateImport_Title" xml:space="preserve">
+    <value>参数变量化</value>
+  </data>
+  <data name="TemplateManager" xml:space="preserve">
+    <value>模板管理</value>
+  </data>
+  <data name="TemplateManagerGuard" xml:space="preserve">
+    <value>模板管理不可为空.</value>
+  </data>
+  <data name="TemplateMustForm" xml:space="preserve">
+    <value>选中的模板必须为窗口模式.</value>
+  </data>
+  <data name="TemplateOverwite" xml:space="preserve">
+    <value>模板 '{0}' 已经存在，你是否想覆盖?</value>
+  </data>
+  <data name="TemplateSavingPathIsEmpty" xml:space="preserve">
+    <value>模板存储路径不可为空.</value>
+  </data>
+  <data name="TemplateSelectBrowserView_LeftTitle" xml:space="preserve">
+    <value>模板列表</value>
+  </data>
+  <data name="TemplateSelectBrowserView_RightTitle" xml:space="preserve">
+    <value>已选中模板列表</value>
+  </data>
+  <data name="TemplateSelectBrowserView_TargetName" xml:space="preserve">
+    <value>模板名称</value>
+  </data>
+  <data name="TemplateSelectBrowserView_Title" xml:space="preserve">
+    <value>模板选择</value>
+  </data>
+  <data name="TemplateTitle" xml:space="preserve">
+    <value>模板</value>
+  </data>
+  <data name="textResourceConflite" xml:space="preserve">
+    <value>多个地方用到了资源 ' {0} ', 你可以点击 ' 更新 ' 进行更新,' 新建 ' 创建一个新的资源. </value>
+  </data>
+  <data name="textResourceConfliteTitle" xml:space="preserve">
+    <value>改变文本</value>
+  </data>
+  <data name="textResourceConfliteTitle_effect" xml:space="preserve">
+    <value>修改</value>
+  </data>
+  <data name="textResourceConfliteTitle_noeffect" xml:space="preserve">
+    <value>不影响</value>
+  </data>
+  <data name="textResourceConfliteTitle_text1" xml:space="preserve">
+    <value>工程中有其它相同文本，选择只修改当前文本或所有文本。</value>
+  </data>
+  <data name="textResourceConfliteTitle_text2" xml:space="preserve">
+    <value>仅当前文本</value>
+  </data>
+  <data name="textResourceConfliteTitle_text3" xml:space="preserve">
+    <value>所有文本</value>
+  </data>
+  <data name="textResourceConfliteTitle_text4" xml:space="preserve">
+    <value>或者 点击 '取消' 取消本次文本修改.</value>
+  </data>
+  <data name="Texture" xml:space="preserve">
+    <value>图片</value>
+  </data>
+  <data name="TextureFill" xml:space="preserve">
+    <value>纹理</value>
+  </data>
+  <data name="TextureFill_Center" xml:space="preserve">
+    <value>居中</value>
+  </data>
+  <data name="TextureFill_graph" xml:space="preserve">
+    <value>图形</value>
+  </data>
+  <data name="TextureFill_hor" xml:space="preserve">
+    <value>水平</value>
+  </data>
+  <data name="TextureFill_horver" xml:space="preserve">
+    <value>水平垂直</value>
+  </data>
+  <data name="TextureFill_Location" xml:space="preserve">
+    <value>位置:</value>
+  </data>
+  <data name="TextureFill_Name" xml:space="preserve">
+    <value>名称:</value>
+  </data>
+  <data name="TextureFill_normal" xml:space="preserve">
+    <value>正常</value>
+  </data>
+  <data name="TextureFill_stretch" xml:space="preserve">
+    <value>拉伸</value>
+  </data>
+  <data name="TextureFill_Tile" xml:space="preserve">
+    <value>平铺</value>
+  </data>
+  <data name="TextureFill_ver" xml:space="preserve">
+    <value>垂直</value>
+  </data>
+  <data name="TextureFill_view" xml:space="preserve">
+    <value>画面</value>
+  </data>
+  <data name="Texture_Flatmirror" xml:space="preserve">
+    <value>平铺镜像:</value>
+  </data>
+  <data name="Texture_FlatRelative" xml:space="preserve">
+    <value>平铺相对:</value>
+  </data>
+  <data name="Thickness" xml:space="preserve">
+    <value>粗细</value>
+  </data>
+  <data name="ThreeHorSplite" xml:space="preserve">
+    <value>三等分</value>
+  </data>
+  <data name="ThreeVerSplite" xml:space="preserve">
+    <value>三等分</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>标题:</value>
+  </data>
+  <data name="TitleBar" xml:space="preserve">
+    <value>标题栏</value>
+  </data>
+  <data name="TitleInfo" xml:space="preserve">
+    <value>操作提示</value>
+  </data>
+  <data name="ToolBarOutput" xml:space="preserve">
+    <value>输出</value>
+  </data>
+  <data name="ToolbarPermission_Title" xml:space="preserve">
+    <value>安全</value>
+  </data>
+  <data name="ToolbarRotate" xml:space="preserve">
+    <value>旋转</value>
+  </data>
+  <data name="ToolbarWindows" xml:space="preserve">
+    <value>窗口</value>
+  </data>
+  <data name="ToolBox" xml:space="preserve">
+    <value>工具箱</value>
+  </data>
+  <data name="ToolboxAddCategory" xml:space="preserve">
+    <value>添加分类</value>
+  </data>
+  <data name="ToolboxAddComboKey" xml:space="preserve">
+    <value>添加图库</value>
+  </data>
+  <data name="ToolboxKey" xml:space="preserve">
+    <value>打开工具箱窗口</value>
+  </data>
+  <data name="ToolboxKey1" xml:space="preserve">
+    <value>关闭工具箱窗口</value>
+  </data>
+  <data name="ToolBoxMsgUpdate_Header" xml:space="preserve">
+    <value>组合图形更新</value>
+  </data>
+  <data name="ToolBoxMsgUpdate_Msg" xml:space="preserve">
+    <value>是否想要更新选中的组合图形。（是）更新，（否）追加。</value>
+  </data>
+  <data name="ToolboxRemoveCategory" xml:space="preserve">
+    <value>删除分类</value>
+  </data>
+  <data name="ToolboxRemoveCombo" xml:space="preserve">
+    <value>删除图库</value>
+  </data>
+  <data name="ToolboxRenameCategory" xml:space="preserve">
+    <value>分类重命名</value>
+  </data>
+  <data name="ToolboxRenameCombo" xml:space="preserve">
+    <value>图库重命名</value>
+  </data>
+  <data name="ToolBox_AddCategory_Title" xml:space="preserve">
+    <value>新建分组</value>
+  </data>
+  <data name="ToolBox_ChangeOwner" xml:space="preserve">
+    <value>更改所有者</value>
+  </data>
+  <data name="ToolBox_ChangePassword" xml:space="preserve">
+    <value>安全设置</value>
+  </data>
+  <data name="ToolBox_Export" xml:space="preserve">
+    <value>导出</value>
+  </data>
+  <data name="ToolBox_Export_File" xml:space="preserve">
+    <value>文件名称:</value>
+  </data>
+  <data name="ToolBox_Export_Title" xml:space="preserve">
+    <value>选择要导出的分组</value>
+  </data>
+  <data name="ToolBox_Import" xml:space="preserve">
+    <value>导入</value>
+  </data>
+  <data name="ToolBox_Import_Isoverwrite" xml:space="preserve">
+    <value>冲突时覆盖</value>
+  </data>
+  <data name="ToolBox_Import_SoureName" xml:space="preserve">
+    <value>分类名称</value>
+  </data>
+  <data name="ToolBox_Import_Title" xml:space="preserve">
+    <value>选择要导入的模板分类</value>
+  </data>
+  <data name="ToolBox_OwnerModify_Title" xml:space="preserve">
+    <value>所有者修改</value>
+  </data>
+  <data name="ToolBox_PasswordConfirm_Skip" xml:space="preserve">
+    <value>下次不再显示</value>
+  </data>
+  <data name="ToolBox_PasswordConfirm_Title" xml:space="preserve">
+    <value>安全验证</value>
+  </data>
+  <data name="ToolBox_PasswordModify_Title" xml:space="preserve">
+    <value>安全设置</value>
+  </data>
+  <data name="Top" xml:space="preserve">
+    <value>顶层窗口</value>
+  </data>
+  <data name="Transfer" xml:space="preserve">
+    <value>跳转</value>
+  </data>
+  <data name="Transform" xml:space="preserve">
+    <value>转换</value>
+  </data>
+  <data name="TreeDataTemplate_groupnote" xml:space="preserve">
+    <value>选择，编辑模板组</value>
+  </data>
+  <data name="TreeDataTemplate_note" xml:space="preserve">
+    <value>右键菜单添加模板分组</value>
+  </data>
+  <data name="TreeDataView_groupnote" xml:space="preserve">
+    <value>选择，编辑画面组</value>
+  </data>
+  <data name="TreeDataView_note" xml:space="preserve">
+    <value>使用下方的按钮或右键菜单添加画面或画面分组</value>
+  </data>
+  <data name="TrueString" xml:space="preserve">
+    <value>打开</value>
+  </data>
+  <data name="TrueText1" xml:space="preserve">
+    <value>打开</value>
+  </data>
+  <data name="TwoHorSplite" xml:space="preserve">
+    <value>二等分</value>
+  </data>
+  <data name="TwoVerSplite" xml:space="preserve">
+    <value>二等分</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="UndoOperationKey" xml:space="preserve">
+    <value>撤销</value>
+  </data>
+  <data name="UnGroupHint" xml:space="preserve">
+    <value>'{0}'组合图形分解成图形'{1}'</value>
+  </data>
+  <data name="UnGroupKey" xml:space="preserve">
+    <value>将选中的组合图形分解为组合前的图形对象</value>
+  </data>
+  <data name="UpdateCombo" xml:space="preserve">
+    <value>图形模板 '{0}' 被更新</value>
+  </data>
+  <data name="ValueAxisListTitle" xml:space="preserve">
+    <value>数值轴(&amp;M):</value>
+  </data>
+  <data name="ValueExpression" xml:space="preserve">
+    <value>数值:</value>
+  </data>
+  <data name="Value_Expression" xml:space="preserve">
+    <value>数值:</value>
+  </data>
+  <data name="VerMirrorKey" xml:space="preserve">
+    <value>垂直翻转</value>
+  </data>
+  <data name="VerticalKey" xml:space="preserve">
+    <value>将选中的多个对象在垂直方向上等间隔的分布</value>
+  </data>
+  <data name="VerticalStretch" xml:space="preserve">
+    <value>区域高度</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>画面</value>
+  </data>
+  <data name="ViewAppearance" xml:space="preserve">
+    <value>画面外观</value>
+  </data>
+  <data name="ViewCommand" xml:space="preserve">
+    <value>画面</value>
+  </data>
+  <data name="ViewExportResult" xml:space="preserve">
+    <value>导出结果</value>
+  </data>
+  <data name="ViewExportSeccessfull" xml:space="preserve">
+    <value>画面导出完成.</value>
+  </data>
+  <data name="ViewExportSelectView_FileName" xml:space="preserve">
+    <value>名称:</value>
+  </data>
+  <data name="ViewExportSelectView_Title" xml:space="preserve">
+    <value>选择要导出的画面</value>
+  </data>
+  <data name="ViewExportTitle" xml:space="preserve">
+    <value>变量参数化</value>
+  </data>
+  <data name="ViewExport_Index_Filter" xml:space="preserve">
+    <value>画面打包导出文件|*.zevgrp</value>
+  </data>
+  <data name="ViewExport_Process_Title" xml:space="preserve">
+    <value>画面导出处理中...</value>
+  </data>
+  <data name="ViewFileBrowserEditor_Header" xml:space="preserve">
+    <value>回放画面选择</value>
+  </data>
+  <data name="ViewFileBrowserEditor_Title" xml:space="preserve">
+    <value>选择要回放的画面</value>
+  </data>
+  <data name="ViewFileErro" xml:space="preserve">
+    <value>画面文件错误.</value>
+  </data>
+  <data name="ViewImportSelectView_FileName" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="ViewImportSelectView_IsDefault" xml:space="preserve">
+    <value>默认回放画面</value>
+  </data>
+  <data name="ViewImportSelectView_OverWrite" xml:space="preserve">
+    <value>名称相同时进行覆盖</value>
+  </data>
+  <data name="ViewImportSelectView_Selected" xml:space="preserve">
+    <value>选中</value>
+  </data>
+  <data name="ViewImportSelectView_SourceName" xml:space="preserve">
+    <value>导出文件名称</value>
+  </data>
+  <data name="ViewImportSelectView_TargetName" xml:space="preserve">
+    <value>工程中画面名称</value>
+  </data>
+  <data name="ViewImportSelectView_Title" xml:space="preserve">
+    <value>选择要导入的画面</value>
+  </data>
+  <data name="ViewImport_Index_Filter" xml:space="preserve">
+    <value>画面导出文件|*.zevgrp;*.evgrp</value>
+  </data>
+  <data name="ViewImport_Process_Title" xml:space="preserve">
+    <value>画面导入处理中...</value>
+  </data>
+  <data name="ViewImport_SourceTitle" xml:space="preserve">
+    <value>参数</value>
+  </data>
+  <data name="ViewImport_TargetTitle" xml:space="preserve">
+    <value>变量</value>
+  </data>
+  <data name="ViewImport_Title" xml:space="preserve">
+    <value>参数变量化</value>
+  </data>
+  <data name="ViewItems" xml:space="preserve">
+    <value>回放集合</value>
+  </data>
+  <data name="ViewOperationString" xml:space="preserve">
+    <value>操作了 {0}</value>
+  </data>
+  <data name="ViewOptions" xml:space="preserve">
+    <value>画面选项</value>
+  </data>
+  <data name="ViewOptionView_Drag" xml:space="preserve">
+    <value>拖拽</value>
+  </data>
+  <data name="ViewOptionView_Pan" xml:space="preserve">
+    <value>平移:</value>
+  </data>
+  <data name="ViewOptionView_ScrollBar" xml:space="preserve">
+    <value>滚动条</value>
+  </data>
+  <data name="ViewRegionView_AddLayout" xml:space="preserve">
+    <value>添加一个布局</value>
+  </data>
+  <data name="ViewRegionView_ClearView" xml:space="preserve">
+    <value>清除选中布局的默认画面</value>
+  </data>
+  <data name="ViewRegionView_DragToSelect" xml:space="preserve">
+    <value>拖动选择多个区域.</value>
+  </data>
+  <data name="ViewRegionView_HSize" xml:space="preserve">
+    <value>将选中的布局拥有相同的宽度</value>
+  </data>
+  <data name="ViewRegionView_Hsplite2" xml:space="preserve">
+    <value>将选中的区域在水平方向上拆分成2个</value>
+  </data>
+  <data name="ViewRegionView_Hsplite3" xml:space="preserve">
+    <value>将选中的区域在水平方向上拆分成3个</value>
+  </data>
+  <data name="ViewRegionView_Merger" xml:space="preserve">
+    <value>合并选中的布局</value>
+  </data>
+  <data name="ViewRegionView_ModifyValue" xml:space="preserve">
+    <value>双击鼠标左键修改值</value>
+  </data>
+  <data name="ViewRegionView_PreviewLayout" xml:space="preserve">
+    <value>预览选中的布局</value>
+  </data>
+  <data name="ViewRegionView_RemoveLayout" xml:space="preserve">
+    <value>删除选中的布局</value>
+  </data>
+  <data name="ViewRegionView_SetView" xml:space="preserve">
+    <value>设置选中布局的默认画面</value>
+  </data>
+  <data name="ViewRegionView_VSize" xml:space="preserve">
+    <value>将选中的布局拥有相同的高度</value>
+  </data>
+  <data name="ViewRegionView_Vsplite2" xml:space="preserve">
+    <value>将选中的区域在垂直方向上拆分成2个</value>
+  </data>
+  <data name="ViewRegionView_Vsplite3" xml:space="preserve">
+    <value>将选中的区域在垂直方向上拆分成3个</value>
+  </data>
+  <data name="ViewReplay" xml:space="preserve">
+    <value>画面回放</value>
+  </data>
+  <data name="ViewReplay_Desc" xml:space="preserve">
+    <value>减少回放速度</value>
+  </data>
+  <data name="ViewReplay_EndTime" xml:space="preserve">
+    <value>结束时间</value>
+  </data>
+  <data name="ViewReplay_Inc" xml:space="preserve">
+    <value>增加回放速度</value>
+  </data>
+  <data name="ViewReplay_MessageCount" xml:space="preserve">
+    <value>消息可见行数</value>
+  </data>
+  <data name="ViewReplay_MessageCount_Description" xml:space="preserve">
+    <value>在消息显示区域可见的消息行数，值范围1-100</value>
+  </data>
+  <data name="ViewReplay_Pause" xml:space="preserve">
+    <value>暂停</value>
+  </data>
+  <data name="ViewReplay_Spead" xml:space="preserve">
+    <value>回放速度</value>
+  </data>
+  <data name="ViewReplay_Spead_Description" xml:space="preserve">
+    <value>反映回放的快慢，是时间的倍数,值范围1-3600</value>
+  </data>
+  <data name="ViewReplay_Start" xml:space="preserve">
+    <value>开始</value>
+  </data>
+  <data name="ViewReplay_StartTime" xml:space="preserve">
+    <value>开始时间</value>
+  </data>
+  <data name="ViewReplay_Stop" xml:space="preserve">
+    <value>停止</value>
+  </data>
+  <data name="Views" xml:space="preserve">
+    <value>画面</value>
+  </data>
+  <data name="ViewSelectBrowserView_LeftTitle" xml:space="preserve">
+    <value>画面列表</value>
+  </data>
+  <data name="ViewSelectBrowserView_RightTitle" xml:space="preserve">
+    <value>已选中画面列表</value>
+  </data>
+  <data name="ViewSelectBrowserView_TargetName" xml:space="preserve">
+    <value>画面名称</value>
+  </data>
+  <data name="ViewSelectBrowserView_Title" xml:space="preserve">
+    <value>画面选择</value>
+  </data>
+  <data name="ViewSettings" xml:space="preserve">
+    <value>画面配置</value>
+  </data>
+  <data name="ViewsKey" xml:space="preserve">
+    <value>打开画面窗口</value>
+  </data>
+  <data name="ViewsKey1" xml:space="preserve">
+    <value>关闭画面窗口</value>
+  </data>
+  <data name="ViewsPadTitle" xml:space="preserve">
+    <value>画面</value>
+  </data>
+  <data name="ViewStyle" xml:space="preserve">
+    <value>显示样式</value>
+  </data>
+  <data name="ViewStyleKey" xml:space="preserve">
+    <value>更改图符显示视图</value>
+  </data>
+  <data name="Views_AddViewGroup" xml:space="preserve">
+    <value>添加画面组</value>
+  </data>
+  <data name="Views_AddViewKey" xml:space="preserve">
+    <value>添加画面</value>
+  </data>
+  <data name="Views_ConvertResolution" xml:space="preserve">
+    <value>转换分辨率</value>
+  </data>
+  <data name="VisibleChanged1" xml:space="preserve">
+    <value>可见性改变</value>
+  </data>
+  <data name="VSpaceSame" xml:space="preserve">
+    <value>使选中的对象有相同的垂直间隔</value>
+  </data>
+  <data name="Warning1" xml:space="preserve">
+    <value>警告</value>
+  </data>
+  <data name="Width" xml:space="preserve">
+    <value>宽度</value>
+  </data>
+  <data name="WindowsAppearance" xml:space="preserve">
+    <value>窗口外观</value>
+  </data>
+  <data name="WindowsControls" xml:space="preserve">
+    <value>Windows 控件</value>
+  </data>
+  <data name="WindowsControlsTipText" xml:space="preserve">
+    <value>Windows 控件.</value>
+  </data>
+  <data name="WpfCategory" xml:space="preserve">
+    <value>WPF</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>是</value>
+  </data>
+  <data name="ZhengJiaoKey" xml:space="preserve">
+    <value>画面进入正交模式，绘制图形为正交图形</value>
+  </data>
+  <data name="ZoomInOperationKey" xml:space="preserve">
+    <value>放大当前画面</value>
+  </data>
+  <data name="ZoomOriginalOperationKey" xml:space="preserve">
+    <value>恢复到原始大小</value>
+  </data>
+  <data name="ZoomOutOperationKey" xml:space="preserve">
+    <value>缩小当前画面</value>
+  </data>
+  <data name="信纸" xml:space="preserve">
+    <value>信纸</value>
+  </data>
+  <data name="再生纸" xml:space="preserve">
+    <value>再生纸</value>
+  </data>
+  <data name="斜纹布" xml:space="preserve">
+    <value>斜纹布</value>
+  </data>
+  <data name="新闻纸" xml:space="preserve">
+    <value>新闻纸</value>
+  </data>
+  <data name="栎木" xml:space="preserve">
+    <value>栎木</value>
+  </data>
+  <data name="棕色大理石" xml:space="preserve">
+    <value>棕色大理石</value>
+  </data>
+  <data name="水滴" xml:space="preserve">
+    <value>水滴</value>
+  </data>
+  <data name="沙滩" xml:space="preserve">
+    <value>沙滩</value>
+  </data>
+  <data name="深色木质" xml:space="preserve">
+    <value>深色木质</value>
+  </data>
+  <data name="画布" xml:space="preserve">
+    <value>画布</value>
+  </data>
+  <data name="白色大理石" xml:space="preserve">
+    <value>白色大理石</value>
+  </data>
+  <data name="粉色砂纸" xml:space="preserve">
+    <value>粉色砂纸</value>
+  </data>
+  <data name="紫色网格" xml:space="preserve">
+    <value>紫色网格</value>
+  </data>
+  <data name="纸莎草纸" xml:space="preserve">
+    <value>纸莎草纸</value>
+  </data>
+  <data name="纸袋" xml:space="preserve">
+    <value>纸袋</value>
+  </data>
+  <data name="绿色大理石" xml:space="preserve">
+    <value>绿色大理石</value>
+  </data>
+  <data name="编织物" xml:space="preserve">
+    <value>编织物</value>
+  </data>
+  <data name="羊皮纸" xml:space="preserve">
+    <value>羊皮纸</value>
+  </data>
+  <data name="胡桃" xml:space="preserve">
+    <value>胡桃</value>
+  </data>
+  <data name="花岗岩" xml:space="preserve">
+    <value>花岗岩</value>
+  </data>
+  <data name="花束" xml:space="preserve">
+    <value>花束</value>
+  </data>
+  <data name="蓝色砂纸" xml:space="preserve">
+    <value>蓝色砂纸</value>
+  </data>
+  <data name="软木塞" xml:space="preserve">
+    <value>软木塞</value>
+  </data>
+  <data name="鱼类化石" xml:space="preserve">
+    <value>鱼类化石</value>
+  </data>
+  <data name="ColorPicker" xml:space="preserve">
+    <value>颜色选择器</value>
+  </data>
+  <data name="CheckAll" xml:space="preserve">
+    <value>选中全部</value>
+  </data>
+  <data name="CollapseAll" xml:space="preserve">
+    <value>折叠全部</value>
+  </data>
+  <data name="ExpandAll" xml:space="preserve">
+    <value>展开全部</value>
+  </data>
+  <data name="UnCheckAll" xml:space="preserve">
+    <value>反选全部</value>
+  </data>
+  <data name="CheckBoxVisibility" xml:space="preserve">
+    <value>复选框可见</value>
+  </data>
+  <data name="CheckBoxVisibility_Description" xml:space="preserve">
+    <value>复选框是否可见</value>
+  </data>
+  <data name="DoubleClick" xml:space="preserve">
+    <value>双击程序</value>
+  </data>
+  <data name="DoubleClickInput" xml:space="preserve">
+    <value>双击值输入</value>
+  </data>
+  <data name="DoubleClickInput_Description" xml:space="preserve">
+    <value>鼠标双击输入配置变量的值</value>
+  </data>
+  <data name="DoubleClick_Description" xml:space="preserve">
+    <value>鼠标双击执行的程序</value>
+  </data>
+  <data name="ExpandIconVisibility" xml:space="preserve">
+    <value>展折图标可见</value>
+  </data>
+  <data name="ExpandIconVisibility_Description" xml:space="preserve">
+    <value>展折图标是否可见</value>
+  </data>
+  <data name="LeftButton" xml:space="preserve">
+    <value>左键</value>
+  </data>
+  <data name="LeftToRightLayout" xml:space="preserve">
+    <value>左到右布局</value>
+  </data>
+  <data name="LeftToRightLayout_Description" xml:space="preserve">
+    <value>控件是否从左到右布局</value>
+  </data>
+  <data name="NodeSpace" xml:space="preserve">
+    <value>子节点间距</value>
+  </data>
+  <data name="NodeSpace_Description" xml:space="preserve">
+    <value>子节点之间的距离</value>
+  </data>
+  <data name="RightButton" xml:space="preserve">
+    <value>右键</value>
+  </data>
+  <data name="SingleClick" xml:space="preserve">
+    <value>单击程序</value>
+  </data>
+  <data name="SingleClickInput" xml:space="preserve">
+    <value>单击值输入</value>
+  </data>
+  <data name="SingleClickInput_Description" xml:space="preserve">
+    <value>鼠标单击输入配置变量的值</value>
+  </data>
+  <data name="SingleClickMenu" xml:space="preserve">
+    <value>单击菜单</value>
+  </data>
+  <data name="SingleClickMenu_Description" xml:space="preserve">
+    <value>鼠标单击弹出画面菜单</value>
+  </data>
+  <data name="SingleClick_Description" xml:space="preserve">
+    <value>鼠标单击执行的程序</value>
+  </data>
+  <data name="LineVisibility" xml:space="preserve">
+    <value>连线可见</value>
+  </data>
+  <data name="LineVisibility_Description" xml:space="preserve">
+    <value>连接线是否可见</value>
+  </data>
+  <data name="FontSize" xml:space="preserve">
+    <value>字号</value>
+  </data>
+  <data name="FontSize_Description" xml:space="preserve">
+    <value>字体大小</value>
+  </data>
+  <data name="Margin" xml:space="preserve">
+    <value>左缩进</value>
+  </data>
+  <data name="FontFamilyString" xml:space="preserve">
+    <value>字体</value>
+  </data>
+  <data name="Foreground" xml:space="preserve">
+    <value>前景</value>
+  </data>
+  <data name="ImageSource" xml:space="preserve">
+    <value>图片</value>
+  </data>
+  <data name="NameIdentity" xml:space="preserve">
+    <value>名称唯一标识</value>
+  </data>
+  <data name="SelectedBackground" xml:space="preserve">
+    <value>选择项背景</value>
+  </data>
+  <data name="SelectedForeground" xml:space="preserve">
+    <value>选择项前景</value>
+  </data>
+  <data name="ToolTipString" xml:space="preserve">
+    <value>提示信息</value>
+  </data>
+  <data name="TreeNode" xml:space="preserve">
+    <value>树形节点</value>
+  </data>
+  <data name="TreeNodeCollection" xml:space="preserve">
+    <value>树形节点集合</value>
+  </data>
+  <data name="LeftSingleClick" xml:space="preserve">
+    <value>左单击程序</value>
+  </data>
+  <data name="LeftSingleClickInput" xml:space="preserve">
+    <value>左单击值输入</value>
+  </data>
+  <data name="LeftSingleClickMenu" xml:space="preserve">
+    <value>左单击菜单</value>
+  </data>
+  <data name="RightSingleClick" xml:space="preserve">
+    <value>右单击程序</value>
+  </data>
+  <data name="RightSingleClickInput" xml:space="preserve">
+    <value>右单击值输入</value>
+  </data>
+  <data name="RightSingleClickMenu" xml:space="preserve">
+    <value>右单击菜单</value>
+  </data>
+  <data name="KeyOperation" xml:space="preserve">
+    <value>键操作</value>
+  </data>
+  <data name="MenuVisibility" xml:space="preserve">
+    <value>菜单可见</value>
+  </data>
+  <data name="MenuVisibility_Description" xml:space="preserve">
+    <value>菜单是否可见</value>
+  </data>
+  <data name="CheckNodePrograme" xml:space="preserve">
+    <value>勾选节点程序</value>
+  </data>
+  <data name="CheckNodePrograme_Description" xml:space="preserve">
+    <value>选中节点时执行的程序</value>
+  </data>
+  <data name="NodeIdentyExisted" xml:space="preserve">
+    <value>唯一标示已存在!</value>
+  </data>
+  <data name="Permissionss" xml:space="preserve">
+    <value>权限</value>
+  </data>
+  <data name="TagIsReadonly" xml:space="preserve">
+    <value>所选Tag不能接受值输入操作</value>
+  </data>
+  <data name="LostFocusBackground" xml:space="preserve">
+    <value>选中失去焦点背景</value>
+  </data>
+  <data name="SmallerthanMinValue" xml:space="preserve">
+    <value>小于最小值</value>
+  </data>
+  <data name="UnCheckNodePrograme" xml:space="preserve">
+    <value>反勾选节点程序</value>
+  </data>
+  <data name="UnCheckNodePrograme_Description" xml:space="preserve">
+    <value>当反勾选节点事件发生时触发程序</value>
+  </data>
+  <data name="NodeSelected" xml:space="preserve">
+    <value>节点选中事件</value>
+  </data>
+  <data name="NodeSelected_Description" xml:space="preserve">
+    <value>节点选中事件</value>
+  </data>
+  <data name="dd" xml:space="preserve">
+    <value />
+  </data>
+</root>

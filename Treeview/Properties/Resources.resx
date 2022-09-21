@@ -1,0 +1,5631 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AcceptsReturn" xml:space="preserve">
+    <value>AcceptsReturn</value>
+  </data>
+  <data name="AcceptsTab" xml:space="preserve">
+    <value>AcceptsTab</value>
+  </data>
+  <data name="Action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="AdjustImageLocation" xml:space="preserve">
+    <value>AdjustImageLocation</value>
+  </data>
+  <data name="Aimate_Rotate" xml:space="preserve">
+    <value>Rotation</value>
+  </data>
+  <data name="Alignment" xml:space="preserve">
+    <value>Alignment</value>
+  </data>
+  <data name="Alignment_Description" xml:space="preserve">
+    <value>Alignment</value>
+  </data>
+  <data name="Angle" xml:space="preserve">
+    <value>Angle</value>
+  </data>
+  <data name="Angle_Description" xml:space="preserve">
+    <value>Angle from -360° to 360°</value>
+  </data>
+  <data name="Aniamte_Text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="AniButtonBackColor" xml:space="preserve">
+    <value>Background Color</value>
+  </data>
+  <data name="AniButtonBackColorFlash" xml:space="preserve">
+    <value>Background Color Flashing</value>
+  </data>
+  <data name="AniButtonTextColor" xml:space="preserve">
+    <value>Text Color</value>
+  </data>
+  <data name="AniButtonTextColorFlash" xml:space="preserve">
+    <value>Text Color Flashing</value>
+  </data>
+  <data name="AniDateTimeOutput" xml:space="preserve">
+    <value>Output</value>
+  </data>
+  <data name="AniDiscButtonText" xml:space="preserve">
+    <value>Text Content</value>
+  </data>
+  <data name="AniDiscDisable" xml:space="preserve">
+    <value>Operability</value>
+  </data>
+  <data name="AniDiscFill" xml:space="preserve">
+    <value>Fill Mode</value>
+  </data>
+  <data name="AniDiscFlash" xml:space="preserve">
+    <value>Flashing</value>
+  </data>
+  <data name="AniDiscFlow" xml:space="preserve">
+    <value>Stroke|Enable</value>
+  </data>
+  <data name="AniDiscFlowFill" xml:space="preserve">
+    <value>Flow Fill|Enable</value>
+  </data>
+  <data name="AniDiscHide" xml:space="preserve">
+    <value>Visibility</value>
+  </data>
+  <data name="AniDiscRotate" xml:space="preserve">
+    <value>Rotate Angle|Discrete</value>
+  </data>
+  <data name="AniDiscScaleHor" xml:space="preserve">
+    <value>Zoom Horizon|Discrete</value>
+  </data>
+  <data name="AniDiscScaleVer" xml:space="preserve">
+    <value>Zoom Vertical|Discrete</value>
+  </data>
+  <data name="AniDiscShearHor" xml:space="preserve">
+    <value>Shear Horizon|Discrete</value>
+  </data>
+  <data name="AniDiscShearVer" xml:space="preserve">
+    <value>Shear Vertical|Discrete</value>
+  </data>
+  <data name="AniDiscSwitchImage" xml:space="preserve">
+    <value>Switch Image</value>
+  </data>
+  <data name="AniDiscTextColor" xml:space="preserve">
+    <value>Text Foreground</value>
+  </data>
+  <data name="AniEditorColorFlash_Speed" xml:space="preserve">
+    <value>Flash speed(&amp;S):</value>
+  </data>
+  <data name="AniEditorColorFlash_Speed_Desc" xml:space="preserve">
+    <value>time interval of flash</value>
+  </data>
+  <data name="AniEditorColorFlash_Unit" xml:space="preserve">
+    <value>ms</value>
+  </data>
+  <data name="AniEditorDisable_False" xml:space="preserve">
+    <value>Prohibit(&amp;D)</value>
+  </data>
+  <data name="AniEditorDisable_False_Desc" xml:space="preserve">
+    <value>Prohibit when value is false</value>
+  </data>
+  <data name="AniEditorDisable_groupBox" xml:space="preserve">
+    <value>When value is true</value>
+  </data>
+  <data name="AniEditorDisable_True" xml:space="preserve">
+    <value>Permits(&amp;E)</value>
+  </data>
+  <data name="AniEditorDisable_True_Desc" xml:space="preserve">
+    <value>Permits when value is true</value>
+  </data>
+  <data name="AniEditorFlash_Dw" xml:space="preserve">
+    <value>ms</value>
+  </data>
+  <data name="AniEditorFlash_False" xml:space="preserve">
+    <value>When value is false(&amp;F)</value>
+  </data>
+  <data name="AniEditorFlash_False_Desc" xml:space="preserve">
+    <value>Flash when value is false</value>
+  </data>
+  <data name="AniEditorFlash_FlashSpeed" xml:space="preserve">
+    <value>Speed(&amp;S)</value>
+  </data>
+  <data name="AniEditorFlash_FlashSpeed_Desc" xml:space="preserve">
+    <value>Flash interval</value>
+  </data>
+  <data name="AniEditorFlash_groupBox" xml:space="preserve">
+    <value>Flash condition</value>
+  </data>
+  <data name="AniEditorFlash_True" xml:space="preserve">
+    <value>When value is true(&amp;T)</value>
+  </data>
+  <data name="AniEditorFlash_True_Desc" xml:space="preserve">
+    <value>Flash when value is ture</value>
+  </data>
+  <data name="AniEditorFlowSpeed_FillPercent_Max_Desc" xml:space="preserve">
+    <value>Flow speed percent when value equal maximum</value>
+  </data>
+  <data name="AniEditorFlowSpeed_FillPercent_Min_Desc" xml:space="preserve">
+    <value>Flow speed percent when value equal minimum</value>
+  </data>
+  <data name="AniEditorFlowSpeed_Max" xml:space="preserve">
+    <value>Maximum</value>
+  </data>
+  <data name="AniEditorFlowSpeed_Max_Desc" xml:space="preserve">
+    <value>Maximum of value</value>
+  </data>
+  <data name="AniEditorFlowSpeed_Min" xml:space="preserve">
+    <value>Miniumn</value>
+  </data>
+  <data name="AniEditorFlowSpeed_Min_Desc" xml:space="preserve">
+    <value>Minimum of value</value>
+  </data>
+  <data name="AniEditorFlowSpeed_Percent" xml:space="preserve">
+    <value>Speed percent{0}:</value>
+  </data>
+  <data name="AniEditorFlowSpeed_Percent_Desc" xml:space="preserve">
+    <value>Flow speed</value>
+  </data>
+  <data name="AniEditorFlowSpeed_Value" xml:space="preserve">
+    <value>Value{0}:</value>
+  </data>
+  <data name="AniEditorFlow_Backward" xml:space="preserve">
+    <value>Backward</value>
+  </data>
+  <data name="AniEditorFlow_Down" xml:space="preserve">
+    <value>Down</value>
+  </data>
+  <data name="AniEditorFlow_Forward" xml:space="preserve">
+    <value>Forward</value>
+  </data>
+  <data name="AniEditorFlow_groupBoxTrueValue" xml:space="preserve">
+    <value>when value is true</value>
+  </data>
+  <data name="AniEditorFlow_Left" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="AniEditorFlow_Property" xml:space="preserve">
+    <value>Property</value>
+  </data>
+  <data name="AniEditorFlow_Right" xml:space="preserve">
+    <value>Right</value>
+  </data>
+  <data name="AniEditorFlow_Speed" xml:space="preserve">
+    <value>Speed(&amp;S):</value>
+  </data>
+  <data name="AniEditorFlow_Speed_Desc" xml:space="preserve">
+    <value>Range of flow speed( 100 - 10000000)</value>
+  </data>
+  <data name="AniEditorFlow_Start" xml:space="preserve">
+    <value>Start flow</value>
+  </data>
+  <data name="AniEditorFlow_Start_Desc" xml:space="preserve">
+    <value>Start flow when value is true</value>
+  </data>
+  <data name="AniEditorFlow_Step" xml:space="preserve">
+    <value>Step(&amp;W):</value>
+  </data>
+  <data name="AniEditorFlow_Step_Desc" xml:space="preserve">
+    <value>Rang of flow step( 1 - 99)</value>
+  </data>
+  <data name="AniEditorFlow_Stop" xml:space="preserve">
+    <value>Stop flow</value>
+  </data>
+  <data name="AniEditorFlow_Stop_Desc" xml:space="preserve">
+    <value>Stop flow when value is true</value>
+  </data>
+  <data name="AniEditorFlow_Unit" xml:space="preserve">
+    <value>ms</value>
+  </data>
+  <data name="AniEditorFlow_Up" xml:space="preserve">
+    <value>Up</value>
+  </data>
+  <data name="AniEditorGridScaleHor_Left" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="AniEditorGridScaleHor_LeftRight" xml:space="preserve">
+    <value>Left&amp;Right</value>
+  </data>
+  <data name="AniEditorGridScaleHor_LeftRight_Desc" xml:space="preserve">
+    <value>The center is fiexed,scale to to sides</value>
+  </data>
+  <data name="AniEditorGridScaleHor_Left_Desc" xml:space="preserve">
+    <value>Right is fixed,scale to left</value>
+  </data>
+  <data name="AniEditorGridScaleHor_Right" xml:space="preserve">
+    <value>Right</value>
+  </data>
+  <data name="AniEditorGridScaleHor_Right_Desc" xml:space="preserve">
+    <value>Left is fixed,scale to right</value>
+  </data>
+  <data name="AniEditorGridScaleHor_ScaleDirection" xml:space="preserve">
+    <value>Scale direction</value>
+  </data>
+  <data name="AniEditorGridScaleVer_Down" xml:space="preserve">
+    <value>Down</value>
+  </data>
+  <data name="AniEditorGridScaleVer_Down_Desc" xml:space="preserve">
+    <value>Top is fixed,scale to bottom</value>
+  </data>
+  <data name="AniEditorGridScaleVer_ScaleDirection" xml:space="preserve">
+    <value>Scale direction</value>
+  </data>
+  <data name="AniEditorGridScaleVer_Up" xml:space="preserve">
+    <value>Up</value>
+  </data>
+  <data name="AniEditorGridScaleVer_UpDown" xml:space="preserve">
+    <value>Up&amp;Down</value>
+  </data>
+  <data name="AniEditorGridScaleVer_UpDown_Desc" xml:space="preserve">
+    <value>The center is fiexed,scale to to sides</value>
+  </data>
+  <data name="AniEditorGridScaleVer_Up_Desc" xml:space="preserve">
+    <value>Bottom is fixed,scale to top</value>
+  </data>
+  <data name="AniEditorHide_groupBox" xml:space="preserve">
+    <value>When value is true</value>
+  </data>
+  <data name="AniEditorHide_Hidden" xml:space="preserve">
+    <value>Hidden(&amp;H)</value>
+  </data>
+  <data name="AniEditorHide_Hidden_Desc" xml:space="preserve">
+    <value>Hide target</value>
+  </data>
+  <data name="AniEditorHide_Show" xml:space="preserve">
+    <value>Show(&amp;S)</value>
+  </data>
+  <data name="AniEditorHide_Show_Desc" xml:space="preserve">
+    <value>Show target</value>
+  </data>
+  <data name="AniEditorLinearMotion_Absulote" xml:space="preserve">
+    <value>Absulote coordinate</value>
+  </data>
+  <data name="AniEditorLinearPercentFill_Custom" xml:space="preserve">
+    <value>Custom</value>
+  </data>
+  <data name="AniEditorLinearPercentFill_Custom_Desc" xml:space="preserve">
+    <value>degree range from 0 to 360,when zero is left to right.</value>
+  </data>
+  <data name="AniEditorLinearPercentFill_Down" xml:space="preserve">
+    <value>Down</value>
+  </data>
+  <data name="AniEditorLinearPercentFill_Fill" xml:space="preserve">
+    <value>Fill</value>
+  </data>
+  <data name="AniEditorLinearPercentFill_FillColor_Desc" xml:space="preserve">
+    <value>Fill color of selection area</value>
+  </data>
+  <data name="AniEditorLinearPercentFill_FillPercent" xml:space="preserve">
+    <value>Fill percent{0}:</value>
+  </data>
+  <data name="AniEditorLinearPercentFill_FillPercent_Max_Desc" xml:space="preserve">
+    <value>Fill percent when value equal maximum</value>
+  </data>
+  <data name="AniEditorLinearPercentFill_FillPercent_Min_Desc" xml:space="preserve">
+    <value>Fill percent when value equal minimum</value>
+  </data>
+  <data name="AniEditorLinearPercentFill_Left" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="AniEditorLinearPercentFill_Max" xml:space="preserve">
+    <value>Maximum</value>
+  </data>
+  <data name="AniEditorLinearPercentFill_Max_Desc" xml:space="preserve">
+    <value>Maximum of value</value>
+  </data>
+  <data name="AniEditorLinearPercentFill_Min" xml:space="preserve">
+    <value>Minumn</value>
+  </data>
+  <data name="AniEditorLinearPercentFill_Min_Desc" xml:space="preserve">
+    <value>Minimum of value</value>
+  </data>
+  <data name="AniEditorLinearPercentFill_Model" xml:space="preserve">
+    <value>Model(&amp;M):</value>
+  </data>
+  <data name="AniEditorLinearPercentFill_Right" xml:space="preserve">
+    <value>Right</value>
+  </data>
+  <data name="AniEditorLinearPercentFill_unit" xml:space="preserve">
+    <value>°</value>
+  </data>
+  <data name="AniEditorLinearPercentFill_Up" xml:space="preserve">
+    <value>Up</value>
+  </data>
+  <data name="AniEditorLinearPercentFill_Value" xml:space="preserve">
+    <value>Value{0}:</value>
+  </data>
+  <data name="AniEditorLinearScaleHor_Left" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="AniEditorLinearScaleHor_LeftRight" xml:space="preserve">
+    <value>Left&amp;Right</value>
+  </data>
+  <data name="AniEditorLinearScaleHor_LeftRight_Desc" xml:space="preserve">
+    <value>The center is fiexed,scale to to sides</value>
+  </data>
+  <data name="AniEditorLinearScaleHor_Left_Desc" xml:space="preserve">
+    <value>Right is fixed,scale to left</value>
+  </data>
+  <data name="AniEditorLinearScaleHor_Right" xml:space="preserve">
+    <value>Right</value>
+  </data>
+  <data name="AniEditorLinearScaleHor_Right_Desc" xml:space="preserve">
+    <value>Left is fixed,scale to right</value>
+  </data>
+  <data name="AniEditorLinearScaleVer_Down" xml:space="preserve">
+    <value>Down</value>
+  </data>
+  <data name="AniEditorLinearScaleVer_Down_Desc" xml:space="preserve">
+    <value>Top is fixed,scale to bottom</value>
+  </data>
+  <data name="AniEditorLinearScaleVer_Up" xml:space="preserve">
+    <value>Up</value>
+  </data>
+  <data name="AniEditorLinearScaleVer_UpDown" xml:space="preserve">
+    <value>UpDown</value>
+  </data>
+  <data name="AniEditorLinearScaleVer_UpDown_Desc" xml:space="preserve">
+    <value>The center is fiexed,scale to to sides</value>
+  </data>
+  <data name="AniEditorLinearScaleVer_Up_Desc" xml:space="preserve">
+    <value>Bottom is fixed,scale to top</value>
+  </data>
+  <data name="AniEditorLinear_Max" xml:space="preserve">
+    <value>Maximum</value>
+  </data>
+  <data name="AniEditorLinear_Min" xml:space="preserve">
+    <value>Miniumn</value>
+  </data>
+  <data name="AniEditorLinear_Value" xml:space="preserve">
+    <value>Value{0}:</value>
+  </data>
+  <data name="AniEditorRotateInput_Angle" xml:space="preserve">
+    <value>Angle{0}:</value>
+  </data>
+  <data name="AniEditorRotateInput_Angle_Desc" xml:space="preserve">
+    <value>{0} angle</value>
+  </data>
+  <data name="AniEditorRotateInput_Clockwise" xml:space="preserve">
+    <value>Clockwise</value>
+  </data>
+  <data name="AniEditorRotateInput_seriseValue" xml:space="preserve">
+    <value>By continual to set tag's value</value>
+  </data>
+  <data name="AniEditorRotateInput_seriseValue_Desc" xml:space="preserve">
+    <value>By continual to set tag's value when rotate target</value>
+  </data>
+  <data name="AniEditorRotateInput_Value" xml:space="preserve">
+    <value>Value(&amp;T):</value>
+  </data>
+  <data name="AniEditorRotateInput_varValue" xml:space="preserve">
+    <value>Tag value{0}:</value>
+  </data>
+  <data name="AniEditorRotateInput_varValue_Desc" xml:space="preserve">
+    <value>Value of tag relative to angle</value>
+  </data>
+  <data name="AniEditorRotateInput_Wifeclockwist" xml:space="preserve">
+    <value>Counterclockwise</value>
+  </data>
+  <data name="AniFillAlhpa" xml:space="preserve">
+    <value>Fill Transparency</value>
+  </data>
+  <data name="AniFillAlpha" xml:space="preserve">
+    <value>Fill Transparency</value>
+  </data>
+  <data name="AniFlowFillSpeed" xml:space="preserve">
+    <value>Flow Fill|Speed</value>
+  </data>
+  <data name="AniInputAnalog" xml:space="preserve">
+    <value>Value Input</value>
+  </data>
+  <data name="AniInputDateTime" xml:space="preserve">
+    <value>Value Input</value>
+  </data>
+  <data name="AniInputDisc" xml:space="preserve">
+    <value>Value Input</value>
+  </data>
+  <data name="AniInputMenu" xml:space="preserve">
+    <value>LeftButton View Menu</value>
+  </data>
+  <data name="AniInputRightMenu" xml:space="preserve">
+    <value>RightButton View Menu</value>
+  </data>
+  <data name="AniInputRightTouchDown" xml:space="preserve">
+    <value>RightButton  Press</value>
+  </data>
+  <data name="AniInputRightTouchOver" xml:space="preserve">
+    <value>RightButton  Hold</value>
+  </data>
+  <data name="AniInputRightTouchUp" xml:space="preserve">
+    <value>RightButton  Release</value>
+  </data>
+  <data name="AniInputString" xml:space="preserve">
+    <value>Value Input</value>
+  </data>
+  <data name="AniInputTouchDown" xml:space="preserve">
+    <value>LeftButton Press</value>
+  </data>
+  <data name="AniInputTouchOver" xml:space="preserve">
+    <value>LeftButton Hold</value>
+  </data>
+  <data name="AniInputTouchUp" xml:space="preserve">
+    <value>LeftButton Release</value>
+  </data>
+  <data name="AniLinearFlow" xml:space="preserve">
+    <value>Flow Line|Speed</value>
+  </data>
+  <data name="AniLinearFlowFill" xml:space="preserve">
+    <value>Flow Fill|Speed</value>
+  </data>
+  <data name="AniLinearMotionX" xml:space="preserve">
+    <value>Motion Horizon|Linear</value>
+  </data>
+  <data name="AniLinearMotionY" xml:space="preserve">
+    <value>Motion Vertical|Linear</value>
+  </data>
+  <data name="AniLinearPercentFill" xml:space="preserve">
+    <value>Fill Range|Percentage</value>
+  </data>
+  <data name="AniLinearPieStartAngle" xml:space="preserve">
+    <value>Start Angle</value>
+  </data>
+  <data name="AniLinearPieSweepAngle" xml:space="preserve">
+    <value>Sweep Angle</value>
+  </data>
+  <data name="AniLinearRotate" xml:space="preserve">
+    <value>Rotate Angle|Linear</value>
+  </data>
+  <data name="AniLinearScaleHor" xml:space="preserve">
+    <value>Zoom Horizon|Linear</value>
+  </data>
+  <data name="AniLinearScaleVer" xml:space="preserve">
+    <value>Zoom Vertical|Linear</value>
+  </data>
+  <data name="AniLinearShearX" xml:space="preserve">
+    <value>Shear  Horizon|Linear</value>
+  </data>
+  <data name="AniLinearShearX_ValueExpre" xml:space="preserve">
+    <value>Horizontal Shear</value>
+  </data>
+  <data name="AniLinearShearY" xml:space="preserve">
+    <value>Shear Vertical|Linear</value>
+  </data>
+  <data name="AniLinearShearY_ValueExpre" xml:space="preserve">
+    <value>Vertical Shear</value>
+  </data>
+  <data name="AniLinePosEndX" xml:space="preserve">
+    <value>Line EndPoint|Horizon</value>
+  </data>
+  <data name="AniLinePosEndY" xml:space="preserve">
+    <value>Line EndPoint|Vertical</value>
+  </data>
+  <data name="AniLinePosStartX" xml:space="preserve">
+    <value>Line StartPoint|Horizon</value>
+  </data>
+  <data name="AniLinePosStartY" xml:space="preserve">
+    <value>Line StartPoint|Vertical</value>
+  </data>
+  <data name="AniLineStretchEnd" xml:space="preserve">
+    <value>Line EndPoint|Stretch</value>
+  </data>
+  <data name="AniLineStretchStart" xml:space="preserve">
+    <value>Line StartPoint|Stretch</value>
+  </data>
+  <data name="AnimateConfigured" xml:space="preserve">
+    <value>AnimateConfigured</value>
+  </data>
+  <data name="AnimateScale" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+  <data name="Animate_MouseLeft" xml:space="preserve">
+    <value>LeftButton</value>
+  </data>
+  <data name="Animate_MouseRight" xml:space="preserve">
+    <value>RightButton</value>
+  </data>
+  <data name="Animate_Stroke" xml:space="preserve">
+    <value>Stroke</value>
+  </data>
+  <data name="AniMotionJump" xml:space="preserve">
+    <value>Motion Motion|Discrete</value>
+  </data>
+  <data name="AniOutputAnalog" xml:space="preserve">
+    <value>Value Display</value>
+  </data>
+  <data name="AniOutputAnalogDisc" xml:space="preserve">
+    <value>Value Display</value>
+  </data>
+  <data name="AniOutputAnalogString" xml:space="preserve">
+    <value>Value Display</value>
+  </data>
+  <data name="AniOutputString" xml:space="preserve">
+    <value>Value Display</value>
+  </data>
+  <data name="AniPenColor" xml:space="preserve">
+    <value>Stroke</value>
+  </data>
+  <data name="AniPenDashStyle" xml:space="preserve">
+    <value>Stroke Style</value>
+  </data>
+  <data name="AniPenWidth" xml:space="preserve">
+    <value>Stroke Width</value>
+  </data>
+  <data name="AniRotateEnable" xml:space="preserve">
+    <value>Rotate Enable</value>
+  </data>
+  <data name="AniRotateEnableEditor_Clockwise" xml:space="preserve">
+    <value>Clockwise(&amp;L)</value>
+  </data>
+  <data name="AniRotateEnableEditor_Clockwise_Desc" xml:space="preserve">
+    <value>Clockwise rotate</value>
+  </data>
+  <data name="AniRotateEnableEditor_CounterClockwise" xml:space="preserve">
+    <value>CounterClockwise(&amp;A)</value>
+  </data>
+  <data name="AniRotateEnableEditor_CounterClockwise_Desc" xml:space="preserve">
+    <value>CounterClockwise  rotate</value>
+  </data>
+  <data name="AniRotateEnableEditor_False" xml:space="preserve">
+    <value>Stop rotate</value>
+  </data>
+  <data name="AniRotateEnableEditor_FalseDesc" xml:space="preserve">
+    <value>Stop rotate{&amp;S}</value>
+  </data>
+  <data name="AniRotateEnableEditor_GroupBox" xml:space="preserve">
+    <value>when value is true</value>
+  </data>
+  <data name="AniRotateEnableEditor_Property" xml:space="preserve">
+    <value>Property</value>
+  </data>
+  <data name="AniRotateEnableEditor_Speed" xml:space="preserve">
+    <value>Speed(&amp;S):</value>
+  </data>
+  <data name="AniRotateEnableEditor_Speed_Desc" xml:space="preserve">
+    <value>Range of rotate speed( 100 - 10000000)</value>
+  </data>
+  <data name="AniRotateEnableEditor_Step" xml:space="preserve">
+    <value>Step(&amp;W):</value>
+  </data>
+  <data name="AniRotateEnableEditor_Step_Desc" xml:space="preserve">
+    <value>Range of rotate step( 1 - 359)</value>
+  </data>
+  <data name="AniRotateEnableEditor_True" xml:space="preserve">
+    <value>Start rotate</value>
+  </data>
+  <data name="AniRotateEnableEditor_True_Desc" xml:space="preserve">
+    <value>Start rotate{&amp;B}</value>
+  </data>
+  <data name="AniRotateEnableEditor_Unit" xml:space="preserve">
+    <value>degree</value>
+  </data>
+  <data name="AniRotateInput" xml:space="preserve">
+    <value>Rotate Input</value>
+  </data>
+  <data name="AniRotateSpeed" xml:space="preserve">
+    <value>Rotate Speed</value>
+  </data>
+  <data name="AniSlideEditor_DownPoint" xml:space="preserve">
+    <value>DownPoint</value>
+  </data>
+  <data name="AniSlideEditor_Info" xml:space="preserve">
+    <value>Message:</value>
+  </data>
+  <data name="AniSlideEditor_LeftPoint" xml:space="preserve">
+    <value>Leftpoint</value>
+  </data>
+  <data name="AniSlideEditor_Max" xml:space="preserve">
+    <value>Maximum</value>
+  </data>
+  <data name="AniSlideEditor_Min" xml:space="preserve">
+    <value>Minimum</value>
+  </data>
+  <data name="AniSlideEditor_Moveposition" xml:space="preserve">
+    <value>Distance:</value>
+  </data>
+  <data name="AniSlideEditor_Moveposition_Desc" xml:space="preserve">
+    <value>Available distance to move</value>
+  </data>
+  <data name="AniSlideEditor_Position" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="AniSlideEditor_RelateGraphice" xml:space="preserve">
+    <value>Shape</value>
+  </data>
+  <data name="AniSlideEditor_RelateGraphice_Desc" xml:space="preserve">
+    <value>Using relative shape coordinates</value>
+  </data>
+  <data name="AniSlideEditor_RelateImage" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="AniSlideEditor_RelateImage_Desc" xml:space="preserve">
+    <value>Using relative view coordinates</value>
+  </data>
+  <data name="AniSlideEditor_RightPoint" xml:space="preserve">
+    <value>Rightpoint</value>
+  </data>
+  <data name="AniSlideEditor_SetValue" xml:space="preserve">
+    <value>Assignment</value>
+  </data>
+  <data name="AniSlideEditor_SetValueOnce" xml:space="preserve">
+    <value>Once</value>
+  </data>
+  <data name="AniSlideEditor_SetValueOnce_Desc" xml:space="preserve">
+    <value>Set value of tag when mouse is up</value>
+  </data>
+  <data name="AniSlideEditor_SetValueSerise" xml:space="preserve">
+    <value>Series</value>
+  </data>
+  <data name="AniSlideEditor_SetValueSerise_Desc" xml:space="preserve">
+    <value>By continual to set tag's value</value>
+  </data>
+  <data name="AniSlideEditor_SlideX" xml:space="preserve">
+    <value>Horizontal Slide</value>
+  </data>
+  <data name="AniSlideEditor_SlideY" xml:space="preserve">
+    <value>Vertical Slide</value>
+  </data>
+  <data name="AniSlideEditor_Tag" xml:space="preserve">
+    <value>Tag(&amp;T):</value>
+  </data>
+  <data name="AniSlideEditor_UpPoint" xml:space="preserve">
+    <value>UpPoint</value>
+  </data>
+  <data name="AniSlideEditor_Value" xml:space="preserve">
+    <value>Value(&amp;T):</value>
+  </data>
+  <data name="AniSlideEditor_VarValue" xml:space="preserve">
+    <value>Tag value{0}:</value>
+  </data>
+  <data name="AniSlideEditor_VarValue_Desc" xml:space="preserve">
+    <value>Value of tag relative to position</value>
+  </data>
+  <data name="AniSlideInputX" xml:space="preserve">
+    <value>Horizontal Slide</value>
+  </data>
+  <data name="AniSlideInputY" xml:space="preserve">
+    <value>Vertical  Slide</value>
+  </data>
+  <data name="AniSwitchImage" xml:space="preserve">
+    <value>Switch Image</value>
+  </data>
+  <data name="AniTextBackColor" xml:space="preserve">
+    <value>Text Background</value>
+  </data>
+  <data name="AniTypeButtonBackColor" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="AniTypeButtonBackColorFlash" xml:space="preserve">
+    <value>Flashing</value>
+  </data>
+  <data name="AniTypeButtonBackColorFlash_Description" xml:space="preserve">
+    <value>Background Color Flashing</value>
+  </data>
+  <data name="AniTypeButtonBackColor_Description" xml:space="preserve">
+    <value>Background Color</value>
+  </data>
+  <data name="AniTypeButtonTextColor" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="AniTypeButtonTextColorFlash" xml:space="preserve">
+    <value>Color Flashing</value>
+  </data>
+  <data name="AniTypeButtonTextColorFlash_Description" xml:space="preserve">
+    <value>Button Text Color Flashing</value>
+  </data>
+  <data name="AniTypeButtonTextColor_Description" xml:space="preserve">
+    <value>Button Text Color</value>
+  </data>
+  <data name="AniTypeDateTimeOutput" xml:space="preserve">
+    <value>DateTimeOutput</value>
+  </data>
+  <data name="AniTypeDateTimeOutput_Description" xml:space="preserve">
+    <value>DateTimeOutput</value>
+  </data>
+  <data name="AniTypeDisable" xml:space="preserve">
+    <value>Operability</value>
+  </data>
+  <data name="AniTypeDisable_Description" xml:space="preserve">
+    <value>Operability</value>
+  </data>
+  <data name="AniTypeDiscButtonText" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="AniTypeDiscButtonText_Description" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="AniTypeFillAlhpa" xml:space="preserve">
+    <value>Transparency</value>
+  </data>
+  <data name="AniTypeFillAlhpa_Description" xml:space="preserve">
+    <value>Transparency</value>
+  </data>
+  <data name="AniTypeFillAlpha" xml:space="preserve">
+    <value>Transparency</value>
+  </data>
+  <data name="AniTypeFillAlpha_Description" xml:space="preserve">
+    <value>Transparency</value>
+  </data>
+  <data name="AniTypeFillAlpha_Prop" xml:space="preserve">
+    <value>Alpha</value>
+  </data>
+  <data name="AniTypeFillColor" xml:space="preserve">
+    <value>Fill Mode</value>
+  </data>
+  <data name="AniTypeFillColor_Description" xml:space="preserve">
+    <value>Fill Mode</value>
+  </data>
+  <data name="AniTypeFlash" xml:space="preserve">
+    <value>Flashing</value>
+  </data>
+  <data name="AniTypeFlash_Description" xml:space="preserve">
+    <value>Flashing</value>
+  </data>
+  <data name="AniTypeFlow" xml:space="preserve">
+    <value>Stroke|Enable</value>
+  </data>
+  <data name="AniTypeFlowFill" xml:space="preserve">
+    <value>Fill|Enable</value>
+  </data>
+  <data name="AniTypeFlowFillSpeed" xml:space="preserve">
+    <value>Fill|Speed</value>
+  </data>
+  <data name="AniTypeFlowFillSpeed_Description" xml:space="preserve">
+    <value>Fill|Speed</value>
+  </data>
+  <data name="AniTypeFlowFill_Description" xml:space="preserve">
+    <value>Fill|Enable</value>
+  </data>
+  <data name="AniTypeFlow_Description" xml:space="preserve">
+    <value>Stroke|Enable</value>
+  </data>
+  <data name="AniTypeHide" xml:space="preserve">
+    <value>Visibility</value>
+  </data>
+  <data name="AniTypeHide_Description" xml:space="preserve">
+    <value>Visibility</value>
+  </data>
+  <data name="AniTypeInputAnalog" xml:space="preserve">
+    <value>Analog Input</value>
+  </data>
+  <data name="AniTypeInputAnalog_Description" xml:space="preserve">
+    <value>Analog Input</value>
+  </data>
+  <data name="AniTypeInputDateTime" xml:space="preserve">
+    <value>DateTime Input</value>
+  </data>
+  <data name="AniTypeInputDateTime_Description" xml:space="preserve">
+    <value>DateTime Input</value>
+  </data>
+  <data name="AniTypeInputDisc" xml:space="preserve">
+    <value>Discrete Input</value>
+  </data>
+  <data name="AniTypeInputDisc_Description" xml:space="preserve">
+    <value>Discrete Input</value>
+  </data>
+  <data name="AniTypeInputMenu" xml:space="preserve">
+    <value>View Menu</value>
+  </data>
+  <data name="AniTypeInputMenu_Description" xml:space="preserve">
+    <value>View Menu when left mouse buttom click</value>
+  </data>
+  <data name="AniTypeInputRightMenu" xml:space="preserve">
+    <value>View Menu</value>
+  </data>
+  <data name="AniTypeInputRightMenu_Description" xml:space="preserve">
+    <value>View Menu when right mouse  buttom click</value>
+  </data>
+  <data name="AniTypeInputRightTouchDown" xml:space="preserve">
+    <value>Press</value>
+  </data>
+  <data name="AniTypeInputRightTouchDown_Description" xml:space="preserve">
+    <value>Right Mouse Down</value>
+  </data>
+  <data name="AniTypeInputRightTouchOver" xml:space="preserve">
+    <value>Hold</value>
+  </data>
+  <data name="AniTypeInputRightTouchOver_Description" xml:space="preserve">
+    <value>Mouse Right Hold</value>
+  </data>
+  <data name="AniTypeInputRightTouchUp" xml:space="preserve">
+    <value>Release</value>
+  </data>
+  <data name="AniTypeInputRightTouchUp_Description" xml:space="preserve">
+    <value>Mouse Right Up</value>
+  </data>
+  <data name="AniTypeInputString" xml:space="preserve">
+    <value>String Input</value>
+  </data>
+  <data name="AniTypeInputString_Description" xml:space="preserve">
+    <value>String Input</value>
+  </data>
+  <data name="AniTypeInputTouchDown" xml:space="preserve">
+    <value>Press</value>
+  </data>
+  <data name="AniTypeInputTouchDown_Description" xml:space="preserve">
+    <value>Left Mouse Down</value>
+  </data>
+  <data name="AniTypeInputTouchOver" xml:space="preserve">
+    <value>Hold</value>
+  </data>
+  <data name="AniTypeInputTouchOver_Description" xml:space="preserve">
+    <value>Left Mouse Hold</value>
+  </data>
+  <data name="AniTypeInputTouchUp" xml:space="preserve">
+    <value>Release</value>
+  </data>
+  <data name="AniTypeInputTouchUp_Description" xml:space="preserve">
+    <value>Left Mouse Up</value>
+  </data>
+  <data name="AniTypeLinearFlow" xml:space="preserve">
+    <value>Line|Speed</value>
+  </data>
+  <data name="AniTypeLinearFlow_Description" xml:space="preserve">
+    <value>Line|Speed</value>
+  </data>
+  <data name="AniTypeLinearMotionX" xml:space="preserve">
+    <value>Horizon|Linear</value>
+  </data>
+  <data name="AniTypeLinearMotionX_Description" xml:space="preserve">
+    <value>Horizontal Motion</value>
+  </data>
+  <data name="AniTypeLinearMotionX_Prop" xml:space="preserve">
+    <value>Shape point X</value>
+  </data>
+  <data name="AniTypeLinearMotionY" xml:space="preserve">
+    <value>Vertical|Linear</value>
+  </data>
+  <data name="AniTypeLinearMotionY_Description" xml:space="preserve">
+    <value>Vertical Motion</value>
+  </data>
+  <data name="AniTypeLinearMotionY_Prop" xml:space="preserve">
+    <value>Shape point Y</value>
+  </data>
+  <data name="AniTypeLinearPercentFill" xml:space="preserve">
+    <value>Range|Percentage</value>
+  </data>
+  <data name="AniTypeLinearPercentFill_Description" xml:space="preserve">
+    <value>Fill Range|Percentage</value>
+  </data>
+  <data name="AniTypeLinearPieStartAngle" xml:space="preserve">
+    <value>Start Angle</value>
+  </data>
+  <data name="AniTypeLinearPieStartAngle_Description" xml:space="preserve">
+    <value>Start Angle</value>
+  </data>
+  <data name="AniTypeLinearPieStartAngle_Prop" xml:space="preserve">
+    <value>Start angle</value>
+  </data>
+  <data name="AniTypeLinearPieSweepAngle" xml:space="preserve">
+    <value>Sweep Angle</value>
+  </data>
+  <data name="AniTypeLinearPieSweepAngle_Description" xml:space="preserve">
+    <value>Sweep Angle</value>
+  </data>
+  <data name="AniTypeLinearPieSweepAngle_Prop" xml:space="preserve">
+    <value>Sweep angle</value>
+  </data>
+  <data name="AniTypeLinearRotate" xml:space="preserve">
+    <value>Angle|Linear</value>
+  </data>
+  <data name="AniTypeLinearRotate_Description" xml:space="preserve">
+    <value>Rotate Angle|Linear</value>
+  </data>
+  <data name="AniTypeLinearRotate_Prop" xml:space="preserve">
+    <value>Rotate angle</value>
+  </data>
+  <data name="AniTypeLinearScaleHor" xml:space="preserve">
+    <value>Horizon|Linear</value>
+  </data>
+  <data name="AniTypeLinearScaleHor_Description" xml:space="preserve">
+    <value>Scale Horizon|Linear</value>
+  </data>
+  <data name="AniTypeLinearScaleVer" xml:space="preserve">
+    <value>Vertical|Linear</value>
+  </data>
+  <data name="AniTypeLinearScaleVer_Description" xml:space="preserve">
+    <value>Scale Vertical|Linear</value>
+  </data>
+  <data name="AniTypeLinearShearX" xml:space="preserve">
+    <value>Horizon|Linear</value>
+  </data>
+  <data name="AniTypeLinearShearX_Description" xml:space="preserve">
+    <value>Shear Horizon|Linear</value>
+  </data>
+  <data name="AniTypeLinearShearX_Prop" xml:space="preserve">
+    <value>Horizontal shear</value>
+  </data>
+  <data name="AniTypeLinearShearY" xml:space="preserve">
+    <value>Vertical|Linear</value>
+  </data>
+  <data name="AniTypeLinearShearY_Description" xml:space="preserve">
+    <value>Shear Vertical|Linear</value>
+  </data>
+  <data name="AniTypeLinearShearY_Prop" xml:space="preserve">
+    <value>Vertical shear</value>
+  </data>
+  <data name="AniTypeLinePosEndX" xml:space="preserve">
+    <value>EndPoint|Horizon</value>
+  </data>
+  <data name="AniTypeLinePosEndX_Description" xml:space="preserve">
+    <value>Horizontal End Postion</value>
+  </data>
+  <data name="AniTypeLinePosEndX_Prop" xml:space="preserve">
+    <value>End point X</value>
+  </data>
+  <data name="AniTypeLinePosEndY" xml:space="preserve">
+    <value>EndPoint|Vertical</value>
+  </data>
+  <data name="AniTypeLinePosEndY_Description" xml:space="preserve">
+    <value>Vertical End Postion</value>
+  </data>
+  <data name="AniTypeLinePosEndY_Prop" xml:space="preserve">
+    <value>End point Y</value>
+  </data>
+  <data name="AniTypeLinePosStartX" xml:space="preserve">
+    <value>StartPoint|Horizon</value>
+  </data>
+  <data name="AniTypeLinePosStartX_Description" xml:space="preserve">
+    <value>Horizontal Start Postion</value>
+  </data>
+  <data name="AniTypeLinePosStartX_Prop" xml:space="preserve">
+    <value>Start point X</value>
+  </data>
+  <data name="AniTypeLinePosStartY" xml:space="preserve">
+    <value>StartPoint|Vertical</value>
+  </data>
+  <data name="AniTypeLinePosStartY_Description" xml:space="preserve">
+    <value>Vertical Start Postion</value>
+  </data>
+  <data name="AniTypeLinePosStartY_Prop" xml:space="preserve">
+    <value>Start point Y</value>
+  </data>
+  <data name="AniTypeLineStretchEnd" xml:space="preserve">
+    <value>EndPoint|Stretch</value>
+  </data>
+  <data name="AniTypeLineStretchEnd_Description" xml:space="preserve">
+    <value>Stretch End Point</value>
+  </data>
+  <data name="AniTypeLineStretchEnd_Prop" xml:space="preserve">
+    <value>End point</value>
+  </data>
+  <data name="AniTypeLineStretchStart" xml:space="preserve">
+    <value>StartPoint|Stretch</value>
+  </data>
+  <data name="AniTypeLineStretchStart_Description" xml:space="preserve">
+    <value>Stretch Start Point</value>
+  </data>
+  <data name="AniTypeLineStretchStart_Prop" xml:space="preserve">
+    <value>Start point</value>
+  </data>
+  <data name="AniTypeMotionJump" xml:space="preserve">
+    <value>Motion|Discrete</value>
+  </data>
+  <data name="AniTypeMotionJump_Description" xml:space="preserve">
+    <value>Discrete Motion</value>
+  </data>
+  <data name="AniTypeOutputAnalog" xml:space="preserve">
+    <value>Analog Value</value>
+  </data>
+  <data name="AniTypeOutputAnalogDisc" xml:space="preserve">
+    <value>Output Analog Discrete</value>
+  </data>
+  <data name="AniTypeOutputAnalogDisc_Description" xml:space="preserve">
+    <value>Output Analog Discrete</value>
+  </data>
+  <data name="AniTypeOutputAnalogString" xml:space="preserve">
+    <value>Output Analog String</value>
+  </data>
+  <data name="AniTypeOutputAnalogString_Description" xml:space="preserve">
+    <value>Output Analog String</value>
+  </data>
+  <data name="AniTypeOutputAnalog_Description" xml:space="preserve">
+    <value>Analog Value</value>
+  </data>
+  <data name="AniTypeOutputDisc" xml:space="preserve">
+    <value>Discrete Value</value>
+  </data>
+  <data name="AniTypeOutputDisc_Description" xml:space="preserve">
+    <value>Discrete Value</value>
+  </data>
+  <data name="AniTypeOutputString" xml:space="preserve">
+    <value>String Value</value>
+  </data>
+  <data name="AniTypeOutputString_Description" xml:space="preserve">
+    <value>String Value</value>
+  </data>
+  <data name="AniTypePenColor" xml:space="preserve">
+    <value>Stroke</value>
+  </data>
+  <data name="AniTypePenColor_Description" xml:space="preserve">
+    <value>Stroke</value>
+  </data>
+  <data name="AniTypePenDashStyle" xml:space="preserve">
+    <value>Stroke Style</value>
+  </data>
+  <data name="AniTypePenDashStyle_Description" xml:space="preserve">
+    <value>Stroke Style</value>
+  </data>
+  <data name="AniTypePenWidth" xml:space="preserve">
+    <value>Stroke Width</value>
+  </data>
+  <data name="AniTypePenWidth_Description" xml:space="preserve">
+    <value>Stroke Width</value>
+  </data>
+  <data name="AniTypePosLinearX" xml:space="preserve">
+    <value>X Position</value>
+  </data>
+  <data name="AniTypePosLinearX_Description" xml:space="preserve">
+    <value>X Position</value>
+  </data>
+  <data name="AniTypePosLinearY" xml:space="preserve">
+    <value>Y Position</value>
+  </data>
+  <data name="AniTypePosLinearY_Description" xml:space="preserve">
+    <value>Y Position</value>
+  </data>
+  <data name="AniTypeRotateDisc" xml:space="preserve">
+    <value>Angle|Discrete</value>
+  </data>
+  <data name="AniTypeRotateDisc_Description" xml:space="preserve">
+    <value>Roate Angle|Discrete</value>
+  </data>
+  <data name="AniTypeRotateDisc_Prop" xml:space="preserve">
+    <value>Angle(°)</value>
+  </data>
+  <data name="AniTypeRotateEnable" xml:space="preserve">
+    <value>Enable</value>
+  </data>
+  <data name="AniTypeRotateEnable_Description" xml:space="preserve">
+    <value>Rotate Enable</value>
+  </data>
+  <data name="AniTypeRotateInput" xml:space="preserve">
+    <value>Rotate Input</value>
+  </data>
+  <data name="AniTypeRotateInput_Description" xml:space="preserve">
+    <value>Rotate Input</value>
+  </data>
+  <data name="AniTypeRotateSpeed" xml:space="preserve">
+    <value>Speed</value>
+  </data>
+  <data name="AniTypeRotateSpeed_Description" xml:space="preserve">
+    <value>Rotate Speed</value>
+  </data>
+  <data name="AniTypeRotateSpeed_Prop" xml:space="preserve">
+    <value>Rotate percent</value>
+  </data>
+  <data name="AniTypeScaleHorDisc" xml:space="preserve">
+    <value>Horizon|Discrete</value>
+  </data>
+  <data name="AniTypeScaleHorDisc_Description" xml:space="preserve">
+    <value>Horizon|Discrete</value>
+  </data>
+  <data name="AniTypeScaleHorDisc_Prop" xml:space="preserve">
+    <value>Scale percent(%)</value>
+  </data>
+  <data name="AniTypeScaleVerDisc" xml:space="preserve">
+    <value>Vertical|Discrete</value>
+  </data>
+  <data name="AniTypeScaleVerDisc_Description" xml:space="preserve">
+    <value>Vertical|Discrete</value>
+  </data>
+  <data name="AniTypeScaleVerDisc_Prop" xml:space="preserve">
+    <value>Scale percent(%)</value>
+  </data>
+  <data name="AniTypeShearHorDisc" xml:space="preserve">
+    <value>Horizon|Discrete</value>
+  </data>
+  <data name="AniTypeShearHorDisc_Description" xml:space="preserve">
+    <value>Horizon|Discrete</value>
+  </data>
+  <data name="AniTypeShearHorDisc_Prop" xml:space="preserve">
+    <value>Shear(-5 ~ +5)</value>
+  </data>
+  <data name="AniTypeShearVerDisc" xml:space="preserve">
+    <value>Vertical|Discrete</value>
+  </data>
+  <data name="AniTypeShearVerDisc_Description" xml:space="preserve">
+    <value>Vertical|Discrete</value>
+  </data>
+  <data name="AniTypeShearVerDisc_Prop" xml:space="preserve">
+    <value>Shear(-5 ~ +5)</value>
+  </data>
+  <data name="AniTypeSlideInputX" xml:space="preserve">
+    <value>Horizontal Slide</value>
+  </data>
+  <data name="AniTypeSlideInputX_Description" xml:space="preserve">
+    <value>Horizontal Slide</value>
+  </data>
+  <data name="AniTypeSlideInputY" xml:space="preserve">
+    <value>Vertical  Slide</value>
+  </data>
+  <data name="AniTypeSlideInputY_Description" xml:space="preserve">
+    <value>Vertical  Slide</value>
+  </data>
+  <data name="AniTypeSwitchImage" xml:space="preserve">
+    <value>Switch Image</value>
+  </data>
+  <data name="AniTypeSwitchImage_Description" xml:space="preserve">
+    <value>Switch Image</value>
+  </data>
+  <data name="AniTypeTextBackColor" xml:space="preserve">
+    <value>Background</value>
+  </data>
+  <data name="AniTypeTextBackColor_Description" xml:space="preserve">
+    <value>Text Background</value>
+  </data>
+  <data name="AniTypeTextColor" xml:space="preserve">
+    <value>Fill Mode</value>
+  </data>
+  <data name="AniTypeTextColor_Description" xml:space="preserve">
+    <value>Fill Mode</value>
+  </data>
+  <data name="AniTypeTouchDown" xml:space="preserve">
+    <value>Mouse Down</value>
+  </data>
+  <data name="AniTypeTouchDown_Description" xml:space="preserve">
+    <value>Mouse Down</value>
+  </data>
+  <data name="AniTypeTouchUp" xml:space="preserve">
+    <value>Mouse Up</value>
+  </data>
+  <data name="AniTypeTouchU_Description" xml:space="preserve">
+    <value>Mouse Up</value>
+  </data>
+  <data name="AnnuallyBoldedDates" xml:space="preserve">
+    <value>AnnuallyBoldedDates</value>
+  </data>
+  <data name="Appearance" xml:space="preserve">
+    <value>Appearance</value>
+  </data>
+  <data name="AutoCheck" xml:space="preserve">
+    <value>AutoCheck</value>
+  </data>
+  <data name="AutoEllipsis" xml:space="preserve">
+    <value>Autoellipsis</value>
+  </data>
+  <data name="AutoScale" xml:space="preserve">
+    <value>AutoScale</value>
+  </data>
+  <data name="AutoScale_Description" xml:space="preserve">
+    <value>AutoScale</value>
+  </data>
+  <data name="AutoSizeToRegion" xml:space="preserve">
+    <value>AutoSize</value>
+  </data>
+  <data name="AutoSizeToRegion_Description" xml:space="preserve">
+    <value>Auto adjust to view size to region in runtime.</value>
+  </data>
+  <data name="AutoWordSelection" xml:space="preserve">
+    <value>AutoWordSelection</value>
+  </data>
+  <data name="Axis" xml:space="preserve">
+    <value>Axis</value>
+  </data>
+  <data name="AxisLine" xml:space="preserve">
+    <value>AxisLine</value>
+  </data>
+  <data name="AxisNotExist" xml:space="preserve">
+    <value>AxisNotExist</value>
+  </data>
+  <data name="BackColor" xml:space="preserve">
+    <value>BackColor</value>
+  </data>
+  <data name="Background" xml:space="preserve">
+    <value>Background</value>
+  </data>
+  <data name="BackgroundImage" xml:space="preserve">
+    <value>BackgroundImage</value>
+  </data>
+  <data name="BackgroundImageLayout" xml:space="preserve">
+    <value>BackgroundImageLayout</value>
+  </data>
+  <data name="Background_Color" xml:space="preserve">
+    <value>Background Color</value>
+  </data>
+  <data name="Background_Description" xml:space="preserve">
+    <value>background</value>
+  </data>
+  <data name="BarExample" xml:space="preserve">
+    <value>BarExample</value>
+  </data>
+  <data name="BarPannel" xml:space="preserve">
+    <value>BarPannel</value>
+  </data>
+  <data name="BarUnitCollection" xml:space="preserve">
+    <value>BarUnitCollection</value>
+  </data>
+  <data name="BarUnitComponent" xml:space="preserve">
+    <value>BarUnitComponent</value>
+  </data>
+  <data name="Base" xml:space="preserve">
+    <value>Base</value>
+  </data>
+  <data name="BaseDial" xml:space="preserve">
+    <value>BaseDial</value>
+  </data>
+  <data name="Basic" xml:space="preserve">
+    <value>Basic</value>
+  </data>
+  <data name="Basic_Description" xml:space="preserve">
+    <value>Basic Description</value>
+  </data>
+  <data name="Behavior" xml:space="preserve">
+    <value>Behavior</value>
+  </data>
+  <data name="BigIcon" xml:space="preserve">
+    <value>BigIcon</value>
+  </data>
+  <data name="BoldedDates" xml:space="preserve">
+    <value>BoldedDates</value>
+  </data>
+  <data name="BorderStyle" xml:space="preserve">
+    <value>BorderStyle</value>
+  </data>
+  <data name="BorderStyle_Description" xml:space="preserve">
+    <value>border style</value>
+  </data>
+  <data name="BottomMiddle" xml:space="preserve">
+    <value>BottomMiddle</value>
+  </data>
+  <data name="BottomRight" xml:space="preserve">
+    <value>BottomRight</value>
+  </data>
+  <data name="Bounds" xml:space="preserve">
+    <value>Bounds</value>
+  </data>
+  <data name="Bounds_Description" xml:space="preserve">
+    <value>The bounds of the view.</value>
+  </data>
+  <data name="BulletIndent" xml:space="preserve">
+    <value>BulletIndent</value>
+  </data>
+  <data name="Button" xml:space="preserve">
+    <value>Button</value>
+  </data>
+  <data name="CalculateError" xml:space="preserve">
+    <value>CalculateError</value>
+  </data>
+  <data name="CalendarDimensions" xml:space="preserve">
+    <value>CalendarDimensions</value>
+  </data>
+  <data name="CalendarFont" xml:space="preserve">
+    <value>CalendarFont</value>
+  </data>
+  <data name="CalendarForeColor" xml:space="preserve">
+    <value>CalendarForeColor</value>
+  </data>
+  <data name="CalendarMonthBackground" xml:space="preserve">
+    <value>CalendarMonthBackground</value>
+  </data>
+  <data name="CalendarTitleBackColor" xml:space="preserve">
+    <value>CalendarTitleBackColor</value>
+  </data>
+  <data name="CalendarTitleForeColor" xml:space="preserve">
+    <value>CalendarTitleForeColor</value>
+  </data>
+  <data name="CalendarTrailingForeColor" xml:space="preserve">
+    <value>CalendarTrailingForeColor</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Cancle" xml:space="preserve">
+    <value>Cancle</value>
+  </data>
+  <data name="Center" xml:space="preserve">
+    <value>Center</value>
+  </data>
+  <data name="Center_Description" xml:space="preserve">
+    <value>Center</value>
+  </data>
+  <data name="CharacterCasing" xml:space="preserve">
+    <value>CharacterCasing</value>
+  </data>
+  <data name="CheckAlign" xml:space="preserve">
+    <value>CheckAlign</value>
+  </data>
+  <data name="Checked" xml:space="preserve">
+    <value>Checked</value>
+  </data>
+  <data name="CheckedChanged" xml:space="preserve">
+    <value>CheckedChanged</value>
+  </data>
+  <data name="CheckState" xml:space="preserve">
+    <value>CheckState</value>
+  </data>
+  <data name="CheckStateChanged" xml:space="preserve">
+    <value>CheckStateChanged</value>
+  </data>
+  <data name="Clear_Text" xml:space="preserve">
+    <value>Clear(&amp;C)</value>
+  </data>
+  <data name="Click" xml:space="preserve">
+    <value>Click</value>
+  </data>
+  <data name="ClockWise" xml:space="preserve">
+    <value>ClockWise</value>
+  </data>
+  <data name="Color" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="ColRowInfo" xml:space="preserve">
+    <value>ColRowInfo</value>
+  </data>
+  <data name="ColumnWidth" xml:space="preserve">
+    <value>ColumnWidth</value>
+  </data>
+  <data name="ConcentriceCircle" xml:space="preserve">
+    <value>ConcentriceCircle</value>
+  </data>
+  <data name="Config" xml:space="preserve">
+    <value>Config</value>
+  </data>
+  <data name="Configure" xml:space="preserve">
+    <value>Configure</value>
+  </data>
+  <data name="Content" xml:space="preserve">
+    <value>Bitmap</value>
+  </data>
+  <data name="ControlEventPrototype" xml:space="preserve">
+    <value>// 事件原型:
+// {0}
+</value>
+  </data>
+  <data name="CountInfoToolTipText" xml:space="preserve">
+    <value>CountInfoToolTipText</value>
+  </data>
+  <data name="Curve" xml:space="preserve">
+    <value>Curve</value>
+  </data>
+  <data name="CurveNotExist" xml:space="preserve">
+    <value>CurveNotExist</value>
+  </data>
+  <data name="CurvePanel" xml:space="preserve">
+    <value>CurvePanel</value>
+  </data>
+  <data name="Custom" xml:space="preserve">
+    <value>Custom</value>
+  </data>
+  <data name="CustomFormat" xml:space="preserve">
+    <value>CustomFormat</value>
+  </data>
+  <data name="Data" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="Database" xml:space="preserve">
+    <value>Database</value>
+  </data>
+  <data name="DataSourceChanged" xml:space="preserve">
+    <value>DataSourceChanged</value>
+  </data>
+  <data name="DateChanged" xml:space="preserve">
+    <value>DateChanged</value>
+  </data>
+  <data name="DateSelected" xml:space="preserve">
+    <value>DateSelected</value>
+  </data>
+  <data name="DateTimeInputDate" xml:space="preserve">
+    <value>Date:</value>
+  </data>
+  <data name="DateTimeInputTime" xml:space="preserve">
+    <value>Time:</value>
+  </data>
+  <data name="DateTimeInputTitle" xml:space="preserve">
+    <value>DateTime input</value>
+  </data>
+  <data name="DecimalPlaces" xml:space="preserve">
+    <value>DecimalPlaces</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Description_Description" xml:space="preserve">
+    <value>Description accociated with the control</value>
+  </data>
+  <data name="DetectUrls" xml:space="preserve">
+    <value>DetectUrls</value>
+  </data>
+  <data name="DialBorder" xml:space="preserve">
+    <value>DialBorder</value>
+  </data>
+  <data name="DialogResult" xml:space="preserve">
+    <value>DialogResult</value>
+  </data>
+  <data name="DialText" xml:space="preserve">
+    <value>DialText</value>
+  </data>
+  <data name="DisabledImage" xml:space="preserve">
+    <value>DisabledImage</value>
+  </data>
+  <data name="DisplayMember" xml:space="preserve">
+    <value>DisplayMember</value>
+  </data>
+  <data name="Display_Value" xml:space="preserve">
+    <value>Display Value</value>
+  </data>
+  <data name="DownImage" xml:space="preserve">
+    <value>DownImage</value>
+  </data>
+  <data name="DragDrop" xml:space="preserve">
+    <value>DragDrop</value>
+  </data>
+  <data name="DragEnter" xml:space="preserve">
+    <value>DragEnter</value>
+  </data>
+  <data name="DragLeave" xml:space="preserve">
+    <value>DragLeave</value>
+  </data>
+  <data name="DragOver" xml:space="preserve">
+    <value>DragOver</value>
+  </data>
+  <data name="DrawAction" xml:space="preserve">
+    <value>Draw</value>
+  </data>
+  <data name="DrawMode" xml:space="preserve">
+    <value>DrawMode</value>
+  </data>
+  <data name="DropDown" xml:space="preserve">
+    <value>DropDown</value>
+  </data>
+  <data name="DropDownAlign" xml:space="preserve">
+    <value>DropDownAlign</value>
+  </data>
+  <data name="DropDownClosed" xml:space="preserve">
+    <value>DropDownClosed</value>
+  </data>
+  <data name="DropDownHeight" xml:space="preserve">
+    <value>DropDownHeight</value>
+  </data>
+  <data name="DropDownStyle" xml:space="preserve">
+    <value>DropDownStyle</value>
+  </data>
+  <data name="DropDownWidth" xml:space="preserve">
+    <value>DropDownWidth</value>
+  </data>
+  <data name="Editor_Add" xml:space="preserve">
+    <value>Add(&amp;A)</value>
+  </data>
+  <data name="Editor_Add_Desc" xml:space="preserve">
+    <value>Add data</value>
+  </data>
+  <data name="Editor_ClearValue_Desc" xml:space="preserve">
+    <value>Clear value</value>
+  </data>
+  <data name="Editor_CurrentValue" xml:space="preserve">
+    <value>Current value</value>
+  </data>
+  <data name="Editor_DownPoint" xml:space="preserve">
+    <value>DownPoint</value>
+  </data>
+  <data name="Editor_Export" xml:space="preserve">
+    <value>Export(&amp;E)...</value>
+  </data>
+  <data name="Editor_Export_Desc" xml:space="preserve">
+    <value>Export data</value>
+  </data>
+  <data name="Editor_Expression" xml:space="preserve">
+    <value>Value(&amp;T):</value>
+  </data>
+  <data name="Editor_Fill" xml:space="preserve">
+    <value>Fill</value>
+  </data>
+  <data name="Editor_Import" xml:space="preserve">
+    <value>Import(&amp;I)...</value>
+  </data>
+  <data name="Editor_Import_Desc" xml:space="preserve">
+    <value>Import data</value>
+  </data>
+  <data name="Editor_LeftPoint" xml:space="preserve">
+    <value>LeftPoint</value>
+  </data>
+  <data name="Editor_Max" xml:space="preserve">
+    <value>Maximum</value>
+  </data>
+  <data name="Editor_MaxP" xml:space="preserve">
+    <value>Maximum of displacement</value>
+  </data>
+  <data name="Editor_Min" xml:space="preserve">
+    <value>Miniumn</value>
+  </data>
+  <data name="Editor_MinP" xml:space="preserve">
+    <value>Minimum of displacement</value>
+  </data>
+  <data name="Editor_Position" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="Editor_Remove" xml:space="preserve">
+    <value>Delete(&amp;D)</value>
+  </data>
+  <data name="Editor_Remove_Desc" xml:space="preserve">
+    <value>Delete data</value>
+  </data>
+  <data name="Editor_RightPoint" xml:space="preserve">
+    <value>RightPoint</value>
+  </data>
+  <data name="Editor_ScaleDirection" xml:space="preserve">
+    <value>Scale deirection</value>
+  </data>
+  <data name="Editor_ScalePercent" xml:space="preserve">
+    <value>Scale percent{0}:</value>
+  </data>
+  <data name="Editor_ScalePercent_Max_Desc" xml:space="preserve">
+    <value>Scale pecent when value equal maximum</value>
+  </data>
+  <data name="Editor_ScalePercent_min_Desc" xml:space="preserve">
+    <value>Scale pecent when value equal minimum</value>
+  </data>
+  <data name="Editor_SelectTag_Desc" xml:space="preserve">
+    <value>Select tag</value>
+  </data>
+  <data name="Editor_UpPoint" xml:space="preserve">
+    <value>UpPoint</value>
+  </data>
+  <data name="Editor_Value" xml:space="preserve">
+    <value>Value &gt;=</value>
+  </data>
+  <data name="Editor_VarValue" xml:space="preserve">
+    <value>Value{0}:</value>
+  </data>
+  <data name="Editor_VarValue_Max_Desc" xml:space="preserve">
+    <value>Maximum of value</value>
+  </data>
+  <data name="Editor_VarValue_min_Desc" xml:space="preserve">
+    <value>Minimum of value</value>
+  </data>
+  <data name="Enable" xml:space="preserve">
+    <value>Enable</value>
+  </data>
+  <data name="EnabledChanged" xml:space="preserve">
+    <value>EnableChanged</value>
+  </data>
+  <data name="Enable_Description" xml:space="preserve">
+    <value>Indicates whether the control is enabled</value>
+  </data>
+  <data name="EndPoint" xml:space="preserve">
+    <value>EndPoint</value>
+  </data>
+  <data name="EndValue" xml:space="preserve">
+    <value>EndValue</value>
+  </data>
+  <data name="Enter" xml:space="preserve">
+    <value>Enter</value>
+  </data>
+  <data name="ErrOpenDataBase" xml:space="preserve">
+    <value>ErrOpenDataBase</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="Error1" xml:space="preserve">
+    <value>Erro</value>
+  </data>
+  <data name="ExpressionErro" xml:space="preserve">
+    <value>{0} not exist.</value>
+  </data>
+  <data name="ExpressionIsNull" xml:space="preserve">
+    <value>The value cannot be empty .</value>
+  </data>
+  <data name="ExtNumericUpDown_Increment" xml:space="preserve">
+    <value>Increment</value>
+  </data>
+  <data name="ExtNumericUpDown_Value" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="ExtRadioButton_Lines" xml:space="preserve">
+    <value>Items</value>
+  </data>
+  <data name="FalseText" xml:space="preserve">
+    <value>Cloase</value>
+  </data>
+  <data name="Fill" xml:space="preserve">
+    <value>Fill</value>
+  </data>
+  <data name="FirstDayOfWeek" xml:space="preserve">
+    <value>FirstDayOfWeek</value>
+  </data>
+  <data name="Flat" xml:space="preserve">
+    <value>Flat</value>
+  </data>
+  <data name="FlatAppearance" xml:space="preserve">
+    <value>FlatAppearance</value>
+  </data>
+  <data name="FlatStyle" xml:space="preserve">
+    <value>FlatStyle</value>
+  </data>
+  <data name="Flow" xml:space="preserve">
+    <value>Flow</value>
+  </data>
+  <data name="Font" xml:space="preserve">
+    <value>Font</value>
+  </data>
+  <data name="ForeColor" xml:space="preserve">
+    <value>ForeColor</value>
+  </data>
+  <data name="Format" xml:space="preserve">
+    <value>Format</value>
+  </data>
+  <data name="FormStyle" xml:space="preserve">
+    <value>ViewStyle</value>
+  </data>
+  <data name="FormStyle_Description" xml:space="preserve">
+    <value>The window style of the view.</value>
+  </data>
+  <data name="G2DAxisFrequency" xml:space="preserve">
+    <value>AxisFrequency</value>
+  </data>
+  <data name="G2DAxisLabel" xml:space="preserve">
+    <value>AxisLabel</value>
+  </data>
+  <data name="G2DTimeAxis" xml:space="preserve">
+    <value>G2DTimeAxis</value>
+  </data>
+  <data name="G2DValueAxis" xml:space="preserve">
+    <value>G2DValueAxis</value>
+  </data>
+  <data name="GreaterthanMaxValue" xml:space="preserve">
+    <value>Greater than max value.</value>
+  </data>
+  <data name="GridItemColorFlash_CurrentValue" xml:space="preserve">
+    <value>Flash color</value>
+  </data>
+  <data name="GridStyle" xml:space="preserve">
+    <value>GridStyle</value>
+  </data>
+  <data name="Grp" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="GrpFrmStyle" xml:space="preserve">
+    <value>ViewStyle</value>
+  </data>
+  <data name="GrpFrmStyleConfig" xml:space="preserve">
+    <value>ViewStyle</value>
+  </data>
+  <data name="GrpFrmStyle_Description" xml:space="preserve">
+    <value>The window style of the view.</value>
+  </data>
+  <data name="GrpGroup" xml:space="preserve">
+    <value>Graphics Group</value>
+  </data>
+  <data name="gxdoc" xml:space="preserve">
+    <value>gxdoc</value>
+  </data>
+  <data name="Hexadecimal" xml:space="preserve">
+    <value>Hexadecimal</value>
+  </data>
+  <data name="HideSelection" xml:space="preserve">
+    <value>HideSelection</value>
+  </data>
+  <data name="HisBarUnitCollection" xml:space="preserve">
+    <value>HisBarUnitCollection</value>
+  </data>
+  <data name="HistoryTrendCurveList" xml:space="preserve">
+    <value>HistoryTrendCurveList</value>
+  </data>
+  <data name="HorizontalExtent" xml:space="preserve">
+    <value>HorizontalExtent</value>
+  </data>
+  <data name="HorizontalScrollbar" xml:space="preserve">
+    <value>HorizontalScrollbar</value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="ImageAlign" xml:space="preserve">
+    <value>ImageAlign</value>
+  </data>
+  <data name="ImageAndText" xml:space="preserve">
+    <value>ImageAndText</value>
+  </data>
+  <data name="ImageButton" xml:space="preserve">
+    <value>ImageButton</value>
+  </data>
+  <data name="ImageContent" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="ImageContent_Description" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="ImageSize" xml:space="preserve">
+    <value>ImageSize</value>
+  </data>
+  <data name="Increment" xml:space="preserve">
+    <value>Increment</value>
+  </data>
+  <data name="InnerCtrlIsNotExist" xml:space="preserve">
+    <value>InnerCtrlIsNotExist</value>
+  </data>
+  <data name="InputAnalog_max" xml:space="preserve">
+    <value>Maximum:</value>
+  </data>
+  <data name="InputAnalog_min" xml:space="preserve">
+    <value>Minimum:</value>
+  </data>
+  <data name="InputAnalog_pleasesInput" xml:space="preserve">
+    <value>Input</value>
+  </data>
+  <data name="InputAnalog_Title" xml:space="preserve">
+    <value>Analog value input</value>
+  </data>
+  <data name="InputDisc_Title" xml:space="preserve">
+    <value>Discrete value input</value>
+  </data>
+  <data name="InputPrompt" xml:space="preserve">
+    <value>Please input</value>
+  </data>
+  <data name="InputString_Title" xml:space="preserve">
+    <value>String value input</value>
+  </data>
+  <data name="Input_Value" xml:space="preserve">
+    <value>Input Value</value>
+  </data>
+  <data name="IntegralHeight" xml:space="preserve">
+    <value>IntegralHeight</value>
+  </data>
+  <data name="InterceptArrowKeys" xml:space="preserve">
+    <value>InterceptArrowKeys</value>
+  </data>
+  <data name="InvalidInput" xml:space="preserve">
+    <value>Invalid Input.</value>
+  </data>
+  <data name="InvalidOperation" xml:space="preserve">
+    <value>Invalid operation.</value>
+  </data>
+  <data name="InvalidScriptContent" xml:space="preserve">
+    <value>Invalid expression.
+Erros：{0}</value>
+  </data>
+  <data name="IsDialogModel" xml:space="preserve">
+    <value>FormStyle</value>
+  </data>
+  <data name="IsDialogModel_Description" xml:space="preserve">
+    <value>Is popup window,when open view with layout linked by default</value>
+  </data>
+  <data name="IsShowNavigate" xml:space="preserve">
+    <value>ShowNavigate</value>
+  </data>
+  <data name="IsShowNavigate_Description" xml:space="preserve">
+    <value>Is show navigate window</value>
+  </data>
+  <data name="ItemHeight" xml:space="preserve">
+    <value>ItemHeight</value>
+  </data>
+  <data name="Items" xml:space="preserve">
+    <value>Items</value>
+  </data>
+  <data name="KeyDown" xml:space="preserve">
+    <value>KeyDown</value>
+  </data>
+  <data name="KeyExisted" xml:space="preserve">
+    <value>Key existed.</value>
+  </data>
+  <data name="KeyPress" xml:space="preserve">
+    <value>KeyPress</value>
+  </data>
+  <data name="KeyUp" xml:space="preserve">
+    <value>KeyUp</value>
+  </data>
+  <data name="Label" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="LargeChange" xml:space="preserve">
+    <value>LargeChange</value>
+  </data>
+  <data name="Layout" xml:space="preserve">
+    <value>Layout</value>
+  </data>
+  <data name="Leave" xml:space="preserve">
+    <value>Leave</value>
+  </data>
+  <data name="LeftBottom" xml:space="preserve">
+    <value>LeftBottom</value>
+  </data>
+  <data name="LeftMiddle" xml:space="preserve">
+    <value>LeftMiddle</value>
+  </data>
+  <data name="LeftTop" xml:space="preserve">
+    <value>LeftTop</value>
+  </data>
+  <data name="Line" xml:space="preserve">
+    <value>Line</value>
+  </data>
+  <data name="Lines" xml:space="preserve">
+    <value>Lines</value>
+  </data>
+  <data name="Line_Point" xml:space="preserve">
+    <value>Line point move</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="Location_Description" xml:space="preserve">
+    <value>The location of the view.</value>
+  </data>
+  <data name="Location_Shape_Description" xml:space="preserve">
+    <value>The coordinates of the upper-left corner of the control</value>
+  </data>
+  <data name="Lock" xml:space="preserve">
+    <value>Lock</value>
+  </data>
+  <data name="Lock_Description" xml:space="preserve">
+    <value>Determines if we can move or resize the control</value>
+  </data>
+  <data name="MarqueeAnimationSpeed" xml:space="preserve">
+    <value>MarqueeAnimationSpead</value>
+  </data>
+  <data name="MaxDate" xml:space="preserve">
+    <value>MaxDate</value>
+  </data>
+  <data name="MaxDropDownItems" xml:space="preserve">
+    <value>MaxDropDownItems</value>
+  </data>
+  <data name="Maximum" xml:space="preserve">
+    <value>Maximum</value>
+  </data>
+  <data name="MaxLength" xml:space="preserve">
+    <value>MaxLength</value>
+  </data>
+  <data name="MaxSelectionCount" xml:space="preserve">
+    <value>MaxSelectionCount</value>
+  </data>
+  <data name="Menu" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="MenuSelectEditor_Graphicbottomleft" xml:space="preserve">
+    <value>Bottom left(&amp;T)</value>
+  </data>
+  <data name="MenuSelectEditor_Graphicbottomleft_Desc" xml:space="preserve">
+    <value>Popup at  bottom left of shape</value>
+  </data>
+  <data name="MenuSelectEditor_Graphicbottomright" xml:space="preserve">
+    <value>Bottom right(&amp;P)</value>
+  </data>
+  <data name="MenuSelectEditor_Graphicbottomright_Desc" xml:space="preserve">
+    <value>Popup at  bottom right of shape</value>
+  </data>
+  <data name="MenuSelectEditor_GraphicCenter" xml:space="preserve">
+    <value>Center(&amp;C)</value>
+  </data>
+  <data name="MenuSelectEditor_GraphicCenter_Desc" xml:space="preserve">
+    <value>Popup at  center of shape</value>
+  </data>
+  <data name="MenuSelectEditor_Graphictopleft" xml:space="preserve">
+    <value>Top left(&amp;B)</value>
+  </data>
+  <data name="MenuSelectEditor_Graphictopleft_Desc" xml:space="preserve">
+    <value>Popup at  top left of shape</value>
+  </data>
+  <data name="MenuSelectEditor_Graphictopright" xml:space="preserve">
+    <value>Top right(&amp;O)</value>
+  </data>
+  <data name="MenuSelectEditor_Graphictopright_Desc" xml:space="preserve">
+    <value>Popup at  top right of shape</value>
+  </data>
+  <data name="MenuSelectEditor_Header" xml:space="preserve">
+    <value>Menu in current view(&amp;M):</value>
+  </data>
+  <data name="MenuSelectEditor_MousePoint" xml:space="preserve">
+    <value>Mouse point(&amp;M)</value>
+  </data>
+  <data name="MenuSelectEditor_MousePoint_Desc" xml:space="preserve">
+    <value>Popup at mouse point</value>
+  </data>
+  <data name="MenuSelectEditor_Position" xml:space="preserve">
+    <value>Menu's position</value>
+  </data>
+  <data name="MenuSelectEditor_Position_Desc" xml:space="preserve">
+    <value>Menu's position</value>
+  </data>
+  <data name="MinDate" xml:space="preserve">
+    <value>MinDate</value>
+  </data>
+  <data name="Minimum" xml:space="preserve">
+    <value>Minimum</value>
+  </data>
+  <data name="Misc" xml:space="preserve">
+    <value>Misc</value>
+  </data>
+  <data name="Miscellaneous" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="Mode" xml:space="preserve">
+    <value>Mode</value>
+  </data>
+  <data name="MonthlyBoldedDates" xml:space="preserve">
+    <value>MonthlyBoldedDates</value>
+  </data>
+  <data name="Motion" xml:space="preserve">
+    <value>Motion</value>
+  </data>
+  <data name="Mouse" xml:space="preserve">
+    <value>Mouse</value>
+  </data>
+  <data name="MouseClick" xml:space="preserve">
+    <value>MouseClick</value>
+  </data>
+  <data name="MouseDown" xml:space="preserve">
+    <value>MouseDown</value>
+  </data>
+  <data name="MouseEnter" xml:space="preserve">
+    <value>MouseEnter</value>
+  </data>
+  <data name="MouseHover" xml:space="preserve">
+    <value>MouseHover</value>
+  </data>
+  <data name="MouseLeave" xml:space="preserve">
+    <value>MouseLeave</value>
+  </data>
+  <data name="MouseMove" xml:space="preserve">
+    <value>MouseMove</value>
+  </data>
+  <data name="MouseUp" xml:space="preserve">
+    <value>MouseUp</value>
+  </data>
+  <data name="Move" xml:space="preserve">
+    <value>Move</value>
+  </data>
+  <data name="MultiColumn" xml:space="preserve">
+    <value>MultiColumn</value>
+  </data>
+  <data name="Multiline" xml:space="preserve">
+    <value>Multiline</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Name_Description" xml:space="preserve">
+    <value>indicates the name use in code to identify the object</value>
+  </data>
+  <data name="Needle" xml:space="preserve">
+    <value>Needle</value>
+  </data>
+  <data name="NewProjectSize" xml:space="preserve">
+    <value>New project size should not be empty.</value>
+  </data>
+  <data name="Node" xml:space="preserve">
+    <value>Node</value>
+  </data>
+  <data name="Nodes" xml:space="preserve">
+    <value>Nodes</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>(None)</value>
+  </data>
+  <data name="NormalImage" xml:space="preserve">
+    <value>NormalImage</value>
+  </data>
+  <data name="Note_Text" xml:space="preserve">
+    <value>Note:{0}</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="OK1" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="OldProjectSize" xml:space="preserve">
+    <value>Old project size should not be empty.</value>
+  </data>
+  <data name="Opacity" xml:space="preserve">
+    <value>Opacity</value>
+  </data>
+  <data name="OperateToolTipText" xml:space="preserve">
+    <value>OperateToolTipText</value>
+  </data>
+  <data name="Operation" xml:space="preserve">
+    <value>Operate</value>
+  </data>
+  <data name="Orientation" xml:space="preserve">
+    <value>Orientation</value>
+  </data>
+  <data name="OverImage" xml:space="preserve">
+    <value>OverImage</value>
+  </data>
+  <data name="PageHasError" xml:space="preserve">
+    <value>PageHasError</value>
+  </data>
+  <data name="ParaError" xml:space="preserve">
+    <value>Parament is error</value>
+  </data>
+  <data name="PasswordChar" xml:space="preserve">
+    <value>PasswordChar</value>
+  </data>
+  <data name="Permissions" xml:space="preserve">
+    <value>Permissions</value>
+  </data>
+  <data name="Permissions_Description" xml:space="preserve">
+    <value>Permissions</value>
+  </data>
+  <data name="PieSliceComponent" xml:space="preserve">
+    <value>PieSliceComponent</value>
+  </data>
+  <data name="PieSliceList" xml:space="preserve">
+    <value>PieSliceList</value>
+  </data>
+  <data name="Player" xml:space="preserve">
+    <value>Player</value>
+  </data>
+  <data name="Popup" xml:space="preserve">
+    <value>Popup</value>
+  </data>
+  <data name="Position" xml:space="preserve">
+    <value>Position{0}:</value>
+  </data>
+  <data name="PreviewKeyDown" xml:space="preserve">
+    <value>PreviewKeyDown</value>
+  </data>
+  <data name="Priority" xml:space="preserve">
+    <value>Priority</value>
+  </data>
+  <data name="Priority_Description" xml:space="preserve">
+    <value>Priority</value>
+  </data>
+  <data name="QueryTime" xml:space="preserve">
+    <value>QueryTime</value>
+  </data>
+  <data name="QueryUnitCollection" xml:space="preserve">
+    <value>QueryUnitCollection</value>
+  </data>
+  <data name="RadioButton" xml:space="preserve">
+    <value>RadioButton</value>
+  </data>
+  <data name="RadioButtonIndex" xml:space="preserve">
+    <value>Selected index</value>
+  </data>
+  <data name="Radius" xml:space="preserve">
+    <value>Radius</value>
+  </data>
+  <data name="ReadOnly" xml:space="preserve">
+    <value>ReadOnly</value>
+  </data>
+  <data name="Ready" xml:space="preserve">
+    <value>Ready</value>
+  </data>
+  <data name="Records" xml:space="preserve">
+    <value>Records</value>
+  </data>
+  <data name="RectRadius_Description" xml:space="preserve">
+    <value>Radius size , great than or equal to 0.</value>
+  </data>
+  <data name="RightMargin" xml:space="preserve">
+    <value>RightMargin</value>
+  </data>
+  <data name="RightMiddle" xml:space="preserve">
+    <value>RightMiddle</value>
+  </data>
+  <data name="Rotate" xml:space="preserve">
+    <value>Rotate</value>
+  </data>
+  <data name="RoundBorder" xml:space="preserve">
+    <value>RoundBorder</value>
+  </data>
+  <data name="RoundMeter" xml:space="preserve">
+    <value>RoundMeter</value>
+  </data>
+  <data name="RoundRuler" xml:space="preserve">
+    <value>RoundRuler</value>
+  </data>
+  <data name="RoundScale" xml:space="preserve">
+    <value>RoundScale</value>
+  </data>
+  <data name="Ruler" xml:space="preserve">
+    <value>Ruler</value>
+  </data>
+  <data name="RulerColor" xml:space="preserve">
+    <value>RulerColor</value>
+  </data>
+  <data name="RulerScale" xml:space="preserve">
+    <value>RulerScale</value>
+  </data>
+  <data name="Runtime" xml:space="preserve">
+    <value>Runtime</value>
+  </data>
+  <data name="Scale" xml:space="preserve">
+    <value>Scale</value>
+  </data>
+  <data name="ScalePoint" xml:space="preserve">
+    <value>ScalePoint</value>
+  </data>
+  <data name="ScrollAlwaysVisible" xml:space="preserve">
+    <value>ScrollAlwaysVisible</value>
+  </data>
+  <data name="ScrollBars" xml:space="preserve">
+    <value>ScrollBars</value>
+  </data>
+  <data name="ScrollChange" xml:space="preserve">
+    <value>ScrollChange</value>
+  </data>
+  <data name="SectionColor_Des" xml:space="preserve">
+    <value>Section color</value>
+  </data>
+  <data name="SectionEndValue_Des" xml:space="preserve">
+    <value>Section endvalue</value>
+  </data>
+  <data name="SectionName_Des" xml:space="preserve">
+    <value>Section name</value>
+  </data>
+  <data name="SectionStartValue_Des" xml:space="preserve">
+    <value>Section startvalue</value>
+  </data>
+  <data name="Security" xml:space="preserve">
+    <value>Security</value>
+  </data>
+  <data name="SelectedIndexChanged" xml:space="preserve">
+    <value>SelectedIndexChanged</value>
+  </data>
+  <data name="SelectedValueChanged" xml:space="preserve">
+    <value>SelectedValueChanged</value>
+  </data>
+  <data name="SelectionMode" xml:space="preserve">
+    <value>SelectionMode</value>
+  </data>
+  <data name="SelectionRange" xml:space="preserve">
+    <value>SelectionRange</value>
+  </data>
+  <data name="Shape" xml:space="preserve">
+    <value>Shape</value>
+  </data>
+  <data name="Shape_Size_Description" xml:space="preserve">
+    <value>The size of the control in pixels</value>
+  </data>
+  <data name="Shear" xml:space="preserve">
+    <value>Shear</value>
+  </data>
+  <data name="ShearX" xml:space="preserve">
+    <value>ShearX</value>
+  </data>
+  <data name="ShearX_Description" xml:space="preserve">
+    <value>Horizontal shear size  from -5 to 5.</value>
+  </data>
+  <data name="ShearY" xml:space="preserve">
+    <value>ShearY</value>
+  </data>
+  <data name="ShearY_Description" xml:space="preserve">
+    <value>Vertical shear size  from -5 to 5.</value>
+  </data>
+  <data name="ShortcutsEnabled" xml:space="preserve">
+    <value>ShortcutsEnabled</value>
+  </data>
+  <data name="ShortcutValue" xml:space="preserve">
+    <value>Shortcut</value>
+  </data>
+  <data name="ShowCheckBox" xml:space="preserve">
+    <value>ShowCheckBox</value>
+  </data>
+  <data name="ShowSelectionMargin" xml:space="preserve">
+    <value>ShowSelectionMargin</value>
+  </data>
+  <data name="ShowToday" xml:space="preserve">
+    <value>ShowToday</value>
+  </data>
+  <data name="ShowTodayCircle" xml:space="preserve">
+    <value>ShowTodayCircle</value>
+  </data>
+  <data name="ShowUpDown" xml:space="preserve">
+    <value>ShowUpDown</value>
+  </data>
+  <data name="ShowWeekNumbers" xml:space="preserve">
+    <value>ShowWeekNumbers</value>
+  </data>
+  <data name="Signature" xml:space="preserve">
+    <value>Signature</value>
+  </data>
+  <data name="Signature_Description" xml:space="preserve">
+    <value>Signature</value>
+  </data>
+  <data name="Size" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="SizeChanged" xml:space="preserve">
+    <value>SizeChanged</value>
+  </data>
+  <data name="Size_Description" xml:space="preserve">
+    <value>The size of the view.</value>
+  </data>
+  <data name="Slide" xml:space="preserve">
+    <value>Slide</value>
+  </data>
+  <data name="SlideX" xml:space="preserve">
+    <value>Horizontal Slide</value>
+  </data>
+  <data name="SlideY" xml:space="preserve">
+    <value>Vertical Slide</value>
+  </data>
+  <data name="Slide_Description" xml:space="preserve">
+    <value>Note:To set tag's value by {0}</value>
+  </data>
+  <data name="SmallChange" xml:space="preserve">
+    <value>SmallChange</value>
+  </data>
+  <data name="SmallerthanMinValue" xml:space="preserve">
+    <value>Smaller than min value.</value>
+  </data>
+  <data name="SmallIcon" xml:space="preserve">
+    <value>SmallIcon</value>
+  </data>
+  <data name="SmoothingMode" xml:space="preserve">
+    <value>SmoothingMode</value>
+  </data>
+  <data name="Sorted" xml:space="preserve">
+    <value>Sorted</value>
+  </data>
+  <data name="Standard" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="StartAngle" xml:space="preserve">
+    <value>StartAngle</value>
+  </data>
+  <data name="StartPoint" xml:space="preserve">
+    <value>StartPoint</value>
+  </data>
+  <data name="StartValue" xml:space="preserve">
+    <value>StartValue</value>
+  </data>
+  <data name="Step" xml:space="preserve">
+    <value>Step</value>
+  </data>
+  <data name="Stroke" xml:space="preserve">
+    <value>Stroke</value>
+  </data>
+  <data name="Style" xml:space="preserve">
+    <value>Style</value>
+  </data>
+  <data name="SubSection" xml:space="preserve">
+    <value>SubSection</value>
+  </data>
+  <data name="SubSectionCollection" xml:space="preserve">
+    <value>SubSectionCollection</value>
+  </data>
+  <data name="SweepAngle" xml:space="preserve">
+    <value>SweepAngle</value>
+  </data>
+  <data name="TabIndex" xml:space="preserve">
+    <value>TabIndex</value>
+  </data>
+  <data name="TabStop" xml:space="preserve">
+    <value>TabStop</value>
+  </data>
+  <data name="TagGetTextValue" xml:space="preserve">
+    <value>Display text value</value>
+  </data>
+  <data name="TagGetTextValue_Description" xml:space="preserve">
+    <value>Display text value</value>
+  </data>
+  <data name="TagGetValue" xml:space="preserve">
+    <value>Display value</value>
+  </data>
+  <data name="TagGetValue_Description" xml:space="preserve">
+    <value>Display value</value>
+  </data>
+  <data name="TagLinkCategory" xml:space="preserve">
+    <value>Tag Link</value>
+  </data>
+  <data name="TagReplace" xml:space="preserve">
+    <value>TagReplace</value>
+  </data>
+  <data name="TagReplace_Description" xml:space="preserve">
+    <value>TagReplace</value>
+  </data>
+  <data name="TagSetTextValue" xml:space="preserve">
+    <value>Set text value</value>
+  </data>
+  <data name="TagSetTextValue_Description" xml:space="preserve">
+    <value>Set text value</value>
+  </data>
+  <data name="TagSetValue" xml:space="preserve">
+    <value>Set value</value>
+  </data>
+  <data name="TagSetValue_Description" xml:space="preserve">
+    <value>Set value</value>
+  </data>
+  <data name="Text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="TextAlign" xml:space="preserve">
+    <value>TextAlign</value>
+  </data>
+  <data name="TextContent" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="TextContent_Description" xml:space="preserve">
+    <value>Content of text control</value>
+  </data>
+  <data name="TextImageRelation" xml:space="preserve">
+    <value>TextImageRelation</value>
+  </data>
+  <data name="Text_Color" xml:space="preserve">
+    <value>Text Color</value>
+  </data>
+  <data name="ThousandsSeparator" xml:space="preserve">
+    <value>ThousandsSeparator</value>
+  </data>
+  <data name="ThreeState" xml:space="preserve">
+    <value>ThreeState</value>
+  </data>
+  <data name="Threshold" xml:space="preserve">
+    <value>Threshold</value>
+  </data>
+  <data name="ThresholdCollection" xml:space="preserve">
+    <value>ThresholdCollection</value>
+  </data>
+  <data name="TickFrequency" xml:space="preserve">
+    <value>TickFrequency</value>
+  </data>
+  <data name="TickStyle" xml:space="preserve">
+    <value>TickStyle</value>
+  </data>
+  <data name="TimeFormatError" xml:space="preserve">
+    <value>TimeFormatError</value>
+  </data>
+  <data name="TimeInterval" xml:space="preserve">
+    <value>TimeInterval</value>
+  </data>
+  <data name="TitleBackColor" xml:space="preserve">
+    <value>TitleBackColor</value>
+  </data>
+  <data name="TitleForeColor" xml:space="preserve">
+    <value>TitleForeColor</value>
+  </data>
+  <data name="TodayDate" xml:space="preserve">
+    <value>TodayDate</value>
+  </data>
+  <data name="ToolBar" xml:space="preserve">
+    <value>ToolBar</value>
+  </data>
+  <data name="ToolBarConfig" xml:space="preserve">
+    <value>ToolBarConfig</value>
+  </data>
+  <data name="ToolTip" xml:space="preserve">
+    <value>ToolTip</value>
+  </data>
+  <data name="Tooltip_Description" xml:space="preserve">
+    <value>Tooltip Description</value>
+  </data>
+  <data name="TopMiddle" xml:space="preserve">
+    <value>TopMiddle</value>
+  </data>
+  <data name="TopRight" xml:space="preserve">
+    <value>TopRight</value>
+  </data>
+  <data name="TrailingForeColor" xml:space="preserve">
+    <value>TrailingForeColor</value>
+  </data>
+  <data name="TransparentColor" xml:space="preserve">
+    <value>TransparentColor</value>
+  </data>
+  <data name="Trend" xml:space="preserve">
+    <value>Trend</value>
+  </data>
+  <data name="TrendCurve" xml:space="preserve">
+    <value>TrendCurve</value>
+  </data>
+  <data name="TrueText" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="UnClockWise" xml:space="preserve">
+    <value>ClockWise</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="UpDownAlign" xml:space="preserve">
+    <value>UpDownAlign</value>
+  </data>
+  <data name="UseCompatibleTextRendering" xml:space="preserve">
+    <value>UseCompatibleTextRendering</value>
+  </data>
+  <data name="UseMnemonic" xml:space="preserve">
+    <value>UseMnemonic</value>
+  </data>
+  <data name="UseSystemPasswordChar" xml:space="preserve">
+    <value>UseSystemPasswordChar</value>
+  </data>
+  <data name="UseTabStops" xml:space="preserve">
+    <value>UseTabStops</value>
+  </data>
+  <data name="UseVisualStyleBackColor" xml:space="preserve">
+    <value>UseVisualStyleBackColor</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="ValueAxis" xml:space="preserve">
+    <value>ValueAxis</value>
+  </data>
+  <data name="ValueAxisList" xml:space="preserve">
+    <value>ValueAxisList</value>
+  </data>
+  <data name="ValueChanged" xml:space="preserve">
+    <value>ValueChanged</value>
+  </data>
+  <data name="ValueExpressionStyle" xml:space="preserve">
+    <value>Expression Style</value>
+  </data>
+  <data name="ValueMark" xml:space="preserve">
+    <value>ValueMark</value>
+  </data>
+  <data name="Value_Expression" xml:space="preserve">
+    <value>Value:</value>
+  </data>
+  <data name="Visibility" xml:space="preserve">
+    <value>Visibility</value>
+  </data>
+  <data name="Visible" xml:space="preserve">
+    <value>Visible</value>
+  </data>
+  <data name="VisibleChanged" xml:space="preserve">
+    <value>VisibleChanged</value>
+  </data>
+  <data name="Visible_Description" xml:space="preserve">
+    <value>Determines whether the control is visiable or hidden</value>
+  </data>
+  <data name="VSB_Change" xml:space="preserve">
+    <value>Change</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="WebBrowserConfig" xml:space="preserve">
+    <value>WebBrowserConfig</value>
+  </data>
+  <data name="WordWrap" xml:space="preserve">
+    <value>WordWrap</value>
+  </data>
+  <data name="Wrap" xml:space="preserve">
+    <value>Wrap</value>
+  </data>
+  <data name="XAxis" xml:space="preserve">
+    <value>XAxis</value>
+  </data>
+  <data name="XP" xml:space="preserve">
+    <value>XP</value>
+  </data>
+  <data name="XPStyle" xml:space="preserve">
+    <value>XPStyle</value>
+  </data>
+  <data name="YAxis" xml:space="preserve">
+    <value>YAxis</value>
+  </data>
+  <data name="ZoomFactor" xml:space="preserve">
+    <value>ZoomFactor</value>
+  </data>
+  <data name="Tag" xml:space="preserve">
+    <value>Tag:</value>
+  </data>
+  <data name="ActiveXAbout" xml:space="preserve">
+    <value>ActiveX - About...</value>
+  </data>
+  <data name="ActiveXProperty" xml:space="preserve">
+    <value>ActiveX - Property</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="AddButtonGroupPrompt" xml:space="preserve">
+    <value>Add a view group.</value>
+  </data>
+  <data name="AddButtonPrompt" xml:space="preserve">
+    <value>Add a new view.</value>
+  </data>
+  <data name="AddCategory" xml:space="preserve">
+    <value>Add category</value>
+  </data>
+  <data name="AddCombo" xml:space="preserve">
+    <value>'{0}' graphic symbol has been added to the toolbox</value>
+  </data>
+  <data name="AddDocument" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Addgraphics" xml:space="preserve">
+    <value>Add Graphics</value>
+  </data>
+  <data name="Addgroup" xml:space="preserve">
+    <value>Add Group</value>
+  </data>
+  <data name="AddSymbolKey" xml:space="preserve">
+    <value>Add the selected combined object to the graphics symbol library.</value>
+  </data>
+  <data name="AddViewCommand" xml:space="preserve">
+    <value>Add View</value>
+  </data>
+  <data name="Advance" xml:space="preserve">
+    <value>Advance</value>
+  </data>
+  <data name="Alarm" xml:space="preserve">
+    <value>Alarm</value>
+  </data>
+  <data name="Align" xml:space="preserve">
+    <value>Align</value>
+  </data>
+  <data name="AlignBottom" xml:space="preserve">
+    <value>Align Bottom</value>
+  </data>
+  <data name="AlignBottomKey" xml:space="preserve">
+    <value>Align bottom.</value>
+  </data>
+  <data name="AlignCenterHorizon" xml:space="preserve">
+    <value>Align Center Horizontal</value>
+  </data>
+  <data name="AlignCenterKey" xml:space="preserve">
+    <value>Align on horizontal center</value>
+  </data>
+  <data name="AlignLeft" xml:space="preserve">
+    <value>Align Left</value>
+  </data>
+  <data name="AlignLeftKey" xml:space="preserve">
+    <value>Align left.</value>
+  </data>
+  <data name="AlignMiddleKey" xml:space="preserve">
+    <value>Align on vertical center.</value>
+  </data>
+  <data name="AlignMiddleVerticle" xml:space="preserve">
+    <value>Align Middle Verticle</value>
+  </data>
+  <data name="AlignRight" xml:space="preserve">
+    <value>Align Right</value>
+  </data>
+  <data name="AlignRightKey" xml:space="preserve">
+    <value>Align right.</value>
+  </data>
+  <data name="AlignRotateCenter" xml:space="preserve">
+    <value>Align Rotate Center</value>
+  </data>
+  <data name="AlignRotateCenterKey" xml:space="preserve">
+    <value>Align center.</value>
+  </data>
+  <data name="AlignTop" xml:space="preserve">
+    <value>Align Top</value>
+  </data>
+  <data name="AlignTopKey" xml:space="preserve">
+    <value>Align top.</value>
+  </data>
+  <data name="AllStretch" xml:space="preserve">
+    <value>Region</value>
+  </data>
+  <data name="AlwaysOnTop" xml:space="preserve">
+    <value>Always on top</value>
+  </data>
+  <data name="Animate" xml:space="preserve">
+    <value>Animate</value>
+  </data>
+  <data name="AnimateConfigured1" xml:space="preserve">
+    <value>Shapes selected has configure you selected animate,do you want to overwrite?</value>
+  </data>
+  <data name="AnimateItem" xml:space="preserve">
+    <value>Animate</value>
+  </data>
+  <data name="AnimatePadContentText" xml:space="preserve">
+    <value>Animate</value>
+  </data>
+  <data name="AnimatePadKey" xml:space="preserve">
+    <value>Configure animation properties of the graphic object.</value>
+  </data>
+  <data name="Animate_Head" xml:space="preserve">
+    <value>Animate&amp;Operation</value>
+  </data>
+  <data name="AniTypeDisplayProxyEditorViewModel_Title" xml:space="preserve">
+    <value>Value display</value>
+  </data>
+  <data name="AniTypeInputProxyEditorViewModel_Title" xml:space="preserve">
+    <value>Value input</value>
+  </data>
+  <data name="AniTypeSwitchImage1" xml:space="preserve">
+    <value>Switch Image</value>
+  </data>
+  <data name="AroundColor" xml:space="preserve">
+    <value>AroundColor</value>
+  </data>
+  <data name="BackColor1" xml:space="preserve">
+    <value>Background</value>
+  </data>
+  <data name="Base1" xml:space="preserve">
+    <value>Base</value>
+  </data>
+  <data name="BaseShape" xml:space="preserve">
+    <value>Base Shape</value>
+  </data>
+  <data name="BasicColor" xml:space="preserve">
+    <value>BasicColor</value>
+  </data>
+  <data name="BooleanAni_In_False" xml:space="preserve">
+    <value>When button's text be set false:</value>
+  </data>
+  <data name="BooleanAni_In_Text" xml:space="preserve">
+    <value>Button text:</value>
+  </data>
+  <data name="BooleanAni_In_True" xml:space="preserve">
+    <value>When button's text be set true:</value>
+  </data>
+  <data name="BooleanAni_Out_False" xml:space="preserve">
+    <value>When false,display as string:</value>
+  </data>
+  <data name="BooleanAni_Out_True" xml:space="preserve">
+    <value>When true,display as string:</value>
+  </data>
+  <data name="BooleanCtrl_GroupText" xml:space="preserve">
+    <value>Display formate of boolean</value>
+  </data>
+  <data name="BrowserPadTitle" xml:space="preserve">
+    <value>Browser</value>
+  </data>
+  <data name="Brush" xml:space="preserve">
+    <value>Brush</value>
+  </data>
+  <data name="Cancel1" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="CanvasObjectSelKey" xml:space="preserve">
+    <value>graphic symbol '{0}' is selected</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="CellExpFormat" xml:space="preserve">
+    <value>Cell format</value>
+  </data>
+  <data name="Center1" xml:space="preserve">
+    <value>Center</value>
+  </data>
+  <data name="CenterColor" xml:space="preserve">
+    <value>CenterColor</value>
+  </data>
+  <data name="CenterHorizontal" xml:space="preserve">
+    <value>Make Selections Same Center Horizontal</value>
+  </data>
+  <data name="CenterHorKey" xml:space="preserve">
+    <value>Place the selected graphic object in the horizontal center of the view.</value>
+  </data>
+  <data name="CenterTip" xml:space="preserve">
+    <value>Center point can change by mouse drag.</value>
+  </data>
+  <data name="CenterVerKey" xml:space="preserve">
+    <value>Place the selected graphic object in the vertical center of the view.</value>
+  </data>
+  <data name="CenterVertical" xml:space="preserve">
+    <value>Make Selections Same Center Vertical</value>
+  </data>
+  <data name="ChangeTagExportTitle" xml:space="preserve">
+    <value>Tag to parameter</value>
+  </data>
+  <data name="ChangeTagInTemplate" xml:space="preserve">
+    <value>Change tag name in template</value>
+  </data>
+  <data name="ChangeToFixed" xml:space="preserve">
+    <value>To pixel</value>
+  </data>
+  <data name="ChangeToPercent" xml:space="preserve">
+    <value>To percent</value>
+  </data>
+  <data name="Charts" xml:space="preserve">
+    <value>Charts</value>
+  </data>
+  <data name="ChartsTipText" xml:space="preserve">
+    <value>Charts.</value>
+  </data>
+  <data name="Circle" xml:space="preserve">
+    <value>Circle</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="Clocks" xml:space="preserve">
+    <value>Clocks</value>
+  </data>
+  <data name="ClocksTipText" xml:space="preserve">
+    <value>Clocks.</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="CloseActive" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="CloseAll" xml:space="preserve">
+    <value>Close all</value>
+  </data>
+  <data name="CloseCanvasPrompt" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="CloseCanvasWarningMessage" xml:space="preserve">
+    <value>View has changed whitout saving,do you want to save?</value>
+  </data>
+  <data name="CloseCanvasWarningTitle" xml:space="preserve">
+    <value>View Save </value>
+  </data>
+  <data name="CloseCategory" xml:space="preserve">
+    <value>Close category</value>
+  </data>
+  <data name="CloseCategoryKey" xml:space="preserve">
+    <value>Close the selected classification.</value>
+  </data>
+  <data name="CloseOthers" xml:space="preserve">
+    <value>Close others</value>
+  </data>
+  <data name="ClosePreview" xml:space="preserve">
+    <value>1、Change size or location of view by mouse left button;
+2、Show or hidden infomation by press  [H] or mouse right button;
+3、Double click or press  [SPACE]  to save and exit;
+4、Press [ESC] to exit and ignore changed;
+5、Press [D] to show more infomation.</value>
+  </data>
+  <data name="ClosePreviewDetail" xml:space="preserve">
+    <value>1、Change size or location of view by mouse left button;
+2、Show or hidden infomation by press  [H] or mouse right button;
+3、Double click or press space key to save and exit;
+4、Press [ESC] to exit and ignore changed;
+5、Press [↑] to move up 1 px,[Shift+↑] to move up 10 px,
+   [Ctrl+↑] to decrease 1 px for height;
+6、Press [↓] to move down 1 px,[Shift+↓] to move down 10 px,
+   [Ctrl+↓] to increase 1 px for height;
+7、Press [←] to move left 1 px,[Shift+←] to move left 10 px,
+   [Ctrl+←] to decrease 1 px for width;
+8、Press [→] to move right 1 px,[Shift+→] to move right 10 px,
+   [Ctrl+→] to increase 1 px for width;
+9、Press [D] to show basic infomation.</value>
+  </data>
+  <data name="ClosePreviewReadOnly" xml:space="preserve">
+    <value>1、Show or hidden infomation by press  [H] or mouse right button;
+2、Double click ,press [SPACE] or [ESC] to exit;</value>
+  </data>
+  <data name="CloseViewWaringTitle" xml:space="preserve">
+    <value>Close view question</value>
+  </data>
+  <data name="CloseViewWarningMessage" xml:space="preserve">
+    <value>The view has been changed,click 'Yes' to save and close,'No' to close without save.</value>
+  </data>
+  <data name="Collection" xml:space="preserve">
+    <value>Collection</value>
+  </data>
+  <data name="CollectionEditorTitle" xml:space="preserve">
+    <value>CollectionEditorTitle</value>
+  </data>
+  <data name="Color1" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="ComboAnimate" xml:space="preserve">
+    <value>Animate of combo</value>
+  </data>
+  <data name="ComboCategory" xml:space="preserve">
+    <value>Category '{0}' has exists,do you want to overwrite?</value>
+  </data>
+  <data name="ComboCommand" xml:space="preserve">
+    <value>Combo</value>
+  </data>
+  <data name="ComboDisplayCommand" xml:space="preserve">
+    <value>DisplayCombo</value>
+  </data>
+  <data name="ComboExportProcess_Title" xml:space="preserve">
+    <value>Export is in processing ....</value>
+  </data>
+  <data name="ComboImportProcess_Title" xml:space="preserve">
+    <value>Inport is in processing ....</value>
+  </data>
+  <data name="ComboInfo" xml:space="preserve">
+    <value>Description:</value>
+  </data>
+  <data name="ComboOperation" xml:space="preserve">
+    <value>Operation of combo</value>
+  </data>
+  <data name="ComboPad" xml:space="preserve">
+    <value>Graph Template</value>
+  </data>
+  <data name="ComboProperty" xml:space="preserve">
+    <value>Property of combo</value>
+  </data>
+  <data name="ComboShapeEditor_Title" xml:space="preserve">
+    <value>Make group</value>
+  </data>
+  <data name="Common" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="ComponentAddedUndoActionName" xml:space="preserve">
+    <value>Add component {0} </value>
+  </data>
+  <data name="ComponentChangedUndoActionName" xml:space="preserve">
+    <value>Component {0}'s property {1} changed, old value {2}, new value {3}</value>
+  </data>
+  <data name="ComponentRemovedUndoActionName" xml:space="preserve">
+    <value>Remove component: '{0}' Index: {1}</value>
+  </data>
+  <data name="ComponentRenamedUndoActionName" xml:space="preserve">
+    <value>Component {0} rename, old name:{1}, new name: {2}</value>
+  </data>
+  <data name="ComponentSelectedUndoActionName" xml:space="preserve">
+    <value>Selection changed action</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="Coordinate" xml:space="preserve">
+    <value>Coordinate</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="CopyAlarm" xml:space="preserve">
+    <value>Many shapes selected to copy,do you want to continue？</value>
+  </data>
+  <data name="CopyAnimatePreviewTitle" xml:space="preserve">
+    <value>Select animates &amp; operation you will copy</value>
+  </data>
+  <data name="CopyAnimates" xml:space="preserve">
+    <value>Copy animates &amp; operation</value>
+  </data>
+  <data name="CopyBrush" xml:space="preserve">
+    <value>Copy brush</value>
+  </data>
+  <data name="CopyBrushKey" xml:space="preserve">
+    <value>Copies fill property of the selected graphic object</value>
+  </data>
+  <data name="CopyOperationKey" xml:space="preserve">
+    <value>Copy the selected content, and put it into the clipboard</value>
+  </data>
+  <data name="CopyShapeKey" xml:space="preserve">
+    <value>Cut the selected graphic object, and put it into the clipboard</value>
+  </data>
+  <data name="CopyStroke" xml:space="preserve">
+    <value>Copy stroke</value>
+  </data>
+  <data name="CopyStrokeKey" xml:space="preserve">
+    <value>Copies line property of the selected graphic object</value>
+  </data>
+  <data name="CornerScaleTip" xml:space="preserve">
+    <value>Ctrl + scale, scale for geometric proportion, Ctrl + scale, scale base the center.</value>
+  </data>
+  <data name="Count" xml:space="preserve">
+    <value>Count</value>
+  </data>
+  <data name="CreateComboTemplateTitle" xml:space="preserve">
+    <value>Save as combo template</value>
+  </data>
+  <data name="CreateDocument" xml:space="preserve">
+    <value>A new view  '{0}'  has been added.</value>
+  </data>
+  <data name="CreateDocumentGroup" xml:space="preserve">
+    <value>A new view group '{0}'  has been added.</value>
+  </data>
+  <data name="CreateTemplateDocument" xml:space="preserve">
+    <value>A new template '{0}'  has been added.</value>
+  </data>
+  <data name="CreateTemplateDocumentGroup" xml:space="preserve">
+    <value>A new template group '{0}'  has been added.</value>
+  </data>
+  <data name="CreateTemplateDocumentItem" xml:space="preserve">
+    <value>A new template  '{0}'  has been added.</value>
+  </data>
+  <data name="CreateTemplateGraphics" xml:space="preserve">
+    <value>Create graphics</value>
+  </data>
+  <data name="CreateTemplateGroup" xml:space="preserve">
+    <value>Create group</value>
+  </data>
+  <data name="CreateTemplateTitle" xml:space="preserve">
+    <value>Save as template</value>
+  </data>
+  <data name="CurrentOperate" xml:space="preserve">
+    <value>CurrentOperate</value>
+  </data>
+  <data name="CustomColorPanel_Blue" xml:space="preserve">
+    <value>Blue(&amp;B):</value>
+  </data>
+  <data name="CustomColorPanel_Green" xml:space="preserve">
+    <value>Green(&amp;G):</value>
+  </data>
+  <data name="CustomColorPanel_Red" xml:space="preserve">
+    <value>Red(&amp;R):</value>
+  </data>
+  <data name="CustomColorPanel_Title" xml:space="preserve">
+    <value>Custom:</value>
+  </data>
+  <data name="Cut" xml:space="preserve">
+    <value>Cut</value>
+  </data>
+  <data name="CutOperationKey" xml:space="preserve">
+    <value>Cut the selected content, and put it into the clipboard</value>
+  </data>
+  <data name="CutShapeKey" xml:space="preserve">
+    <value>Cut the selected graphic object, and put it into the clipboard</value>
+  </data>
+  <data name="DataFormat" xml:space="preserve">
+    <value>Data configuration</value>
+  </data>
+  <data name="DataFormatEditorView_Title" xml:space="preserve">
+    <value>Data format</value>
+  </data>
+  <data name="DataformatEditor_dataformat" xml:space="preserve">
+    <value>Type:</value>
+  </data>
+  <data name="DataformatEditor_datetime" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="DataformatEditor_digital" xml:space="preserve">
+    <value>Digital</value>
+  </data>
+  <data name="DataformatEditor_number" xml:space="preserve">
+    <value>Analog</value>
+  </data>
+  <data name="DataformatEditor_string" xml:space="preserve">
+    <value>String</value>
+  </data>
+  <data name="DataInput" xml:space="preserve">
+    <value>Data input</value>
+  </data>
+  <data name="DateTimeFormat_date" xml:space="preserve">
+    <value>Date format</value>
+  </data>
+  <data name="DateTimeFormat_date_long" xml:space="preserve">
+    <value>Long date format({0})</value>
+  </data>
+  <data name="DateTimeFormat_date_noshow" xml:space="preserve">
+    <value>Hidden</value>
+  </data>
+  <data name="DateTimeFormat_date_short" xml:space="preserve">
+    <value>Short date format({0})</value>
+  </data>
+  <data name="DateTimeFormat_date_specail" xml:space="preserve">
+    <value>Month &amp; Day({0})</value>
+  </data>
+  <data name="DateTimeFormat_time" xml:space="preserve">
+    <value>Time format</value>
+  </data>
+  <data name="DateTimeFormat_time_long" xml:space="preserve">
+    <value>Long time format({0})</value>
+  </data>
+  <data name="DateTimeFormat_time_noshow" xml:space="preserve">
+    <value>Hidden</value>
+  </data>
+  <data name="DateTimeFormat_time_short" xml:space="preserve">
+    <value>Short time format({0})</value>
+  </data>
+  <data name="DateTimeFormat_time_specail" xml:space="preserve">
+    <value>Include millisecond({0})</value>
+  </data>
+  <data name="DBTagReplaceKey" xml:space="preserve">
+    <value>Replace specified tag used in all views of view group.</value>
+  </data>
+  <data name="DefaultRegionName" xml:space="preserve">
+    <value>Region</value>
+  </data>
+  <data name="DefaultTitle" xml:space="preserve">
+    <value>Default(&amp;D)</value>
+  </data>
+  <data name="Degree" xml:space="preserve">
+    <value>°</value>
+  </data>
+  <data name="DelCol" xml:space="preserve">
+    <value>Delete column</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="DeleteButtonPrompt" xml:space="preserve">
+    <value>Delete the selected view or group, including views</value>
+  </data>
+  <data name="DeleteGraphicsKey" xml:space="preserve">
+    <value>Delete view</value>
+  </data>
+  <data name="DeleteGroupKey" xml:space="preserve">
+    <value>Delete the selected view or group , including views.</value>
+  </data>
+  <data name="DeleteHead" xml:space="preserve">
+    <value>Remove confirm</value>
+  </data>
+  <data name="DeleteShapeKey" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="DelRow" xml:space="preserve">
+    <value>Delete row</value>
+  </data>
+  <data name="Description1" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="DialogLayoutSelectView_Head" xml:space="preserve">
+    <value>Select a layout &amp; region with form style for open view with a dialog</value>
+  </data>
+  <data name="DialogLayoutSelectView_NoDialogLayout1" xml:space="preserve">
+    <value>This is not a layout with form style,you can click </value>
+  </data>
+  <data name="DialogLayoutSelectView_NoDialogLayout2" xml:space="preserve">
+    <value>to creat one.</value>
+  </data>
+  <data name="DialogLayoutSelectView_NoDialogLayout_Create" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="DialogLayoutSelectView_Title" xml:space="preserve">
+    <value>FormStyle</value>
+  </data>
+  <data name="Direction" xml:space="preserve">
+    <value>Direction</value>
+  </data>
+  <data name="DisplayAll_Desc" xml:space="preserve">
+    <value>Display All</value>
+  </data>
+  <data name="DisplayConfig_Desc" xml:space="preserve">
+    <value>Only configurated</value>
+  </data>
+  <data name="DoReplace" xml:space="preserve">
+    <value>Replace</value>
+  </data>
+  <data name="DotGrid" xml:space="preserve">
+    <value>Dot grid</value>
+  </data>
+  <data name="DottedLine" xml:space="preserve">
+    <value>DottedLine</value>
+  </data>
+  <data name="DragToMoveTreeItem" xml:space="preserve">
+    <value>Click to select, double click to open the view, drag to move a view to another view group</value>
+  </data>
+  <data name="Editor_BrowseResource_Desc" xml:space="preserve">
+    <value>Get from resource by browser</value>
+  </data>
+  <data name="Editor_ClearKey_Desc" xml:space="preserve">
+    <value>Clear key</value>
+  </data>
+  <data name="Editor_ClearValue_Desc1" xml:space="preserve">
+    <value>Clear value</value>
+  </data>
+  <data name="Editor_SelectTag_Desc1" xml:space="preserve">
+    <value>Select tag</value>
+  </data>
+  <data name="Effect" xml:space="preserve">
+    <value>Effect</value>
+  </data>
+  <data name="EnabledChanged1" xml:space="preserve">
+    <value>EnabledChanged</value>
+  </data>
+  <data name="EnableMax" xml:space="preserve">
+    <value>Maximize</value>
+  </data>
+  <data name="EnableMin" xml:space="preserve">
+    <value>Minimize</value>
+  </data>
+  <data name="EnableNavigate" xml:space="preserve">
+    <value>Thumbnail window</value>
+  </data>
+  <data name="EnableTooltip" xml:space="preserve">
+    <value>Enable tooltip</value>
+  </data>
+  <data name="EndColor" xml:space="preserve">
+    <value>EndColor</value>
+  </data>
+  <data name="EndPoint1" xml:space="preserve">
+    <value>EndPoint</value>
+  </data>
+  <data name="Error2" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="EventItem" xml:space="preserve">
+    <value>Operation</value>
+  </data>
+  <data name="EventPadContentText" xml:space="preserve">
+    <value>Operation</value>
+  </data>
+  <data name="EventPadKey" xml:space="preserve">
+    <value>Configure event properties of the graphic object.</value>
+  </data>
+  <data name="Exactmatch" xml:space="preserve">
+    <value>Exact match</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="ExportedGraphics" xml:space="preserve">
+    <value>Graphics to be exported:</value>
+  </data>
+  <data name="ExportError" xml:space="preserve">
+    <value>Failed to export views, because of '{0}'</value>
+  </data>
+  <data name="ExportGraphics" xml:space="preserve">
+    <value>Export Graphics</value>
+  </data>
+  <data name="ExportHint" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ExportLeft" xml:space="preserve">
+    <value>&lt;</value>
+  </data>
+  <data name="ExportLeftAll" xml:space="preserve">
+    <value>&lt;&lt;</value>
+  </data>
+  <data name="ExportPath" xml:space="preserve">
+    <value>Path:</value>
+  </data>
+  <data name="ExportPathError" xml:space="preserve">
+    <value>Export file name: '{0}' is error.</value>
+  </data>
+  <data name="ExportPathNotFound" xml:space="preserve">
+    <value>Export fle name: '{0}' not found.</value>
+  </data>
+  <data name="ExportPathNull" xml:space="preserve">
+    <value>Export file name cannot be empty.</value>
+  </data>
+  <data name="ExportPrompt" xml:space="preserve">
+    <value>Export graphics list to select:</value>
+  </data>
+  <data name="ExportTitle" xml:space="preserve">
+    <value>Export(&amp;X)</value>
+  </data>
+  <data name="ExportViewTitile" xml:space="preserve">
+    <value>Export View</value>
+  </data>
+  <data name="Expression" xml:space="preserve">
+    <value>Expression:</value>
+  </data>
+  <data name="ExpressionErro1" xml:space="preserve">
+    <value>'{0}' not exist.</value>
+  </data>
+  <data name="ExpressionIsNull1" xml:space="preserve">
+    <value>The value cannot be empty .</value>
+  </data>
+  <data name="Expression_Head" xml:space="preserve">
+    <value>Expression</value>
+  </data>
+  <data name="FalseString" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="FalseText1" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="FileCountError" xml:space="preserve">
+    <value>Import File Count Is Invalid.</value>
+  </data>
+  <data name="Fill1" xml:space="preserve">
+    <value>Fill</value>
+  </data>
+  <data name="FillFormatBrush" xml:space="preserve">
+    <value>Fill Fromat</value>
+  </data>
+  <data name="FillFormatKey" xml:space="preserve">
+    <value>Copies fill property of the selected graphic object.</value>
+  </data>
+  <data name="Filter" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="Focus" xml:space="preserve">
+    <value>Focus</value>
+  </data>
+  <data name="ForeColor1" xml:space="preserve">
+    <value>Foreground</value>
+  </data>
+  <data name="FormModelViewModel_Title" xml:space="preserve">
+    <value>Layout Style</value>
+  </data>
+  <data name="FormModelView_Appearance" xml:space="preserve">
+    <value>Appearance:</value>
+  </data>
+  <data name="FormModelView_Center" xml:space="preserve">
+    <value>Center</value>
+  </data>
+  <data name="FormModelView_FormModel" xml:space="preserve">
+    <value>Window model</value>
+  </data>
+  <data name="FormModelView_HasTitle" xml:space="preserve">
+    <value>Title bar</value>
+  </data>
+  <data name="FormModelView_IsFormStyle" xml:space="preserve">
+    <value>Window</value>
+  </data>
+  <data name="FormModelView_Location" xml:space="preserve">
+    <value>Location:</value>
+  </data>
+  <data name="FormModelView_Manual" xml:space="preserve">
+    <value>As specified</value>
+  </data>
+  <data name="FormModelView_Model" xml:space="preserve">
+    <value>Model</value>
+  </data>
+  <data name="FormModelView_Normal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="FormModelView_Resizeable" xml:space="preserve">
+    <value>Resizeable</value>
+  </data>
+  <data name="FormModelView_Scroll" xml:space="preserve">
+    <value>Scroll bar</value>
+  </data>
+  <data name="FormModelView_TitleText" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="FormModelView_Top" xml:space="preserve">
+    <value>Top most</value>
+  </data>
+  <data name="FormModelView_ViewStyle" xml:space="preserve">
+    <value>View style</value>
+  </data>
+  <data name="FourthPanelText" xml:space="preserve">
+    <value>View:"{0}" {1} Components.</value>
+  </data>
+  <data name="Function" xml:space="preserve">
+    <value>Function</value>
+  </data>
+  <data name="Gradient" xml:space="preserve">
+    <value>Gradient</value>
+  </data>
+  <data name="Graphics" xml:space="preserve">
+    <value>Graphics:</value>
+  </data>
+  <data name="GraphicsDocumentCount" xml:space="preserve">
+    <value>Number of views:</value>
+  </data>
+  <data name="GraphicsGroupCount" xml:space="preserve">
+    <value>Number of groups:</value>
+  </data>
+  <data name="GraphicsListTitle" xml:space="preserve">
+    <value>Ungrouped</value>
+  </data>
+  <data name="GraphicsManager" xml:space="preserve">
+    <value>Graphics</value>
+  </data>
+  <data name="GraphicsRename" xml:space="preserve">
+    <value>Graphics rename</value>
+  </data>
+  <data name="GraphicsTemplateCount" xml:space="preserve">
+    <value>Number of view templates:</value>
+  </data>
+  <data name="GridOperationKey" xml:space="preserve">
+    <value>Switch graphic editor backgroud grid to {0}.</value>
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="GroupError" xml:space="preserve">
+    <value>GroupError，Reason{0}</value>
+  </data>
+  <data name="GroupKey" xml:space="preserve">
+    <value>Combine selected graphic objects into one combined object.</value>
+  </data>
+  <data name="GroupMake" xml:space="preserve">
+    <value>Make group</value>
+  </data>
+  <data name="GroupUn" xml:space="preserve">
+    <value>Ungroup</value>
+  </data>
+  <data name="GroupUnToEnd" xml:space="preserve">
+    <value>UnGroupToEnd</value>
+  </data>
+  <data name="Grp1" xml:space="preserve">
+    <value>Graphics</value>
+  </data>
+  <data name="GrpFileExtension" xml:space="preserve">
+    <value>grp</value>
+  </data>
+  <data name="GrpGroup1" xml:space="preserve">
+    <value>Graphics group</value>
+  </data>
+  <data name="GrpModelMessage" xml:space="preserve">
+    <value>{0}, </value>
+  </data>
+  <data name="gxdoc1" xml:space="preserve">
+    <value>gxdoc</value>
+  </data>
+  <data name="Hatch" xml:space="preserve">
+    <value>Hatch</value>
+  </data>
+  <data name="HatchFill" xml:space="preserve">
+    <value>HatchFill</value>
+  </data>
+  <data name="HatchStyleList_0" xml:space="preserve">
+    <value>Big grid</value>
+  </data>
+  <data name="HatchStyleList_1" xml:space="preserve">
+    <value>5%</value>
+  </data>
+  <data name="HatchStyleList_10" xml:space="preserve">
+    <value>75%</value>
+  </data>
+  <data name="HatchStyleList_11" xml:space="preserve">
+    <value>80%</value>
+  </data>
+  <data name="HatchStyleList_12" xml:space="preserve">
+    <value>90%</value>
+  </data>
+  <data name="HatchStyleList_13" xml:space="preserve">
+    <value>Light down diagonal</value>
+  </data>
+  <data name="HatchStyleList_14" xml:space="preserve">
+    <value>Light up diagonal</value>
+  </data>
+  <data name="HatchStyleList_15" xml:space="preserve">
+    <value>Deep down diagonal</value>
+  </data>
+  <data name="HatchStyleList_16" xml:space="preserve">
+    <value>Deep up diagonal</value>
+  </data>
+  <data name="HatchStyleList_17" xml:space="preserve">
+    <value>Thick down diagonal</value>
+  </data>
+  <data name="HatchStyleList_18" xml:space="preserve">
+    <value>Thick up diagonal</value>
+  </data>
+  <data name="HatchStyleList_19" xml:space="preserve">
+    <value>Light vertical line</value>
+  </data>
+  <data name="HatchStyleList_2" xml:space="preserve">
+    <value>10%</value>
+  </data>
+  <data name="HatchStyleList_20" xml:space="preserve">
+    <value>Light horizontal line</value>
+  </data>
+  <data name="HatchStyleList_21" xml:space="preserve">
+    <value>Thin vertical line</value>
+  </data>
+  <data name="HatchStyleList_22" xml:space="preserve">
+    <value>Thin horizontal line</value>
+  </data>
+  <data name="HatchStyleList_23" xml:space="preserve">
+    <value>Deep vertical line</value>
+  </data>
+  <data name="HatchStyleList_24" xml:space="preserve">
+    <value>Deep horizontal line</value>
+  </data>
+  <data name="HatchStyleList_25" xml:space="preserve">
+    <value>Right down dotted line</value>
+  </data>
+  <data name="HatchStyleList_26" xml:space="preserve">
+    <value>Right up dotted line</value>
+  </data>
+  <data name="HatchStyleList_27" xml:space="preserve">
+    <value>Horizontal dotted line</value>
+  </data>
+  <data name="HatchStyleList_28" xml:space="preserve">
+    <value>Vertical dotted line</value>
+  </data>
+  <data name="HatchStyleList_29" xml:space="preserve">
+    <value>Small wastepaper</value>
+  </data>
+  <data name="HatchStyleList_3" xml:space="preserve">
+    <value>20%</value>
+  </data>
+  <data name="HatchStyleList_30" xml:space="preserve">
+    <value>Big wastepaper</value>
+  </data>
+  <data name="HatchStyleList_31" xml:space="preserve">
+    <value>Zigzags</value>
+  </data>
+  <data name="HatchStyleList_32" xml:space="preserve">
+    <value>Wave</value>
+  </data>
+  <data name="HatchStyleList_33" xml:space="preserve">
+    <value>Diagonal brick</value>
+  </data>
+  <data name="HatchStyleList_34" xml:space="preserve">
+    <value>Horizontal brick</value>
+  </data>
+  <data name="HatchStyleList_35" xml:space="preserve">
+    <value>Textile</value>
+  </data>
+  <data name="HatchStyleList_36" xml:space="preserve">
+    <value>Scotland Plaid</value>
+  </data>
+  <data name="HatchStyleList_37" xml:space="preserve">
+    <value>Turf</value>
+  </data>
+  <data name="HatchStyleList_38" xml:space="preserve">
+    <value>Dotted grid</value>
+  </data>
+  <data name="HatchStyleList_39" xml:space="preserve">
+    <value>Point  diamond</value>
+  </data>
+  <data name="HatchStyleList_4" xml:space="preserve">
+    <value>25%</value>
+  </data>
+  <data name="HatchStyleList_40" xml:space="preserve">
+    <value>Tile</value>
+  </data>
+  <data name="HatchStyleList_41" xml:space="preserve">
+    <value>Trellis</value>
+  </data>
+  <data name="HatchStyleList_42" xml:space="preserve">
+    <value>Spherome</value>
+  </data>
+  <data name="HatchStyleList_43" xml:space="preserve">
+    <value>Small grid</value>
+  </data>
+  <data name="HatchStyleList_44" xml:space="preserve">
+    <value>Small chessboard</value>
+  </data>
+  <data name="HatchStyleList_45" xml:space="preserve">
+    <value>Big chessboard</value>
+  </data>
+  <data name="HatchStyleList_46" xml:space="preserve">
+    <value>Outline diamond</value>
+  </data>
+  <data name="HatchStyleList_47" xml:space="preserve">
+    <value>Solid diamond</value>
+  </data>
+  <data name="HatchStyleList_5" xml:space="preserve">
+    <value>30%</value>
+  </data>
+  <data name="HatchStyleList_6" xml:space="preserve">
+    <value>40%</value>
+  </data>
+  <data name="HatchStyleList_7" xml:space="preserve">
+    <value>50%</value>
+  </data>
+  <data name="HatchStyleList_8" xml:space="preserve">
+    <value>60%</value>
+  </data>
+  <data name="HatchStyleList_9" xml:space="preserve">
+    <value>70%</value>
+  </data>
+  <data name="Height" xml:space="preserve">
+    <value>Height</value>
+  </data>
+  <data name="HorizontalKey" xml:space="preserve">
+    <value>Distribute selected graphic objects evenly in horizontal direction.</value>
+  </data>
+  <data name="HorizontalStretch" xml:space="preserve">
+    <value>Region width</value>
+  </data>
+  <data name="HorMirrorKey" xml:space="preserve">
+    <value>Mirrors a graphic object around the vertical axis</value>
+  </data>
+  <data name="HSpaceSame" xml:space="preserve">
+    <value>Make Selections Same Horizontal</value>
+  </data>
+  <data name="ICON" xml:space="preserve">
+    <value>Icon</value>
+  </data>
+  <data name="Image1" xml:space="preserve">
+    <value>Bitmap</value>
+  </data>
+  <data name="ImageFormTitle" xml:space="preserve">
+    <value>Image Resource</value>
+  </data>
+  <data name="ImagePreview" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="Import" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="ImportItemNameRepetition" xml:space="preserve">
+    <value>Item name repetition</value>
+  </data>
+  <data name="ImportNameRepetition" xml:space="preserve">
+    <value>Import node {0} already Existed.</value>
+  </data>
+  <data name="ImportTitle" xml:space="preserve">
+    <value>Import(&amp;I)</value>
+  </data>
+  <data name="ImportViewTitle" xml:space="preserve">
+    <value>Import View</value>
+  </data>
+  <data name="InputPrompt1" xml:space="preserve">
+    <value>Please Enter</value>
+  </data>
+  <data name="InRunTitle" xml:space="preserve">
+    <value>InRun</value>
+  </data>
+  <data name="InsertCol" xml:space="preserve">
+    <value>Insert column</value>
+  </data>
+  <data name="InsertRow" xml:space="preserve">
+    <value>Insert row</value>
+  </data>
+  <data name="InvalidDocument" xml:space="preserve">
+    <value>Invalid document object.</value>
+  </data>
+  <data name="In_Info" xml:space="preserve">
+    <value>Tooltip:</value>
+  </data>
+  <data name="In_shutkey" xml:space="preserve">
+    <value>Shortcuts:</value>
+  </data>
+  <data name="IsFrmModel" xml:space="preserve">
+    <value>IsFrmModel</value>
+  </data>
+  <data name="IsMainGrp" xml:space="preserve">
+    <value>StartView</value>
+  </data>
+  <data name="IsScrollBar" xml:space="preserve">
+    <value>IsScrollBar</value>
+  </data>
+  <data name="IsShowMessageArea" xml:space="preserve">
+    <value>IsShowMessageArea</value>
+  </data>
+  <data name="IsShowToolBar" xml:space="preserve">
+    <value>IsShowToolBar</value>
+  </data>
+  <data name="IsVisiable" xml:space="preserve">
+    <value>Visible</value>
+  </data>
+  <data name="LargeIconStyle" xml:space="preserve">
+    <value>LargeIcon</value>
+  </data>
+  <data name="Layer" xml:space="preserve">
+    <value>Layer</value>
+  </data>
+  <data name="Layout1" xml:space="preserve">
+    <value>Layout</value>
+  </data>
+  <data name="LayoutItem_IsFormStyle" xml:space="preserve">
+    <value>Window</value>
+  </data>
+  <data name="LayoutItem_Location" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="LayoutItem_Size" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="LayoutManagerView_Autosize" xml:space="preserve">
+    <value>Adapt to screen</value>
+  </data>
+  <data name="LayoutManagerView_DefaultView" xml:space="preserve">
+    <value>Default view:</value>
+  </data>
+  <data name="LayoutManagerView_Fixedsize" xml:space="preserve">
+    <value>Fixed</value>
+  </data>
+  <data name="LayoutManagerView_Height" xml:space="preserve">
+    <value>Height:</value>
+  </data>
+  <data name="LayoutManagerView_Layout" xml:space="preserve">
+    <value>Layout:</value>
+  </data>
+  <data name="LayoutManagerView_LayoutStart" xml:space="preserve">
+    <value>Start:</value>
+  </data>
+  <data name="LayoutManagerView_Model" xml:space="preserve">
+    <value>Model:</value>
+  </data>
+  <data name="LayoutManagerView_Name" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="LayoutManagerView_Percent" xml:space="preserve">
+    <value>Percent</value>
+  </data>
+  <data name="LayoutManagerView_Pixel" xml:space="preserve">
+    <value>Pixel</value>
+  </data>
+  <data name="LayoutManagerView_Pixels" xml:space="preserve">
+    <value>Pixels</value>
+  </data>
+  <data name="LayoutManagerView_RemoveDefaultView" xml:space="preserve">
+    <value>Remove default view</value>
+  </data>
+  <data name="LayoutManagerView_Screen" xml:space="preserve">
+    <value>Display</value>
+  </data>
+  <data name="LayoutManagerView_Size" xml:space="preserve">
+    <value>Screen Size:</value>
+  </data>
+  <data name="LayoutManagerView_StartViews" xml:space="preserve">
+    <value>Start Views</value>
+  </data>
+  <data name="LayoutManagerView_Width" xml:space="preserve">
+    <value>Width:</value>
+  </data>
+  <data name="LayoutPreview" xml:space="preserve">
+    <value>Layout preview</value>
+  </data>
+  <data name="LayoutSelectView_layout" xml:space="preserve">
+    <value>Select layout</value>
+  </data>
+  <data name="LayoutSelectView_region" xml:space="preserve">
+    <value>Select region</value>
+  </data>
+  <data name="LayoutSizeErrors" xml:space="preserve">
+    <value>Size of layouts '{0}' is greater than screen size.</value>
+  </data>
+  <data name="LeftFlipKey" xml:space="preserve">
+    <value>Rotate selected graphic object around the center 90 degrees counterclockwise.</value>
+  </data>
+  <data name="LightColor" xml:space="preserve">
+    <value>LightColor</value>
+  </data>
+  <data name="LinearGradient" xml:space="preserve">
+    <value>LinearGradient</value>
+  </data>
+  <data name="LinearGradientFill" xml:space="preserve">
+    <value>LinearGradientFill</value>
+  </data>
+  <data name="LinearMotionX" xml:space="preserve">
+    <value>Linear_motion</value>
+  </data>
+  <data name="LineGrid" xml:space="preserve">
+    <value>Line grid</value>
+  </data>
+  <data name="LineJoinBevel" xml:space="preserve">
+    <value>LineJoinBevel</value>
+  </data>
+  <data name="LineJoinMiter" xml:space="preserve">
+    <value>LineJoinMiter</value>
+  </data>
+  <data name="LineJoinRound" xml:space="preserve">
+    <value>LineJoinRound</value>
+  </data>
+  <data name="Linetype" xml:space="preserve">
+    <value>Linetype</value>
+  </data>
+  <data name="LinkedPoint" xml:space="preserve">
+    <value>Join</value>
+  </data>
+  <data name="ListOfViews" xml:space="preserve">
+    <value>List of views:</value>
+  </data>
+  <data name="ListViewStyle" xml:space="preserve">
+    <value>ListView</value>
+  </data>
+  <data name="Load" xml:space="preserve">
+    <value>Load</value>
+  </data>
+  <data name="LoadComplete" xml:space="preserve">
+    <value>Load completed...</value>
+  </data>
+  <data name="LoadingDocument" xml:space="preserve">
+    <value>Loading {0}...</value>
+  </data>
+  <data name="Location1" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="MainGraphics" xml:space="preserve">
+    <value>Started views:</value>
+  </data>
+  <data name="MainGraphicsList" xml:space="preserve">
+    <value>List of first views</value>
+  </data>
+  <data name="MainViews" xml:space="preserve">
+    <value>Main views</value>
+  </data>
+  <data name="Manager_AddFromTemplateKey" xml:space="preserve">
+    <value>Add from template</value>
+  </data>
+  <data name="Manager_AddGroupKey" xml:space="preserve">
+    <value>Add group</value>
+  </data>
+  <data name="Manager_AddKey" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Manager_BringShapeToBackground" xml:space="preserve">
+    <value>Flatten</value>
+  </data>
+  <data name="Manager_BringShapeToReset" xml:space="preserve">
+    <value>Remove flattened objects</value>
+  </data>
+  <data name="Manager_CopyKey" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="Manager_DBReplaceKey" xml:space="preserve">
+    <value>DbTag replace</value>
+  </data>
+  <data name="Manager_ExportKey" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="Manager_ImportKey" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="Manager_OpenKey" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="Manager_PasteKey" xml:space="preserve">
+    <value>Paste</value>
+  </data>
+  <data name="Manager_RemoveKey" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="Manager_ReNameKey" xml:space="preserve">
+    <value>Rename</value>
+  </data>
+  <data name="Manager_SaveAllKey" xml:space="preserve">
+    <value>Save all</value>
+  </data>
+  <data name="Manager_SaveAsTemplateKey" xml:space="preserve">
+    <value>Save as template</value>
+  </data>
+  <data name="Manager_ShowPropertyKey" xml:space="preserve">
+    <value>Show property</value>
+  </data>
+  <data name="Manager_TemplateReplaceKey" xml:space="preserve">
+    <value>Materialize</value>
+  </data>
+  <data name="MaterializedHeaderTitle" xml:space="preserve">
+    <value>Materialized Tags</value>
+  </data>
+  <data name="MenuDescription" xml:space="preserve">
+    <value>MenuDescription(&amp;D)</value>
+  </data>
+  <data name="MenuItem" xml:space="preserve">
+    <value>MenuItem</value>
+  </data>
+  <data name="MenuItemCollection" xml:space="preserve">
+    <value>MenuItemCollection</value>
+  </data>
+  <data name="MenuItemTitle" xml:space="preserve">
+    <value>MenuItem(&amp;M):</value>
+  </data>
+  <data name="MenuNames" xml:space="preserve">
+    <value>Menu name</value>
+  </data>
+  <data name="MenuNotExist" xml:space="preserve">
+    <value>Menu '{0}' not exists.</value>
+  </data>
+  <data name="MenuReset" xml:space="preserve">
+    <value>MenuReset(&amp;R)</value>
+  </data>
+  <data name="MessageKey" xml:space="preserve">
+    <value>Open message window</value>
+  </data>
+  <data name="MessageKey1" xml:space="preserve">
+    <value>Close message window</value>
+  </data>
+  <data name="Meters" xml:space="preserve">
+    <value>Meters</value>
+  </data>
+  <data name="MetersTipText" xml:space="preserve">
+    <value>Meters.</value>
+  </data>
+  <data name="mNewCategoryName" xml:space="preserve">
+    <value>NewCategory</value>
+  </data>
+  <data name="mNewComboName" xml:space="preserve">
+    <value>NewCombo</value>
+  </data>
+  <data name="Model" xml:space="preserve">
+    <value>Model</value>
+  </data>
+  <data name="ModifyHeight" xml:space="preserve">
+    <value>Modify height</value>
+  </data>
+  <data name="ModifyWidht" xml:space="preserve">
+    <value>Modify width</value>
+  </data>
+  <data name="MostRecentlyModified" xml:space="preserve">
+    <value>Most recently modified:</value>
+  </data>
+  <data name="Name1" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="NativeEventCategory" xml:space="preserve">
+    <value>Native</value>
+  </data>
+  <data name="NewGraphicsKey" xml:space="preserve">
+    <value>Add a new view.</value>
+  </data>
+  <data name="NewPassword" xml:space="preserve">
+    <value>New password:</value>
+  </data>
+  <data name="NewViewFromTemplate" xml:space="preserve">
+    <value>Add a new view from template</value>
+  </data>
+  <data name="NewViewFromTemplateView_Desc" xml:space="preserve">
+    <value>Description:</value>
+  </data>
+  <data name="NewViewFromTemplateView_Name" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="NoneGrid" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="NoPickColor" xml:space="preserve">
+    <value>NoPickColor</value>
+  </data>
+  <data name="NoReplace" xml:space="preserve">
+    <value>No replace</value>
+  </data>
+  <data name="Normal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="NormalTipText" xml:space="preserve">
+    <value>Normal shapes.</value>
+  </data>
+  <data name="NumberFormat_Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="NumberFormat_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="NumberFormat_Export" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="NumberFormat_Import" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="NumberFormat_Max" xml:space="preserve">
+    <value>Maximum:</value>
+  </data>
+  <data name="NumberFormat_Min" xml:space="preserve">
+    <value>Minimum:</value>
+  </data>
+  <data name="NumberFormat_number" xml:space="preserve">
+    <value>Display as number</value>
+  </data>
+  <data name="NumberFormat_NumCount" xml:space="preserve">
+    <value>Integer number:</value>
+  </data>
+  <data name="NumberFormat_Percent" xml:space="preserve">
+    <value>Thousands separator</value>
+  </data>
+  <data name="NumberFormat_PointCount" xml:space="preserve">
+    <value>Decimal digits:</value>
+  </data>
+  <data name="NumberFormat_Secient" xml:space="preserve">
+    <value>Scientific notation</value>
+  </data>
+  <data name="NumberFormat_String" xml:space="preserve">
+    <value>Display as string</value>
+  </data>
+  <data name="NumberFormat_String_Header" xml:space="preserve">
+    <value>String</value>
+  </data>
+  <data name="NumberFormat_ValueRange" xml:space="preserve">
+    <value>Value range:</value>
+  </data>
+  <data name="NumberFormat_Value_Header" xml:space="preserve">
+    <value>Value &gt;=</value>
+  </data>
+  <data name="NumericalCtrl_GroupText" xml:space="preserve">
+    <value>Display formate of number</value>
+  </data>
+  <data name="NumericalStyleFormText" xml:space="preserve">
+    <value>Numerical style</value>
+  </data>
+  <data name="ObjectCount" xml:space="preserve">
+    <value>objects.</value>
+  </data>
+  <data name="OK2" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="OldNameNotification" xml:space="preserve">
+    <value>Exists one item with same name in the group.</value>
+  </data>
+  <data name="Opacity1" xml:space="preserve">
+    <value>Opacity</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="OpenDocument" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="OpenGraphicsKey" xml:space="preserve">
+    <value>Double-Click to open view, right-click to display function </value>
+  </data>
+  <data name="OpenTempalteView_RelativeLocation" xml:space="preserve">
+    <value>Layout used for open template is form style,please specify coordinate reference type:</value>
+  </data>
+  <data name="OpenTemplateErro" xml:space="preserve">
+    <value>Load template '{0}' erro.</value>
+  </data>
+  <data name="OpenTemplateView_FormTitle" xml:space="preserve">
+    <value>Title:</value>
+  </data>
+  <data name="OpenTemplateView_Location" xml:space="preserve">
+    <value>Location:</value>
+  </data>
+  <data name="OpenTemplateView_Replace" xml:space="preserve">
+    <value>Replace string:</value>
+  </data>
+  <data name="OpenTemplateView_Template" xml:space="preserve">
+    <value>Template:</value>
+  </data>
+  <data name="OpenTemplateView_Title" xml:space="preserve">
+    <value>Select template to open</value>
+  </data>
+  <data name="OpenTemplateView_ViewName" xml:space="preserve">
+    <value>View name:</value>
+  </data>
+  <data name="OpenViewView_CurrentRegion" xml:space="preserve">
+    <value>Current region</value>
+  </data>
+  <data name="OpenViewView_EnableLayout" xml:space="preserve">
+    <value>Specifying</value>
+  </data>
+  <data name="OpenViewView_layout" xml:space="preserve">
+    <value>Layout:</value>
+  </data>
+  <data name="OpenViewView_Region" xml:space="preserve">
+    <value>Region:</value>
+  </data>
+  <data name="OpenViewView_RelativeLocation" xml:space="preserve">
+    <value>Layout used for open view is form style,please specify coordinate reference type:</value>
+  </data>
+  <data name="OpenViewView_SpecialRegion" xml:space="preserve">
+    <value>Specail region</value>
+  </data>
+  <data name="OpenViewView_Title" xml:space="preserve">
+    <value>Select view to open</value>
+  </data>
+  <data name="OpenViewView_View" xml:space="preserve">
+    <value>View:</value>
+  </data>
+  <data name="OpenViewView_ViewName" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="OpenViewView_Window" xml:space="preserve">
+    <value>Screen</value>
+  </data>
+  <data name="OperateTip" xml:space="preserve">
+    <value>OperateTip</value>
+  </data>
+  <data name="OriginalSize" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="Orthogonality" xml:space="preserve">
+    <value>Orthogonality</value>
+  </data>
+  <data name="Others" xml:space="preserve">
+    <value>Others</value>
+  </data>
+  <data name="OthersTipText" xml:space="preserve">
+    <value>Other shapes.</value>
+  </data>
+  <data name="Outline" xml:space="preserve">
+    <value>Outline</value>
+  </data>
+  <data name="Output" xml:space="preserve">
+    <value>Save view as picture</value>
+  </data>
+  <data name="OutputKey" xml:space="preserve">
+    <value>Save the selected view as a specified format picture.</value>
+  </data>
+  <data name="Owner" xml:space="preserve">
+    <value>Owner:</value>
+  </data>
+  <data name="PageSetupCommand" xml:space="preserve">
+    <value>Page setup</value>
+  </data>
+  <data name="ParameterizedHeaderTitle" xml:space="preserve">
+    <value>Parameterized Tags</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Password:</value>
+  </data>
+  <data name="PasswordConfirmView_Title" xml:space="preserve">
+    <value>Check password to continue next</value>
+  </data>
+  <data name="PasswordErro" xml:space="preserve">
+    <value>Password input is wrong!</value>
+  </data>
+  <data name="Paste" xml:space="preserve">
+    <value>Paste</value>
+  </data>
+  <data name="PasteAnimates" xml:space="preserve">
+    <value>Paste animates &amp; operation</value>
+  </data>
+  <data name="PasteBrush" xml:space="preserve">
+    <value>Paste brush</value>
+  </data>
+  <data name="PasteBrushKey" xml:space="preserve">
+    <value>Paste previously copied fill properties to graphic object</value>
+  </data>
+  <data name="PasteOperationKey" xml:space="preserve">
+    <value>Paste the content of the clipboard.</value>
+  </data>
+  <data name="PasteShapeKey" xml:space="preserve">
+    <value>Paste the content of the clipboard.</value>
+  </data>
+  <data name="PasteStroke" xml:space="preserve">
+    <value>Paste stroke</value>
+  </data>
+  <data name="PasteStrokeKey" xml:space="preserve">
+    <value>Paste previously copied line properties to graphic object</value>
+  </data>
+  <data name="PathError" xml:space="preserve">
+    <value>Please select the path!</value>
+  </data>
+  <data name="PathGradient" xml:space="preserve">
+    <value>PathGradient</value>
+  </data>
+  <data name="PathGradientFill" xml:space="preserve">
+    <value>PathGradientFill</value>
+  </data>
+  <data name="PenWidthOutFlow" xml:space="preserve">
+    <value>PenWidthOutFlow</value>
+  </data>
+  <data name="Permissions1" xml:space="preserve">
+    <value>Permissions</value>
+  </data>
+  <data name="PickColor" xml:space="preserve">
+    <value>Pick color</value>
+  </data>
+  <data name="PieSliceComponent1" xml:space="preserve">
+    <value>PieSliceComponent</value>
+  </data>
+  <data name="PieSliceTitle" xml:space="preserve">
+    <value>PieSlice(&amp;M):</value>
+  </data>
+  <data name="Pipe" xml:space="preserve">
+    <value>Pipe</value>
+  </data>
+  <data name="PipeStroke" xml:space="preserve">
+    <value>PipeStroke</value>
+  </data>
+  <data name="Pointer" xml:space="preserve">
+    <value>Pointer</value>
+  </data>
+  <data name="PointerTip" xml:space="preserve">
+    <value>Reset selection.</value>
+  </data>
+  <data name="Preset" xml:space="preserve">
+    <value>Preset</value>
+  </data>
+  <data name="Preview" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="PreviewAll" xml:space="preserve">
+    <value>PreviewAll</value>
+  </data>
+  <data name="PreviewAllKey" xml:space="preserve">
+    <value>Preview All Views</value>
+  </data>
+  <data name="PreviewEditor_Preview" xml:space="preserve">
+    <value>Preview(V):</value>
+  </data>
+  <data name="PreviewEditor_Property" xml:space="preserve">
+    <value>Property(P):</value>
+  </data>
+  <data name="PreviewKey" xml:space="preserve">
+    <value>Preview the view</value>
+  </data>
+  <data name="PreviewTitle" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="Preview_Note" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="PrintCommand" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="PrintPreviewCommand" xml:space="preserve">
+    <value>Print Preview</value>
+  </data>
+  <data name="ProcessInfo" xml:space="preserve">
+    <value>Processing,please wait...</value>
+  </data>
+  <data name="Processmessage" xml:space="preserve">
+    <value>{0}%</value>
+  </data>
+  <data name="Project_tooltip" xml:space="preserve">
+    <value>Back to start page</value>
+  </data>
+  <data name="PropertyHeader" xml:space="preserve">
+    <value>Property</value>
+  </data>
+  <data name="PropertyItem" xml:space="preserve">
+    <value>Property</value>
+  </data>
+  <data name="PropertyKey" xml:space="preserve">
+    <value>Open property window</value>
+  </data>
+  <data name="PropertyKey1" xml:space="preserve">
+    <value>Close property window</value>
+  </data>
+  <data name="PropertyPadContentText" xml:space="preserve">
+    <value>Property</value>
+  </data>
+  <data name="PropertyPadKey" xml:space="preserve">
+    <value>Configure basic properties of the graphic object.</value>
+  </data>
+  <data name="Rectangle" xml:space="preserve">
+    <value>Rectangle</value>
+  </data>
+  <data name="Redo" xml:space="preserve">
+    <value>Redo</value>
+  </data>
+  <data name="RedoOperationKey" xml:space="preserve">
+    <value>Redo</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="RemoveAllAnimates" xml:space="preserve">
+    <value>Remove all animates</value>
+  </data>
+  <data name="RemoveAllAnimatesMessage" xml:space="preserve">
+    <value>Are you sure you want to delete all animate in view '{0}'.</value>
+  </data>
+  <data name="RemoveAllAnimatesTitile" xml:space="preserve">
+    <value>Remove all animates</value>
+  </data>
+  <data name="RemoveAllEventMessage" xml:space="preserve">
+    <value>Are you sure you want to delete all operation in view '{0}'.</value>
+  </data>
+  <data name="RemoveAllEvents" xml:space="preserve">
+    <value>Remove all operation</value>
+  </data>
+  <data name="RemoveAllEventTitile" xml:space="preserve">
+    <value>Remove all operation</value>
+  </data>
+  <data name="RemoveCategoryMsg" xml:space="preserve">
+    <value>Are you sure to delete category '{0}' ,all combo files will be deleted!</value>
+  </data>
+  <data name="RemoveCombo" xml:space="preserve">
+    <value>'{0}' graphic symbol has been removed.</value>
+  </data>
+  <data name="RemoveDocument" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="RemoveGraphics" xml:space="preserve">
+    <value>View '{0}' has been removed.</value>
+  </data>
+  <data name="RemoveGraphicsConfirmMessage" xml:space="preserve">
+    <value>Are you sure you want to remove graphic '{0}' ？</value>
+  </data>
+  <data name="RemoveGraphicsConfirmTitile" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="RemoveGraphicsGroup" xml:space="preserve">
+    <value>View group '{0}' has been removed.</value>
+  </data>
+  <data name="RemoveGraphicsGroupMessage" xml:space="preserve">
+    <value>Are you sure you want to remove view group '{0}' ？</value>
+  </data>
+  <data name="RemoveGraphicsTemplate" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="RemoveGraphicsTemplateMessage" xml:space="preserve">
+    <value>Are you sure you want to remove template '{0}'？</value>
+  </data>
+  <data name="RemoveGraphicsTemplateTitle" xml:space="preserve">
+    <value>Remove graphics template</value>
+  </data>
+  <data name="RemoveGroup" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="RemoveGroupConfirmTitile" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="RemoveRegionItems" xml:space="preserve">
+    <value>'{0}' is undersize,do you want to merge it to related region?</value>
+  </data>
+  <data name="RemoveRegionTitle" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="RemoveSymbolKey" xml:space="preserve">
+    <value>Delete the selected graphic symbol.</value>
+  </data>
+  <data name="RemoveTemplateGraphics" xml:space="preserve">
+    <value>Template '{0}' has been removed.</value>
+  </data>
+  <data name="RemoveTemplateGroup" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="RemoveTemplateGroupGraphics" xml:space="preserve">
+    <value>Template group '{0}'  has been removed.</value>
+  </data>
+  <data name="RemoveTemplateGroupGuard" xml:space="preserve">
+    <value>The group you want to remove should not be empty.</value>
+  </data>
+  <data name="RemoveTemplateGroupMessage" xml:space="preserve">
+    <value>Are you sure you want to remove template group '{0}' ？</value>
+  </data>
+  <data name="RemoveTemplateGroupTitle" xml:space="preserve">
+    <value>Remove template group</value>
+  </data>
+  <data name="Rename" xml:space="preserve">
+    <value>Rename</value>
+  </data>
+  <data name="RenameCategory" xml:space="preserve">
+    <value>Rename category</value>
+  </data>
+  <data name="RenameCombo" xml:space="preserve">
+    <value>Graphic '{0}' symbol has been renamed as '{1}'</value>
+  </data>
+  <data name="RenamedGraphics" xml:space="preserve">
+    <value>View '{0}' has been renamed as  '{1}'</value>
+  </data>
+  <data name="RenameGraphicsGroup" xml:space="preserve">
+    <value>View group '{0}' has been renamed as '{1}'</value>
+  </data>
+  <data name="RenameGraphicsKey" xml:space="preserve">
+    <value>Rename view.</value>
+  </data>
+  <data name="RenameGraphicsTemplate" xml:space="preserve">
+    <value>Rename</value>
+  </data>
+  <data name="RenameGroupKey" xml:space="preserve">
+    <value>Rename view group.</value>
+  </data>
+  <data name="RenameSymbolKey" xml:space="preserve">
+    <value>Rename the selected graphic symbol.</value>
+  </data>
+  <data name="RenameTemplateGroup" xml:space="preserve">
+    <value>Rename</value>
+  </data>
+  <data name="ReourceImportedCultrueErro" xml:space="preserve">
+    <value>Culture of resource imported is not fit current culture.</value>
+  </data>
+  <data name="Repeat" xml:space="preserve">
+    <value>Repeat</value>
+  </data>
+  <data name="RepeatCount" xml:space="preserve">
+    <value>Frequency</value>
+  </data>
+  <data name="ReplaceStringEditView_Title" xml:space="preserve">
+    <value>Edit replace string</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="ResetColWidth" xml:space="preserve">
+    <value>Average column width</value>
+  </data>
+  <data name="ResetPrest" xml:space="preserve">
+    <value>Are you sure you want to reset preset to default?you will be lose your custom preset.</value>
+  </data>
+  <data name="ResetPrestDelete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="ResetPrestLoader" xml:space="preserve">
+    <value>Load</value>
+  </data>
+  <data name="ResetPrestQuestion" xml:space="preserve">
+    <value>Comfirm</value>
+  </data>
+  <data name="ResetPrestSave" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="ResetPrestSaveFilter" xml:space="preserve">
+    <value>Gradient(*grd)|*.grd</value>
+  </data>
+  <data name="ResetRowHeight" xml:space="preserve">
+    <value>Average row height</value>
+  </data>
+  <data name="Reset_Desc" xml:space="preserve">
+    <value>Reset value</value>
+  </data>
+  <data name="ResolutioinError" xml:space="preserve">
+    <value>Failed to save view ** as a picture, because of {0}.</value>
+  </data>
+  <data name="ResolutionCommand" xml:space="preserve">
+    <value>Resolution conversion</value>
+  </data>
+  <data name="ResolutionHint" xml:space="preserve">
+    <value>The resolution has been converted from {0} to {1}.</value>
+  </data>
+  <data name="ResourceDatabaseEditorHead" xml:space="preserve">
+    <value>Databases in resources</value>
+  </data>
+  <data name="ResourceDatabaseEditorView_Title" xml:space="preserve">
+    <value>Database</value>
+  </data>
+  <data name="ResourceFileEditorView_Title" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="ResourceImageEditorAddImage" xml:space="preserve">
+    <value>Add image</value>
+  </data>
+  <data name="ResourceImageEditorFile" xml:space="preserve">
+    <value>File:</value>
+  </data>
+  <data name="ResourceImageEditorHead" xml:space="preserve">
+    <value>Images in resources</value>
+  </data>
+  <data name="ResourceImageEditorResourceName" xml:space="preserve">
+    <value>Input name in resources:</value>
+  </data>
+  <data name="ResourceImageEditorResourceOverwrite" xml:space="preserve">
+    <value>Note:Resource item already exists,rename or continue?
+     Continue will overwrite the existing item.</value>
+  </data>
+  <data name="ResourceImageEditorView_Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="ResourceImageEditorView_AddHeader" xml:space="preserve">
+    <value>Add image resource</value>
+  </data>
+  <data name="ResourceImageEditorView_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="ResourceImageEditorView_FileName" xml:space="preserve">
+    <value>File name:</value>
+  </data>
+  <data name="ResourceImageEditorView_OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="ResourceImageEditorView_ResName" xml:space="preserve">
+    <value>Resource name:</value>
+  </data>
+  <data name="ResourceImageEditorView_ResourceHeader" xml:space="preserve">
+    <value>Image resources</value>
+  </data>
+  <data name="ResourceImageEditorView_Title" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="ResourceMergeViewCreatNew" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="ResourceMergeViewOverwrite" xml:space="preserve">
+    <value>Overwrite</value>
+  </data>
+  <data name="ResourceMergeViewProjectName" xml:space="preserve">
+    <value>Project resource</value>
+  </data>
+  <data name="ResourceMergeViewSourceHead" xml:space="preserve">
+    <value>Follow images in resources has exist in project.How to process this items</value>
+  </data>
+  <data name="ResourceMergeViewSourceHead2" xml:space="preserve">
+    <value>Follow files in resources has exist in project.How to process this items</value>
+  </data>
+  <data name="ResourceMergeViewSourceHead3" xml:space="preserve">
+    <value>Follow sound files in resources has exist in project.How to process this items</value>
+  </data>
+  <data name="ResourceMergeViewSourceHead4" xml:space="preserve">
+    <value>Follow video files in resources has exist in project.How to process this items</value>
+  </data>
+  <data name="ResourceMergeViewSourceName" xml:space="preserve">
+    <value>Import resource</value>
+  </data>
+  <data name="ResourceMergeViewTitle" xml:space="preserve">
+    <value>Resource import</value>
+  </data>
+  <data name="ResourceMergeViewUseExist" xml:space="preserve">
+    <value>Use exist</value>
+  </data>
+  <data name="ResourceTextEditorView_Lable" xml:space="preserve">
+    <value>Linke to resource:</value>
+  </data>
+  <data name="ResourceTextEditorView_Text" xml:space="preserve">
+    <value>Text input:</value>
+  </data>
+  <data name="ResourceTextEditorView_Title" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="ReviewPlugin_CurrentTime" xml:space="preserve">
+    <value>Review Time:</value>
+  </data>
+  <data name="ReviewPlugin_End" xml:space="preserve">
+    <value>End:</value>
+  </data>
+  <data name="ReviewPlugin_Start" xml:space="preserve">
+    <value>Start:</value>
+  </data>
+  <data name="RightFlipKey" xml:space="preserve">
+    <value>Rotate selected graphic object around the center 90 degrees clockwise.</value>
+  </data>
+  <data name="RotateEnable" xml:space="preserve">
+    <value>Roatate_enable</value>
+  </data>
+  <data name="RotateKey" xml:space="preserve">
+    <value>Turn into rotate mode , graphic objects can be rotated.</value>
+  </data>
+  <data name="RotateStr" xml:space="preserve">
+    <value>RotateStr</value>
+  </data>
+  <data name="RotateTip" xml:space="preserve">
+    <value>Ctrl + rotate, rotate base 15°.</value>
+  </data>
+  <data name="SameHeight" xml:space="preserve">
+    <value>Same height</value>
+  </data>
+  <data name="SameHeightKey" xml:space="preserve">
+    <value>Standardize height of selected graphic objects.</value>
+  </data>
+  <data name="SameSize" xml:space="preserve">
+    <value>Same size</value>
+  </data>
+  <data name="SameSizeKey" xml:space="preserve">
+    <value>Standardize size of selected graphic objects.</value>
+  </data>
+  <data name="SameWidth" xml:space="preserve">
+    <value>Same width</value>
+  </data>
+  <data name="SameWidthKey" xml:space="preserve">
+    <value>Standardize width of selected graphic objects.</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="SaveAll" xml:space="preserve">
+    <value>Save all</value>
+  </data>
+  <data name="SaveDocumentKey" xml:space="preserve">
+    <value>Save the subsystem</value>
+  </data>
+  <data name="SaveFileDialogTitle" xml:space="preserve">
+    <value>Select file</value>
+  </data>
+  <data name="SaveTitle" xml:space="preserve">
+    <value>Save(&amp;S)</value>
+  </data>
+  <data name="SaveToolTip" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="ScaleTip" xml:space="preserve">
+    <value>Shift + scale, scale based the center.</value>
+  </data>
+  <data name="ScreenMappedView_Advance" xml:space="preserve">
+    <value>Screens</value>
+  </data>
+  <data name="ScreenMappedView_DragtoSelect" xml:space="preserve">
+    <value>Click to select one screen,or drag to select more screens.</value>
+  </data>
+  <data name="ScreenMappedView_HorNumber" xml:space="preserve">
+    <value>Horizontal:</value>
+  </data>
+  <data name="ScreenMappedView_mappedArea" xml:space="preserve">
+    <value>Choose screens to use:</value>
+  </data>
+  <data name="ScreenMappedView_PhysicsTitle" xml:space="preserve">
+    <value>Screens and arrangement:</value>
+  </data>
+  <data name="ScreenMappedView_VerNumber" xml:space="preserve">
+    <value>Vertical:</value>
+  </data>
+  <data name="ScriptLayoutSelectView_RelativeLocation" xml:space="preserve">
+    <value>Layout is form style,please specify coordinate reference type:</value>
+  </data>
+  <data name="ScriptLayoutSelectView_Title" xml:space="preserve">
+    <value>Select layout</value>
+  </data>
+  <data name="SelectAll" xml:space="preserve">
+    <value>Select all</value>
+  </data>
+  <data name="SelectAllKey" xml:space="preserve">
+    <value>Select all graphic objects of current view</value>
+  </data>
+  <data name="SelectGraphicsKey" xml:space="preserve">
+    <value>Click or use ↑↓keys to select view, delete key to delete the view.</value>
+  </data>
+  <data name="SelectGraphicsPrompt" xml:space="preserve">
+    <value>Click or use ↑↓keys to select view, delete key to delete the view.</value>
+  </data>
+  <data name="SelectGroupKey" xml:space="preserve">
+    <value>Right-click to add a view or a view group.</value>
+  </data>
+  <data name="SelectGroupPrompt" xml:space="preserve">
+    <value>Right-click to add a view or a view group.</value>
+  </data>
+  <data name="SelectObjectKey" xml:space="preserve">
+    <value>Double-click to use graphic symbol</value>
+  </data>
+  <data name="SelectTip" xml:space="preserve">
+    <value>Ctrl(Shift) + click can select multi-objects, Alt + click append object.</value>
+  </data>
+  <data name="SendBackKey" xml:space="preserve">
+    <value>Move the selected one or more graphic objects to the bottom layer.</value>
+  </data>
+  <data name="SendFrontKey" xml:space="preserve">
+    <value>Move the selected one or more graphic objects to the top.</value>
+  </data>
+  <data name="SendNextKey" xml:space="preserve">
+    <value>Move the selected one or more graphic objects to the next layer.</value>
+  </data>
+  <data name="SendPreviousKey" xml:space="preserve">
+    <value>Move the selected one or more graphic objects to the upper layer.</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Display</value>
+  </data>
+  <data name="SettingsKey" xml:space="preserve">
+    <value>Display options</value>
+  </data>
+  <data name="ShapeAimate" xml:space="preserve">
+    <value>Aimate of shapes</value>
+  </data>
+  <data name="ShapeCommand" xml:space="preserve">
+    <value>Shape</value>
+  </data>
+  <data name="ShapeLib" xml:space="preserve">
+    <value>Shape Library</value>
+  </data>
+  <data name="ShapeOperation" xml:space="preserve">
+    <value>Operation of shapes</value>
+  </data>
+  <data name="ShapeOutput" xml:space="preserve">
+    <value>Save shape as picture</value>
+  </data>
+  <data name="ShapeOutputKey" xml:space="preserve">
+    <value>Save the selected shape as a specified format picture.</value>
+  </data>
+  <data name="ShapePad" xml:space="preserve">
+    <value>Graph</value>
+  </data>
+  <data name="ShapeProperty" xml:space="preserve">
+    <value>Property of shapes</value>
+  </data>
+  <data name="ShapeSelectBrowserView_LeftTitle" xml:space="preserve">
+    <value>Shapes list</value>
+  </data>
+  <data name="ShapeSelectBrowserView_RightTitle" xml:space="preserve">
+    <value>Selected shapes list</value>
+  </data>
+  <data name="ShapeSelectBrowserView_TargetName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Shear1" xml:space="preserve">
+    <value>Shear</value>
+  </data>
+  <data name="ShearKey" xml:space="preserve">
+    <value>Turn into tilt mode , graphic objects can be tilted.</value>
+  </data>
+  <data name="ShearTip" xml:space="preserve">
+    <value>Ctrl + shear, shear by integer.</value>
+  </data>
+  <data name="ShowAnimateKey" xml:space="preserve">
+    <value>Animation properties</value>
+  </data>
+  <data name="ShowEventKey" xml:space="preserve">
+    <value>Event properties</value>
+  </data>
+  <data name="ShowFormate" xml:space="preserve">
+    <value>Display</value>
+  </data>
+  <data name="ShowPropertyKey" xml:space="preserve">
+    <value>Basic properties</value>
+  </data>
+  <data name="ShowSelectRect" xml:space="preserve">
+    <value>Show operation box</value>
+  </data>
+  <data name="Size1" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="Sizeable" xml:space="preserve">
+    <value>Sizeable</value>
+  </data>
+  <data name="SizeOut" xml:space="preserve">
+    <value>Out of size.</value>
+  </data>
+  <data name="SlideInputX" xml:space="preserve">
+    <value>Slide_input</value>
+  </data>
+  <data name="SmallIconStyle" xml:space="preserve">
+    <value>SmallIcon</value>
+  </data>
+  <data name="Solid" xml:space="preserve">
+    <value>Solid</value>
+  </data>
+  <data name="SolidFill" xml:space="preserve">
+    <value>SolidFill</value>
+  </data>
+  <data name="SoundWhenOperation" xml:space="preserve">
+    <value>Beep when operated</value>
+  </data>
+  <data name="StartColor" xml:space="preserve">
+    <value>StartColor</value>
+  </data>
+  <data name="StartPoint1" xml:space="preserve">
+    <value>StartPoint</value>
+  </data>
+  <data name="StringFormat_IsPassword" xml:space="preserve">
+    <value>Input string display as "*"</value>
+  </data>
+  <data name="StringFormat_Text" xml:space="preserve">
+    <value>Value is convert to string format to display.</value>
+  </data>
+  <data name="Stroke1" xml:space="preserve">
+    <value>Stroke</value>
+  </data>
+  <data name="StrokeFormatBrush" xml:space="preserve">
+    <value>Stroke format</value>
+  </data>
+  <data name="StrokeFormatKey" xml:space="preserve">
+    <value>Copies line property of the selected graphic object.</value>
+  </data>
+  <data name="Stroke_Title" xml:space="preserve">
+    <value>Stroke</value>
+  </data>
+  <data name="subAnimates" xml:space="preserve">
+    <value>SubShapes-Animate</value>
+  </data>
+  <data name="subEvents" xml:space="preserve">
+    <value>SubShapes-Event</value>
+  </data>
+  <data name="SwitchAndButtons" xml:space="preserve">
+    <value>Switch &amp; Buttons</value>
+  </data>
+  <data name="SwitchAndButtonsTipText" xml:space="preserve">
+    <value>Switch and buttons.</value>
+  </data>
+  <data name="SymbolCategory" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="SymbolCategoryKey" xml:space="preserve">
+    <value>Manage classification of graphics symbol library.</value>
+  </data>
+  <data name="SymbolSelectKey" xml:space="preserve">
+    <value>Double-click to use graphic symbol, right-click to add or delete graphic symbol.</value>
+  </data>
+  <data name="TagExportReplaceView_No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="TagExportReplaceView_Source" xml:space="preserve">
+    <value>Tags</value>
+  </data>
+  <data name="TagExportReplaceView_Target" xml:space="preserve">
+    <value>Parameter</value>
+  </data>
+  <data name="TagExportReplaceView_Type" xml:space="preserve">
+    <value>Tag Type</value>
+  </data>
+  <data name="TagExpression" xml:space="preserve">
+    <value>Tag:</value>
+  </data>
+  <data name="TagReferenceTitle" xml:space="preserve">
+    <value>Tag References</value>
+  </data>
+  <data name="TagReplaceView_New" xml:space="preserve">
+    <value>Replace with:</value>
+  </data>
+  <data name="TagReplaceView_Old" xml:space="preserve">
+    <value>Find what:</value>
+  </data>
+  <data name="TagReplaceView_Title" xml:space="preserve">
+    <value>Tag Name Replace</value>
+  </data>
+  <data name="TagsOfImportFile" xml:space="preserve">
+    <value>Parameter</value>
+  </data>
+  <data name="TagsOfTemplate" xml:space="preserve">
+    <value>Parameter</value>
+  </data>
+  <data name="TagsOfView" xml:space="preserve">
+    <value>Tag</value>
+  </data>
+  <data name="TagTemplateExportReplaceView_Target" xml:space="preserve">
+    <value>Parameter</value>
+  </data>
+  <data name="TempateExportView_Description" xml:space="preserve">
+    <value>Description:</value>
+  </data>
+  <data name="TempateExportView_Group" xml:space="preserve">
+    <value>Group:</value>
+  </data>
+  <data name="TempateExportView_Name" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="Template" xml:space="preserve">
+    <value>Template</value>
+  </data>
+  <data name="TemplateComboDelegateReplaceViewModel_Title" xml:space="preserve">
+    <value>Template combo property replace</value>
+  </data>
+  <data name="TemplateComboDelegateReplaceView_AnimateAndOperation" xml:space="preserve">
+    <value>Animate&amp;Operation</value>
+  </data>
+  <data name="TemplateComboDelegateReplaceView_Property" xml:space="preserve">
+    <value>Property</value>
+  </data>
+  <data name="TemplateComboDelegateReplaceView_TagRefrenceManager" xml:space="preserve">
+    <value>Tag replace</value>
+  </data>
+  <data name="TemplateCombo_SourceTitle" xml:space="preserve">
+    <value>Parameter</value>
+  </data>
+  <data name="TemplateCombo_TargetTitle" xml:space="preserve">
+    <value>Tag</value>
+  </data>
+  <data name="TemplateCombo_Title" xml:space="preserve">
+    <value>Combo template tag manager</value>
+  </data>
+  <data name="TemplateDragToMoveTreeItem" xml:space="preserve">
+    <value>Click to select and open the template, drag to move a template to another template group</value>
+  </data>
+  <data name="TemplateExportSeccessfull" xml:space="preserve">
+    <value>Template export completely.</value>
+  </data>
+  <data name="TemplateExportSelectView_FileName" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="TemplateExportSelectView_SourceName" xml:space="preserve">
+    <value>File name in export templates</value>
+  </data>
+  <data name="TemplateExportSelectView_TargetName" xml:space="preserve">
+    <value>Template name</value>
+  </data>
+  <data name="TemplateExportSelectView_Title" xml:space="preserve">
+    <value>Select templates to export</value>
+  </data>
+  <data name="TemplateExport_Index_Filter" xml:space="preserve">
+    <value>Template exported file|*.zetgrp</value>
+  </data>
+  <data name="TemplateExport_Process_Title" xml:space="preserve">
+    <value>Template exported in process...</value>
+  </data>
+  <data name="TemplateGroup" xml:space="preserve">
+    <value>TemplateGroup</value>
+  </data>
+  <data name="TemplateImportSelectView_SourceName" xml:space="preserve">
+    <value>File name in export templates</value>
+  </data>
+  <data name="TemplateImportSelectView_TargetName" xml:space="preserve">
+    <value>Template name</value>
+  </data>
+  <data name="TemplateImportSelectView_Title" xml:space="preserve">
+    <value>Select templates to import</value>
+  </data>
+  <data name="TemplateImport_Process_Title" xml:space="preserve">
+    <value>Template imported in process...</value>
+  </data>
+  <data name="TemplateImport_SourceTitle" xml:space="preserve">
+    <value>Parameter</value>
+  </data>
+  <data name="TemplateImport_TargetTitle" xml:space="preserve">
+    <value>Tag</value>
+  </data>
+  <data name="TemplateImport_Title" xml:space="preserve">
+    <value>Parameter to tag</value>
+  </data>
+  <data name="TemplateManager" xml:space="preserve">
+    <value>Template Manager</value>
+  </data>
+  <data name="TemplateManagerGuard" xml:space="preserve">
+    <value>Template manager should not be empty.</value>
+  </data>
+  <data name="TemplateMustForm" xml:space="preserve">
+    <value>Template you selected must be  form model.</value>
+  </data>
+  <data name="TemplateOverwite" xml:space="preserve">
+    <value>Template '{0}' has exist,Do you want to overwrite?</value>
+  </data>
+  <data name="TemplateSavingPathIsEmpty" xml:space="preserve">
+    <value>Template saving path should not be empty.</value>
+  </data>
+  <data name="TemplateSelectBrowserView_LeftTitle" xml:space="preserve">
+    <value>Template list</value>
+  </data>
+  <data name="TemplateSelectBrowserView_RightTitle" xml:space="preserve">
+    <value>Template selected list</value>
+  </data>
+  <data name="TemplateSelectBrowserView_TargetName" xml:space="preserve">
+    <value>Template name</value>
+  </data>
+  <data name="TemplateSelectBrowserView_Title" xml:space="preserve">
+    <value>Templates selected</value>
+  </data>
+  <data name="TemplateTitle" xml:space="preserve">
+    <value>Template</value>
+  </data>
+  <data name="textResourceConflite" xml:space="preserve">
+    <value>Multiple item has use resource ' {0} ', you can click ' update ' to update,' new ' to create a new one. </value>
+  </data>
+  <data name="textResourceConfliteTitle" xml:space="preserve">
+    <value>Change Text</value>
+  </data>
+  <data name="textResourceConfliteTitle_effect" xml:space="preserve">
+    <value>Change</value>
+  </data>
+  <data name="textResourceConfliteTitle_noeffect" xml:space="preserve">
+    <value>No effect</value>
+  </data>
+  <data name="textResourceConfliteTitle_text1" xml:space="preserve">
+    <value>Identical texts exist in the project,choose to change the current one only or all of them.</value>
+  </data>
+  <data name="textResourceConfliteTitle_text2" xml:space="preserve">
+    <value>The current one only</value>
+  </data>
+  <data name="textResourceConfliteTitle_text3" xml:space="preserve">
+    <value>All of them</value>
+  </data>
+  <data name="textResourceConfliteTitle_text4" xml:space="preserve">
+    <value>or click 'Cancel' to cancel this text modify.</value>
+  </data>
+  <data name="Texture" xml:space="preserve">
+    <value>Bitmap</value>
+  </data>
+  <data name="TextureFill" xml:space="preserve">
+    <value>TextureFill</value>
+  </data>
+  <data name="TextureFill_Center" xml:space="preserve">
+    <value>Center</value>
+  </data>
+  <data name="TextureFill_graph" xml:space="preserve">
+    <value>Graph</value>
+  </data>
+  <data name="TextureFill_hor" xml:space="preserve">
+    <value>Horizontal</value>
+  </data>
+  <data name="TextureFill_horver" xml:space="preserve">
+    <value>Horizontal vertical</value>
+  </data>
+  <data name="TextureFill_Location" xml:space="preserve">
+    <value>Location:</value>
+  </data>
+  <data name="TextureFill_Name" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="TextureFill_normal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="TextureFill_stretch" xml:space="preserve">
+    <value>Stretch</value>
+  </data>
+  <data name="TextureFill_Tile" xml:space="preserve">
+    <value>Tile</value>
+  </data>
+  <data name="TextureFill_ver" xml:space="preserve">
+    <value>Vertical</value>
+  </data>
+  <data name="TextureFill_view" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="Texture_Flatmirror" xml:space="preserve">
+    <value>Tile mirror:</value>
+  </data>
+  <data name="Texture_FlatRelative" xml:space="preserve">
+    <value>Tile relative:</value>
+  </data>
+  <data name="Thickness" xml:space="preserve">
+    <value>Thickness</value>
+  </data>
+  <data name="ThreeHorSplite" xml:space="preserve">
+    <value>Splite to three</value>
+  </data>
+  <data name="ThreeVerSplite" xml:space="preserve">
+    <value>Splite to three</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Title:</value>
+  </data>
+  <data name="TitleBar" xml:space="preserve">
+    <value>Title bar</value>
+  </data>
+  <data name="TitleInfo" xml:space="preserve">
+    <value>Operation tips</value>
+  </data>
+  <data name="tmp" xml:space="preserve">
+    <value>tmp</value>
+  </data>
+  <data name="ToolBarOutput" xml:space="preserve">
+    <value>Output</value>
+  </data>
+  <data name="ToolbarPermission_Title" xml:space="preserve">
+    <value>Permissions</value>
+  </data>
+  <data name="ToolbarRotate" xml:space="preserve">
+    <value>Rotate</value>
+  </data>
+  <data name="ToolbarWindows" xml:space="preserve">
+    <value>Windows</value>
+  </data>
+  <data name="ToolBox" xml:space="preserve">
+    <value>ToolBox</value>
+  </data>
+  <data name="ToolboxAddCategory" xml:space="preserve">
+    <value>Add category</value>
+  </data>
+  <data name="ToolboxAddComboKey" xml:space="preserve">
+    <value>Add combo</value>
+  </data>
+  <data name="ToolboxKey" xml:space="preserve">
+    <value>Open toolbox</value>
+  </data>
+  <data name="ToolboxKey1" xml:space="preserve">
+    <value>Close toolbox</value>
+  </data>
+  <data name="ToolBoxMsgUpdate_Header" xml:space="preserve">
+    <value>Combo update </value>
+  </data>
+  <data name="ToolBoxMsgUpdate_Msg" xml:space="preserve">
+    <value>Are you want to update seleted combo. Yes to update , No to add a new.</value>
+  </data>
+  <data name="ToolboxRemoveCategory" xml:space="preserve">
+    <value>Remove category</value>
+  </data>
+  <data name="ToolboxRemoveCombo" xml:space="preserve">
+    <value>Remove combo</value>
+  </data>
+  <data name="ToolboxRenameCategory" xml:space="preserve">
+    <value>Rename category</value>
+  </data>
+  <data name="ToolboxRenameCombo" xml:space="preserve">
+    <value>Rename combo</value>
+  </data>
+  <data name="ToolBox_AddCategory_Title" xml:space="preserve">
+    <value>New category</value>
+  </data>
+  <data name="ToolBox_ChangeOwner" xml:space="preserve">
+    <value>Change owner</value>
+  </data>
+  <data name="ToolBox_ChangePassword" xml:space="preserve">
+    <value>Security setting</value>
+  </data>
+  <data name="ToolBox_Export" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="ToolBox_Export_File" xml:space="preserve">
+    <value>File name:</value>
+  </data>
+  <data name="ToolBox_Export_Title" xml:space="preserve">
+    <value>Select categorys to export</value>
+  </data>
+  <data name="ToolBox_Import" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="ToolBox_Import_Isoverwrite" xml:space="preserve">
+    <value>Overwrite when has conflicted</value>
+  </data>
+  <data name="ToolBox_Import_SoureName" xml:space="preserve">
+    <value>Category name</value>
+  </data>
+  <data name="ToolBox_Import_Title" xml:space="preserve">
+    <value>Select categorys to import</value>
+  </data>
+  <data name="ToolBox_OwnerModify_Title" xml:space="preserve">
+    <value>Owner modify</value>
+  </data>
+  <data name="ToolBox_PasswordConfirm_Skip" xml:space="preserve">
+    <value>Skip next time</value>
+  </data>
+  <data name="ToolBox_PasswordConfirm_Title" xml:space="preserve">
+    <value>Security verifiable</value>
+  </data>
+  <data name="ToolBox_PasswordModify_Title" xml:space="preserve">
+    <value>Security setting</value>
+  </data>
+  <data name="Top" xml:space="preserve">
+    <value>Top</value>
+  </data>
+  <data name="Transfer" xml:space="preserve">
+    <value>Transfer</value>
+  </data>
+  <data name="Transform" xml:space="preserve">
+    <value>Transform</value>
+  </data>
+  <data name="TreeDataTemplate_groupnote" xml:space="preserve">
+    <value>Select and edit the template group</value>
+  </data>
+  <data name="TreeDataTemplate_note" xml:space="preserve">
+    <value>Right click menu to add a  template group</value>
+  </data>
+  <data name="TreeDataView_groupnote" xml:space="preserve">
+    <value>Select and edit the View group</value>
+  </data>
+  <data name="TreeDataView_note" xml:space="preserve">
+    <value>Use button below or right click menu to add a view or a view group</value>
+  </data>
+  <data name="TrueString" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="TrueText1" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="TwoHorSplite" xml:space="preserve">
+    <value>Splite to two</value>
+  </data>
+  <data name="TwoVerSplite" xml:space="preserve">
+    <value>Splite to two</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>Undo</value>
+  </data>
+  <data name="UndoOperationKey" xml:space="preserve">
+    <value>Undo</value>
+  </data>
+  <data name="UnGroupKey" xml:space="preserve">
+    <value>Decompose the selected combined object into graphic objects before combination.</value>
+  </data>
+  <data name="UpdateCombo" xml:space="preserve">
+    <value>Combo '{0}'  has been Update to in toolbox</value>
+  </data>
+  <data name="ValueAxisListTitle" xml:space="preserve">
+    <value>ValueAxis(&amp;M):</value>
+  </data>
+  <data name="ValueExpression" xml:space="preserve">
+    <value>Value:</value>
+  </data>
+  <data name="Value_Expression1" xml:space="preserve">
+    <value>Value:</value>
+  </data>
+  <data name="VerMirrorKey" xml:space="preserve">
+    <value>Mirrors a graphic object around the horizontal axis</value>
+  </data>
+  <data name="VerticalKey" xml:space="preserve">
+    <value>Distribute selected graphic objects evenly in vertical direction.</value>
+  </data>
+  <data name="VerticalStretch" xml:space="preserve">
+    <value>Region height</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="ViewAppearance" xml:space="preserve">
+    <value>View appearance</value>
+  </data>
+  <data name="ViewCommand" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="ViewComment" xml:space="preserve">
+    <value>Click to display view summary and content of the project, double click to enter view subsystem configuration.</value>
+  </data>
+  <data name="ViewDescription" xml:space="preserve">
+    <value>The subsystem used to develop, manage and run the human machine interface of INSPEC project. It simulates automation site and process by intuitive and visualized means, such as graphical drawings, colors, animations, tables, charts, curves and buttons, etc. It presents data and accepts human operations and data inputs.</value>
+  </data>
+  <data name="ViewExportResult" xml:space="preserve">
+    <value>Export result</value>
+  </data>
+  <data name="ViewExportSeccessfull" xml:space="preserve">
+    <value>View export completely.</value>
+  </data>
+  <data name="ViewExportSelectView_FileName" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="ViewExportSelectView_Title" xml:space="preserve">
+    <value>Select views to export</value>
+  </data>
+  <data name="ViewExportTitle" xml:space="preserve">
+    <value>Tag to parameter</value>
+  </data>
+  <data name="ViewExport_Index_Filter" xml:space="preserve">
+    <value>View exported zip file|*.zevgrp</value>
+  </data>
+  <data name="ViewExport_Process_Title" xml:space="preserve">
+    <value>View exported in process...</value>
+  </data>
+  <data name="ViewFileBrowserEditor_Header" xml:space="preserve">
+    <value>Replay view selected </value>
+  </data>
+  <data name="ViewFileBrowserEditor_Title" xml:space="preserve">
+    <value>Select views you want to replay</value>
+  </data>
+  <data name="ViewFileErro" xml:space="preserve">
+    <value>View file has erro.</value>
+  </data>
+  <data name="ViewImportSelectView_FileName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="ViewImportSelectView_IsDefault" xml:space="preserve">
+    <value>Is default replay view</value>
+  </data>
+  <data name="ViewImportSelectView_OverWrite" xml:space="preserve">
+    <value>Overwrite when conflicting</value>
+  </data>
+  <data name="ViewImportSelectView_Selected" xml:space="preserve">
+    <value>Selected</value>
+  </data>
+  <data name="ViewImportSelectView_SourceName" xml:space="preserve">
+    <value>File name in export views</value>
+  </data>
+  <data name="ViewImportSelectView_TargetName" xml:space="preserve">
+    <value>View name in project</value>
+  </data>
+  <data name="ViewImportSelectView_Title" xml:space="preserve">
+    <value>Select views to import</value>
+  </data>
+  <data name="ViewImport_Index_Filter" xml:space="preserve">
+    <value>View exported  file|*.zevgrp;*.evgrp</value>
+  </data>
+  <data name="ViewImport_Process_Title" xml:space="preserve">
+    <value>View imported in process...</value>
+  </data>
+  <data name="ViewImport_SourceTitle" xml:space="preserve">
+    <value>Parameter</value>
+  </data>
+  <data name="ViewImport_TargetTitle" xml:space="preserve">
+    <value>Tags</value>
+  </data>
+  <data name="ViewImport_Title" xml:space="preserve">
+    <value>Parameter to tag</value>
+  </data>
+  <data name="ViewItems" xml:space="preserve">
+    <value>ViewItems</value>
+  </data>
+  <data name="ViewOperationString" xml:space="preserve">
+    <value>{0} has operated.</value>
+  </data>
+  <data name="ViewOptions" xml:space="preserve">
+    <value>View options</value>
+  </data>
+  <data name="ViewOptionView_Drag" xml:space="preserve">
+    <value>Drag</value>
+  </data>
+  <data name="ViewOptionView_Pan" xml:space="preserve">
+    <value>Pan:</value>
+  </data>
+  <data name="ViewOptionView_ScrollBar" xml:space="preserve">
+    <value>Scroll bar</value>
+  </data>
+  <data name="ViewRegionView_AddLayout" xml:space="preserve">
+    <value>Add a layout</value>
+  </data>
+  <data name="ViewRegionView_ClearView" xml:space="preserve">
+    <value>Clear the default view of a selected region </value>
+  </data>
+  <data name="ViewRegionView_DragToSelect" xml:space="preserve">
+    <value>Drag to select regions.</value>
+  </data>
+  <data name="ViewRegionView_HSize" xml:space="preserve">
+    <value>Make selected regions has same width</value>
+  </data>
+  <data name="ViewRegionView_Hsplite2" xml:space="preserve">
+    <value>Split selected regions to 2 regions in horizontal</value>
+  </data>
+  <data name="ViewRegionView_Hsplite3" xml:space="preserve">
+    <value>Split selected regions to 3 regions in horizontal</value>
+  </data>
+  <data name="ViewRegionView_Merger" xml:space="preserve">
+    <value>Merger selected regions into one region</value>
+  </data>
+  <data name="ViewRegionView_ModifyValue" xml:space="preserve">
+    <value>Mouse left double click to modify value</value>
+  </data>
+  <data name="ViewRegionView_PreviewLayout" xml:space="preserve">
+    <value>Preview a layout</value>
+  </data>
+  <data name="ViewRegionView_RemoveLayout" xml:space="preserve">
+    <value>Remove a layout</value>
+  </data>
+  <data name="ViewRegionView_SetView" xml:space="preserve">
+    <value>Set the default view of a selected region </value>
+  </data>
+  <data name="ViewRegionView_VSize" xml:space="preserve">
+    <value>Make selected regions has same height</value>
+  </data>
+  <data name="ViewRegionView_Vsplite2" xml:space="preserve">
+    <value>Split selected regions to 2 regions in vertical</value>
+  </data>
+  <data name="ViewRegionView_Vsplite3" xml:space="preserve">
+    <value>Split selected regions to 3 regions in vertical</value>
+  </data>
+  <data name="ViewReplay" xml:space="preserve">
+    <value>ViewReplay</value>
+  </data>
+  <data name="ViewReplay_Desc" xml:space="preserve">
+    <value>Decrease speed</value>
+  </data>
+  <data name="ViewReplay_EndTime" xml:space="preserve">
+    <value>EndTime</value>
+  </data>
+  <data name="ViewReplay_Inc" xml:space="preserve">
+    <value>Increase speed</value>
+  </data>
+  <data name="ViewReplay_MessageCount" xml:space="preserve">
+    <value>VisiableMessageCount</value>
+  </data>
+  <data name="ViewReplay_MessageCount_Description" xml:space="preserve">
+    <value>Visiable message count in message area ,rang 1 to 100</value>
+  </data>
+  <data name="ViewReplay_Pause" xml:space="preserve">
+    <value>Pause</value>
+  </data>
+  <data name="ViewReplay_Spead" xml:space="preserve">
+    <value>Spead</value>
+  </data>
+  <data name="ViewReplay_Spead_Description" xml:space="preserve">
+    <value>Reflect the playback speed, is the time of multiple, rang 1 to 3600</value>
+  </data>
+  <data name="ViewReplay_Start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="ViewReplay_StartTime" xml:space="preserve">
+    <value>StartTime</value>
+  </data>
+  <data name="ViewReplay_Stop" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="Views" xml:space="preserve">
+    <value>Views</value>
+  </data>
+  <data name="ViewSelectBrowserView_LeftTitle" xml:space="preserve">
+    <value>Views list</value>
+  </data>
+  <data name="ViewSelectBrowserView_RightTitle" xml:space="preserve">
+    <value>Selected views list</value>
+  </data>
+  <data name="ViewSelectBrowserView_TargetName" xml:space="preserve">
+    <value>View name</value>
+  </data>
+  <data name="ViewSelectBrowserView_Title" xml:space="preserve">
+    <value>Views selected</value>
+  </data>
+  <data name="ViewSettings" xml:space="preserve">
+    <value>Display options</value>
+  </data>
+  <data name="ViewsKey" xml:space="preserve">
+    <value>Open view window</value>
+  </data>
+  <data name="ViewsKey1" xml:space="preserve">
+    <value>Close view window</value>
+  </data>
+  <data name="ViewsPadTitle" xml:space="preserve">
+    <value>Views</value>
+  </data>
+  <data name="ViewStyle" xml:space="preserve">
+    <value>ViewStyle</value>
+  </data>
+  <data name="ViewStyleKey" xml:space="preserve">
+    <value>Change view of graphic symbols.</value>
+  </data>
+  <data name="Views_AddViewGroup" xml:space="preserve">
+    <value>Add a new view group</value>
+  </data>
+  <data name="Views_AddViewKey" xml:space="preserve">
+    <value>Add a new view</value>
+  </data>
+  <data name="Views_ConvertResolution" xml:space="preserve">
+    <value>Convert resolution</value>
+  </data>
+  <data name="VisibleChanged1" xml:space="preserve">
+    <value>VisibleChanged</value>
+  </data>
+  <data name="VSpaceSame" xml:space="preserve">
+    <value>Make selections same vertical</value>
+  </data>
+  <data name="Warning1" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="Width" xml:space="preserve">
+    <value>Width</value>
+  </data>
+  <data name="WindowsAppearance" xml:space="preserve">
+    <value>Windows appearance</value>
+  </data>
+  <data name="WindowsControls" xml:space="preserve">
+    <value>Windows controls</value>
+  </data>
+  <data name="WindowsControlsTipText" xml:space="preserve">
+    <value>Windows controls.</value>
+  </data>
+  <data name="WpfCategory" xml:space="preserve">
+    <value>WPF</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="ZhengJiaoKey" xml:space="preserve">
+    <value>Turn into orthogonal mode, drawing orthogonal graphic object.</value>
+  </data>
+  <data name="ZoomInOperationKey" xml:space="preserve">
+    <value>Zoom In selected view</value>
+  </data>
+  <data name="ZoomOriginalOperationKey" xml:space="preserve">
+    <value>Zoom selected view to original</value>
+  </data>
+  <data name="ZoomOutOperationKey" xml:space="preserve">
+    <value>Zoom out selected view</value>
+  </data>
+  <data name="信纸" xml:space="preserve">
+    <value>Notepaper</value>
+  </data>
+  <data name="再生纸" xml:space="preserve">
+    <value>Recycled paper</value>
+  </data>
+  <data name="斜纹布" xml:space="preserve">
+    <value>Damask</value>
+  </data>
+  <data name="新闻纸" xml:space="preserve">
+    <value>Newsprint</value>
+  </data>
+  <data name="栎木" xml:space="preserve">
+    <value>Oak</value>
+  </data>
+  <data name="棕色大理石" xml:space="preserve">
+    <value>Brown marble</value>
+  </data>
+  <data name="水滴" xml:space="preserve">
+    <value>Water-drop</value>
+  </data>
+  <data name="沙滩" xml:space="preserve">
+    <value>Sandbeach</value>
+  </data>
+  <data name="深色木质" xml:space="preserve">
+    <value>Dark wood</value>
+  </data>
+  <data name="画布" xml:space="preserve">
+    <value>Canvas</value>
+  </data>
+  <data name="白色大理石" xml:space="preserve">
+    <value>White marble</value>
+  </data>
+  <data name="粉色砂纸" xml:space="preserve">
+    <value>Pink sand paper</value>
+  </data>
+  <data name="紫色网格" xml:space="preserve">
+    <value>Violet grid</value>
+  </data>
+  <data name="纸莎草纸" xml:space="preserve">
+    <value>Papyrus</value>
+  </data>
+  <data name="纸袋" xml:space="preserve">
+    <value>Paper bag</value>
+  </data>
+  <data name="绿色大理石" xml:space="preserve">
+    <value>Green marble</value>
+  </data>
+  <data name="编织物" xml:space="preserve">
+    <value>Basketwork</value>
+  </data>
+  <data name="羊皮纸" xml:space="preserve">
+    <value>Parchment</value>
+  </data>
+  <data name="胡桃" xml:space="preserve">
+    <value>Walnut</value>
+  </data>
+  <data name="花岗岩" xml:space="preserve">
+    <value>Granite</value>
+  </data>
+  <data name="花束" xml:space="preserve">
+    <value>Flowers</value>
+  </data>
+  <data name="蓝色砂纸" xml:space="preserve">
+    <value>Blue sand paper</value>
+  </data>
+  <data name="软木塞" xml:space="preserve">
+    <value>Cork</value>
+  </data>
+  <data name="鱼类化石" xml:space="preserve">
+    <value>Fish fossils</value>
+  </data>
+  <data name="ColorPicker" xml:space="preserve">
+    <value>ColorPicker</value>
+  </data>
+  <data name="CheckAll" xml:space="preserve">
+    <value>CheckAll</value>
+  </data>
+  <data name="CollapseAll" xml:space="preserve">
+    <value>CollapseAll</value>
+  </data>
+  <data name="ExpandAll" xml:space="preserve">
+    <value>ExpandAll</value>
+  </data>
+  <data name="UnCheckAll" xml:space="preserve">
+    <value>UnCheckAll</value>
+  </data>
+  <data name="CheckBoxVisibility" xml:space="preserve">
+    <value>CheckBoxVisibility</value>
+  </data>
+  <data name="CheckBoxVisible_Description" xml:space="preserve">
+    <value>Wether the check box is visible</value>
+  </data>
+  <data name="DoubleClick" xml:space="preserve">
+    <value>DoubleClickPrograme</value>
+  </data>
+  <data name="DoubleClickInput" xml:space="preserve">
+    <value>DoubleClickValueInput</value>
+  </data>
+  <data name="DoubleClickInput_Description" xml:space="preserve">
+    <value>Double click value input</value>
+  </data>
+  <data name="DoubleClick_Description" xml:space="preserve">
+    <value>Mouse double click</value>
+  </data>
+  <data name="ExpandIconVisibility" xml:space="preserve">
+    <value>ExpandIconVisibility</value>
+  </data>
+  <data name="ExpandIconVisible_Description" xml:space="preserve">
+    <value>Wether the expand icon is visible</value>
+  </data>
+  <data name="LeftButton" xml:space="preserve">
+    <value>LeftButton</value>
+  </data>
+  <data name="LeftToRightLayout" xml:space="preserve">
+    <value>LeftToRightLayout</value>
+  </data>
+  <data name="LeftToRightLayout_Description" xml:space="preserve">
+    <value>Whether the layout of the arranged from left to right</value>
+  </data>
+  <data name="LineVisibility" xml:space="preserve">
+    <value>LineVisibility</value>
+  </data>
+  <data name="LineVisibility_Description" xml:space="preserve">
+    <value>Wether the connecting line is visible</value>
+  </data>
+  <data name="NodeSpace" xml:space="preserve">
+    <value>SubNodeSpace</value>
+  </data>
+  <data name="NodeSpace_Description" xml:space="preserve">
+    <value>NodeSpace_Description</value>
+  </data>
+  <data name="RightButton" xml:space="preserve">
+    <value>RightButton</value>
+  </data>
+  <data name="SingleClick" xml:space="preserve">
+    <value>SingleClick</value>
+  </data>
+  <data name="SingleClickInput" xml:space="preserve">
+    <value>SingleClickValueInput</value>
+  </data>
+  <data name="SingleClickInput_Description" xml:space="preserve">
+    <value>Single click value input</value>
+  </data>
+  <data name="SingleClickMenu" xml:space="preserve">
+    <value>SingleClickMenu</value>
+  </data>
+  <data name="SingleClickMenu_Description" xml:space="preserve">
+    <value>Single click pop up menu</value>
+  </data>
+  <data name="SingleClick_Description" xml:space="preserve">
+    <value>Mouse single click</value>
+  </data>
+  <data name="fddfg" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FontSize" xml:space="preserve">
+    <value>FontSize</value>
+  </data>
+  <data name="FontSize_Description" xml:space="preserve">
+    <value>FontSize</value>
+  </data>
+  <data name="Margin" xml:space="preserve">
+    <value>Margin</value>
+  </data>
+  <data name="Foreground" xml:space="preserve">
+    <value>Foreground</value>
+  </data>
+  <data name="SelectedBackground" xml:space="preserve">
+    <value>SelectedBackground</value>
+  </data>
+  <data name="SelectedForeground" xml:space="preserve">
+    <value>SelectedForeground</value>
+  </data>
+  <data name="NameIdentity" xml:space="preserve">
+    <value>NameIdentity</value>
+  </data>
+  <data name="讽德诵功" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FontFamilyString" xml:space="preserve">
+    <value>FontFamily</value>
+  </data>
+  <data name="ImageSource" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="ToolTipString" xml:space="preserve">
+    <value>ToolTip</value>
+  </data>
+  <data name="TreeNode" xml:space="preserve">
+    <value>TreeNode</value>
+  </data>
+  <data name="TreeNodeCollection" xml:space="preserve">
+    <value>TreeNodeCollection</value>
+  </data>
+  <data name="LeftSingleClick" xml:space="preserve">
+    <value>LeftSingleClickPrograme</value>
+  </data>
+  <data name="LeftSingleClickInput" xml:space="preserve">
+    <value>LeftSingleClickValueInput</value>
+  </data>
+  <data name="LeftSingleClickMenu" xml:space="preserve">
+    <value>LeftSingleClickMenu</value>
+  </data>
+  <data name="RightSingleClick" xml:space="preserve">
+    <value>RightSingleClickPrograme</value>
+  </data>
+  <data name="RightSingleClickInput" xml:space="preserve">
+    <value>RightSingleClickValueInput</value>
+  </data>
+  <data name="RightSingleClickMenu" xml:space="preserve">
+    <value>RightSingleClickMenu</value>
+  </data>
+  <data name="KeyOperation" xml:space="preserve">
+    <value>KeyOperation</value>
+  </data>
+  <data name="MenuVisibility" xml:space="preserve">
+    <value>MenuVisibility</value>
+  </data>
+  <data name="MenuVisibility_Description" xml:space="preserve">
+    <value>IsMenuVisibility</value>
+  </data>
+  <data name="CheckNodePrograme" xml:space="preserve">
+    <value>CheckNodePrograme</value>
+  </data>
+  <data name="CheckNodePrograme_Description" xml:space="preserve">
+    <value>Check node programe</value>
+  </data>
+  <data name="NodeIdentyExisted" xml:space="preserve">
+    <value>Node Identy has already existed!</value>
+  </data>
+  <data name="Permissionss" xml:space="preserve">
+    <value>Permissions</value>
+  </data>
+  <data name="TagIsReadonly" xml:space="preserve">
+    <value>Tag cannot accept input operation</value>
+  </data>
+  <data name="LostFocusBackground" xml:space="preserve">
+    <value>LostFocusBackground</value>
+  </data>
+  <data name="UnCheckNodePrograme" xml:space="preserve">
+    <value>UnCheckNodePrograme</value>
+  </data>
+  <data name="UnCheckNodePrograme_Description" xml:space="preserve">
+    <value>The event program is triggered when un-check node event occurs.</value>
+  </data>
+  <data name="NodeSelected" xml:space="preserve">
+    <value>NodeSelectedEvent</value>
+  </data>
+  <data name="NodeSelected_Description" xml:space="preserve">
+    <value>NodeSelected_Description</value>
+  </data>
+</root>
