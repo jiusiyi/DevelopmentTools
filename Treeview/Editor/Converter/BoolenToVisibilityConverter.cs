@@ -13,7 +13,7 @@ using System.Windows;
 
 namespace ControlEase.Inspec.TreeView
 {
-    public class BoolenToLayoutConverter : IValueConverter
+    public class BoolenToVisibilityConverter : IValueConverter
     {
         #region IValueConverter Members
         /// <summary>
@@ -28,9 +28,9 @@ namespace ControlEase.Inspec.TreeView
         {
             bool cint = (bool)value;
             if ( cint )
-                return System.Windows.FlowDirection.LeftToRight;
+                return Visibility.Visible;
             else
-                return System.Windows.FlowDirection.RightToLeft;
+                return Visibility.Hidden;
         }
 
         /// <summary>

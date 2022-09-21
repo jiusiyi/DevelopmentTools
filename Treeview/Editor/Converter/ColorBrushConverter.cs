@@ -9,11 +9,10 @@ using System.Windows.Media;
 
 using System.Windows.Media.Imaging;
 using System.Windows.Controls;
-using System.Windows;
 
 namespace ControlEase.Inspec.TreeView
 {
-    public class BoolenToLayoutConverter : IValueConverter
+    public class ColorBrushConverter : IValueConverter
     {
         #region IValueConverter Members
         /// <summary>
@@ -26,13 +25,14 @@ namespace ControlEase.Inspec.TreeView
         /// <returns></returns>
         public object Convert ( object value, Type targetType, object parameter, System.Globalization.CultureInfo culture )
         {
-            bool cint = (bool)value;
-            if ( cint )
-                return System.Windows.FlowDirection.LeftToRight;
-            else
-                return System.Windows.FlowDirection.RightToLeft;
+            System.Drawing.Color clr = ( System.Drawing.Color ) value;
+            if ( clr  != null)
+            {
+                SolidColorBrush mSolidColorBrush = new SolidColorBrush (  Color.FromArgb(clr.A,clr.R,clr.G,clr.B));
+                return mSolidColorBrush;
+            }
+            return null;
         }
-
         /// <summary>
         /// 
         /// </summary>

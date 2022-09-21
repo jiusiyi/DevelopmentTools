@@ -13,7 +13,7 @@ using System.Windows;
 
 namespace ControlEase.Inspec.TreeView
 {
-    public class BoolenToLayoutConverter : IValueConverter
+    public class IntToMargineConverter : IValueConverter
     {
         #region IValueConverter Members
         /// <summary>
@@ -26,11 +26,8 @@ namespace ControlEase.Inspec.TreeView
         /// <returns></returns>
         public object Convert ( object value, Type targetType, object parameter, System.Globalization.CultureInfo culture )
         {
-            bool cint = (bool)value;
-            if ( cint )
-                return System.Windows.FlowDirection.LeftToRight;
-            else
-                return System.Windows.FlowDirection.RightToLeft;
+            int cint = ( int ) value;
+            return new Thickness(cint,10,0,10);
         }
 
         /// <summary>

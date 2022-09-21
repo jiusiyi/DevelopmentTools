@@ -9,11 +9,11 @@ using System.Windows.Media;
 
 using System.Windows.Media.Imaging;
 using System.Windows.Controls;
-using System.Windows;
+using ControlEase.Inspec.ViewCore;
 
 namespace ControlEase.Inspec.TreeView
 {
-    public class BoolenToLayoutConverter : IValueConverter
+    public class ResourceImageConverter : IValueConverter
     {
         #region IValueConverter Members
         /// <summary>
@@ -26,11 +26,29 @@ namespace ControlEase.Inspec.TreeView
         /// <returns></returns>
         public object Convert ( object value, Type targetType, object parameter, System.Globalization.CultureInfo culture )
         {
-            bool cint = (bool)value;
-            if ( cint )
-                return System.Windows.FlowDirection.LeftToRight;
-            else
-                return System.Windows.FlowDirection.RightToLeft;
+            //if ( value is ImageResourceItem )
+            //{
+            //    ImageResourceItem pp = ( value as ImageResourceItem );
+            //    if ( pp != null )
+            //    {
+                    //int cint = System.Convert.ToInt32 ( ( value as ImageResourceItem ).ImageId );
+
+                    int cint = System.Convert.ToInt32 ( value );
+                    var resSvr = ServiceLocator.Current.Resolve<IResourceService> ( );
+                    ResourceItem ss = resSvr.GetResourceItem ( cint );
+                    if ( ss != null )
+                    {
+                        PictureResourceType pres = ss.ResourceTypeInfo as PictureResourceType;
+                        if ( pres != null )
+                        {
+                            Uri uri = new Uri ( pres.RelativeFullFileName, UriKind.Absolute );
+                            return uri;
+                        }
+                        return null;
+                    }
+            //    }
+            //}
+                return null;
         }
 
         /// <summary>
