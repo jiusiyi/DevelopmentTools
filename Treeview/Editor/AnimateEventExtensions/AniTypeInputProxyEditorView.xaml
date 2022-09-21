@@ -1,0 +1,86 @@
+﻿<UserControl x:Class="ControlEase.Inspec.TreeView.AniTypeInputProxyEditorView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ControlEase.Inspec.TreeView"
+             xmlns:win="clr-namespace:System.Windows.Controls;assembly=PresentationFramework"
+             mc:Ignorable="d" UseLayoutRounding="True" SnapsToDevicePixels="True"
+             d:DesignHeight="194" d:DesignWidth="418">
+    <UserControl.Resources>
+        <LinearGradientBrush x:Key="TextBoxBorder" EndPoint="0,20" MappingMode="Absolute" StartPoint="0,0">
+            <GradientStop Color="#ABADB3" Offset="0.05"/>
+            <GradientStop Color="#E2E3EA" Offset="0.07"/>
+            <GradientStop Color="#E3E9EF" Offset="1"/>
+        </LinearGradientBrush>
+    </UserControl.Resources>
+    <Grid Grid.IsSharedSizeScope="True">
+        <Grid.Resources>
+            <win:BooleanToVisibilityConverter x:Key="bvc" />
+        </Grid.Resources>
+        
+        <Grid  >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" SharedSizeGroup="group1" />
+            <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Label Content="{local:ResMarker TagExpression}" Height="28" HorizontalAlignment="Left" Margin="6,6,0,0" Name="label1" VerticalAlignment="Top" />
+            <TextBox Grid.Column="1" Height="23" Margin="10,7,54,0" Name="textBox1" Text="{Binding Expression,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" TabIndex="0" IsTabStop="False" />
+            <Button Background="#FFF0F0F0" local:ViewToolTipHelper.StaticText="{local:ResMarker Editor_SelectTag_Desc}" local:ViewToolTipHelper.Reciver="AniTypeInputProxyEditorViewModel" Content="..." Command="{Binding BrowserCommand}" Grid.Column="1" Height="23" HorizontalAlignment="Right" Margin="0,6,8,0" Name="button1" VerticalAlignment="Top" Width="39" TabIndex="1" IsTabStop="False" />
+            
+            <!--<Label Content="{local:ResMarker In_Info}" Height="28" HorizontalAlignment="Left" Margin="5,40,0,0" Name="label3" VerticalAlignment="Top" />
+        <Label Content="{local:ResMarker In_shutkey}" Height="28" HorizontalAlignment="Left" Margin="5,75,0,0" Name="label4" VerticalAlignment="Top" />
+            <TextBox Height="23" Margin="10,42,54,0" Name="textBox3" Text="{Binding Info, Mode=TwoWay}" VerticalAlignment="Top" Grid.Column="1" TabIndex="2" IsTabStop="False" />
+            <Border BorderThickness="1" BorderBrush="{StaticResource TextBoxBorder}" Margin="10,77,54,0" VerticalAlignment="Top" Grid.Column="1">
+                <local:ShortcutTextInput Height="23"  x:Name="textBox4" Keys="{Binding Keys, Mode=TwoWay}" VerticalAlignment="Top" Grid.Column="1" TabIndex="4" />
+            </Border>
+
+            <Button Background="#FFF0F0F0" local:ViewToolTipHelper.StaticText="{local:ResMarker Editor_BrowseResource_Desc}" local:ViewToolTipHelper.Reciver="AniTypeInputProxyEditorViewModel" Command="{Binding InfoBrowserCommand}" Content="..." Height="23" HorizontalAlignment="Right" Margin="0,41,8,0" Name="button3" VerticalAlignment="Top" Width="39" Grid.Column="1" TabIndex="3" IsTabStop="False" />
+            <Button Background="#FFF0F0F0" local:ViewToolTipHelper.StaticText="{local:ResMarker Editor_ClearKey_Desc}" local:ViewToolTipHelper.Reciver="AniTypeInputProxyEditorViewModel" Command="{Binding ClearKeyCommand}" Content="C" Height="23" HorizontalAlignment="Right" Margin="0,77,8,0" Name="button4" VerticalAlignment="Top" Width="39" Grid.Column="1" TabIndex="5" IsTabStop="False" />-->
+            
+            
+            
+            
+        </Grid>
+        <StackPanel Grid.ColumnSpan="2" Height="149" Margin="0,40,0,0" Name="grid1" VerticalAlignment="Top" Orientation="Vertical" >
+            <Grid Visibility="{Binding IsStringInput,Converter={StaticResource bvc}}" VerticalAlignment="Top">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" SharedSizeGroup="group1" />
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <CheckBox IsChecked="{Binding IsPassword,Mode=TwoWay}" Content="{local:ResMarker StringFormat_IsPassword}" Grid.Column="1" Height="16" HorizontalAlignment="Left" Margin="11,0,0,0" Name="checkBox1" VerticalAlignment="Top" TabIndex="6" IsTabStop="False" />
+            </Grid>
+            <Grid Visibility="{Binding IsNumberInput,Converter={StaticResource bvc}}" VerticalAlignment="Top">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" SharedSizeGroup="group1" />
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label Content="{local:ResMarker NumberFormat_PointCount}" Height="28" HorizontalAlignment="Left" Margin="5,0,0,0" Name="label5" VerticalAlignment="Top" />
+                <ShortUpDown Value="{Binding InputPointNumber,Mode=TwoWay}" Maximum="15" Minimum="0" ValueChanged="ShortUpDown_ValueChanged" HorizontalAlignment="Left" Margin="10,4,0,0" VerticalAlignment="Top" Width="90" Grid.Column="1" TabIndex="7" />
+                <Label Content="{local:ResMarker NumberFormat_ValueRange}" Height="28" HorizontalAlignment="Left" Margin="5,40,0,0" Name="label6" VerticalAlignment="Top" />
+                <StackPanel Orientation="Horizontal" Grid.Column="1" Height="30" VerticalAlignment="Top" Margin="5,38,6,0">
+                    <Label Content="{local:ResMarker NumberFormat_Min}" Grid.Column="1"  Height="26" VerticalAlignment="Center" />
+                    <DoubleUpDown Minimum="{Binding MinBounds}" Maximum="{Binding MaxBounds}" Value="{Binding Min,Mode=TwoWay}" Grid.Column="3" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="5,0,0,0" Width="60" Name="min" TabIndex="8" />
+                    <Label Content="{local:ResMarker NumberFormat_Max}" Margin="20,0,0,0" Grid.Column="1"  Height="26" VerticalAlignment="Center" />
+                    <DoubleUpDown Minimum="{Binding MinBounds}" Maximum="{Binding MaxBounds}" Value="{Binding Max,Mode=TwoWay}" Grid.Column="3" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="5,0,0,0" Width="60" Name="max" TabIndex="9" />
+                </StackPanel>
+            </Grid>
+            <Grid Visibility="{Binding IsBooleanInput,Converter={StaticResource bvc}}" VerticalAlignment="Top">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" SharedSizeGroup="group1" />
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label Content="{local:ResMarker BooleanAni_In_Text}" Height="28" HorizontalAlignment="Left" Margin="5,2,0,0"  VerticalAlignment="Top" />
+                <StackPanel Orientation="Horizontal" Grid.Column="1" Margin="5,0,0,0">
+                    <Label Content="True:" VerticalAlignment="Center"/>
+                    <TextBox Text="{Binding SetTrueExpression,Mode=TwoWay}" Width="60"  Height="23" Margin="5,0,0,0" Name="textBox5" VerticalAlignment="Center" Grid.Column="1" TabIndex="10" IsTabStop="False" />
+                    <Button Background="#FFF0F0F0" local:ViewToolTipHelper.StaticText="{local:ResMarker Editor_BrowseResource_Desc}" local:ViewToolTipHelper.Reciver="AniTypeInputProxyEditorViewModel" Command="{Binding SetTrueBrowserCommand}" Content="..." Height="23" HorizontalAlignment="Left" Margin="5,0,0,0" Name="button5" VerticalAlignment="Center" Width="24" Grid.Column="1" TabIndex="11" IsTabStop="False" />
+
+                    <Label Content="False:" Margin="20,0,0,0" VerticalAlignment="Center"/>
+                    <TextBox Text="{Binding SetFalseExpression,Mode=TwoWay}" Width="60" Height="23" Margin="5,0,0,0" Name="textBox6" VerticalAlignment="Center" Grid.Column="1" TabIndex="12" IsTabStop="False" />
+                    <Button local:ViewToolTipHelper.StaticText="{local:ResMarker Editor_BrowseResource_Desc}" local:ViewToolTipHelper.Reciver="AniTypeInputProxyEditorViewModel" Background="#FFF0F0F0" Command="{Binding SetFalseBrowserCommand}" Content="..." Height="23" HorizontalAlignment="Left" Margin="5,0,0,0" Name="button6" VerticalAlignment="Center" Width="24" Grid.Column="1" TabIndex="13" IsTabStop="False" />
+                </StackPanel>
+            </Grid>
+        </StackPanel>
+    </Grid>
+</UserControl>
