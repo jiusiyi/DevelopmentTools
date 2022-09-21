@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9B667A6D-5D21-4F21-8AF4-17B3B52D6F98}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ControlEase.Inspec.TreeView</RootNamespace>
+    <AssemblyName>CE.NX.TV</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DocumentationFile>bin\Debug\CE.NX.TV.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DocumentationFile>bin\Release\CE.NX.TV.XML</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CE.AI.SPF, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\INSPECFX\Output\CE.AI.SPF.dll</HintPath>
+    </Reference>
+    <Reference Include="CE.AI.SRF, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\INSPECFX\Output\CE.AI.SRF.dll</HintPath>
+    </Reference>
+    <Reference Include="CE.AI.TextEditor, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\INSPECFX\Output\CE.AI.TextEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="CE.AI.TGF, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\INSPECFX\Output\CE.AI.TGF.dll</HintPath>
+    </Reference>
+    <Reference Include="CE.AI.VWF, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\INSPECFX\Output\CE.AI.VWF.dll</HintPath>
+    </Reference>
+    <Reference Include="CE.Nexus.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\INSPECFX\Output\CE.Nexus.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="CE.Nexus.ComponentModel, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\INSPECFX\Output\CE.Nexus.ComponentModel.dll</HintPath>
+    </Reference>
+    <Reference Include="CE.Nexus.Presentation, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\INSPECFX\Output\CE.Nexus.Presentation.dll</HintPath>
+    </Reference>
+    <Reference Include="CE.Nexus.Windows, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\INSPECFX\Output\CE.Nexus.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="CE.NX.Extension, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\INSPECFX\Output\CE.NX.Extension.dll</HintPath>
+    </Reference>
+    <Reference Include="CE.NX.RSD, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\INSPECFX\Output\CE.NX.RSD.dll</HintPath>
+    </Reference>
+    <Reference Include="CE.NX.VWC, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\INSPECFX\Output\CE.NX.VWC.dll</HintPath>
+    </Reference>
+    <Reference Include="CE.NX.VWD, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\INSPECFX\Output\CE.NX.VWD.dll</HintPath>
+    </Reference>
+    <Reference Include="CE.NX.VWP, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\INSPECFX\Output\CE.NX.VWP.dll</HintPath>
+    </Reference>
+    <Reference Include="CE.NX.VWPS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\INSPECFX\Output\CE.NX.VWPS.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="PresentationFramework.Aero" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Presentation" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\CommConst.cs" />
+    <Compile Include="Editor\AnimateEventExtensions\AniInput\AniInputAnalog.cs" />
+    <Compile Include="Editor\AnimateEventExtensions\AniInput\AniInputBase.cs" />
+    <Compile Include="Editor\AnimateEventExtensions\AniInput\AniInputDateTime.cs" />
+    <Compile Include="Editor\AnimateEventExtensions\AniInput\AniInputDisc.cs" />
+    <Compile Include="Editor\AnimateEventExtensions\AniInput\AniInputString.cs" />
+    <Compile Include="Editor\AnimateEventExtensions\Forms\InputAnalogForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\AnimateEventExtensions\Forms\InputAnalogWithVirkeyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\AnimateEventExtensions\Forms\InputDateTime.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\AnimateEventExtensions\Forms\InputDiscForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\AnimateEventExtensions\Forms\InputStringForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\AnimateEventExtensions\Forms\InputStringWithVirkeyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\AnimateEventExtensions\Forms\ToggleButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Common\DialogHelper.cs" />
+    <Compile Include="Common\ResMarkerExtension.cs" />
+    <Compile Include="Common\ShortcutTextInput.cs" />
+    <Compile Include="Common\ViewToolTipHelper.cs" />
+    <Compile Include="Editor\AnimateEventExtensions\Forms\AniTypeInputProxyEditor.cs" />
+    <Compile Include="Editor\Converter\BoolToVisibilityConverter.cs" />
+    <Compile Include="Editor\Converter\BoolenToVisibilityConverter.cs" />
+    <Compile Include="Editor\Converter\BoolenToLayoutConverter.cs" />
+    <Compile Include="Editor\Converter\MarginSpaceConverter.cs" />
+    <Compile Include="Editor\Converter\IntToMargineConverter.cs" />
+    <Compile Include="Editor\Converter\FontFamilyConverter.cs" />
+    <Compile Include="Editor\Converter\ColorBrushConverter.cs" />
+    <Compile Include="Editor\Editor\ColorPickerEditor.cs" />
+    <Compile Include="Editor\Editor\FontFamilyEditor.cs" />
+    <Compile Include="Editor\Editor\ResourceImageEditor.cs" />
+    <Compile Include="Editor\Editor\ResourceImageTypeConvertor.cs" />
+    <Compile Include="Editor\Editor\ViewMenuItemEditor.cs" />
+    <Compile Include="Editor\Converter\ResourceImageConverter.cs" />
+    <Compile Include="Editor\TreeViewPrompt.cs" />
+    <Compile Include="Editor\AnimateEventExtensions\AniTypeInputProxyEditorViewModel.cs" />
+    <Compile Include="Editor\AnimateEventExtensions\AniTypeInputProxyEditorView.xaml.cs">
+      <DependentUpon>AniTypeInputProxyEditorView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Extension.cs" />
+    <Compile Include="Internal\ConstString.cs" />
+    <Compile Include="Internal\SR.cs" />
+    <Compile Include="Editor\Editor\CustomCollectionEditor.cs" />
+    <Compile Include="Nodes\CommandViewModel.cs" />
+    <Compile Include="Nodes\Copy of TreeViewControlViewModel.cs" />
+    <Compile Include="Nodes\TreeNodeNameRepository.cs" />
+    <Compile Include="Nodes\TreeNodeViewModel.cs" />
+    <Compile Include="Nodes\ITreeNodeRepository.cs" />
+    <Compile Include="Nodes\TreeNodeNameService.cs" />
+    <Compile Include="Properties\Resources.zh-CN.Designer.cs">
+      <DependentUpon>Resources.zh-CN.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Common\ComboboxItemViewModel.cs" />
+    <Compile Include="Common\ComboBoxTreeView.cs" />
+    <Compile Include="Common\ExtendedTreeView.cs" />
+    <Compile Include="Common\ITreeViewItemModel.cs" />
+    <Compile Include="Common\SomeHierarchyViewModel.cs" />
+    <Compile Include="Nodes\TreeViewControlViewModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Common\VCComboBoxItemViewModel.cs" />
+    <Compile Include="Views\TreeViewControl.xaml.cs">
+      <DependentUpon>TreeViewControl.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Editor\AnimateEventExtensions\AniTypeInputProxyEditorView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Themes\Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\TreeViewControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Editor\AnimateEventExtensions\Forms\InputAnalogForm.en.resx">
+      <DependentUpon>InputAnalogForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\AnimateEventExtensions\Forms\InputAnalogForm.resx">
+      <DependentUpon>InputAnalogForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\AnimateEventExtensions\Forms\InputAnalogWithVirkeyForm.en.resx">
+      <DependentUpon>InputAnalogWithVirkeyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\AnimateEventExtensions\Forms\InputAnalogWithVirkeyForm.resx">
+      <DependentUpon>InputAnalogWithVirkeyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\AnimateEventExtensions\Forms\InputDateTime.resx">
+      <DependentUpon>InputDateTime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\AnimateEventExtensions\Forms\InputDiscForm.en.resx">
+      <DependentUpon>InputDiscForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\AnimateEventExtensions\Forms\InputDiscForm.resx">
+      <DependentUpon>InputDiscForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\AnimateEventExtensions\Forms\InputStringForm.en.resx">
+      <DependentUpon>InputStringForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\AnimateEventExtensions\Forms\InputStringForm.resx">
+      <DependentUpon>InputStringForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\AnimateEventExtensions\Forms\InputStringWithVirkeyForm.en.resx">
+      <DependentUpon>InputStringWithVirkeyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\AnimateEventExtensions\Forms\InputStringWithVirkeyForm.resx">
+      <DependentUpon>InputStringWithVirkeyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.zh-CN.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.zh-CN.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Add.ico" />
+    <Resource Include="Resources\Remove.ico" />
+    <Resource Include="Resources\InstudioTheme_Light_TreeView.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Config.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\InstudioTheme_Dark_TreeView.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>copy "$(TargetPath)" "D:\InspecFX\Output" /y
+copy "$(TargetDir)zh-CN\*.dll" "D:\InspecFX\Output\zh-CN" /y
+rem copy "$(TargetDir)$(TargetName).XML" "D:\InspecFX\Output\Xml" /y</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

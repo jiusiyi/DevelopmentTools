@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ControlEase.Inspec.TreeView.TreeNodeViewModel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.75" Y="1.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>hFYEIXPwoWAiETIEgAUUblyBCAAIKRXCkkghAKkGQYQ=</HashCode>
+      <FileName>Nodes\TreeNodeViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ControlEase.Inspec.TreeView.GlobalizedTreeNodeViewModelDescriptor" Collapsed="true">
+    <Position X="5" Y="0.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>BAAAEAACJAAwAgAQQAAAAAQAAAAAAgQAgAACAAgACAA=</HashCode>
+      <FileName>Nodes\TreeNodeViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ControlEase.Inspec.TreeView.DelegateTreeNodeViewModel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="1.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAACAAAAIAkAAgAAAAAABAEIAACCERAAAAACAA=</HashCode>
+      <FileName>Nodes\TreeNodeViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Font Name="Microsoft YaHei" Size="9" />
+</ClassDiagram>
