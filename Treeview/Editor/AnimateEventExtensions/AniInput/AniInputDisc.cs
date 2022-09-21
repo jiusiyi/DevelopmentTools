@@ -2,7 +2,7 @@
 * =================================================================================
 * Copyright © Beijing ControlEase Automation Software Co., Ltd. All rights reserved.
 * =================================================================================
-* Name: AniInputAnalog.cs
+* Name: AniInputDisc.cs
 * Description: （Simple introduction to the class, module）
 *               
 * Revision history：	Date			Author			Version		Content	
@@ -22,7 +22,6 @@ using System.Drawing.Drawing2D;
 using System.Diagnostics;
 using System.Windows.Forms;
 using ControlEase.Inspec.ViewCore;
-using ControlEase.AI.Security;
 using ControlEase.Inspec.AniInfos;
 using ControlEase.Inspec.TreeView;
 using ControlEase.Nexus.ComponentModel;
@@ -34,26 +33,34 @@ using System.Drawing;
 namespace ControlEase.Inspec.TreeView
 {
     /// <summary>
-    /// Animate input analog.
+    /// Animate input disc.
     /// </summary>
-    [AnimateConnectionValueType ( typeof ( decimal ) )]
-    [AniType ( typeof ( AniTypeInputAnalog ) )]
-    public class AniInputAnalog : AniInputBase<Double> 
+    [AnimateConnectionValueType ( typeof ( bool ) )]
+    [AniType ( typeof ( AniTypeInputDisc ) )]
+    public class AniInputDisc : AniInputBase<bool> 
     {
         #region ... Variables  ...
-        private static Decimal mCurrentValue = 0.0m;
         /// <summary>
-        /// Max value.
+        /// original value
         /// </summary>
-        private Decimal valueMax = 9999m;
+        private static bool mOriginalValue = false;
+
         /// <summary>
-        /// Min value.
+        /// False text.
         /// </summary>
-        private Decimal valueMin = -9999m;
+        private string falseText = string.Empty;
         /// <summary>
-        /// decimal number.
+        /// True text.
         /// </summary>
-        private int decimalNum = 15;
+        private string trueText = string.Empty;
+        /// <summary>
+        /// 保存false文本的资源名称
+        /// </summary>
+        private string mFalseTextResName = string.Empty;
+        /// <summary>
+        /// 保存true文本的资源名称
+        /// </summary>
+        private string mTrueTextResName = string.Empty;
         #endregion ...Variables...
 
         #region ... Events     ...
@@ -61,62 +68,53 @@ namespace ControlEase.Inspec.TreeView
         #endregion ...Events...
 
         #region ... Constructor...
-        public AniInputAnalog ( )
+        public AniInputDisc ( )
         {
             IgnoreWhenRunning = true; 
         }
-
         #endregion ...Constructor...
 
         #region ... Properties ...
+
         /// <summary>
-        /// Gets or sets max value.
+        /// 获取或设置离散值“假”文本
         /// </summary>
-        public Decimal ValueMax
+        public string FalseText
         {
-            get { return valueMax; }
-            set { valueMax = value; }
+            get { return falseText; }
+            set { falseText = value; }
         }
         /// <summary>
-        /// Gets or sets value min.
+        /// 获取或设置离散值“真”文本
         /// </summary>
-        public Decimal ValueMin
+        public string TrueText
         {
-            get { return valueMin; }
-            set { valueMin = value; }
+            get { return trueText; }
+            set { trueText = value; }
         }
         /// <summary>
-        /// Gets allow decimal number.
+        /// 获取或设置false在资源中的文本
         /// </summary>
-        public bool AllowDecimalNum
+        public string FalseTextResName
         {
-            get { return decimalNum != 0; }
+            get { return mFalseTextResName; }
+            set { mFalseTextResName = value; }
         }
         /// <summary>
-        /// Gets or sets decimal number.
+        /// 获取或设置true在资源中的文本
         /// </summary>
-        public int DecimalNum
+        public string TrueTextResName
         {
-            get { return decimalNum; }
-            set
-            {
-                if ( value >= 0 && value <= 15 )
-                {
-                    decimalNum = value;
-                }
-            }
+            get { return mTrueTextResName; }
+            set { mTrueTextResName = value; }
         }
         /// <summary>
-        /// Gets default creator.
+        /// Gets default creator
         /// </summary>
         public override Func<object> DefaultCreator
         {
-            get { return ( ) => new AniInfoAnalogInput ( ); }
+            get { return ( ) => new AniInfoDiscInput ( ); }
         }
-        /// <summary>
-        /// 变量类型
-        /// </summary>
-        public Type TagType { get; set; }
 
         #endregion ...Properties...
 
@@ -141,107 +139,100 @@ namespace ControlEase.Inspec.TreeView
         }
 
         /// <summary>
-        /// LinkCaculate
+        /// 
         /// </summary>
         /// <returns></returns>
         public override GraphicsPath LinkCaculate ( )
-        {            
-          
-                AniInputAnalog aniInfo = this as AniInputAnalog;
-                Debug.Assert ( aniInfo != null );
-
-                Decimal value = 0;
-
-                Decimal tagValue;
-                if ( GetTagValue (out tagValue ) )
-                {
-                    value = tagValue;
-                }
-
-                using ( InputAnalogWithVirkeyForm form = new InputAnalogWithVirkeyForm ( value, BaseShape, mGrpControl, this, TagType ) )
-                {
-                    var pp = GetRootParent ( mGrpControl );
-                    Point screenPoint = Control.MousePosition;//鼠标相对于屏幕左上角的坐标
-                    if ( pp != null )
-                    {
-                        form.TopMost = pp.TopMost;
-                        form.Top = screenPoint.Y;
-                        form.Left = screenPoint.X;
-                    }
-                    else
-                    {
-                        form.TopMost = true;
-                        form.Top = screenPoint.Y;
-                        form.Left = screenPoint.X;
-                    }
-                    if ( form.ShowDialog ( ) == DialogResult.OK )
-                    {
-                        mCurrentValue = form.Value;
-                        SetValue ( form.Value );
-                    }
-                }         
-            return null;
-        }
-        /// <summary>
-        /// Links the caculate.
-        /// </summary>
-        /// <param name="x">The x.</param>
-        /// <param name="y">The y.</param>
-        /// <returns>GraphicsPath.</returns>
-        public GraphicsPath LinkCaculate(int x,int y)
         {
-
-            AniInputAnalog aniInfo = this as AniInputAnalog;
-            Debug.Assert(aniInfo != null);
-
-            Decimal value = 0;
-
-            Decimal tagValue;
-            if (GetTagValue(out tagValue))
+            AniInputDisc aniInfo = this  as AniInputDisc;
+            Debug.Assert ( aniInfo != null );                
+            bool value = mOriginalValue;
+            bool tagValue;
+            if ( GetTagValue (  out tagValue ) )
             {
                 value = tagValue;
             }
-
-            using (InputAnalogWithVirkeyForm form = new InputAnalogWithVirkeyForm(value, BaseShape, mGrpControl, this, TagType))
+            //IMainForm mainForm = ServiceManager.Services.GetService<IMainForm> ( );
+            //Debug.Assert ( mainForm != null );
+            using ( InputDiscForm form = new InputDiscForm ( value, BaseShape, mGrpControl, this ) )
             {
                 var pp = GetRootParent(mGrpControl);
+                Point screenPoint = Control.MousePosition;//鼠标相对于屏幕左上角的坐标
                 if (pp != null)
                 {
+                    form.Top = screenPoint.Y;
+                    form.Left = screenPoint.X;
                     form.TopMost = pp.TopMost;
-                    form.Top = y;
-                    form.Left = x;
                 }
                 else
                 {
+                    form.Top = screenPoint.Y;
+                    form.Left = screenPoint.X;
                     form.TopMost = true;
-                    form.Top = y;
-                    form.Left = x;
                 }
-                if (form.ShowDialog() == DialogResult.OK)
+                if ( form.ShowDialog (  ) == DialogResult.OK )
                 {
-                    mCurrentValue = form.Value;
-                    SetValue(form.Value);
+                    mOriginalValue = form.Value;
+                    SetValue ( form.Value );
                 }
             }
             return null;
         }
 
+        /// <summary> Links the caculate. </summary>
+        /// <returns>GraphicsPath.</returns>
+        public  GraphicsPath LinkCaculate (int x,int y )
+        {
+            AniInputDisc aniInfo = this as AniInputDisc;
+            Debug.Assert ( aniInfo != null );
+            bool value = mOriginalValue;
+            bool tagValue;
+            if ( GetTagValue ( out tagValue ) )
+            {
+                value = tagValue;
+            }
+            //IMainForm mainForm = ServiceManager.Services.GetService<IMainForm> ( );
+            //Debug.Assert ( mainForm != null );
+            using ( InputDiscForm form = new InputDiscForm ( value, BaseShape, mGrpControl, this ) )
+            {
+                var pp = GetRootParent ( mGrpControl );
+                Point screenPoint = Control.MousePosition;//鼠标相对于屏幕左上角的坐标
+                if ( pp != null )
+                {
+                    form.Top = y;
+                    form.Left = x;
+                    form.TopMost = pp.TopMost;
+                }
+                else
+                {
+                    form.Top = y;
+                    form.Left = x;
+                    form.TopMost = true;
+                }
+                if ( form.ShowDialog ( ) == DialogResult.OK )
+                {
+                    mOriginalValue = form.Value;
+                    SetValue ( form.Value );
+                }
+            }
+            return null;
+        }
         /// <summary>
         /// 
         /// </summary>
         /// <param name="tagValue"></param>
         /// <returns></returns>
-        private bool GetTagValue ( out Decimal tagValue )
+        private bool GetTagValue ( out bool tagValue )
         {
             var tag = ServiceLocator.Current.Resolve<ITagProvider> ( ).GetTag ( this.Expression );
             if ( tag != null )
             {
-                tagValue = tag.Value != null ?Convert.ToDecimal( tag.Value.ToString ( )) : Decimal.MinValue;
+                tagValue = tag.Value != null ?Convert.ToBoolean( tag.Value.ToString ( )) :false;
                 return true;
             }
             else
             {
-                tagValue = Decimal.MinValue;
+                tagValue = false;
                 return false;
             }
         }
@@ -250,7 +241,7 @@ namespace ControlEase.Inspec.TreeView
         /// 
         /// </summary>
         /// <param name="value"></param>
-        private void  SetValue(object value)
+        private void SetValue ( object value )
         {
             ITagProvider tagProvider = ServiceLocator.Current.Resolve<ITagProvider> ( );
             tagProvider.WriteTag ( this.Expression, value );
@@ -262,28 +253,27 @@ namespace ControlEase.Inspec.TreeView
         /// <param name="xe"></param>
         public override void SaveToXElement ( XElement xe )
         {
-            XElement element = new XElement ( "AniInputAnalog", new XAttribute ( "Expression", string.IsNullOrEmpty ( Expression ) ? string.Empty : Expression )
-                        , new XAttribute ( "ValueMax", ValueMax )
-                        , new XAttribute ( "ValueMin", ValueMin )
-                        , new XAttribute ( "DecimalNum", DecimalNum )
-                        );
+            XElement element = new XElement ( "AniInputDisc", new XAttribute ( "Expression", string.IsNullOrEmpty ( Expression ) ? string.Empty : Expression )
+                                    , new XAttribute ( "TrueText", string.IsNullOrEmpty ( TrueText ) ? string.Empty : TrueText )
+                                    , new XAttribute ( "FalseText", string.IsNullOrEmpty ( FalseText ) ? string.Empty : FalseText ) );
             xe.Add ( element );
         }
+
         /// <summary>
         /// 
         /// </summary>
         /// <param name="xe"></param>
         public override void LoadFromXElement ( XElement xe )
         {
-            //XElement ele = xe.Element ( "AniInputAnalog" );
+            //XElement ele = xe.Element ( "AniInputDisc" );
             if ( xe != null )
             {
                 Expression = xe.Attribute ( "Expression" ).Value;
-                ValueMax = Convert.ToDecimal ( xe.Attribute ( "ValueMax" ).Value );
-                ValueMin = Convert.ToDecimal ( xe.Attribute ( "ValueMin" ).Value );
-                DecimalNum = Convert.ToInt32 ( xe.Attribute ( "DecimalNum" ).Value );
+                TrueText = xe.Attribute ( "TrueText" ).Value;
+                FalseText = xe.Attribute ( "FalseText" ).Value;
             }
         }
+
         #endregion ...Methods...
 
         #region ... Interfaces ...
