@@ -1,0 +1,163 @@
+﻿<UserControl x:Class="ControlEase.Inspec.TreeView.TreeViewControl"
+                xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                xmlns:local="clr-namespace:ControlEase.Inspec.TreeView"
+                xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+                xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+                mc:Ignorable="d" 
+                d:DesignHeight="300" d:DesignWidth="300" Loaded="UserControl_Loaded"  >
+    <UserControl.Resources>
+        <Style x:Key="TreeViewItemFocusVisual">
+            <Setter Property="Control.Template">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <Rectangle/>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style TargetType="{x:Type MenuItem}">
+            <Setter Property="Header" Value="{Binding Name}"/>
+            <Setter Property="Command" Value="{Binding Command}"/>
+        </Style>
+        <PathGeometry x:Key="TreeArrow" Figures="M0,0 L0,6 L6,0 z"  />
+        <local:ResourceImageConverter x:Key="RIC"/>
+        <local:ColorBrushConverter x:Key="CBC"/>
+        <local:FontFamilyConverter x:Key="FFC"/>
+        <local:IntToMargineConverter x:Key="IMC"/>
+        <local:BoolToVisibilityConverter x:Key="BTV"/>
+        <local:BoolenToVisibilityConverter x:Key="BTVC"/>
+        <local:BoolenToLayoutConverter x:Key="BTLC"/>
+        <local:MarginSpaceConverter x:Key="MSC"/>
+        <Style x:Key="ExpandCollapseToggleStyle" TargetType="{x:Type ToggleButton}">
+            <Setter Property="Focusable" Value="False"/>
+            <Setter Property="Width" Value="16"/>
+            <Setter Property="Height" Value="16"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type ToggleButton}">
+                        <Border Background="Transparent" Height="16" Padding="5,5,5,5" Width="16" >
+                            <Path x:Name="ExpandPath" Data="{StaticResource TreeArrow}" Fill="Transparent" Stroke="#FF989898"   >
+                                <Path.RenderTransform>
+                                    <RotateTransform Angle="135" CenterY="3" CenterX="3"/>
+                                </Path.RenderTransform>
+                            </Path>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Stroke" TargetName="ExpandPath" Value="#FF1BBBFA"/>
+                                <Setter Property="Fill" TargetName="ExpandPath" Value="Transparent"/>
+                            </Trigger>
+                            <Trigger Property="IsChecked" Value="True">
+                                <Setter Property="RenderTransform" TargetName="ExpandPath">
+                                    <Setter.Value>
+                                        <RotateTransform Angle="180" CenterY="3" CenterX="3"/>
+                                    </Setter.Value>
+                                </Setter>
+                                <Setter Property="Fill" TargetName="ExpandPath" Value="#FF595959"/>
+                                <Setter Property="Stroke" TargetName="ExpandPath" Value="#FF262626"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="TreeViewItemStyle1" TargetType="{x:Type TreeViewItem}">
+            <Setter Property="local:ClickExtension.SupportDoubleClick" Value="True"/>
+            <Setter Property="IsExpanded" Value="{Binding IsExpanded, Mode=TwoWay}" />
+            <Setter Property="IsSelected" Value="{Binding IsSelected, Mode=TwoWay}" />
+            <Setter Property="HorizontalContentAlignment" Value="{Binding HorizontalContentAlignment, RelativeSource={RelativeSource AncestorType={x:Type ItemsControl}}}"/>
+            <Setter Property="VerticalContentAlignment" Value="{Binding VerticalContentAlignment, RelativeSource={RelativeSource AncestorType={x:Type ItemsControl}}}"/>
+            <Setter Property="Padding" Value="1,0,0,0"/>
+            <Setter Property="FocusVisualStyle" Value="{StaticResource TreeViewItemFocusVisual}"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type TreeViewItem}">
+                        <Grid >
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+                            <ToggleButton  Visibility="{Binding ExpandIconVisibility, Converter={StaticResource BTVC}}" VerticalAlignment="Center"  x:Name="Expander" ClickMode="Press" IsChecked="{Binding IsExpanded, RelativeSource={RelativeSource TemplatedParent}}" Style="{StaticResource ExpandCollapseToggleStyle}"/>
+                            <Border x:Name="Bd" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" Grid.Column="1" Padding="{TemplateBinding Padding}" SnapsToDevicePixels="true">
+                                <ContentPresenter x:Name="PART_Header" ContentSource="Header" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>
+                            </Border>
+                            <ItemsPresenter x:Name="ItemsHost" Grid.ColumnSpan="2" Grid.Column="1" Grid.Row="1"/>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsExpanded" Value="false">
+                                <Setter Property="Visibility" TargetName="ItemsHost" Value="Collapsed"/>
+                            </Trigger>
+                            <Trigger Property="HasItems" Value="false">
+                                <Setter Property="Visibility" TargetName="Expander" Value="Hidden"/>
+                            </Trigger>
+                            <Trigger Property="IsSelected" Value="true">
+                                <Setter Property="Foreground" Value="{Binding SelectedForeground, Converter={StaticResource CBC}}"/>
+                                <Setter Property="Background" TargetName="Bd" Value="{Binding SelectedBackground, Converter={StaticResource CBC}}"/>
+                            </Trigger>
+                            <Trigger Property="IsSelected" Value="false">
+                                <Setter Property="Foreground" Value="{Binding Foreground, Converter={StaticResource CBC}}"/>
+                                <Setter Property="Background" TargetName="Bd" Value="{Binding Background, Converter={StaticResource CBC}}"/>
+                            </Trigger>
+                            <MultiTrigger>
+                                <MultiTrigger.Conditions>
+                                    <Condition Property="IsSelected" Value="true"/>
+                                    <Condition Property="IsSelectionActive" Value="false"/>
+                                </MultiTrigger.Conditions>
+                                <Setter Property="Background" TargetName="Bd" Value="{Binding LostFocusBackground, Converter={StaticResource CBC}}"/>
+                                <!--<Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>-->
+                            </MultiTrigger>
+                            
+                            <Trigger Property="IsEnabled" Value="false">
+                                <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.GrayTextBrushKey}}"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
+    <Grid  local:ClickExtension.SupportDoubleClick ="True" ContextMenuOpening="Grid_ContextMenuOpening" >
+        <Grid.ContextMenu >
+            <ContextMenu ItemsSource="{Binding Commands}" Visibility="{Binding MenuVisibility,Mode= TwoWay,UpdateSourceTrigger=PropertyChanged, Converter={StaticResource BTVC}}">
+            </ContextMenu>
+        </Grid.ContextMenu>
+        <TreeView BorderThickness="0,0,0,0"  Background="{Binding Background, Converter={StaticResource CBC}}" ItemsSource="{Binding Items, Mode= TwoWay, UpdateSourceTrigger=PropertyChanged}"   HorizontalAlignment ="Stretch"  VerticalAlignment="Stretch" FlowDirection="{Binding LeftToRightLayout, Converter={StaticResource BTLC}}" 
+                  ItemContainerStyle="{StaticResource TreeViewItemStyle1}" >
+                <TreeView.Resources>
+                <HierarchicalDataTemplate DataType="{x:Type local:TreeNodeViewModel}" ItemsSource="{Binding Children, Mode= TwoWay,UpdateSourceTrigger= PropertyChanged}" >
+                    <Grid Name="TreeViewItemGrid">
+                        <Grid.Margin >
+                            <MultiBinding Converter="{StaticResource MSC}" UpdateSourceTrigger="PropertyChanged" Mode="TwoWay">
+                                <Binding Path="Margin" Mode="TwoWay" UpdateSourceTrigger="PropertyChanged" />
+                                <Binding Path="Space" Mode="TwoWay"  UpdateSourceTrigger="PropertyChanged"/>
+                            </MultiBinding>
+                        </Grid.Margin>
+                        <Line Name="VerLine" Stroke="Black" X1="{Binding HorLineX1}" Y1="{Binding VerLineY1}" X2="{Binding HorLineX1}" Y2="{Binding VerLineY2}" StrokeDashArray="1,2" Visibility="{Binding VerLineVisibility, Converter={StaticResource BTVC}, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></Line>
+                        <Line Name="HorLine" Stroke="Black" X1="{Binding HorLineX1}" Y1="{Binding VerLineY1}" X2="0" Y2="{Binding VerLineY1}" StrokeDashArray="1,2" Visibility="{Binding LineVisibility, Converter={StaticResource BTVC}}" ></Line>
+                        <!--IsEnabled="{Binding IsEnabled, Mode=TwoWay}"-->
+                        <StackPanel HorizontalAlignment ="Stretch" VerticalAlignment="Center" Orientation="Horizontal"  >
+                            <CheckBox HorizontalAlignment="Stretch" VerticalAlignment="Center"  IsChecked="{Binding IsChecked,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" Visibility="{Binding CheckBoxVisibility,Converter={StaticResource BTV}}" />
+                            <!--Stretch="Fill"-->
+                            <!--Width="{Binding Source.PixelWidth, Mode=OneWay, RelativeSource={RelativeSource Self}}"
+                              Height="{Binding Source.PixelHeight, Mode=OneWay, RelativeSource={RelativeSource Self}}"-->
+                            <!--<Image   HorizontalAlignment="Left" VerticalAlignment="Center"  UseLayoutRounding="True"  RenderOptions.BitmapScalingMode ="NearestNeighbor"  Name="WorkImage"   Source="{Binding ImageSource,  Converter={StaticResource RIC}}" Visibility="{Binding ImageVisibility,Converter={StaticResource BTV}}"></Image>-->
+                            <Image Stretch="Fill" HorizontalAlignment="Left" VerticalAlignment="Center"  Width="{Binding Source.PixelWidth, Mode=OneWay, RelativeSource={RelativeSource Self}}"
+                              Height="{Binding Source.PixelHeight, Mode=OneWay, RelativeSource={RelativeSource Self}}"
+                                SnapsToDevicePixels="True" RenderOptions.BitmapScalingMode ="Fant" Name="WorkImage"    Source="{Binding ImageSource,  Converter={StaticResource RIC}}" Visibility="{Binding ImageVisibility,Converter={StaticResource BTV}}"></Image>
+                                <TextBlock  Name="WorkTextBlock"   HorizontalAlignment="Stretch" VerticalAlignment="Center"  Text="{Binding Name}"   FontSize="{Binding FontSize}"  FontFamily="{Binding FontFamilyString,Converter={StaticResource FFC}}"></TextBlock>
+                                <StackPanel.ToolTip>
+                                        <ToolTip Content="{Binding ToolTipString}" Visibility="{Binding ToolTipVisibility,Converter={StaticResource BTV}}"/>
+                                    </StackPanel.ToolTip>
+                            </StackPanel>
+                    </Grid>
+                </HierarchicalDataTemplate>
+                </TreeView.Resources>
+            </TreeView>
+    </Grid>
+</UserControl>
